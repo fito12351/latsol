@@ -1,0 +1,637 @@
+{
+  "id": "biologi",
+  "name": "Biologi",
+  "shortName": "BIO",
+  "group": "mipa",
+  "schedule": "Kamis, 4 Desember 2025",
+  "durationMinutes": 120,
+  "accentColor": "#5CE5A5",
+  "questions": [
+    {
+      "id": "biologi-pg-1",
+      "number": 1,
+      "prompt": "Seorang ilmuwan melakukan percobaan dengan memotong ujung pucuk kemudian menempelkan hasil potongannya di atas agar-agar yang kotak selama beberapa saat selanjutnya agar-agar letakkan di atas koleoptil yang sudah dibuang ujungnya seperti pada gambar berikut. Pernyataan yang sesuai dengan percobaan tersebut adalah...",
+      "image": "/assets/figures/biologi-pg-1.png",
+      "imageCaption": "Percobaan Went pada ujung koleoptil dan blok agar-agar",
+      "options": [
+        { "key": "A", "text": "penelitian bertujuan menguji efektivitas auksin terhadap akar" },
+        { "key": "B", "text": "akar-akar pengaruhi pembengkokan batang jagung" },
+        { "key": "C", "text": "auksin bergerak secara horizontal ke dalam agar-agar" },
+        { "key": "D", "text": "auksin berfungsi dalam proses gerak nasti tumbuhan" },
+        { "key": "E", "text": "hormon auksin terdapat di ujung pucuk tanaman" }
+      ],
+      "answer": "E",
+      "explanation": "Percobaan Went menunjukkan bahwa ujung pucuk (koleoptil) menghasilkan hormon auksin yang dapat berdifusi ke dalam blok agar-agar secara vertikal, lalu merangsang pemanjangan dan pembengkokan koleoptil saat blok agar diletakkan di salah satu sisi.",
+      "topic": "Hormon Pertumbuhan Tumbuhan"
+    },
+    {
+      "id": "biologi-pg-2",
+      "number": 2,
+      "prompt": "Perhatikan tabel data hasil eksperimen tentang pemberian limbah urine balita terhadap pertumbuhan jumlah daun pada tanaman cabai. Berdasarkan data hasil percobaan, maka simpulan yang paling benar adalah...",
+      "table": {
+        "headers": ["Volume urine (ml)", "Jumlah daun awal", "Jumlah daun setelah 30 hari"],
+        "rows": [
+          ["0", "13", "14"],
+          ["25", "8", "13"],
+          ["50", "6", "14"],
+          ["75", "8", "19"],
+          ["100", "5", "18"]
+        ]
+      },
+      "options": [
+        { "key": "A", "text": "pemberian limbah urine tidak mempengaruhi pertumbuhan jumlah daun" },
+        { "key": "B", "text": "pertumbuhan jumlah terbanyak pada pemberian urine 75 ml" },
+        { "key": "C", "text": "semakin banyak urine yang diberikan, semakin banyak pertumbuhan jumlah daun" },
+        { "key": "D", "text": "pertumbuhan jumlah daun paling sedikit pada pemberian urine 25 ml" },
+        { "key": "E", "text": "pertumbuhan jumlah daun dipengaruhi oleh cahaya, nutrisi, dan kelembaban udara" }
+      ],
+      "answer": "C",
+      "explanation": "Pertambahan jumlah daun (akhir − awal) untuk volume 0 ml = 1, 25 ml = 5, 50 ml = 8, 75 ml = 11, dan 100 ml = 13. Jadi semakin banyak volume urine yang diberikan, semakin besar pertambahan jumlah daunnya (pertumbuhan terbanyak pada 100 ml, bukan 75 ml).",
+      "topic": "Analisis Data Pertumbuhan"
+    },
+    {
+      "id": "biologi-pg-3",
+      "number": 3,
+      "prompt": "Seorang siswa melakukan penelitian untuk mengetahui pengaruh intensitas cahaya terhadap laju fotosintesis pada tanaman Hydrilla. Dalam penelitian tersebut, siswa meletakkan tanaman Hydrilla di bawah lampu dengan intensitas cahaya yang berbeda (20 lux, 40 lux, 60 lux), kemudian menghitung jumlah gelembung oksigen yang dihasilkan selama 5 menit. Variabel manipulasi (bebas) dalam penelitian tersebut adalah ....",
+      "options": [
+        { "key": "A", "text": "Jenis tanaman yang digunakan" },
+        { "key": "B", "text": "Waktu pengamatan selama 5 menit" },
+        { "key": "C", "text": "Jumlah gelembung oksigen yang dihasilkan" },
+        { "key": "D", "text": "Intensitas cahaya yang diberikan" },
+        { "key": "E", "text": "Suhu air tempat tanaman diletakkan" }
+      ],
+      "answer": "D",
+      "explanation": "Variabel bebas (manipulasi) adalah faktor yang sengaja diubah-ubah oleh peneliti, yaitu intensitas cahaya lampu (20 lux, 40 lux, 60 lux). Jumlah gelembung oksigen merupakan variabel terikat.",
+      "topic": "Metode Ilmiah"
+    },
+    {
+      "id": "biologi-pg-4",
+      "number": 4,
+      "prompt": "Perhatikan grafik hubungan antara kecepatan pertumbuhan tanaman dengan suhu lingkungan berikut. Pernyataan yang sesuai dengan grafik adalah",
+      "image": "/assets/figures/biologi-pg-4.png",
+      "imageCaption": "Grafik hubungan kecepatan pertumbuhan tanaman (mm) terhadap suhu (°C)",
+      "options": [
+        { "key": "A", "text": "suhu minimum untuk pertumbuhan tanaman 0°C" },
+        { "key": "B", "text": "suhu maksimum untuk pertumbuhan tanaman 40°C" },
+        { "key": "C", "text": "tanaman tumbuh dengan baik pada suhu 20°C - 30°C" },
+        { "key": "D", "text": "pada suhu 10°C - 35°C pertumbuhan terjadi sangat lambat" },
+        { "key": "E", "text": "pertumbuhan tanaman tidak hanya dipengaruhi oleh suhu" }
+      ],
+      "answer": "B",
+      "explanation": "Pada grafik terlihat kurva pertumbuhan dimulai dari suhu minimum 5°C (bukan 0°C), mencapai puncak optimum di 25°C, dan kembali ke nol pada suhu maksimum 40°C.",
+      "topic": "Faktor Eksternal Pertumbuhan"
+    },
+    {
+      "id": "biologi-pg-5",
+      "number": 5,
+      "prompt": "Seorang peneliti mencoba menghasilkan buah tomat tanpa biji untuk memenuhi permintaan pasar. Ia menanam dua kelompok tanaman tomat.\n- Kelompok A: disemprot dengan larutan hormon auksin sintetis.\n- Kelompok B: tidak diberi perlakuan hormon.\nBeberapa minggu kemudian, hanya tanaman pada kelompok A yang menghasilkan buah, meskipun tidak terjadi penyerbukan.\nBerdasarkan data tersebut, dapat disimpulkan bahwa hormon yang digunakan berperan dalam proses ...",
+      "options": [
+        { "key": "A", "text": "Pembentukan bunga baru pada tanaman tomat" },
+        { "key": "B", "text": "Pembentukan buah tanpa melalui proses fertilisasi" },
+        { "key": "C", "text": "Peningkatan kadar gula pada buah tomat" },
+        { "key": "D", "text": "Penebalan dinding sel buah yang telah terbentuk" },
+        { "key": "E", "text": "Penghambatan pembelahan sel pada bakal biji" }
+      ],
+      "answer": "B",
+      "explanation": "Penyemprotan auksin sintetis merangsang terjadinya partenokarpi, yaitu pembentukan buah tanpa melalui proses penyerbukan dan pembuahan (fertilisasi), sehingga menghasilkan buah tanpa biji.",
+      "topic": "Hormon Auksin"
+    },
+    {
+      "id": "biologi-pg-6",
+      "number": 6,
+      "prompt": "Seorang petani buah pisang menyimpan hasil panennya di dua gudang berbeda:\n- Gudang A disimpan bersama beberapa buah apel yang sudah matang.\n- Gudang B hanya berisi buah pisang mentah tanpa dicampur dengan buah lain.\nSetelah 3 hari, pisang di gudang A tampak lebih cepat matang dibandingkan dengan pisang di gudang B.\nBerdasarkan fenomena tersebut, zat yang dihasilkan oleh buah apel dan memengaruhi pemasakan pisang adalah hormon...",
+      "options": [
+        { "key": "A", "text": "Etilen" },
+        { "key": "B", "text": "Giberelin" },
+        { "key": "C", "text": "Sitokinin" },
+        { "key": "D", "text": "Auksin" },
+        { "key": "E", "text": "Asam absisat" }
+      ],
+      "answer": "A",
+      "explanation": "Buah apel yang sudah matang menghasilkan gas etilen, yaitu hormon tumbuhan berbentuk gas yang mempercepat proses pematangan buah-buahan di sekitarnya.",
+      "topic": "Hormon Etilen"
+    },
+    {
+      "id": "biologi-pg-7",
+      "number": 7,
+      "prompt": "Perhatikan grafik hubungan antara laju tumbuh relatif beberapa tumbuhan dengan suhu berikut ini. Pernyataan yang tidak sesuai dengan grafik adalah...",
+      "image": "/assets/figures/biologi-pg-7.png",
+      "imageCaption": "Grafik laju tumbuh relatif tomat, lupin, jagung, dan mentimun terhadap suhu (°C)",
+      "options": [
+        { "key": "A", "text": "semua tumbuhan bisa tumbuh pada kisaran Suhu 25°C - 35°C" },
+        { "key": "B", "text": "suhu optimum untuk pertumbuhan tanaman Lupin sekitar 30°C" },
+        { "key": "C", "text": "tanaman mentimun tumbuh semakin baik pada suhu di atas 45°C" },
+        { "key": "D", "text": "pada suhu 5°C pertumbuhan tanaman tomat terjadi sangat lambat" },
+        { "key": "E", "text": "pada suhu 0°C semua tumbuhan berhenti tumbuh sebab enzim tidak dapat bekerja" }
+      ],
+      "answer": "C",
+      "explanation": "Pada grafik, kurva mentimun mencapai puncak di bawah 40°C lalu turun tajam menuju nol mendekati 45°C. Jadi pernyataan bahwa mentimun tumbuh semakin baik di atas 45°C tidak sesuai dengan grafik.",
+      "topic": "Pengaruh Suhu pada Tumbuhan"
+    },
+    {
+      "id": "biologi-pg-8",
+      "number": 8,
+      "prompt": "Perhatikan karakteristik tanaman berbunga berikut\n(1). berbunga ketika sudah berumur dewasa\n(2) masa berbunga dipengaruhi oleh panjang penyinaran\n(3) masa berbunga tidak dipengaruhi oleh panjang penyinaran\n(4) berbunga ketika panjang penyinaran lebih pendek dari periode gelap\n(5) berbunga jika panjang penyinaran lebih panjang dari periode gelap\n(6) berbuah ketika periode terang lebih panjang daripada periode gelap\nBuah pisang (Musa paradisiaca) mudah ditemukan di wilayah Indonesia setiap hari sepanjang musim dan tahun karena memiliki karakteristik yang ditunjukkan oleh nomor",
+      "options": [
+        { "key": "A", "text": "(1) dan (2)" },
+        { "key": "B", "text": "(1) dan (3)" },
+        { "key": "C", "text": "(1) dan (5)" },
+        { "key": "D", "text": "(2) dan (6)" },
+        { "key": "E", "text": "(4) dan (5)" }
+      ],
+      "answer": "B",
+      "explanation": "Pisang termasuk tumbuhan berhari netral (day-neutral plant), sehingga pembungaannya hanya bergantung pada kematangan usia (1) dan tidak dipengaruhi oleh panjang penyinaran atau fotoperiodisme (3).",
+      "topic": "Fotoperiodisme"
+    },
+    {
+      "id": "biologi-pg-9",
+      "number": 9,
+      "prompt": "Seekor ular peliharaan yang baru berganti kulit menunjukkan peningkatan panjang tubuh. Fenomena tersebut menunjukkan bahwa ...",
+      "options": [
+        { "key": "A", "text": "Kulit lama menekan pertumbuhan tubuh ular" },
+        { "key": "B", "text": "Pertumbuhan hanya terjadi setelah proses pergantian kulit" },
+        { "key": "C", "text": "Hormon tiroksin menghambat pembentukan kulit baru" },
+        { "key": "D", "text": "Pertumbuhan pada hewan tidak bisa terjadi jika tidak ada pergantian kulit" },
+        { "key": "E", "text": "Pergantian kulit merupakan salah satu tanda bahwa hewan mengalami pertumbuhan" }
+      ],
+      "answer": "E",
+      "explanation": "Pada reptil seperti ular, pergantian kulit (ekdisis/molting) berlangsung secara berkala seiring bertambahnya ukuran dan panjang tubuh sehingga menjadi salah satu tanda pertumbuhan.",
+      "topic": "Pertumbuhan Hewan"
+    },
+    {
+      "id": "biologi-pg-10",
+      "number": 10,
+      "prompt": "Dalam penelitian laboratorium, beberapa kecebong ditempatkan pada akuarium yang mengandung kadar hormon tiroksin berbeda. Hasilnya:\n- Kadar tiroksin tinggi → cepat berubah menjadi katak dewasa\n- Kadar tiroksin rendah → perkembangan melambat\nDari data tersebut dapat disimpulkan bahwa hormon tiroksin berperan dalam ...",
+      "options": [
+        { "key": "A", "text": "Pembelahan sel selama pembentukan jaringan" },
+        { "key": "B", "text": "Pertumbuhan jaringan otot dan tulang" },
+        { "key": "C", "text": "Perubahan morfologi selama metamorfosis" },
+        { "key": "D", "text": "Pembentukan gamet pada hewan dewasa" },
+        { "key": "E", "text": "Pengaturan pergantian kulit" }
+      ],
+      "answer": "C",
+      "explanation": "Hormon tiroksin pada amfibi memacu perubahan morfologi dan fisiologi kecebong menjadi katak dewasa selama proses metamorfosis.",
+      "topic": "Metamorfosis dan Hormon"
+    },
+    {
+      "id": "biologi-pg-11",
+      "number": 11,
+      "prompt": "Perhatikan grafik berikut ini. Pernyataan yang sesuai dengan grafik tersebut adalah....",
+      "image": "/assets/figures/biologi-pg-11.png",
+      "imageCaption": "Grafik kecepatan reaksi enzim pepsin dan amilase pada berbagai pH",
+      "options": [
+        { "key": "A", "text": "Enzim bekerja baik pada suasana asam." },
+        { "key": "B", "text": "Pada pH > 10 enzim masih bekerja dengan baik." },
+        { "key": "C", "text": "Enzim bekerja secara optimum pada pH basa." },
+        { "key": "D", "text": "Kerja enzim tidak terlalu dipengaruhi oleh pH" },
+        { "key": "E", "text": "Enzim yang berbeda mempunyai pH optimum yang berbeda" }
+      ],
+      "answer": "E",
+      "explanation": "Grafik memperlihatkan pepsin bekerja optimum pada pH asam (~2), sedangkan amilase bekerja optimum pada pH mendekati netral/basa lemah (~7–8). Ini membuktikan setiap enzim memiliki pH optimum yang berbeda.",
+      "topic": "Faktor Kerja Enzim"
+    },
+    {
+      "id": "biologi-pg-12",
+      "number": 12,
+      "prompt": "Perhatikan beberapa reaksi kimia berikut!\n1. CO₂ + H₂O → C₆H₁₂O₆ + O₂\n2. C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energi\n3. Asam amino → protein\n4. Lemak → asam lemak + gliserol\n5. Glukosa → glikogen\nReaksi yang termasuk anabolisme adalah ....",
+      "options": [
+        { "key": "A", "text": "1, 2, dan 4" },
+        { "key": "B", "text": "1, 3, dan 5" },
+        { "key": "C", "text": "2, 3, dan 4" },
+        { "key": "D", "text": "2, 4, dan 5" },
+        { "key": "E", "text": "3, 4, dan 5" }
+      ],
+      "answer": "B",
+      "explanation": "Anabolisme adalah reaksi penyusunan molekul kompleks dari molekul sederhana, yaitu fotosintesis (1), sintesis protein dari asam amino (3), dan glikogenesis/pembentukan glikogen dari glukosa (5). Reaksi (2) dan (4) adalah katabolisme.",
+      "topic": "Anabolisme dan Katabolisme"
+    },
+    {
+      "id": "biologi-pg-13",
+      "number": 13,
+      "prompt": "Pada reaksi glikolisis terjadi penguraian glukosa menjadi asam piruvat, NADH, ATP, dan air. Pasangan jumlah molekul antara bahan yang diperlukan dan hasil akhir reaksi glikolisis yang paling sesuai adalah",
+      "table": {
+        "headers": ["Opsi", "Bahan reaksi (glukosa)", "Hasil: Asam piruvat", "Hasil: NADH", "Hasil: ATP", "Hasil: H₂O"],
+        "rows": [
+          ["A", "2", "2", "2", "2", "2"],
+          ["B", "4", "9", "4", "4", "4"],
+          ["C", "5", "10", "5", "20", "10"],
+          ["D", "5", "10", "10", "10", "10"],
+          ["E", "10", "5", "5", "5", "5"]
+        ]
+      },
+      "options": [
+        { "key": "A", "text": "A" },
+        { "key": "B", "text": "B" },
+        { "key": "C", "text": "C" },
+        { "key": "D", "text": "D" },
+        { "key": "E", "text": "E" }
+      ],
+      "answer": "D",
+      "explanation": "Setiap 1 molekul glukosa pada glikolisis menghasilkan 2 asam piruvat, 2 NADH, 2 ATP (bersih), dan 2 H₂O. Maka untuk 5 molekul glukosa dihasilkan masing-masing 10 asam piruvat, 10 NADH, 10 ATP, dan 10 H₂O (baris D).",
+      "topic": "Glikolisis"
+    },
+    {
+      "id": "biologi-pg-14",
+      "number": 14,
+      "prompt": "Perhatikan diagram tahap siklus Krebs berikut. Tahapan yang menghasilkan ATP adalah yang berlabel....",
+      "image": "/assets/figures/biologi-pg-14.png",
+      "imageCaption": "Diagram tahapan siklus Krebs berlabel 1 sampai 5",
+      "options": [
+        { "key": "A", "text": "1" },
+        { "key": "B", "text": "2" },
+        { "key": "C", "text": "3" },
+        { "key": "D", "text": "4" },
+        { "key": "E", "text": "5" }
+      ],
+      "answer": "C",
+      "explanation": "Tahap berlabel 3 adalah perubahan suksinil Ko-A menjadi asam suksinat yang menghasilkan energi melalui fosforilasi tingkat substrat berupa GTP yang dikonversi menjadi ATP.",
+      "topic": "Siklus Krebs"
+    },
+    {
+      "id": "biologi-pg-15",
+      "number": 15,
+      "prompt": "Perhatikan rangkaian percobaan uji fermentasi alkohol berikut ini. Tabung A diisi glukosa + air + ragi. Tabung B diisi dengan air kapur. Setelah 30 menit terjadi perubahan, air kapur menjadi keruh dan terdapat endapan. Perubahan ini terjadi karena ...",
+      "image": "/assets/figures/biologi-pg-15.png",
+      "imageCaption": "Perangkat uji fermentasi alkohol dengan tabung A (ragi + glukosa) dan tabung B (air kapur)",
+      "options": [
+        { "key": "A", "text": "Peningkatan suhu pada tabung A" },
+        { "key": "B", "text": "terbentuk energi dalam bentuk ATP" },
+        { "key": "C", "text": "penurunan suhu yang terjadi di tabung B" },
+        { "key": "D", "text": "terbentuk etanol dari proses fermentasi di tabung A" },
+        { "key": "E", "text": "adanya CO₂ sebagai hasil fermentasi masuk ke tabung B" }
+      ],
+      "answer": "E",
+      "explanation": "Fermentasi alkohol di tabung A menghasilkan etanol dan gas CO₂. Gas CO₂ mengalir ke tabung B dan bereaksi dengan air kapur Ca(OH)₂ membentuk endapan kalsium karbonat (CaCO₃) yang membuat air kapur keruh.",
+      "topic": "Fermentasi Alkohol"
+    },
+    {
+      "id": "biologi-pg-16",
+      "number": 16,
+      "prompt": "Perhatikan bagan respirasi anaerob berikut ini. Pada proses anaerob tersebut, senyawa (X), (Y), dan (Z) secara berurutan adalah ....",
+      "image": "/assets/figures/biologi-pg-16.png",
+      "imageCaption": "Bagan respirasi anaerob dengan label X, Y, dan Z",
+      "options": [
+        { "key": "A", "text": "ATP, piruvat, dan asam laktat" },
+        { "key": "B", "text": "ATP, asam laktat, dan piruvat" },
+        { "key": "C", "text": "ATP, piruvat, dan etanol" },
+        { "key": "D", "text": "ATP, etanol, dan asetaldehid" },
+        { "key": "E", "text": "ATP, asetaldehid, dan etanol" }
+      ],
+      "answer": "A",
+      "explanation": "Pada bagan, 2 ADP + 2 Pᵢ menghasilkan 2 ATP (X) selama glikolisis glukosa menjadi 2 asam piruvat (Y). Selanjutnya piruvat direduksi langsung oleh 2 NADH + 2 H⁺ tanpa pelepasan CO₂ menjadi asam laktat (Z).",
+      "topic": "Respirasi Anaerob"
+    },
+    {
+      "id": "biologi-pg-17",
+      "number": 17,
+      "prompt": "Berikut ini pernyataan yang benar antara aliran siklik dan non siklik fotosintesis",
+      "table": {
+        "headers": ["Opsi", "Siklik", "Non siklik"],
+        "rows": [
+          ["A", "Melibatkan fotosistem I dan II", "Hanya melibatkan fotosistem II"],
+          ["B", "Dihasilkan NADPH₂ dan O₂", "Dihasilkan ATP dan NADPH₂"],
+          ["C", "Terjadi fotolisis", "Tidak terjadi fotolisis"],
+          ["D", "Terbentuk O₂ dari fotolisis air", "Terbentuk ATP"],
+          ["E", "Terjadi pada stroma", "Terjadi pada grana"]
+        ]
+      },
+      "options": [
+        { "key": "A", "text": "A" },
+        { "key": "B", "text": "B" },
+        { "key": "C", "text": "C" },
+        { "key": "D", "text": "D" },
+        { "key": "E", "text": "E" }
+      ],
+      "answer": "E",
+      "explanation": "Opsi A–D keliru karena fotofosforilasi siklik hanya melibatkan fotosistem I, tidak melakukan fotolisis air, dan tidak menghasilkan O₂ maupun NADPH₂. Pada opsi E, aliran siklik umumnya terjadi di lamela stroma (tilakoid stroma), sedangkan non-siklik terjadi di grana.",
+      "topic": "Reaksi Terang Fotosintesis"
+    },
+    {
+      "id": "biologi-pg-18",
+      "number": 18,
+      "prompt": "Perhatikan gambar uji Ingenhousz berikut ini. Bioproses yang menyebabkan terbentuknya gas di dalam tabung tersebut adalah...",
+      "image": "/assets/figures/biologi-pg-18.png",
+      "imageCaption": "Perangkat percobaan Ingenhousz pada tanaman Hydrilla",
+      "options": [
+        { "key": "A", "text": "fotolisis air sehingga dihasilkan gas oksigen" },
+        { "key": "B", "text": "amylum dioksidasi sehingga dihasilkan karbondioksida" },
+        { "key": "C", "text": "fotolisis karbondioksida sehingga dihasilkan gas oksigen" },
+        { "key": "D", "text": "gas karbondioksida hasil respirasi tanaman hydrilla sp" },
+        { "key": "E", "text": "karbondioksida diubah menjadi oksigen melalui reaksi terang" }
+      ],
+      "answer": "A",
+      "explanation": "Gelembung gas yang tertampung pada tabung reaksi percobaan Ingenhousz adalah oksigen (O₂) yang dihasilkan dari pemecahan molekul air oleh energi cahaya (fotolisis air) pada reaksi terang fotosintesis.",
+      "topic": "Percobaan Ingenhousz"
+    },
+    {
+      "id": "biologi-pg-19",
+      "number": 19,
+      "prompt": "Perhatikan gambar siklus Calvin berikut ini. Secara berurutan bagian nomor 1, 2, dan 3 adalah ....",
+      "image": "/assets/figures/biologi-pg-19.png",
+      "imageCaption": "Bagan siklus Calvin dengan nomor 1, 2, 3, dan 4",
+      "options": [
+        { "key": "A", "text": "glukosa, CO₂ dan RuBP" },
+        { "key": "B", "text": "CO₂, 3 fosfogliserat, dan RuBP" },
+        { "key": "C", "text": "RuBP, CO₂, dan 3 fosfogliseraldehid" },
+        { "key": "D", "text": "RuBP, klorofil, dan fosfogliseraldehid" },
+        { "key": "E", "text": "RuBP, 3 fosfogliserat, dan fosfogliseraldehid" }
+      ],
+      "answer": "C",
+      "explanation": "Pada bagan siklus Calvin, nomor 1 adalah RuBP (dibentuk pada tahap regenerasi menggunakan 6 ATP), nomor 2 adalah CO₂ yang masuk untuk difiksasi dengan RuBP, dan nomor 3 merupakan senyawa hasil fiksasi yang berlanjut ke tahap reduksi menjadi fosfogliseraldehid (PGAL).",
+      "topic": "Siklus Calvin"
+    },
+    {
+      "id": "biologi-pg-20",
+      "number": 20,
+      "prompt": "Perhatikan bagan reaksi fotosintesis berikut ini. Pasangan molekul R, S, X, dan Y yang tepat adalah...",
+      "image": "/assets/figures/biologi-pg-20.png",
+      "imageCaption": "Bagan keterkaitan reaksi terang dan reaksi gelap fotosintesis",
+      "table": {
+        "headers": ["Opsi", "R", "S", "X", "Y"],
+        "rows": [
+          ["A", "ADP", "P", "CO₂", "NADPH"],
+          ["B", "ADP", "Glukosa", "O₂", "NADPH"],
+          ["C", "NADPH", "O₂", "ATP", "ADP"],
+          ["D", "NADPH", "ATP", "O₂", "CO₂"],
+          ["E", "P", "ADP", "O₂", "NADPH"]
+        ]
+      },
+      "options": [
+        { "key": "A", "text": "A" },
+        { "key": "B", "text": "B" },
+        { "key": "C", "text": "C" },
+        { "key": "D", "text": "D" },
+        { "key": "E", "text": "E" }
+      ],
+      "answer": "E",
+      "explanation": "Reaksi terang memecah air dan melepaskan O₂ (X) serta mengirim ATP dan NADPH (Y) ke reaksi gelap. Setelah energi ATP dipakai pada reaksi gelap, terbentuk ADP dan P (R dan S) yang kembali ke reaksi terang.",
+      "topic": "Keterkaitan Reaksi Fotosintesis"
+    },
+    {
+      "id": "biologi-pg-21",
+      "number": 21,
+      "prompt": "Berikut ini gambar struktur DNA. Pernyataan yang berkaitan dengan struktur tersebut adalah ....",
+      "image": "/assets/figures/biologi-pg-21.png",
+      "imageCaption": "Model struktur rantai ganda DNA bernomor 1 sampai 8",
+      "options": [
+        { "key": "A", "text": "apabila 6 adalah adenin, 7 adalah timin" },
+        { "key": "B", "text": "Satu nukleotida ditunjukkan oleh 1-2-6-7" },
+        { "key": "C", "text": "5, 6, 8, dan 7 adalah basa nitrogen dari golongan pirimidin" },
+        { "key": "D", "text": "1 dan 3 merupakan senyawa gula deoksiribosa" },
+        { "key": "E", "text": "2 dan 4 merupakan senyawa fosfat" }
+      ],
+      "answer": "A",
+      "explanation": "Nomor 1 dan 3 adalah gugus fosfat, 2 dan 4 adalah gula deoksiribosa, sedangkan 6 dan 7 dihubungkan oleh 2 ikatan hidrogen yang khas bagi pasangan basa adenin (A) dan timin (T).",
+      "topic": "Struktur DNA"
+    },
+    {
+      "id": "biologi-pg-22",
+      "number": 22,
+      "prompt": "DNA dan RNA sama-sama tersusun atas nukleotida, tetapi perbedaan pada salah satu jenis basa nitrogen menyebabkan perbedaan fungsi keduanya.\nJika suatu organisme mengalami mutasi yang menyebabkan penggantian basa timin pada DNA menjadi urasil, apa akibat biologis yang paling mungkin terjadi?",
+      "options": [
+        { "key": "A", "text": "DNA menjadi lebih mudah mengalami replikasi" },
+        { "key": "B", "text": "RNA tidak dapat disintesis dengan benar" },
+        { "key": "C", "text": "Stabilitas DNA menurun karena ikatan hidrogen melemah" },
+        { "key": "D", "text": "Proses transkripsi menjadi lebih cepat" },
+        { "key": "E", "text": "Translasi menghasilkan protein yang lebih panjang" }
+      ],
+      "answer": "C",
+      "explanation": "Keberadaan basa timin (yang memiliki gugus metil) berperan penting menjaga stabilitas struktur ganda DNA dibandingkan urasil. Jika timin pada DNA digantikan oleh urasil, stabilitas genetik DNA akan menurun dan rentan mengalami kerusakan.",
+      "topic": "DNA dan RNA"
+    },
+    {
+      "id": "biologi-pg-23",
+      "number": 23,
+      "prompt": "Perbedaan utama antara DNA dan RNA terdapat pada...",
+      "options": [
+        { "key": "A", "text": "jenis gula dan basa nitrogen yang dikandungnya" },
+        { "key": "B", "text": "jumlah rantai polinukleotida" },
+        { "key": "C", "text": "jumlah fosfat yang dikandung" },
+        { "key": "D", "text": "panjang rantai dan jumlah atom karbon" },
+        { "key": "E", "text": "lokasi pembentukannya dalam sel" }
+      ],
+      "answer": "A",
+      "explanation": "Perbedaan mendasar penyusun kimiawi DNA dan RNA terletak pada komponen gula pentosa (deoksiribosa vs ribosa) dan basa nitrogen pirimidinnya (timin vs urasil).",
+      "topic": "Perbedaan DNA dan RNA"
+    },
+    {
+      "id": "biologi-pg-24",
+      "number": 24,
+      "prompt": "Struktur materi genetik mempunyai materi dan urutan tertentu sesuai jenisnya. Jika dalam suatu segmen DNA terdapat 20% basa adenina, maka jumlah basa guanin adalah...",
+      "options": [
+        { "key": "A", "text": "20%" },
+        { "key": "B", "text": "30%" },
+        { "key": "C", "text": "40%" },
+        { "key": "D", "text": "50%" },
+        { "key": "E", "text": "60%" }
+      ],
+      "answer": "B",
+      "explanation": "Menurut aturan Chargaff, %A = %T = 20%, sehingga %A + %T = 40%. Sisa basa adalah %G + %C = 100% − 40% = 60%. Karena %G = %C, maka jumlah basa guanin = 60% / 2 = 30%.",
+      "topic": "Aturan Chargaff"
+    },
+    {
+      "id": "biologi-pg-25",
+      "number": 25,
+      "prompt": "Materi genetik pada makhluk hidup terdiri dari bermacam jenis sesuai perannya. DNA disebut sebagai \"cetak biru kehidupan\" karena...",
+      "options": [
+        { "key": "A", "text": "menyusun dinding sel" },
+        { "key": "B", "text": "mengatur seluruh aktivitas metabolisme" },
+        { "key": "C", "text": "menentukan sifat-sifat keturunan" },
+        { "key": "D", "text": "mempercepat pertumbuhan sel" },
+        { "key": "E", "text": "sebagai sumber energi" }
+      ],
+      "answer": "C",
+      "explanation": "DNA menyimpan seluruh informasi genetik dalam bentuk gen yang diwariskan dari induk kepada keturunannya dan mengode sifat-sifat makhluk hidup.",
+      "topic": "Fungsi DNA"
+    },
+    {
+      "id": "biologi-pg-26",
+      "number": 26,
+      "prompt": "Urutan basa dalam rantai DNA membentuk kode genetik tertentu. Jika urutan basa-basa nitrogen dalam rantai nukleotida DNA adalah: 3'-T A C G G C A A T T A C-5'. Jika ditranskripsi, urutan basa RNA yang dihasilkan adalah...",
+      "options": [
+        { "key": "A", "text": "3'-A T G C C G T T A A T G-5'" },
+        { "key": "B", "text": "5'-A U G C C G U U A A U G-3'" },
+        { "key": "C", "text": "3'-U A C G G C A A U U A C-5'" },
+        { "key": "D", "text": "5'-U A C G G C A A U U A C-3'" },
+        { "key": "E", "text": "5'-T A C G G C A A T T A C-3'" }
+      ],
+      "answer": "B",
+      "explanation": "Transkripsi berlangsung antiparalel dari cetakan 3'→5' menghasilkan mRNA 5'→3' dengan pasangan T→A, A→U, C→G, G→C. Jadi 3'-TACGGCAATTAC-5' ditranskripsi menjadi 5'-AUGCCGUUAAUG-3'.",
+      "topic": "Transkripsi"
+    },
+    {
+      "id": "biologi-pg-27",
+      "number": 27,
+      "prompt": "Berikut ini adalah urutan yang benar dalam proses sintesis protein:\n1. Translasi\n2. Transkripsi\n3. Pembentukan rantai polipeptida\n4. Pembentukan mRNA\nUrutan yang benar adalah...",
+      "options": [
+        { "key": "A", "text": "1 – 2 – 3 – 4" },
+        { "key": "B", "text": "2 – 4 – 1 – 3" },
+        { "key": "C", "text": "2 – 1 – 3 – 4" },
+        { "key": "D", "text": "4 – 2 – 1 – 3" },
+        { "key": "E", "text": "2 – 4 – 3 – 1" }
+      ],
+      "answer": "B",
+      "explanation": "Sintesis protein dimulai dari transkripsi DNA (2) yang menghasilkan pembentukan mRNA (4), kemudian mRNA mengalami translasi di ribosom (1) hingga terbentuk rantai polipeptida (3).",
+      "topic": "Sintesis Protein"
+    },
+    {
+      "id": "biologi-pg-28",
+      "number": 28,
+      "prompt": "Perhatikan fungsi berikut:\n1. Membawa kode genetik dari DNA ke ribosom\n2. Menyusun bagian struktural ribosom\n3. Mengangkut asam amino sesuai kodon\nJenis RNA yang sesuai berturut-turut adalah...",
+      "options": [
+        { "key": "A", "text": "tRNA – rRNA – mRNA" },
+        { "key": "B", "text": "mRNA – rRNA – tRNA" },
+        { "key": "C", "text": "rRNA – mRNA – tRNA" },
+        { "key": "D", "text": "mRNA – tRNA – rRNA" },
+        { "key": "E", "text": "tRNA – mRNA – rRNA" }
+      ],
+      "answer": "B",
+      "explanation": "mRNA (messenger RNA) membawa kode genetik dari DNA ke ribosom; rRNA (ribosomal RNA) menyusun struktur ribosom; tRNA (transfer RNA) mengangkut asam amino menuju ribosom sesuai kodon mRNA.",
+      "topic": "Jenis-jenis RNA"
+    },
+    {
+      "id": "biologi-pg-29",
+      "number": 29,
+      "prompt": "Seekor tanaman ercis hasil persilangan dua individu heterozigot (Tt × Tt) ternyata menunjukkan rasio fenotipe 1 tinggi : 2 sedang : 1 pendek, bukan rasio Mendel 3:1. Bagaimana penjelasan paling logis untuk hasil tersebut?",
+      "options": [
+        { "key": "A", "text": "Gen T mengalami kodominansi" },
+        { "key": "B", "text": "Gen T bersifat epistasis terhadap gen lain" },
+        { "key": "C", "text": "Gen T bersifat inkomplet dominan" },
+        { "key": "D", "text": "Terjadi crossing over antara gen T dan gen tinggi lain" },
+        { "key": "E", "text": "Ada gen penghambat tinggi tanaman" }
+      ],
+      "answer": "C",
+      "explanation": "Rasio fenotipe 1 : 2 : 1 dengan munculnya sifat antara (sedang) pada individu heterozigot (Tt) merupakan ciri pewarisan sifat dominansi tidak penuh (inkomplet dominan / intermediet).",
+      "topic": "Dominansi Tidak Penuh"
+    },
+    {
+      "id": "biologi-pg-30",
+      "number": 30,
+      "prompt": "Pada ayam, gen C diperlukan untuk pembentukan warna bulu, sedangkan c menyebabkan albino.\nGen B menentukan warna bulu (B = hitam, b = cokelat).\nJika disilangkan CcBb × CcBb, berapa rasio fenotipe yang dihasilkan?",
+      "options": [
+        { "key": "A", "text": "9 hitam : 3 cokelat : 4 albino" },
+        { "key": "B", "text": "9 hitam : 3 cokelat : 3 abu-abu : 1 putih" },
+        { "key": "C", "text": "9 hitam : 7 putih" },
+        { "key": "D", "text": "12 hitam : 3 cokelat : 1 putih" },
+        { "key": "E", "text": "3 hitam : 1 cokelat" }
+      ],
+      "answer": "A",
+      "explanation": "Persilangan dihibrid CcBb × CcBb menghasilkan proporsi genotipe 9 C_B_ (hitam) : 3 C_bb (cokelat) : 3 ccB_ (albino) : 1 ccbb (albino). Karena cc bersifat epistatik resesif (menghalangi warna), rasio fenotipenya adalah 9 hitam : 3 cokelat : 4 albino.",
+      "topic": "Epistasis Resesif"
+    },
+    {
+      "id": "biologi-pg-31",
+      "number": 31,
+      "prompt": "Pada bunga Lathyrus odoratus, warna ungu hanya muncul jika dua gen dominan (A dan B) hadir bersama.\nPersilangan dua individu heterozigot AaBb × AaBb menghasilkan berapa rasio fenotipe ungu dan putih?",
+      "options": [
+        { "key": "A", "text": "3 ungu : 1 putih" },
+        { "key": "B", "text": "9 ungu : 7 putih" },
+        { "key": "C", "text": "12 ungu : 3 putih : 1 merah" },
+        { "key": "D", "text": "15 ungu : 1 putih" },
+        { "key": "E", "text": "13 ungu : 3 putih" }
+      ],
+      "answer": "B",
+      "explanation": "Interaksi gen komplementer pada Lathyrus odoratus menghasilkan warna ungu hanya pada genotipe A_B_ (9/16), sedangkan A_bb (3/16), aaB_ (3/16), dan aabb (1/16) berwarna putih (7/16), sehingga rasionya 9 ungu : 7 putih.",
+      "topic": "Gen Komplementer"
+    },
+    {
+      "id": "biologi-pg-32",
+      "number": 32,
+      "prompt": "Pada ayam, gen C diperlukan untuk warna bulu, dan gen I bersifat epistatik dominan yang menutupi ekspresi warna apa pun.\nPersilangan antara dua ayam heterozigot CcIi × CcIi menghasilkan rasio fenotipe:",
+      "options": [
+        { "key": "A", "text": "9 berwarna : 3 putih : 4 tidak berwarna" },
+        { "key": "B", "text": "9 berwarna : 4 putih : 3 hitam" },
+        { "key": "C", "text": "13 putih : 3 berwarna" },
+        { "key": "D", "text": "9 putih : 7 berwarna" },
+        { "key": "E", "text": "9 hitam : 3 cokelat : 4 putih" }
+      ],
+      "answer": "C",
+      "explanation": "Pada persilangan CcIi × CcIi: 9 C_I_ (putih karena ada I), 3 ccI_ (putih karena ada I dan cc), 1 ccii (putih karena tidak ada C), dan hanya 3 C_ii yang berwarna. Jadi rasionya adalah 13 putih : 3 berwarna.",
+      "topic": "Epistasis Dominan-Resesif"
+    },
+    {
+      "id": "biologi-pg-33",
+      "number": 33,
+      "prompt": "Seorang ayah bergolongan darah A dari orang tua pasangan golongan A dan O dan ibu bergolongan darah B dari orang tua pasangan golongan O dan B memiliki beberapa anak dengan kemungkinan golongan darah mengikuti hukum Mendel.\nBerapa peluang anak mereka bergolongan darah AB?",
+      "options": [
+        { "key": "A", "text": "0%" },
+        { "key": "B", "text": "25%" },
+        { "key": "C", "text": "50%" },
+        { "key": "D", "text": "75%" },
+        { "key": "E", "text": "100%" }
+      ],
+      "answer": "B",
+      "explanation": "Karena salah satu orang tua ayah bergolongan darah O (IᴼIᴼ), ayah bergenotipe IᴬIᴼ. Begitu pula ibu bergenotipe IᴮIᴼ. Persilangan IᴬIᴼ × IᴮIᴼ menghasilkan anak IᴬIᴮ (AB), IᴬIᴼ (A), IᴮIᴼ (B), dan IᴼIᴼ (O) masing-masing berpeluang 1/4 = 25%.",
+      "topic": "Golongan Darah ABO"
+    },
+    {
+      "id": "biologi-pg-34",
+      "number": 34,
+      "prompt": "Pada suatu keluarga, sifat albino muncul pada beberapa individu dalam generasi kedua. Semua orang tua dari individu albino berkulit normal, namun memiliki riwayat keluarga dengan albino.\nJenis pewarisan sifat ini adalah...",
+      "options": [
+        { "key": "A", "text": "Dominan autosomal" },
+        { "key": "B", "text": "Resesif autosomal" },
+        { "key": "C", "text": "Dominan terpaut X" },
+        { "key": "D", "text": "Resesif terpaut X" },
+        { "key": "E", "text": "Kodominan" }
+      ],
+      "answer": "B",
+      "explanation": "Sifat albino dikendalikan oleh alel resesif pada kromosom tubuh (resesif autosomal), sehingga dua orang tua normal pembawa sifat (carrier Aa × Aa) dapat melahirkan anak albino (aa).",
+      "topic": "Pola Pewarisan Sifat"
+    },
+    {
+      "id": "biologi-pg-35",
+      "number": 35,
+      "prompt": "Sebuah keluarga menunjukkan pola berikut:\n• Semua anak laki-laki dari ayah buta warna adalah normal,\n• Tetapi semua anak perempuan ayah tersebut menjadi pembawa sifat.\nDari data ini dapat disimpulkan bahwa gen buta warna diwariskan melalui...",
+      "options": [
+        { "key": "A", "text": "Autosom dominan" },
+        { "key": "B", "text": "Autosom resesif" },
+        { "key": "C", "text": "Kromosom Y" },
+        { "key": "D", "text": "Kromosom X" },
+        { "key": "E", "text": "Mitokondria" }
+      ],
+      "answer": "D",
+      "explanation": "Ayah buta warna (XᵇY) mewariskan kromosom Y kepada semua anak laki-lakinya (normal jika dari ibu Xᴮ) dan mewariskan Xᵇ kepada seluruh anak perempuannya (carrier XᴮXᵇ). Pola ini khas pewarisan terpaut kromosom X.",
+      "topic": "Hereditas Terpaut X"
+    }
+  ],
+  "essays": [
+    {
+      "id": "biologi-es-1",
+      "number": 1,
+      "prompt": "Jelaskan perbedaan perkecambahan epigeal dan hipogeal, serta beri contoh masing-masing",
+      "rubric": "Menjelaskan letak kotiledon dan bagian batang yang memanjang (hipokotil vs epikotil) pada epigeal dan hipogeal, disertai contoh tanaman yang tepat untuk masing-masing tipe.",
+      "modelAnswer": "1. Perkecambahan Epigeal: Tipe perkecambahan di mana kotiledon terangkat ke atas permukaan tanah karena bagian hipokotil (ruas batang di bawah kotiledon) tumbuh memanjang lebih cepat.\nContoh: kacang hijau, kacang tanah, kedelai, dan kapas.\n2. Perkecambahan Hipogeal: Tipe perkecambahan di mana kotiledon tetap berada di bawah permukaan tanah karena bagian epikotil (ruas batang di atas kotiledon) yang tumbuh memanjang mendorong plumula ke atas.\nContoh: jagung, padi, kelapa, dan kacang kapri (ercis)."
+    },
+    {
+      "id": "biologi-es-2",
+      "number": 2,
+      "prompt": "Perhatikan gambar kerja enzim berikut ini\na. Tuliskan apakah X dan Y\nb. Reaksi apakah yang ditunjukkan oleh gambar diatas",
+      "image": "/assets/figures/biologi-es-2.png",
+      "imageCaption": "Skema kerja enzim X terhadap substrat Y menghasilkan dua molekul glukosa",
+      "rubric": "a) Mengidentifikasi X sebagai enzim (maltase) dan Y sebagai substrat (maltosa). b) Mengidentifikasi reaksi sebagai reaksi katabolisme/hidrolisis (pemecahan disakarida maltosa menjadi dua molekul glukosa oleh enzim).",
+      "modelAnswer": "a. X adalah enzim (spesifik: enzim maltase) dan Y adalah substrat (spesifik: maltosa).\nb. Gambar menunjukkan reaksi katabolisme berupa hidrolisis (pemecahan) substrat maltosa (Y) menjadi dua molekul monosakarida glukosa dengan bantuan enzim maltase (X) yang bekerja secara spesifik (teori lock and key) dan tidak ikut habis bereaksi."
+    },
+    {
+      "id": "biologi-es-3",
+      "number": 3,
+      "prompt": "Buatlah tabel perbedaan reaksi terang dan gelap pada fotosintesis dalam hal\na. Tempat terjadinya\nb. Sumber energi\nc. Hasil",
+      "rubric": "Memuat perbedaan akurat reaksi terang dan reaksi gelap (Siklus Calvin) pada ketiga aspek: tempat (tilakoid/grana vs stroma), sumber energi (cahaya matahari vs ATP dan NADPH), serta hasil (ATP, NADPH, O₂ vs glukosa/PGAL).",
+      "modelAnswer": "Perbedaan Reaksi Terang dan Reaksi Gelap:\n1. Tempat terjadinya:\n   - Reaksi Terang: Membran tilakoid (grana) kloroplas.\n   - Reaksi Gelap (Siklus Calvin): Stroma kloroplas.\n2. Sumber energi:\n   - Reaksi Terang: Energi cahaya matahari (foton).\n   - Reaksi Gelap: ATP dan NADPH yang dihasilkan pada reaksi terang.\n3. Hasil:\n   - Reaksi Terang: ATP, NADPH, dan gas oksigen (O₂).\n   - Reaksi Gelap: Glukosa (melalui PGAL/G3P), ADP, dan NADP⁺."
+    },
+    {
+      "id": "biologi-es-4",
+      "number": 4,
+      "prompt": "Anda adalah seorang konselor genetik yang sedang menangani pasangan suami istri, Tuan B dan Nyonya C. Kedua pasangan tersebut memiliki riwayat keluarga penyakit genetik Y. Peta silsilah mereka menunjukkan data:\n• Tuan B (normal) memiliki seorang kakak laki-laki yang menderita penyakit Y. Kedua orang tua Tuan B normal.\n• Nyonya C (normal) memiliki paman (saudara laki-laki dari ibunya) yang menderita penyakit Y. Kakek dan nenek Nyonya C (dari pihak ibu) normal.\n• Berdasarkan data populasi dan pola silsilah yang lebih luas (yang tidak ditunjukkan secara lengkap), penyakit Y telah dikonfirmasi diwariskan secara Autosomal Resesif.\n\na. Buatlah peta silsilah disertai keterangan personel dan genotipnya pada:\n   1. Tuan B\n   2. Nyonya C\n   3. Kakak laki-laki dari tuan B\n   4. Ibu dari tuan B\n   5. Ayah dari tuan B\n   6. Paman dari nyonya C\n   7. Ibu dari nyonya C\n   8. Ayah dari nyonya C\n   9. Kakek dari nyonya C\n   10. Nenek dari nyonya C\nb. Hitunglah probabilitas (peluang) Tuan B dan Nyonya C berstatus sebagai carrier (pembawa) penyakit Y.\nc. Tentukan peluang anak pertama Tuan B dan Nyonya C akan menderita penyakit Y.",
+      "rubric": "a) Menentukan genotipe seluruh 10 personel secara tepat (Aa untuk orang tua Tuan B dan kakek-nenek Nyonya C, aa untuk kakak Tuan B dan paman Nyonya C, serta AA/Aa untuk Tuan B, Ibu Nyonya C, Nyonya C). b) Menghitung peluang carrier Tuan B = 2/3 dan Nyonya C = 1/3 (dengan asumsi ayah Nyonya C normal homozigot AA). c) Menghitung peluang anak pertama sakit (aa) = (2/3) × (1/3) × (1/4) = 1/18.",
+      "modelAnswer": "Misalkan alel A = normal (dominan) dan a = penderita penyakit Y (autosomal resesif).\n\na. Peta Silsilah dan Genotipe Personel:\n- Keluarga Tuan B:\n  4. Ibu Tuan B: Aa (normal pembawa sifat, karena memiliki anak penderita aa)\n  5. Ayah Tuan B: Aa (normal pembawa sifat)\n  3. Kakak laki-laki Tuan B: aa (penderita penyakit Y)\n  1. Tuan B: AA atau Aa (normal, peluang Aa = 2/3)\n- Keluarga Nyonya C:\n  9. Kakek Nyonya C (pihak ibu): Aa (normal pembawa sifat)\n  10. Nenek Nyonya C (pihak ibu): Aa (normal pembawa sifat)\n  6. Paman Nyonya C: aa (penderita penyakit Y)\n  7. Ibu Nyonya C: AA atau Aa (normal, peluang Aa = 2/3)\n  8. Ayah Nyonya C: AA (normal, tidak memiliki riwayat keluarga penyakit Y)\n  2. Nyonya C: AA atau Aa (normal)\n\nb. Probabilitas Tuan B dan Nyonya C sebagai carrier (Aa):\n- Peluang Tuan B carrier: Dari persilangan Aa × Aa diperoleh 1 AA : 2 Aa : 1 aa. Karena Tuan B normal (bukan aa), peluang ia bertindak sebagai carrier (Aa) = 2/3.\n- Peluang Nyonya C carrier: Peluang Ibu Nyonya C carrier (Aa) = 2/3. Dengan asumsi Ayah Nyonya C bergenotipe AA, maka peluang Nyonya C mewarisi alel a dari ibunya dan berstatus carrier (Aa) = (2/3) × (1/2) = 1/3.\n\nc. Peluang anak pertama Tuan B dan Nyonya C menderita penyakit Y (aa):\nAnak menderita penyakit Y hanya terjadi jika kedua orang tua sama-sama carrier (Aa × Aa, peluang anak aa = 1/4):\nP(anak sakit) = P(Tuan B Aa) × P(Nyonya C Aa) × 1/4 = (2/3) × (1/3) × (1/4) = 2/36 = 1/18 (sekitar 5,56%)."
+    },
+    {
+      "id": "biologi-es-5",
+      "number": 5,
+      "prompt": "Pada suatu spesies tanaman, warna buah dikendalikan oleh dua gen yang terletak pada kromosom berbeda:\n• Gen A menentukan produksi pigmen warna (A = pigmen, a = tidak ada pigmen).\n• Gen B menentukan jenis warna pigmen jika ada (B = merah, b = kuning). Namun, jika tanaman memiliki genotipe aa, maka tidak akan ada pigmen yang terbentuk, sehingga buahnya berwarna putih, terlepas dari genotipe pada lokus B/b.\nJika Anda menyilangkan tanaman dengan genotipe AaBb dengan tanaman bergenotipe AaBb, prediksikan rasio fenotipe yang diharapkan pada keturunannya!",
+      "rubric": "Menuliskan hasil persilangan AaBb × AaBb (9 A_B_ : 3 A_bb : 3 aaB_ : 1 aabb), mengidentifikasi fenomena epistasis resesif (aa menutupi B/b), dan menyimpulkan rasio fenotipe 9 merah : 3 kuning : 4 putih.",
+      "modelAnswer": "Kasus ini merupakan penyimpangan semu hukum Mendel berupa epistasis resesif (alel resesif aa menutupi ekspresi gen B/b).\n\nPersilangan: AaBb × AaBb\nProporsi genotipe keturunan (F2):\n- A_B_ = 9/16 → memiliki pigmen dan gen B → buah berwarna merah\n- A_bb = 3/16 → memiliki pigmen dan gen bb → buah berwarna kuning\n- aaB_ = 3/16 → tidak memiliki pigmen (aa) → buah berwarna putih\n- aabb = 1/16 → tidak memiliki pigmen (aa) → buah berwarna putih\n\nTotal buah berwarna putih = 3/16 + 1/16 = 4/16.\nJadi, rasio fenotipe yang diharapkan pada keturunannya adalah:\n9 merah : 3 kuning : 4 putih."
+    }
+  ]
+}

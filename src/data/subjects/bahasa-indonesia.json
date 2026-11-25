@@ -1,0 +1,1334 @@
+{
+  "id": "bahasa-indonesia",
+  "name": "Bahasa Indonesia",
+  "shortName": "BIN",
+  "group": "bahasa",
+  "schedule": "Senin, 1 Desember 2025",
+  "durationMinutes": 120,
+  "accentColor": "#5CE5A5",
+  "questions": [
+    {
+      "id": "bahasa-indonesia-pg-1",
+      "number": 1,
+      "passageTitle": "Kutipan teks untuk soal nomor 1–4",
+      "passage": "Idrus, nama lengkap Abdullah Idrus. Jika Chairil Anwar ditahbiskan sebagai pelopor Angkatan '45 untuk puisi, Idrus oleh H.B. Jassin ditahbiskan sebagai pelopor prosa Indonesia Angkatan '45 walaupun ia menolaknya. Oleh H.B. Jassin sastrawan ini dianggap sebagai pembaharu di bidang prosa sebab menampilkan bentuk yang sederhana, realistis, bahkan naturalis dengan sindiran yang cukup tajam. Idrus meninggalkan kesan yang besar karena untuk pertama kali dengan jelas sekali memperlihatkan pemisah antara prosa zaman revolusi dan prosa Pujangga Baru (Teeuw, 1978:217), meskipun peranan Idrus tidaklah sepenting Chairil Anwar dalam Angkatan '45.",
+      "prompt": "Informasi dalam kutipan teks tersebut menyampaikan bahwa tokoh dianggap sebagai ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "pelopor puisi yang ada di Indonesia"
+        },
+        {
+          "key": "B",
+          "text": "pelopor prosa zaman revolusi"
+        },
+        {
+          "key": "C",
+          "text": "pelopor sastrawan Angkatan '45"
+        },
+        {
+          "key": "D",
+          "text": "pelopor prosa Indonesia Angkatan '45"
+        },
+        {
+          "key": "E",
+          "text": "pelopor sastrawan angkatan Pujangga Baru"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Kalimat kedua menyatakan secara eksplisit bahwa Idrus oleh H.B. Jassin ditahbiskan sebagai pelopor prosa Indonesia Angkatan '45.",
+      "topic": "Informasi Teks Biografi"
+    },
+    {
+      "id": "bahasa-indonesia-pg-2",
+      "number": 2,
+      "passageTitle": "Kutipan teks untuk soal nomor 1–4",
+      "passage": "Idrus, nama lengkap Abdullah Idrus. Jika Chairil Anwar ditahbiskan sebagai pelopor Angkatan '45 untuk puisi, Idrus oleh H.B. Jassin ditahbiskan sebagai pelopor prosa Indonesia Angkatan '45 walaupun ia menolaknya. Oleh H.B. Jassin sastrawan ini dianggap sebagai pembaharu di bidang prosa sebab menampilkan bentuk yang sederhana, realistis, bahkan naturalis dengan sindiran yang cukup tajam. Idrus meninggalkan kesan yang besar karena untuk pertama kali dengan jelas sekali memperlihatkan pemisah antara prosa zaman revolusi dan prosa Pujangga Baru (Teeuw, 1978:217), meskipun peranan Idrus tidaklah sepenting Chairil Anwar dalam Angkatan '45.",
+      "prompt": "Sumber informasi yang dapat ditemukan dalam kutipan teks tersebut berasal dari buku tulisan ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "Idrus"
+        },
+        {
+          "key": "B",
+          "text": "A. Teeuw"
+        },
+        {
+          "key": "C",
+          "text": "H.B. Jassin"
+        },
+        {
+          "key": "D",
+          "text": "Chairil Anwar"
+        },
+        {
+          "key": "E",
+          "text": "Pujangga Baru"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Di dalam kutipan terdapat rujukan sumber pustaka berupa \"(Teeuw, 1978:217)\", yang merujuk pada buku karya A. Teeuw.",
+      "topic": "Sumber Informasi"
+    },
+    {
+      "id": "bahasa-indonesia-pg-3",
+      "number": 3,
+      "passageTitle": "Kutipan teks untuk soal nomor 1–4",
+      "passage": "Idrus, nama lengkap Abdullah Idrus. Jika Chairil Anwar ditahbiskan sebagai pelopor Angkatan '45 untuk puisi, Idrus oleh H.B. Jassin ditahbiskan sebagai pelopor prosa Indonesia Angkatan '45 walaupun ia menolaknya. Oleh H.B. Jassin sastrawan ini dianggap sebagai pembaharu di bidang prosa sebab menampilkan bentuk yang sederhana, realistis, bahkan naturalis dengan sindiran yang cukup tajam. Idrus meninggalkan kesan yang besar karena untuk pertama kali dengan jelas sekali memperlihatkan pemisah antara prosa zaman revolusi dan prosa Pujangga Baru (Teeuw, 1978:217), meskipun peranan Idrus tidaklah sepenting Chairil Anwar dalam Angkatan '45.",
+      "prompt": "Arti kata 'pelopor' dalam kutipan teks tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "pemimpin"
+        },
+        {
+          "key": "B",
+          "text": "perintis jalan"
+        },
+        {
+          "key": "C",
+          "text": "pasukan pembuka"
+        },
+        {
+          "key": "D",
+          "text": "berjalan mendahului"
+        },
+        {
+          "key": "E",
+          "text": "gerak pembaharuan"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Menurut KBBI, kata 'pelopor' dalam konteks tokoh pembaharu sastra bermakna perintis jalan atau pembuka jalan.",
+      "topic": "Makna Kata"
+    },
+    {
+      "id": "bahasa-indonesia-pg-4",
+      "number": 4,
+      "passageTitle": "Kutipan teks untuk soal nomor 1–4",
+      "passage": "Idrus, nama lengkap Abdullah Idrus. Jika Chairil Anwar ditahbiskan sebagai pelopor Angkatan '45 untuk puisi, Idrus oleh H.B. Jassin ditahbiskan sebagai pelopor prosa Indonesia Angkatan '45 walaupun ia menolaknya. Oleh H.B. Jassin sastrawan ini dianggap sebagai pembaharu di bidang prosa sebab menampilkan bentuk yang sederhana, realistis, bahkan naturalis dengan sindiran yang cukup tajam. Idrus meninggalkan kesan yang besar karena untuk pertama kali dengan jelas sekali memperlihatkan pemisah antara prosa zaman revolusi dan prosa Pujangga Baru (Teeuw, 1978:217), meskipun peranan Idrus tidaklah sepenting Chairil Anwar dalam Angkatan '45.",
+      "prompt": "Karya yang dihasilkan oleh tokoh dalam kutipan berupa ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "esai"
+        },
+        {
+          "key": "B",
+          "text": "lagu"
+        },
+        {
+          "key": "C",
+          "text": "puisi"
+        },
+        {
+          "key": "D",
+          "text": "prosa"
+        },
+        {
+          "key": "E",
+          "text": "drama"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Kutipan menyebutkan Idrus dianggap sebagai pelopor dan pembaharu di bidang prosa.",
+      "topic": "Informasi Teks Biografi"
+    },
+    {
+      "id": "bahasa-indonesia-pg-5",
+      "number": 5,
+      "passageTitle": "Kutipan teks untuk soal nomor 5–6",
+      "passage": "Abdul Muis lahir di Bukittinggi, Sumatra Barat, pada tanggal 3 Juli 1886. Dia bergelar Sutan Penghulu. Gelar tersebut didapat dari orang tuanya yang merupakan keluarga berpengaruh di Minangkabau. Ia ditetapkan sebagai Pahlawan Nasional pada tanggal 30 Agustus 1959. Penetapan itu dilakukan oleh Presiden Soekarno, sekaligus menjadikan Abdul Muis sebagai Pahlawan Nasional pertama Indonesia.\n\nDi samping aktivitas politiknya, Abdul Muis juga dikenal sebagai seorang pengarang. Karyanya yang paling terkenal adalah Salah Asuhan, yang diterbitkan pada tahun 1920-an. Novel ini menjadi salah satu karya sastra yang paling berpengaruh di Indonesia, menggambarkan konflik sosial dan budaya yang dialami oleh masyarakat pribumi pada masa penjajahan Belanda. Karya ini mengukuhkan Abdul Muis sebagai salah satu pengarang besar dalam sejarah sastra Indonesia.",
+      "prompt": "Pernyataan yang tidak tepat berdasarkan informasi tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "Salah Asuhan merupakan karya populer"
+        },
+        {
+          "key": "B",
+          "text": "Abdul Muis menjadi orang Indonesia pertama yang dikukuhkan sebagai Pahlawan Nasional"
+        },
+        {
+          "key": "C",
+          "text": "Abdul Muis merupakan salah satu pengarang besar dalam sejarah sastra Indonesia"
+        },
+        {
+          "key": "D",
+          "text": "Abdul Muis menekuni bidang sastra dan politik"
+        },
+        {
+          "key": "E",
+          "text": "Salah Asuhan merupakan satu-satunya karya sastra yang paling berpengaruh di Indonesia"
+        }
+      ],
+      "answer": "E",
+      "explanation": "Teks menyatakan Salah Asuhan merupakan 'salah satu' karya sastra yang paling berpengaruh di Indonesia, bukan 'satu-satunya'.",
+      "topic": "Kesesuaian Informasi"
+    },
+    {
+      "id": "bahasa-indonesia-pg-6",
+      "number": 6,
+      "passageTitle": "Kutipan teks untuk soal nomor 5–6",
+      "passage": "Abdul Muis lahir di Bukittinggi, Sumatra Barat, pada tanggal 3 Juli 1886. Dia bergelar Sutan Penghulu. Gelar tersebut didapat dari orang tuanya yang merupakan keluarga berpengaruh di Minangkabau. Ia ditetapkan sebagai Pahlawan Nasional pada tanggal 30 Agustus 1959. Penetapan itu dilakukan oleh Presiden Soekarno, sekaligus menjadikan Abdul Muis sebagai Pahlawan Nasional pertama Indonesia.\n\nDi samping aktivitas politiknya, Abdul Muis juga dikenal sebagai seorang pengarang. Karyanya yang paling terkenal adalah Salah Asuhan, yang diterbitkan pada tahun 1920-an. Novel ini menjadi salah satu karya sastra yang paling berpengaruh di Indonesia, menggambarkan konflik sosial dan budaya yang dialami oleh masyarakat pribumi pada masa penjajahan Belanda. Karya ini mengukuhkan Abdul Muis sebagai salah satu pengarang besar dalam sejarah sastra Indonesia.",
+      "prompt": "Cermatilah kalimat berikut!\n\"Saat diasingkan ke Garut, Abdul Muis menulis karya sastra populer, Salah Asuhan.\"\nMakna kata 'populer' dalam kalimat tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "dikenal atau diketahui umum"
+        },
+        {
+          "key": "B",
+          "text": "sangat dinanti masyarakat"
+        },
+        {
+          "key": "C",
+          "text": "menyebar luas dan cepat"
+        },
+        {
+          "key": "D",
+          "text": "mudah dipahami orang banyak"
+        },
+        {
+          "key": "E",
+          "text": "sudah dicintai orang banyak"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Berdasarkan KBBI, kata 'populer' berarti dikenal dan disukai orang banyak (dikenal atau diketahui umum).",
+      "topic": "Makna Kata"
+    },
+    {
+      "id": "bahasa-indonesia-pg-7",
+      "number": 7,
+      "passageTitle": "Teks untuk soal nomor 7–10",
+      "passage": "Aoh Karta Hadimadja memiliki nama pena Karian Hadi. Adiknya, Ramadhan K.H., juga seorang pengarang yang banyak menghasilkan karya biografi tokoh-tokoh hebat.\n\nDalam sajak-sajaknya, Aoh sering kali menggambarkan alam sebagai sebuah entitas hidup yang memiliki jiwa. Sungai yang mengalir menjadi cerminan dari perjalanan hidup. Sementara itu, langit yang luas menjadi simbol dari keabadian. Aoh sering kali melihat keindahan alam dalam detail kecil, mulai dari suasana di pagi hari, suara sepoi angin, hingga bintang-bintang yang bersinar di malam hari sebagaimana dalam sajaknya \"Kehilangan Mestika\" yang diterbitkan tahun 1948 oleh Balai Pustaka.\n\nKecintaan Aoh terhadap semesta yang dipijaknya juga tercermin dalam bukunya yang berupa kumpulan cerita berjudul Manusia dan Tanahnya. Ia menggambarkan hubungan erat antara manusia dan alam. Tanah, sebagai sumber kehidupan, menjadi simbol dan akar budaya serta identitas seseorang yang harus dijaga. Manusia, sebagai bagian dari alam, harus hidup selaras dengan lingkungannya. Olehnya, manusia dimetaforakan sebagai sungai yang selalu mengalir ke tempat yang lebih rendah, mengikuti kodrat alam, dan tidak boleh menentang arus.",
+      "prompt": "Simpulan yang dapat kita ambil dari teks tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "keluarga Aoh Karta Hadimadja adalah seniman"
+        },
+        {
+          "key": "B",
+          "text": "karya Aoh Karta Hadimadja mayoritas bertema alam semesta"
+        },
+        {
+          "key": "C",
+          "text": "sajak karya Aoh Karta Hadimadja diterbitkan oleh Balai Pustaka"
+        },
+        {
+          "key": "D",
+          "text": "manusia dimetaforakan sebagai sungai yang selalu mengalir"
+        },
+        {
+          "key": "E",
+          "text": "adik Aoh Karta Hadimadja mengikuti jejaknya menjadi penulis"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Paragraf kedua dan ketiga sama-sama menyoroti bagaimana sajak maupun kumpulan cerita Aoh Karta Hadimadja menggambarkan alam dan hubungan manusia dengan semesta.",
+      "topic": "Simpulan Teks"
+    },
+    {
+      "id": "bahasa-indonesia-pg-8",
+      "number": 8,
+      "passageTitle": "Teks untuk soal nomor 7–10",
+      "passage": "Aoh Karta Hadimadja memiliki nama pena Karian Hadi. Adiknya, Ramadhan K.H., juga seorang pengarang yang banyak menghasilkan karya biografi tokoh-tokoh hebat.\n\nDalam sajak-sajaknya, Aoh sering kali menggambarkan alam sebagai sebuah entitas hidup yang memiliki jiwa. Sungai yang mengalir menjadi cerminan dari perjalanan hidup. Sementara itu, langit yang luas menjadi simbol dari keabadian. Aoh sering kali melihat keindahan alam dalam detail kecil, mulai dari suasana di pagi hari, suara sepoi angin, hingga bintang-bintang yang bersinar di malam hari sebagaimana dalam sajaknya \"Kehilangan Mestika\" yang diterbitkan tahun 1948 oleh Balai Pustaka.\n\nKecintaan Aoh terhadap semesta yang dipijaknya juga tercermin dalam bukunya yang berupa kumpulan cerita berjudul Manusia dan Tanahnya. Ia menggambarkan hubungan erat antara manusia dan alam. Tanah, sebagai sumber kehidupan, menjadi simbol dan akar budaya serta identitas seseorang yang harus dijaga. Manusia, sebagai bagian dari alam, harus hidup selaras dengan lingkungannya. Olehnya, manusia dimetaforakan sebagai sungai yang selalu mengalir ke tempat yang lebih rendah, mengikuti kodrat alam, dan tidak boleh menentang arus.",
+      "prompt": "Paragraf ketiga pada teks tersebut berfungsi untuk ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "menggambarkan kecintaan tokoh terhadap aktivitas di alam sekitar"
+        },
+        {
+          "key": "B",
+          "text": "mendeskripsikan gambaran dari karya-karya tokoh"
+        },
+        {
+          "key": "C",
+          "text": "menegaskan adanya keterkaitan antara karya tokoh dan fenomena alam"
+        },
+        {
+          "key": "D",
+          "text": "menunjukkan bukti tentang makna metafora dalam karya tokoh"
+        },
+        {
+          "key": "E",
+          "text": "memberikan pemahaman baru tentang karya Aoh Karta Hadimadja"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Paragraf ketiga melanjutkan penjelasan dengan menunjukkan bahwa kecintaan tokoh terhadap alam juga tercermin dalam bukunya, sehingga menegaskan keterkaitan karya tokoh dengan alam.",
+      "topic": "Fungsi Paragraf"
+    },
+    {
+      "id": "bahasa-indonesia-pg-9",
+      "number": 9,
+      "passageTitle": "Teks untuk soal nomor 7–10",
+      "passage": "Aoh Karta Hadimadja memiliki nama pena Karian Hadi. Adiknya, Ramadhan K.H., juga seorang pengarang yang banyak menghasilkan karya biografi tokoh-tokoh hebat.\n\nDalam sajak-sajaknya, Aoh sering kali menggambarkan alam sebagai sebuah entitas hidup yang memiliki jiwa. Sungai yang mengalir menjadi cerminan dari perjalanan hidup. Sementara itu, langit yang luas menjadi simbol dari keabadian. Aoh sering kali melihat keindahan alam dalam detail kecil, mulai dari suasana di pagi hari, suara sepoi angin, hingga bintang-bintang yang bersinar di malam hari sebagaimana dalam sajaknya \"Kehilangan Mestika\" yang diterbitkan tahun 1948 oleh Balai Pustaka.\n\nKecintaan Aoh terhadap semesta yang dipijaknya juga tercermin dalam bukunya yang berupa kumpulan cerita berjudul Manusia dan Tanahnya. Ia menggambarkan hubungan erat antara manusia dan alam. Tanah, sebagai sumber kehidupan, menjadi simbol dan akar budaya serta identitas seseorang yang harus dijaga. Manusia, sebagai bagian dari alam, harus hidup selaras dengan lingkungannya. Olehnya, manusia dimetaforakan sebagai sungai yang selalu mengalir ke tempat yang lebih rendah, mengikuti kodrat alam, dan tidak boleh menentang arus.",
+      "prompt": "Kalimat yang menggunakan konjungsi antarkalimat terdapat pada paragraf ke ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "satu"
+        },
+        {
+          "key": "B",
+          "text": "dua"
+        },
+        {
+          "key": "C",
+          "text": "tiga"
+        },
+        {
+          "key": "D",
+          "text": "satu dan dua"
+        },
+        {
+          "key": "E",
+          "text": "dua dan tiga"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Pada paragraf kedua terdapat konjungsi antarkalimat 'Sementara itu,' pada kalimat ketiga. (Kata 'Olehnya' pada paragraf ketiga berarti 'oleh dia/Aoh', bukan konjungsi antarkalimat).",
+      "topic": "Konjungsi Antarkalimat"
+    },
+    {
+      "id": "bahasa-indonesia-pg-10",
+      "number": 10,
+      "passageTitle": "Teks untuk soal nomor 7–10",
+      "passage": "Aoh Karta Hadimadja memiliki nama pena Karian Hadi. Adiknya, Ramadhan K.H., juga seorang pengarang yang banyak menghasilkan karya biografi tokoh-tokoh hebat.\n\nDalam sajak-sajaknya, Aoh sering kali menggambarkan alam sebagai sebuah entitas hidup yang memiliki jiwa. Sungai yang mengalir menjadi cerminan dari perjalanan hidup. Sementara itu, langit yang luas menjadi simbol dari keabadian. Aoh sering kali melihat keindahan alam dalam detail kecil, mulai dari suasana di pagi hari, suara sepoi angin, hingga bintang-bintang yang bersinar di malam hari sebagaimana dalam sajaknya \"Kehilangan Mestika\" yang diterbitkan tahun 1948 oleh Balai Pustaka.\n\nKecintaan Aoh terhadap semesta yang dipijaknya juga tercermin dalam bukunya yang berupa kumpulan cerita berjudul Manusia dan Tanahnya. Ia menggambarkan hubungan erat antara manusia dan alam. Tanah, sebagai sumber kehidupan, menjadi simbol dan akar budaya serta identitas seseorang yang harus dijaga. Manusia, sebagai bagian dari alam, harus hidup selaras dengan lingkungannya. Olehnya, manusia dimetaforakan sebagai sungai yang selalu mengalir ke tempat yang lebih rendah, mengikuti kodrat alam, dan tidak boleh menentang arus.",
+      "prompt": "Penulisan yang benar pada frasa 'Manusia dan Tanahnya' di paragraf ketiga seharusnya ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "'Manusia dan Tanahnya'"
+        },
+        {
+          "key": "B",
+          "text": "\"Manusia dan Tanahnya\""
+        },
+        {
+          "key": "C",
+          "text": "Manusia dan Tanahnya (cetak miring)"
+        },
+        {
+          "key": "D",
+          "text": "Manusia dan Tanahnya (garis bawah)"
+        },
+        {
+          "key": "E",
+          "text": "\"Manusia dan Tanahnya\" (cetak miring)"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Sesuai kaidah EYD V, judul buku atau kumpulan cerita yang disebutkan dalam kalimat harus ditulis dengan huruf miring (cetak miring) tanpa tanda petik.",
+      "topic": "Kaidah Ejaan (EYD)"
+    },
+    {
+      "id": "bahasa-indonesia-pg-11",
+      "number": 11,
+      "passageTitle": "Teks untuk soal nomor 11–12",
+      "passage": "Dr. Wahidin mulai berkeliling Jawa, mengunjungi tokoh-tokoh masyarakat, ulama, dan bangsawan untuk menyebarkan gagasannya tentang pentingnya pendidikan. Ia berpendapat bahwa kemajuan bangsa hanya dapat dicapai jika rakyat cerdas dan berpengetahuan. Untuk mewujudkan hal tersebut, ia mengusulkan dibentuknya sebuah dana pendidikan (studiefonds) guna membantu anak-anak pribumi yang cerdas, tetapi tidak mampu untuk melanjutkan sekolah. Ia juga aktif mengadvokasi pentingnya surat kabar sebagai sarana penyebaran informasi dan pencerahan. Meskipun idenya mungkin terasa besar dan sulit diwujudkan, ia tidak menyerah. Ia terus berinteraksi dengan berbagai lapisan masyarakat, dari bangsawan hingga rakyat biasa, demi menyebarkan kesadaran akan pentingnya pendidikan. Ini mengajarkan kita untuk tidak mudah menyerah pada tujuan mulia, bahkan ketika jalan terlihat terjal.",
+      "prompt": "Berdasarkan teks tersebut, hal yang dapat diteladani dari Dr. Wahidin adalah ....\n1) mengunjungi tokoh masyarakat\n2) bercita-cita tinggi\n3) mengusulkan dana pendidikan\n4) tidak menyerah\n5) aktif mengadvokasi\nJawaban yang tepat untuk pernyataan tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "1) dan 2)"
+        },
+        {
+          "key": "B",
+          "text": "1) dan 3)"
+        },
+        {
+          "key": "C",
+          "text": "2) dan 3)"
+        },
+        {
+          "key": "D",
+          "text": "2) dan 4)"
+        },
+        {
+          "key": "E",
+          "text": "2) dan 5)"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Hal keteladanan berupa sikap/karakter luhur yang ditekankan dalam teks adalah memiliki tujuan mulia (bercita-cita tinggi) dan tidak mudah menyerah.",
+      "topic": "Keteladanan Tokoh"
+    },
+    {
+      "id": "bahasa-indonesia-pg-12",
+      "number": 12,
+      "passageTitle": "Teks untuk soal nomor 11–12",
+      "passage": "Dr. Wahidin mulai berkeliling Jawa, mengunjungi tokoh-tokoh masyarakat, ulama, dan bangsawan untuk menyebarkan gagasannya tentang pentingnya pendidikan. Ia berpendapat bahwa kemajuan bangsa hanya dapat dicapai jika rakyat cerdas dan berpengetahuan. Untuk mewujudkan hal tersebut, ia mengusulkan dibentuknya sebuah dana pendidikan (studiefonds) guna membantu anak-anak pribumi yang cerdas, tetapi tidak mampu untuk melanjutkan sekolah. Ia juga aktif mengadvokasi pentingnya surat kabar sebagai sarana penyebaran informasi dan pencerahan. Meskipun idenya mungkin terasa besar dan sulit diwujudkan, ia tidak menyerah. Ia terus berinteraksi dengan berbagai lapisan masyarakat, dari bangsawan hingga rakyat biasa, demi menyebarkan kesadaran akan pentingnya pendidikan. Ini mengajarkan kita untuk tidak mudah menyerah pada tujuan mulia, bahkan ketika jalan terlihat terjal.",
+      "prompt": "Berikut ini pernyataan yang mendukung bahwa Dr. Wahidin adalah seseorang yang tidak mudah putus asa adalah ...\n1) Meskipun idenya mungkin terasa besar dan sulit diwujudkan, ia tidak menyerah.\n2) Ia berpendapat bahwa kemajuan bangsa hanya dapat dicapai jika rakyat cerdas dan berpengetahuan.\n3) Ia terus berinteraksi dengan berbagai lapisan masyarakat, dari bangsawan hingga rakyat biasa, demi menyebarkan kesadaran akan pentingnya pendidikan.\n4) Dr. Wahidin mulai berkeliling Jawa, mengunjungi tokoh-tokoh masyarakat, ulama, dan bangsawan untuk menyebarkan gagasannya tentang pentingnya pendidikan.\n5) Untuk mewujudkan hal tersebut, ia mengusulkan dibentuknya sebuah dana pendidikan (studiefonds) guna membantu anak-anak pribumi yang cerdas, tetapi tidak mampu untuk melanjutkan sekolah.\nBerdasarkan teks tersebut, pilihlah jawaban yang benar ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "1), 2) dan 3)"
+        },
+        {
+          "key": "B",
+          "text": "1), 2), dan 4)"
+        },
+        {
+          "key": "C",
+          "text": "1), 2) dan 5)"
+        },
+        {
+          "key": "D",
+          "text": "1), 3) dan 4)"
+        },
+        {
+          "key": "E",
+          "text": "1), 3), dan 5)"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Pernyataan 1), 3), dan 4) menunjukkan kegigihan Dr. Wahidin yang tidak menyerah dengan terus berkeliling Jawa dan berinteraksi dengan semua lapisan masyarakat.",
+      "topic": "Bukti Watak Tokoh"
+    },
+    {
+      "id": "bahasa-indonesia-pg-13",
+      "number": 13,
+      "passageTitle": "Kutipan cerita untuk soal nomor 13–14",
+      "passage": "Saat mengambil buku di lemari pakaian, ia tidak sengaja melihat sepucuk surat yang sengaja ia sembunyikan di tumpukan terbawah baju. Itulah benda yang ia bawa saat ia pergi dari Pare-Pare selain pakaian yang ia kenakan. Sepucuk surat yang jadi muasal seluruh masalah. Ia menatap surat itu. Ia benci sekali kenapa ia tidak kuasa menghentikannya. Hei, tangannya malah membuka lipatan kertas itu. Apa yang diharapkan? Lancang sekali mata dan tangannya. Ia kira kali ini ia lebih tangguh saat membacanya kembali? Atau ia berharap isi surat itu telah berubah jadi sebaliknya? Omong kosong! Semua kesibukan ini, pengalaman baru, tidak pernah mampu mengusir pergi kenangan itu. Jika itu sebuah tameng, maka tameng itu juga tipis dan ringkih, hancur seketika. Lihatlah ia justru lumat lagi seluruh isi surat itu. Menghujam dalam hatinya seperti sakit sekali. Sama seperti yang ia rasakan saat pertama kali membacanya hanya bisa menatap kosong.\n\n(Tere Liye, Rindu Jakarta)",
+      "prompt": "Konflik yang dihadapi tokoh pada kutipan novel tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "tidak ada pakaian yang dimiliki tokoh saat ini"
+        },
+        {
+          "key": "B",
+          "text": "keinginan tokoh untuk membaca surat berulang-ulang"
+        },
+        {
+          "key": "C",
+          "text": "tokoh tidak mampu menyembunyikan rahasia hatinya"
+        },
+        {
+          "key": "D",
+          "text": "tokoh benci terhadap orang yang lancang terhadap dirinya"
+        },
+        {
+          "key": "E",
+          "text": "tokoh tidak mampu mengusir kenangan yang menyakitkan"
+        }
+      ],
+      "answer": "E",
+      "explanation": "Konflik batin tokoh tergambar pada kalimat bahwa segala kesibukan dan pengalaman baru tidak pernah mampu mengusir kenangan menyakitkan dari surat itu.",
+      "topic": "Konflik Cerita"
+    },
+    {
+      "id": "bahasa-indonesia-pg-14",
+      "number": 14,
+      "passageTitle": "Kutipan cerita untuk soal nomor 13–14",
+      "passage": "Saat mengambil buku di lemari pakaian, ia tidak sengaja melihat sepucuk surat yang sengaja ia sembunyikan di tumpukan terbawah baju. Itulah benda yang ia bawa saat ia pergi dari Pare-Pare selain pakaian yang ia kenakan. Sepucuk surat yang jadi muasal seluruh masalah. Ia menatap surat itu. Ia benci sekali kenapa ia tidak kuasa menghentikannya. Hei, tangannya malah membuka lipatan kertas itu. Apa yang diharapkan? Lancang sekali mata dan tangannya. Ia kira kali ini ia lebih tangguh saat membacanya kembali? Atau ia berharap isi surat itu telah berubah jadi sebaliknya? Omong kosong! Semua kesibukan ini, pengalaman baru, tidak pernah mampu mengusir pergi kenangan itu. Jika itu sebuah tameng, maka tameng itu juga tipis dan ringkih, hancur seketika. Lihatlah ia justru lumat lagi seluruh isi surat itu. Menghujam dalam hatinya seperti sakit sekali. Sama seperti yang ia rasakan saat pertama kali membacanya hanya bisa menatap kosong.\n\n(Tere Liye, Rindu Jakarta)",
+      "prompt": "Latar tempat peristiwa yang terdapat dalam kutipan cerita tersebut berada di ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "dalam lemari"
+        },
+        {
+          "key": "B",
+          "text": "tempat tidur"
+        },
+        {
+          "key": "C",
+          "text": "dalam kamar"
+        },
+        {
+          "key": "D",
+          "text": "tempat barunya"
+        },
+        {
+          "key": "E",
+          "text": "kota Pare-Pare"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Peristiwa tokoh mengambil buku di lemari pakaian hingga membaca surat tersebut terjadi di dalam kamar (sedangkan Pare-Pare adalah kota asal yang telah ditinggalkannya).",
+      "topic": "Latar Tempat"
+    },
+    {
+      "id": "bahasa-indonesia-pg-15",
+      "number": 15,
+      "passageTitle": "Kutipan cerita untuk soal nomor 15–16",
+      "passage": "Dari emper rumah bambunya Darsa kembali menatap ke timur, menatap pohon-pohon kelapanya yang masih diguyur hujan nun di seberang lembah. Darsa gelisah. Kesejatian seorang penyadap serasa tertantang. Bagi Darsa, bagi lelaki penyadap, pohon-pohon kelapa adalah harapan dan tantangan, adalah teras kehidupan yang memberi semangat dan gairah hidup. Tetapi karena hujan dan angin yang belum juga mereda, Darsa tak berdaya mendekati pohon-pohon kelapa yang terasa terus melambaikan pelepah-pelepah ke arahnya.\n\n(Ahmad Tohari, Bekisar Merah)",
+      "prompt": "Tema yang diangkat pada kutipan novel tersebut tentang ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "peperangan"
+        },
+        {
+          "key": "B",
+          "text": "kemanusiaan"
+        },
+        {
+          "key": "C",
+          "text": "kesedihan"
+        },
+        {
+          "key": "D",
+          "text": "perekonomian"
+        },
+        {
+          "key": "E",
+          "text": "perjuangan hidup"
+        }
+      ],
+      "answer": "E",
+      "explanation": "Pohon kelapa digambarkan sebagai harapan, tantangan, dan teras kehidupan bagi Darsa sang penyadap, yang mencerminkan tema perjuangan hidup.",
+      "topic": "Tema Cerita"
+    },
+    {
+      "id": "bahasa-indonesia-pg-16",
+      "number": 16,
+      "passageTitle": "Kutipan cerita untuk soal nomor 15–16",
+      "passage": "Dari emper rumah bambunya Darsa kembali menatap ke timur, menatap pohon-pohon kelapanya yang masih diguyur hujan nun di seberang lembah. Darsa gelisah. Kesejatian seorang penyadap serasa tertantang. Bagi Darsa, bagi lelaki penyadap, pohon-pohon kelapa adalah harapan dan tantangan, adalah teras kehidupan yang memberi semangat dan gairah hidup. Tetapi karena hujan dan angin yang belum juga mereda, Darsa tak berdaya mendekati pohon-pohon kelapa yang terasa terus melambaikan pelepah-pelepah ke arahnya.\n\n(Ahmad Tohari, Bekisar Merah)",
+      "prompt": "Nilai moral yang terungkap dalam kutipan cerita tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "seorang penyadap kelapa yang berkorban jiwa raga"
+        },
+        {
+          "key": "B",
+          "text": "seorang penyadap kelapa yang akan menyerah pada kondisi"
+        },
+        {
+          "key": "C",
+          "text": "seorang penyadap kelapa yang rela hidup berkekurangan"
+        },
+        {
+          "key": "D",
+          "text": "seorang penyadap kelapa yang berjuang di tengah hujan angin"
+        },
+        {
+          "key": "E",
+          "text": "seorang penyadap kelapa yang rela menanti hujan berhenti"
+        }
+      ],
+      "answer": "E",
+      "explanation": "Meski jiwanya tertantang untuk bekerja, Darsa bersikap sabar dan menahan diri di emper rumah menanti hujan dan angin reda sebelum mendekati pohon kelapa.",
+      "topic": "Nilai Moral"
+    },
+    {
+      "id": "bahasa-indonesia-pg-17",
+      "number": 17,
+      "passageTitle": "Teks untuk soal nomor 17–18",
+      "passage": "Kementerian Koperasi dan UKM memaparkan pengembangan ekosistem perusahaan rintisan berbasis inovasi dan teknologi sebagai upaya untuk meningkatkan jumlah wirausaha di Indonesia. Berdasarkan hasil Survei Angkatan Kerja Nasional (Sakernas) Agustus 2023 Badan Pusat Statistik (BPS), angka kumulatif penambahan jumlah wirausaha di Indonesia pada periode Agustus 2021 hingga Agustus 2023 mencapai 43,6 persen atau mencapai 436.668 orang dari target 1 juta wirausaha.\n\nIndonesia menempati posisi pertama di Asia Tenggara dalam jumlah perusahaan rintisan, mencapai angka 2.483 unit. Angka itu menempatkan Indonesia berada di posisi keenam dunia, di bawah AS, India, Inggris, Kanada, dan Australia. Meskipun demikian, tingkat penetrasi pasar global perusahaan rintisan Indonesia masih sangat rendah. Hanya sekitar 1 persen atau sekitar 13 startup.\n\nSementara itu, hingga Mei 2024, sebanyak 25,45 juta UMKM telah berhasil bertransformasi digital dan terintegrasi ke dalam ekosistem digital, mendekati target 30 juta UMKM. Belum tercapainya target transformasi digital UMKM secara optimal mengindikasikan adanya beberapa kendala fundamental, seperti kurangnya jiwa kewirausahaan, produktivitas yang rendah serta terbatasnya inovasi dan pemanfaatan teknologi. Kondisi ini menjadi penghambat bagi UMKM untuk bersaing di pasar yang makin kompetitif.",
+      "prompt": "Gagasan utama paragraf pertama adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pemaparan pengembangan ekosistem perusahaan rintisan berbasis inovasi dan teknologi oleh Kementerian Koperasi dan UKM"
+        },
+        {
+          "key": "B",
+          "text": "Hasil survei Angkatan Kerja Nasional (Sakernas) Agustus 2023 Badan Pusat Statistik (BPS) tentang jumlah wirausaha di Indonesia"
+        },
+        {
+          "key": "C",
+          "text": "Badan Pusat Statistik (BPS) menargetkan satu juta wirausaha di Indonesia tahun 2023"
+        },
+        {
+          "key": "D",
+          "text": "Angka kumulatif penambahan jumlah wirausaha di Indonesia pada periode Agustus 2021 hingga Agustus 2023 mencapai 43,6 persen"
+        },
+        {
+          "key": "E",
+          "text": "Banyak UMKM yang telah bertransformasi digital dan terintegrasi dalam ekosistem digital angka kumulatif penambahan jumlah wirausaha di Indonesia pada 2021"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Paragraf pertama berpola deduktif dengan kalimat utama di awal paragraf tentang pemaparan pengembangan ekosistem perusahaan rintisan oleh Kemenkop UKM.",
+      "topic": "Gagasan Utama"
+    },
+    {
+      "id": "bahasa-indonesia-pg-18",
+      "number": 18,
+      "passageTitle": "Teks untuk soal nomor 17–18",
+      "passage": "Kementerian Koperasi dan UKM memaparkan pengembangan ekosistem perusahaan rintisan berbasis inovasi dan teknologi sebagai upaya untuk meningkatkan jumlah wirausaha di Indonesia. Berdasarkan hasil Survei Angkatan Kerja Nasional (Sakernas) Agustus 2023 Badan Pusat Statistik (BPS), angka kumulatif penambahan jumlah wirausaha di Indonesia pada periode Agustus 2021 hingga Agustus 2023 mencapai 43,6 persen atau mencapai 436.668 orang dari target 1 juta wirausaha.\n\nIndonesia menempati posisi pertama di Asia Tenggara dalam jumlah perusahaan rintisan, mencapai angka 2.483 unit. Angka itu menempatkan Indonesia berada di posisi keenam dunia, di bawah AS, India, Inggris, Kanada, dan Australia. Meskipun demikian, tingkat penetrasi pasar global perusahaan rintisan Indonesia masih sangat rendah. Hanya sekitar 1 persen atau sekitar 13 startup.\n\nSementara itu, hingga Mei 2024, sebanyak 25,45 juta UMKM telah berhasil bertransformasi digital dan terintegrasi ke dalam ekosistem digital, mendekati target 30 juta UMKM. Belum tercapainya target transformasi digital UMKM secara optimal mengindikasikan adanya beberapa kendala fundamental, seperti kurangnya jiwa kewirausahaan, produktivitas yang rendah serta terbatasnya inovasi dan pemanfaatan teknologi. Kondisi ini menjadi penghambat bagi UMKM untuk bersaing di pasar yang makin kompetitif.",
+      "prompt": "Informasi yang tidak sesuai isi teks tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "berdasarkan hasil Survei Angkatan Kerja Nasional (Sakernas) Agustus 2023 Badan Pusat Statistik (BPS), angka kumulatif penambahan jumlah wirausaha di Indonesia mencapai 43,6 persen"
+        },
+        {
+          "key": "B",
+          "text": "Indonesia berada di posisi keenam dunia dalam jumlah perusahaan rintisan"
+        },
+        {
+          "key": "C",
+          "text": "hingga Mei 2024, sebanyak 25,45 juta UMKM telah berhasil bertransformasi digital dan terintegrasi ke dalam ekosistem digital"
+        },
+        {
+          "key": "D",
+          "text": "kurangnya jiwa kewirausahaan, produktivitas yang rendah, serta terbatasnya inovasi dan pemanfaatan teknologi dapat memacu pertumbuhan jumlah perusahaan rintisan di Indonesia"
+        },
+        {
+          "key": "E",
+          "text": "tingkat penetrasi pasar global perusahaan rintisan Indonesia masih sangat rendah, sekitar 13 perusahaan rintisan"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Dalam teks, kurangnya jiwa kewirausahaan, produktivitas rendah, dan terbatasnya inovasi/teknologi disebut sebagai kendala penghambat UMKM, bukan pemacu pertumbuhan startup.",
+      "topic": "Kesesuaian Informasi"
+    },
+    {
+      "id": "bahasa-indonesia-pg-19",
+      "number": 19,
+      "passageTitle": "Kutipan teks untuk soal nomor 19–21",
+      "passage": "Pelajar SMK bernama Muhammad Alva Priyandhito sukses membuat kagum teman-temannya. Pemuda yang kini berusia 17 tahun ini sudah bisa hidup mandiri bahkan menjadi seorang pengusaha muda. Berkat sayur-mayur yang dijualnya, dia bisa mendapatkan omzet hingga Rp100 juta sebulan. Usianya masih 17 tahun. Pelajar SMK ini pun kini dapat mempekerjakan 2 orang temannya dari usaha yang digelutinya saat ini dan sukses menjadi tengkulak jamur dan sayur segar. Pelajar kelas 12 itu sudah setahun menggeluti usaha tersebut. Dia menjadi tengkulak sayur yang kemudian untuk dijual kembali.\n\n(https://edukasi.okezone.com)",
+      "prompt": "Topik informasi dalam kutipan teks tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "kegigihan pemuda dalam menuntut ilmu"
+        },
+        {
+          "key": "B",
+          "text": "kendala pelajar dalam menggeluti usaha"
+        },
+        {
+          "key": "C",
+          "text": "keberhasilan pemuda dalam mengelola usaha"
+        },
+        {
+          "key": "D",
+          "text": "keberpihakan sekolah dalam mengajarkan ilmu"
+        },
+        {
+          "key": "E",
+          "text": "kesuksesan membuat kagum teman-teman sekolah"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Kutipan membahas kesuksesan Muhammad Alva Priyandhito sebagai pelajar SMK yang berhasil mengelola usaha sayur dan jamur hingga beromzet Rp100 juta per bulan.",
+      "topic": "Topik Teks"
+    },
+    {
+      "id": "bahasa-indonesia-pg-20",
+      "number": 20,
+      "passageTitle": "Kutipan teks untuk soal nomor 19–21",
+      "passage": "Pelajar SMK bernama Muhammad Alva Priyandhito sukses membuat kagum teman-temannya. Pemuda yang kini berusia 17 tahun ini sudah bisa hidup mandiri bahkan menjadi seorang pengusaha muda. Berkat sayur-mayur yang dijualnya, dia bisa mendapatkan omzet hingga Rp100 juta sebulan. Usianya masih 17 tahun. Pelajar SMK ini pun kini dapat mempekerjakan 2 orang temannya dari usaha yang digelutinya saat ini dan sukses menjadi tengkulak jamur dan sayur segar. Pelajar kelas 12 itu sudah setahun menggeluti usaha tersebut. Dia menjadi tengkulak sayur yang kemudian untuk dijual kembali.\n\n(https://edukasi.okezone.com)",
+      "prompt": "Pernyataan yang tidak sesuai dengan informasi pada kutipan teks tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "Muhammad Alva Priyandhito memulai usahanya sejak usia 17 tahun"
+        },
+        {
+          "key": "B",
+          "text": "Muhammad Alva Priyandhito merupakan wirausahawan muda."
+        },
+        {
+          "key": "C",
+          "text": "Muhammad Alva Priyandhito sudah dapat hidup mandiri."
+        },
+        {
+          "key": "D",
+          "text": "Muhammad Alva Priyandhito menjadi tengkulak di usia muda."
+        },
+        {
+          "key": "E",
+          "text": "Berkat sayur mayur Muhammad Alva Priyandhito berhasil menjadi pengusaha muda."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Teks menyebut ia kini berusia 17 tahun dan sudah setahun menggeluti usaha tersebut, artinya ia memulai usahanya pada usia 16 tahun, bukan 17 tahun.",
+      "topic": "Kesesuaian Informasi"
+    },
+    {
+      "id": "bahasa-indonesia-pg-21",
+      "number": 21,
+      "passageTitle": "Kutipan teks untuk soal nomor 19–21",
+      "passage": "Pelajar SMK bernama Muhammad Alva Priyandhito sukses membuat kagum teman-temannya. Pemuda yang kini berusia 17 tahun ini sudah bisa hidup mandiri bahkan menjadi seorang pengusaha muda. Berkat sayur-mayur yang dijualnya, dia bisa mendapatkan omzet hingga Rp100 juta sebulan. Usianya masih 17 tahun. Pelajar SMK ini pun kini dapat mempekerjakan 2 orang temannya dari usaha yang digelutinya saat ini dan sukses menjadi tengkulak jamur dan sayur segar. Pelajar kelas 12 itu sudah setahun menggeluti usaha tersebut. Dia menjadi tengkulak sayur yang kemudian untuk dijual kembali.\n\n(https://edukasi.okezone.com)",
+      "prompt": "Unsur informasi yang tidak ditemukan dalam kutipan teks tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "Apa"
+        },
+        {
+          "key": "B",
+          "text": "kapan"
+        },
+        {
+          "key": "C",
+          "text": "di mana"
+        },
+        {
+          "key": "D",
+          "text": "siapa"
+        },
+        {
+          "key": "E",
+          "text": "mengapa"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Kutipan tidak mencantumkan nama daerah, kota, pasar, ataupun nama sekolah tempat usaha berlangsung sehingga unsur 'di mana' tidak ditemukan.",
+      "topic": "Unsur Berita (5W+1H)"
+    },
+    {
+      "id": "bahasa-indonesia-pg-22",
+      "number": 22,
+      "prompt": "Cermati kalimat-kalimat acak berikut!\n(1) Laser Frax Pro menjadi salah satu solusi inovatif dalam mengatasi masalah bekas jerawat.\n(2) Setelah itu, jaringan baru akan menggantikan jaringan parut dengan kulit yang lebih sehat.\n(3) Proses ini dilakukan secara bertahap dan memerlukan beberapa sesi perawatan untuk mencapai hasil yang optimal.\n(4) Teknologi ini bekerja dengan cara menembakkan sinar laser fraksional ke area kulit yang bermasalah untuk merangsang produksi kolagen baru.\n(5) Keunggulan utama dari Laser Frax Pro adalah kemampuannya untuk mengatasi berbagai jenis bekas jerawat.\n\nUrutan kalimat yang tepat agar menjadi sebuah paragraf yang padu adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "1-5-4-2-3"
+        },
+        {
+          "key": "B",
+          "text": "1-5-4-3-2"
+        },
+        {
+          "key": "C",
+          "text": "1-5-2-4-3"
+        },
+        {
+          "key": "D",
+          "text": "5-1-2-4-3"
+        },
+        {
+          "key": "E",
+          "text": "5-1-4-2-3"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Kalimat (1) memperkenalkan topik, (5) menjelaskan keunggulan utama, (4) menjelaskan cara kerja merangsang kolagen baru, (2) menjelaskan kelanjutannya ('Setelah itu, jaringan baru...'), dan (3) menutup dengan pelaksanaan bertahap.",
+      "topic": "Kepaduan Paragraf"
+    },
+    {
+      "id": "bahasa-indonesia-pg-23",
+      "number": 23,
+      "passageTitle": "Teks untuk soal nomor 23–27",
+      "passage": "Semakin banyaknya e-commerce yang muncul tidak serta merta meningkatkan kesadaran pentingnya menyediakan opsi pembayaran yang lengkap. Hingga saat ini, mayoritas marketplace masih menawarkan metode pembayaran yang cenderung terbatas. Lalu, apa saja alasan penting bagi vendor toko online untuk menghadirkan beragam variasi cara pembayaran transaksi online?\n\nE-commerce perlu menghadirkan beragam opsi pembayaran yang lengkap sehingga bisa menjangkau lebih banyak konsumen yang preferensi cara pembayarannya pun berbeda-beda. Hal tersebut sekaligus menjadi salah satu alasan mengapa penting bagi marketplace untuk menyediakan opsi pembayaran transaksi yang beragam.\n\nOpsi pembayaran transaksi beragam harus disediakan karena beberapa alasan. Alasan pertama adalah memudahkan konsumen. Kedua, untuk meningkatkan jangkauan konsumen. Ketiga, mempercepat proses transaksi dan meningkatkan performa. Keempat, memudahkan proses refund (pengembalian dana). Alasan yang terakhir adalah memudahkan pengelolaan arus kas bisnis. Dengan menghadirkan metode pembayaran yang beragam, konsumen tidak akan lagi kesulitan memilih metode pembayaran yang sesuai dengan kebutuhannya. Konsumen akan semakin cepat melakukan pembayaran maka akan semakin cepat pula pendapatan masuk ke rekening bisnis pelaku usaha. Dengan begitu, akan semakin lancar pula arus kas bisnis dan perkembangan bisnis bisa semakin ditingkatkan.",
+      "prompt": "Tema pada teks tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "Meningkatkan kesadaran akan pentingnya menyediakan opsi pembayaran yang lengkap"
+        },
+        {
+          "key": "B",
+          "text": "E-commerce perlu menghadirkan beragam opsi pembayaran"
+        },
+        {
+          "key": "C",
+          "text": "Banyaknya opsi pembayaran transaksi beragam yang harus disediakan"
+        },
+        {
+          "key": "D",
+          "text": "Banyaknya opsi pembayaran transaksi yang beragam di marketplace"
+        },
+        {
+          "key": "E",
+          "text": "Pentingnya menyediakan opsi pembayaran transaksi yang beragam bagi marketplace"
+        }
+      ],
+      "answer": "E",
+      "explanation": "Seluruh paragraf dalam teks berpusat pada gagasan mengenai pentingnya menyediakan opsi pembayaran transaksi yang beragam bagi marketplace.",
+      "topic": "Tema Teks"
+    },
+    {
+      "id": "bahasa-indonesia-pg-24",
+      "number": 24,
+      "passageTitle": "Teks untuk soal nomor 23–27",
+      "passage": "Semakin banyaknya e-commerce yang muncul tidak serta merta meningkatkan kesadaran pentingnya menyediakan opsi pembayaran yang lengkap. Hingga saat ini, mayoritas marketplace masih menawarkan metode pembayaran yang cenderung terbatas. Lalu, apa saja alasan penting bagi vendor toko online untuk menghadirkan beragam variasi cara pembayaran transaksi online?\n\nE-commerce perlu menghadirkan beragam opsi pembayaran yang lengkap sehingga bisa menjangkau lebih banyak konsumen yang preferensi cara pembayarannya pun berbeda-beda. Hal tersebut sekaligus menjadi salah satu alasan mengapa penting bagi marketplace untuk menyediakan opsi pembayaran transaksi yang beragam.\n\nOpsi pembayaran transaksi beragam harus disediakan karena beberapa alasan. Alasan pertama adalah memudahkan konsumen. Kedua, untuk meningkatkan jangkauan konsumen. Ketiga, mempercepat proses transaksi dan meningkatkan performa. Keempat, memudahkan proses refund (pengembalian dana). Alasan yang terakhir adalah memudahkan pengelolaan arus kas bisnis. Dengan menghadirkan metode pembayaran yang beragam, konsumen tidak akan lagi kesulitan memilih metode pembayaran yang sesuai dengan kebutuhannya. Konsumen akan semakin cepat melakukan pembayaran maka akan semakin cepat pula pendapatan masuk ke rekening bisnis pelaku usaha. Dengan begitu, akan semakin lancar pula arus kas bisnis dan perkembangan bisnis bisa semakin ditingkatkan.",
+      "prompt": "Berikut ini merupakan alasan penting bagi marketplace untuk menyediakan opsi pembayaran transaksi yang beragam, kecuali ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "memudahkan konsumen karena semakin bervariasinya opsi pembayaran yang lengkap"
+        },
+        {
+          "key": "B",
+          "text": "jangkauan konsumen menjadi meningkat"
+        },
+        {
+          "key": "C",
+          "text": "mempercepat proses transaksi dan meningkatkan performa"
+        },
+        {
+          "key": "D",
+          "text": "memudahkan proses pengembalian produk/barang"
+        },
+        {
+          "key": "E",
+          "text": "pengelolaan arus kas bisnis menjadi lebih mudah."
+        }
+      ],
+      "answer": "D",
+      "explanation": "Pada paragraf ketiga disebutkan alasan keempat adalah memudahkan proses refund (pengembalian dana), bukan pengembalian produk/barang.",
+      "topic": "Pemahaman Bacaan"
+    },
+    {
+      "id": "bahasa-indonesia-pg-25",
+      "number": 25,
+      "passageTitle": "Teks untuk soal nomor 23–27",
+      "passage": "Semakin banyaknya e-commerce yang muncul tidak serta merta meningkatkan kesadaran pentingnya menyediakan opsi pembayaran yang lengkap. Hingga saat ini, mayoritas marketplace masih menawarkan metode pembayaran yang cenderung terbatas. Lalu, apa saja alasan penting bagi vendor toko online untuk menghadirkan beragam variasi cara pembayaran transaksi online?\n\nE-commerce perlu menghadirkan beragam opsi pembayaran yang lengkap sehingga bisa menjangkau lebih banyak konsumen yang preferensi cara pembayarannya pun berbeda-beda. Hal tersebut sekaligus menjadi salah satu alasan mengapa penting bagi marketplace untuk menyediakan opsi pembayaran transaksi yang beragam.\n\nOpsi pembayaran transaksi beragam harus disediakan karena beberapa alasan. Alasan pertama adalah memudahkan konsumen. Kedua, untuk meningkatkan jangkauan konsumen. Ketiga, mempercepat proses transaksi dan meningkatkan performa. Keempat, memudahkan proses refund (pengembalian dana). Alasan yang terakhir adalah memudahkan pengelolaan arus kas bisnis. Dengan menghadirkan metode pembayaran yang beragam, konsumen tidak akan lagi kesulitan memilih metode pembayaran yang sesuai dengan kebutuhannya. Konsumen akan semakin cepat melakukan pembayaran maka akan semakin cepat pula pendapatan masuk ke rekening bisnis pelaku usaha. Dengan begitu, akan semakin lancar pula arus kas bisnis dan perkembangan bisnis bisa semakin ditingkatkan.",
+      "prompt": "Perhatikan kutipan kalimat-kalimat dari teks tersebut!\n1) Semakin banyaknya e-commerce yang muncul tidak serta merta meningkatkan kesadaran pentingnya menyediakan opsi pembayaran yang lengkap.\n2) Hingga saat ini, mayoritas marketplace masih menawarkan metode pembayaran yang cenderung terbatas.\n3) E-commerce perlu menghadirkan beragam opsi pembayaran yang lengkap sehingga bisa menjangkau lebih banyak konsumen yang preferensi cara pembayarannya pun berbeda-beda.\n4) Opsi pembayaran transaksi beragam harus disediakan karena beberapa alasan.\n5) Alasan pertama adalah memudahkan konsumen karena semakin bervariasinya\n\nYang termasuk kalimat penjelas dalam teks tersebut adalah kalimat nomor ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "1) dan 2)"
+        },
+        {
+          "key": "B",
+          "text": "1) dan 3)"
+        },
+        {
+          "key": "C",
+          "text": "2) dan 3)"
+        },
+        {
+          "key": "D",
+          "text": "3) dan 4)"
+        },
+        {
+          "key": "E",
+          "text": "2) dan 5)"
+        }
+      ],
+      "answer": "E",
+      "explanation": "Kalimat 1), 3), dan 4) merupakan kalimat utama masing-masing paragraf, sedangkan kalimat 2) dan 5) berfungsi sebagai kalimat penjelas.",
+      "topic": "Kalimat Penjelas"
+    },
+    {
+      "id": "bahasa-indonesia-pg-26",
+      "number": 26,
+      "passageTitle": "Teks untuk soal nomor 23–27",
+      "passage": "Semakin banyaknya e-commerce yang muncul tidak serta merta meningkatkan kesadaran pentingnya menyediakan opsi pembayaran yang lengkap. Hingga saat ini, mayoritas marketplace masih menawarkan metode pembayaran yang cenderung terbatas. Lalu, apa saja alasan penting bagi vendor toko online untuk menghadirkan beragam variasi cara pembayaran transaksi online?\n\nE-commerce perlu menghadirkan beragam opsi pembayaran yang lengkap sehingga bisa menjangkau lebih banyak konsumen yang preferensi cara pembayarannya pun berbeda-beda. Hal tersebut sekaligus menjadi salah satu alasan mengapa penting bagi marketplace untuk menyediakan opsi pembayaran transaksi yang beragam.\n\nOpsi pembayaran transaksi beragam harus disediakan karena beberapa alasan. Alasan pertama adalah memudahkan konsumen. Kedua, untuk meningkatkan jangkauan konsumen. Ketiga, mempercepat proses transaksi dan meningkatkan performa. Keempat, memudahkan proses refund (pengembalian dana). Alasan yang terakhir adalah memudahkan pengelolaan arus kas bisnis. Dengan menghadirkan metode pembayaran yang beragam, konsumen tidak akan lagi kesulitan memilih metode pembayaran yang sesuai dengan kebutuhannya. Konsumen akan semakin cepat melakukan pembayaran maka akan semakin cepat pula pendapatan masuk ke rekening bisnis pelaku usaha. Dengan begitu, akan semakin lancar pula arus kas bisnis dan perkembangan bisnis bisa semakin ditingkatkan.",
+      "prompt": "Berikut ini yang bukan kata khusus di bidang ekonomi dalam teks tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "vendor"
+        },
+        {
+          "key": "B",
+          "text": "marketplace"
+        },
+        {
+          "key": "C",
+          "text": "konsumen"
+        },
+        {
+          "key": "D",
+          "text": "e-commerce"
+        },
+        {
+          "key": "E",
+          "text": "preferensi"
+        }
+      ],
+      "answer": "E",
+      "explanation": "Kata 'preferensi' merupakan kata umum yang berarti pilihan atau kecenderungan, sedangkan vendor, marketplace, konsumen, dan e-commerce merupakan istilah bidang ekonomi/perdagangan.",
+      "topic": "Kosakata Bidang Ilmu"
+    },
+    {
+      "id": "bahasa-indonesia-pg-27",
+      "number": 27,
+      "passageTitle": "Teks untuk soal nomor 23–27",
+      "passage": "Semakin banyaknya e-commerce yang muncul tidak serta merta meningkatkan kesadaran pentingnya menyediakan opsi pembayaran yang lengkap. Hingga saat ini, mayoritas marketplace masih menawarkan metode pembayaran yang cenderung terbatas. Lalu, apa saja alasan penting bagi vendor toko online untuk menghadirkan beragam variasi cara pembayaran transaksi online?\n\nE-commerce perlu menghadirkan beragam opsi pembayaran yang lengkap sehingga bisa menjangkau lebih banyak konsumen yang preferensi cara pembayarannya pun berbeda-beda. Hal tersebut sekaligus menjadi salah satu alasan mengapa penting bagi marketplace untuk menyediakan opsi pembayaran transaksi yang beragam.\n\nOpsi pembayaran transaksi beragam harus disediakan karena beberapa alasan. Alasan pertama adalah memudahkan konsumen. Kedua, untuk meningkatkan jangkauan konsumen. Ketiga, mempercepat proses transaksi dan meningkatkan performa. Keempat, memudahkan proses refund (pengembalian dana). Alasan yang terakhir adalah memudahkan pengelolaan arus kas bisnis. Dengan menghadirkan metode pembayaran yang beragam, konsumen tidak akan lagi kesulitan memilih metode pembayaran yang sesuai dengan kebutuhannya. Konsumen akan semakin cepat melakukan pembayaran maka akan semakin cepat pula pendapatan masuk ke rekening bisnis pelaku usaha. Dengan begitu, akan semakin lancar pula arus kas bisnis dan perkembangan bisnis bisa semakin ditingkatkan.",
+      "prompt": "Kalimat dengan penggunaan konjungsi yang tidak tepat yaitu ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "E-commerce perlu menghadirkan beragam opsi pembayaran yang lengkap sehingga bisa menjangkau lebih banyak konsumen yang preferensi cara pembayarannya pun berbeda-beda."
+        },
+        {
+          "key": "B",
+          "text": "Opsi pembayaran transaksi beragam harus disediakan karena beberapa alasan."
+        },
+        {
+          "key": "C",
+          "text": "Salah satu penyebab dari kelambatan proses transaksi adalah kurang lengkapnya metode pembayaran yang tersedia dan membuat konsumen merasa tidak puas."
+        },
+        {
+          "key": "D",
+          "text": "Tersedianya opsi pembayaran yang lengkap otomatis membuat proses refund atau pengembalian dana juga lebih mudah."
+        },
+        {
+          "key": "E",
+          "text": "Dengan begitu, akan semakin lancar pula arus kas bisnis dan perkembangan bisnis bisa semakin ditingkatkan."
+        }
+      ],
+      "answer": "C",
+      "explanation": "Pada kalimat C, konjungsi 'dan' menghubungkan frasa nomina dengan klausa verbal sebagai akibat; seharusnya digunakan konjungsi akibat 'sehingga' ('...tersedia sehingga membuat konsumen...').",
+      "topic": "Ketepatan Konjungsi"
+    },
+    {
+      "id": "bahasa-indonesia-pg-28",
+      "number": 28,
+      "passageTitle": "Teks prosedur untuk soal nomor 28–29",
+      "passage": "Fasilitas kesehatan (faskes) adalah merupakan tingkatan pelayanan kesehatan yang bekerja sama dengan BPJS Kesehatan untuk memberikan pelayanan kesehatan peserta BPJS. Setiap peserta BPJS Kesehatan disarankan memilih faskes yang dekat dengan tempat tinggal agar pengobatan lebih mudah diakses. Namun, dalam beberapa kasus, seseorang harus pindah faskes BPJS karena beberapa hal, seperti pindah domisili, tugas kerja, dan sebab lain. Perpindahan faskes BPJS Kesehatan ini bisa dilakukan secara luring maupun daring. Oleh karena itu, Anda harus mengetahui cara pindah faskes BPJS Kesehatan, baik secara luring maupun daring pula.\n\nBerikut ini prosedur pindah Faskes BPJS Kesehatan secara daring.\n1) Unduh aplikasi mobile JKN di Google Play Store atau App Store.\n2) Lakukan pendaftaran pada aplikasi tersebut dengan memasukkan beberapa informasi. Informasi tersebut meliputi nomor kartu BPJS, nomor KTP, tanggal lahir, nama ibu kandung, password, email, dan nomor telepon seluler.\n3) [ .... ]\n4) Setelah login, pilih menu \"Ubah Data Peserta\" yang terdapat pada tampilan utama mobile JKN.\n5) Selanjutnya, ubahlah data secara daring dengan mengganti beberapa data seperti nomor telepon seluler, email, kelas BPJS, dan Faskes 1. Klik Simpan.\n6) Jika Faskes sudah dipilih, Anda akan mendapatkan kode verifikasi yang dikirimkan ke email atau nomor telepon seluler sesuai dengan isian data sebelumnya.\n7) Setelah proses verifikasi faskes selesai, akan muncul konfirmasi perubahan faskes tingkat satu dari sebelumnya menjadi yang baru.\n8) Setelah pindah faskes, faskes yang baru akan berlaku dan dapat digunakan pada tanggal satu bulan berikutnya.\n\nDengan mengetahui prosedur pindah faskes BPJS Kesehatan secara daring ini tentunya akan sangat membantu masyarakat yang belum pernah melakukannya.",
+      "prompt": "Kalimat yang tepat untuk melengkapi teks prosedur rumpang tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "Setelah semua kolom data sudah diisi, serahkan formulir tersebut ke petugas BPJS."
+        },
+        {
+          "key": "B",
+          "text": "Pastikan semua persyaratan telah dipenuhi dengan baik sehingga penggantian faskes dapat berjalan lancar."
+        },
+        {
+          "key": "C",
+          "text": "Saat ingin pindah faskes, pertimbangkan untuk memilih faskes baru yang memberikan pelayanan terbaik."
+        },
+        {
+          "key": "D",
+          "text": "Setelah terdaftar, lakukan login dengan menggunakan nomor kartu BPJS atau email yang sudah didaftarkan."
+        },
+        {
+          "key": "E",
+          "text": "Berobatlah ke faskes tingkat pertama di domisili pasien yang sudah ditetapkan oleh BPJS Kesehatan."
+        }
+      ],
+      "answer": "D",
+      "explanation": "Langkah ke-2 membahas pendaftaran pada aplikasi dan langkah ke-4 diawali 'Setelah login...', sehingga langkah ke-3 yang tepat adalah instruksi melakukan login.",
+      "topic": "Melengkapi Teks Prosedur"
+    },
+    {
+      "id": "bahasa-indonesia-pg-29",
+      "number": 29,
+      "passageTitle": "Teks prosedur untuk soal nomor 28–29",
+      "passage": "Fasilitas kesehatan (faskes) adalah merupakan tingkatan pelayanan kesehatan yang bekerja sama dengan BPJS Kesehatan untuk memberikan pelayanan kesehatan peserta BPJS. Setiap peserta BPJS Kesehatan disarankan memilih faskes yang dekat dengan tempat tinggal agar pengobatan lebih mudah diakses. Namun, dalam beberapa kasus, seseorang harus pindah faskes BPJS karena beberapa hal, seperti pindah domisili, tugas kerja, dan sebab lain. Perpindahan faskes BPJS Kesehatan ini bisa dilakukan secara luring maupun daring. Oleh karena itu, Anda harus mengetahui cara pindah faskes BPJS Kesehatan, baik secara luring maupun daring pula.\n\nBerikut ini prosedur pindah Faskes BPJS Kesehatan secara daring.\n1) Unduh aplikasi mobile JKN di Google Play Store atau App Store.\n2) Lakukan pendaftaran pada aplikasi tersebut dengan memasukkan beberapa informasi. Informasi tersebut meliputi nomor kartu BPJS, nomor KTP, tanggal lahir, nama ibu kandung, password, email, dan nomor telepon seluler.\n3) [ .... ]\n4) Setelah login, pilih menu \"Ubah Data Peserta\" yang terdapat pada tampilan utama mobile JKN.\n5) Selanjutnya, ubahlah data secara daring dengan mengganti beberapa data seperti nomor telepon seluler, email, kelas BPJS, dan Faskes 1. Klik Simpan.\n6) Jika Faskes sudah dipilih, Anda akan mendapatkan kode verifikasi yang dikirimkan ke email atau nomor telepon seluler sesuai dengan isian data sebelumnya.\n7) Setelah proses verifikasi faskes selesai, akan muncul konfirmasi perubahan faskes tingkat satu dari sebelumnya menjadi yang baru.\n8) Setelah pindah faskes, faskes yang baru akan berlaku dan dapat digunakan pada tanggal satu bulan berikutnya.\n\nDengan mengetahui prosedur pindah faskes BPJS Kesehatan secara daring ini tentunya akan sangat membantu masyarakat yang belum pernah melakukannya.",
+      "prompt": "Pada paragraf pertama terdapat kalimat yang tidak efektif yaitu pada kalimat ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "pertama"
+        },
+        {
+          "key": "B",
+          "text": "kedua"
+        },
+        {
+          "key": "C",
+          "text": "ketiga"
+        },
+        {
+          "key": "D",
+          "text": "keempat"
+        },
+        {
+          "key": "E",
+          "text": "kelima"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Kalimat pertama menggunakan bentuk pleonastis 'adalah merupakan' secara bersamaan ('Fasilitas kesehatan (faskes) adalah merupakan tingkatan...'), sehingga tidak efektif.",
+      "topic": "Kalimat Efektif"
+    },
+    {
+      "id": "bahasa-indonesia-pg-30",
+      "number": 30,
+      "passageTitle": "Kutipan kalimat untuk soal nomor 30–31",
+      "passage": "Selanjutnya, ubahlah data secara daring dengan mengganti beberapa data seperti nomor telepon seluler, email, kelas BPJS, dan Faskes 1. Klik Simpan.",
+      "prompt": "Kalimat tersebut termasuk jenis kalimat ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "imperatif"
+        },
+        {
+          "key": "B",
+          "text": "interogatif"
+        },
+        {
+          "key": "C",
+          "text": "deklaratif"
+        },
+        {
+          "key": "D",
+          "text": "naratif"
+        },
+        {
+          "key": "E",
+          "text": "argumentatif"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Penggunaan verba perintah bermarkah '-lah' ('ubahlah') dan kata perintah 'Klik Simpan' menandakan kalimat imperatif (perintah).",
+      "topic": "Jenis Kalimat"
+    },
+    {
+      "id": "bahasa-indonesia-pg-31",
+      "number": 31,
+      "passageTitle": "Kutipan kalimat untuk soal nomor 30–31",
+      "passage": "Selanjutnya, ubahlah data secara daring dengan mengganti beberapa data seperti nomor telepon seluler, email, kelas BPJS, dan Faskes 1. Klik Simpan.",
+      "prompt": "Kalimat tersebut menggunakan konjungsi ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "lanjutan, keterangan"
+        },
+        {
+          "key": "B",
+          "text": "keterangan, syarat"
+        },
+        {
+          "key": "C",
+          "text": "kronologis, keterangan"
+        },
+        {
+          "key": "D",
+          "text": "kronologis, akibat"
+        },
+        {
+          "key": "E",
+          "text": "waktu, penambahan"
+        }
+      ],
+      "answer": "E",
+      "explanation": "Kata 'Selanjutnya' merupakan konjungsi waktu (urutan langkah), sedangkan kata 'dan' merupakan konjungsi penambahan.",
+      "topic": "Jenis Konjungsi"
+    },
+    {
+      "id": "bahasa-indonesia-pg-32",
+      "number": 32,
+      "passageTitle": "Teks untuk soal nomor 32–34",
+      "passage": "Salah satu dampak negatif dari AI adalah masalah privasi dan keamanan data. AI menggunakan data pengguna untuk menghasilkan prediksi dan rekomendasi. Namun, pengguna sering kali tidak menyadari bahwa data mereka digunakan dan dapat disalahgunakan. Selain itu, AI dapat digunakan untuk melakukan serangan siber dan mencuri data pribadi pengguna. Hal ini dapat mengancam privasi dan keamanan data pengguna.\n\nSelanjutnya, AI juga dapat menyebabkan ketergantungan manusia pada teknologi. Dalam beberapa kasus, manusia menjadi terlalu bergantung pada AI dalam mengambil keputusan. Misalnya, dalam bidang kesehatan, AI dapat digunakan untuk mendiagnosis penyakit dan meresepkan obat. Namun, jika AI mengalami kesalahan atau kegagalan, kesalahan tersebut dapat berdampak buruk pada pasien. Selain itu, ketergantungan manusia pada AI juga dapat mengurangi kemampuan manusia dalam mengambil keputusan secara mandiri.",
+      "prompt": "Unsur informasi yang dapat ditemukan dalam kutipan teks tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "apa"
+        },
+        {
+          "key": "B",
+          "text": "kapan"
+        },
+        {
+          "key": "C",
+          "text": "di mana"
+        },
+        {
+          "key": "D",
+          "text": "bilamana"
+        },
+        {
+          "key": "E",
+          "text": "dari mana"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Teks menjelaskan apa saja dampak negatif penggunaan AI (masalah privasi, keamanan data, dan ketergantungan manusia pada teknologi).",
+      "topic": "Unsur Informasi"
+    },
+    {
+      "id": "bahasa-indonesia-pg-33",
+      "number": 33,
+      "passageTitle": "Teks untuk soal nomor 32–34",
+      "passage": "Salah satu dampak negatif dari AI adalah masalah privasi dan keamanan data. AI menggunakan data pengguna untuk menghasilkan prediksi dan rekomendasi. Namun, pengguna sering kali tidak menyadari bahwa data mereka digunakan dan dapat disalahgunakan. Selain itu, AI dapat digunakan untuk melakukan serangan siber dan mencuri data pribadi pengguna. Hal ini dapat mengancam privasi dan keamanan data pengguna.\n\nSelanjutnya, AI juga dapat menyebabkan ketergantungan manusia pada teknologi. Dalam beberapa kasus, manusia menjadi terlalu bergantung pada AI dalam mengambil keputusan. Misalnya, dalam bidang kesehatan, AI dapat digunakan untuk mendiagnosis penyakit dan meresepkan obat. Namun, jika AI mengalami kesalahan atau kegagalan, kesalahan tersebut dapat berdampak buruk pada pasien. Selain itu, ketergantungan manusia pada AI juga dapat mengurangi kemampuan manusia dalam mengambil keputusan secara mandiri.",
+      "prompt": "Informasi penting dalam kutipan teks tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "AI memberikan dampak positif yang besar bagi kehidupan manusia."
+        },
+        {
+          "key": "B",
+          "text": "AI dapat mendukung manusia dalam mengambil keputusan secara mandiri."
+        },
+        {
+          "key": "C",
+          "text": "AI memiliki dampak negatif pada masalah privasi dan keamanan data."
+        },
+        {
+          "key": "D",
+          "text": "AI membuat manusia perlu bekerja keras agar tidak tergantikan robot."
+        },
+        {
+          "key": "E",
+          "text": "AI membantu manusia dalam mendiagnosa penyakit hingga pulih tanpa kegagalan."
+        }
+      ],
+      "answer": "C",
+      "explanation": "Sesuai kalimat utama paragraf pertama, informasi penting dalam teks adalah bahwa AI memiliki dampak negatif pada masalah privasi dan keamanan data.",
+      "topic": "Informasi Penting"
+    },
+    {
+      "id": "bahasa-indonesia-pg-34",
+      "number": 34,
+      "passageTitle": "Teks untuk soal nomor 32–34",
+      "passage": "Salah satu dampak negatif dari AI adalah masalah privasi dan keamanan data. AI menggunakan data pengguna untuk menghasilkan prediksi dan rekomendasi. Namun, pengguna sering kali tidak menyadari bahwa data mereka digunakan dan dapat disalahgunakan. Selain itu, AI dapat digunakan untuk melakukan serangan siber dan mencuri data pribadi pengguna. Hal ini dapat mengancam privasi dan keamanan data pengguna.\n\nSelanjutnya, AI juga dapat menyebabkan ketergantungan manusia pada teknologi. Dalam beberapa kasus, manusia menjadi terlalu bergantung pada AI dalam mengambil keputusan. Misalnya, dalam bidang kesehatan, AI dapat digunakan untuk mendiagnosis penyakit dan meresepkan obat. Namun, jika AI mengalami kesalahan atau kegagalan, kesalahan tersebut dapat berdampak buruk pada pasien. Selain itu, ketergantungan manusia pada AI juga dapat mengurangi kemampuan manusia dalam mengambil keputusan secara mandiri.",
+      "prompt": "Konjungsi antarkalimat yang digunakan dalam kutipan teks tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "adalah"
+        },
+        {
+          "key": "B",
+          "text": "hal ini"
+        },
+        {
+          "key": "C",
+          "text": "selanjutnya"
+        },
+        {
+          "key": "D",
+          "text": "jika"
+        },
+        {
+          "key": "E",
+          "text": "namun"
+        }
+      ],
+      "answer": "E",
+      "explanation": "Kata 'Namun' dipakai di awal kalimat di dalam paragraf ('Namun, pengguna sering kali...', 'Namun, jika AI...') sebagai konjungsi antarkalimat pertentangan, sedangkan 'Selanjutnya' di awal paragraf kedua berfungsi sebagai konjungsi antarparagraf.",
+      "topic": "Konjungsi Antarkalimat"
+    },
+    {
+      "id": "bahasa-indonesia-pg-35",
+      "number": 35,
+      "passageTitle": "Kutipan teks untuk soal nomor 35–38",
+      "passage": "1) Beomni mungkin adalah contoh robot humanoid avatar terbaik di dunia. Robot besutan perusahaan teknologi asal Kolorado, AS ini, dapat dikendalikan dari mana saja di dunia. 2) Beomni diperkenalkan di Consumer Electronics Show pada 2022. 3) Dengan wajah yang ramah, dua lengan, dan tampilan dada seperti Iron Man, Beomni bergerak dengan alas beroda dan dapat dioperasikan dari jarak jauh melalui headset VR dan sarung tangan untuk melakukan sejumlah tugas. 4) Misalnya, kita dapat mengoperasikan Beomni dari jarak jauh untuk membuka botol kaca berisi soda, memutar gagang pintu, atau mengambil sejumput garam. 5) Fitur utama dari desain Beomni adalah otak AI-nya yang dapat belajar dari waktu ke waktu.\n\n(https://www.republika)",
+      "prompt": "Ide pokok kutipan teks tersebut terdapat pada kalimat nomor ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "1)"
+        },
+        {
+          "key": "B",
+          "text": "2)"
+        },
+        {
+          "key": "C",
+          "text": "3)"
+        },
+        {
+          "key": "D",
+          "text": "4)"
+        },
+        {
+          "key": "E",
+          "text": "5)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Kalimat nomor 1) memuat gagasan utama paragraf tentang pengenalan Beomni sebagai contoh robot humanoid avatar terbaik di dunia.",
+      "topic": "Ide Pokok"
+    },
+    {
+      "id": "bahasa-indonesia-pg-36",
+      "number": 36,
+      "passageTitle": "Kutipan teks untuk soal nomor 35–38",
+      "passage": "1) Beomni mungkin adalah contoh robot humanoid avatar terbaik di dunia. Robot besutan perusahaan teknologi asal Kolorado, AS ini, dapat dikendalikan dari mana saja di dunia. 2) Beomni diperkenalkan di Consumer Electronics Show pada 2022. 3) Dengan wajah yang ramah, dua lengan, dan tampilan dada seperti Iron Man, Beomni bergerak dengan alas beroda dan dapat dioperasikan dari jarak jauh melalui headset VR dan sarung tangan untuk melakukan sejumlah tugas. 4) Misalnya, kita dapat mengoperasikan Beomni dari jarak jauh untuk membuka botol kaca berisi soda, memutar gagang pintu, atau mengambil sejumput garam. 5) Fitur utama dari desain Beomni adalah otak AI-nya yang dapat belajar dari waktu ke waktu.\n\n(https://www.republika)",
+      "prompt": "Arti kata 'avatar' dalam kutipan teks tersebut berarti ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "ilusi yang menyajikan kedalaman atau jarak yang berbeda dengan kenyataan yang ada"
+        },
+        {
+          "key": "B",
+          "text": "gambar tiga dimensi yang digunakan untuk menggambarkan seseorang dalam dunia maya"
+        },
+        {
+          "key": "C",
+          "text": "ukuran (panjang, lebar, tinggi, luas, dan sebagainya) pada barang-barang"
+        },
+        {
+          "key": "D",
+          "text": "ilmu pengetahuan yang berhubungan dengan hal-hal yang nonfisik"
+        },
+        {
+          "key": "E",
+          "text": "ruang informasi dan komunikasi yang dapat kita jumpai dalam internet"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Menurut KBBI, kata 'avatar' dalam bidang teknologi/komputasi berarti gambar tiga dimensi yang digunakan untuk menggambarkan seseorang dalam dunia maya.",
+      "topic": "Makna Istilah"
+    },
+    {
+      "id": "bahasa-indonesia-pg-37",
+      "number": 37,
+      "passageTitle": "Kutipan teks untuk soal nomor 35–38",
+      "passage": "1) Beomni mungkin adalah contoh robot humanoid avatar terbaik di dunia. Robot besutan perusahaan teknologi asal Kolorado, AS ini, dapat dikendalikan dari mana saja di dunia. 2) Beomni diperkenalkan di Consumer Electronics Show pada 2022. 3) Dengan wajah yang ramah, dua lengan, dan tampilan dada seperti Iron Man, Beomni bergerak dengan alas beroda dan dapat dioperasikan dari jarak jauh melalui headset VR dan sarung tangan untuk melakukan sejumlah tugas. 4) Misalnya, kita dapat mengoperasikan Beomni dari jarak jauh untuk membuka botol kaca berisi soda, memutar gagang pintu, atau mengambil sejumput garam. 5) Fitur utama dari desain Beomni adalah otak AI-nya yang dapat belajar dari waktu ke waktu.\n\n(https://www.republika)",
+      "prompt": "Kosakata khusus bidang teknologi dalam kutipan teks tersebut adalah ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "avatar"
+        },
+        {
+          "key": "B",
+          "text": "desain"
+        },
+        {
+          "key": "C",
+          "text": "besutan"
+        },
+        {
+          "key": "D",
+          "text": "soda"
+        },
+        {
+          "key": "E",
+          "text": "teknologi"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Kata 'avatar' merupakan kosakata khusus yang lazim digunakan pada bidang teknologi digital/komputasi, sedangkan 'teknologi' adalah kata umum.",
+      "topic": "Kosakata Bidang Teknologi"
+    },
+    {
+      "id": "bahasa-indonesia-pg-38",
+      "number": 38,
+      "passageTitle": "Kutipan teks untuk soal nomor 35–38",
+      "passage": "1) Beomni mungkin adalah contoh robot humanoid avatar terbaik di dunia. Robot besutan perusahaan teknologi asal Kolorado, AS ini, dapat dikendalikan dari mana saja di dunia. 2) Beomni diperkenalkan di Consumer Electronics Show pada 2022. 3) Dengan wajah yang ramah, dua lengan, dan tampilan dada seperti Iron Man, Beomni bergerak dengan alas beroda dan dapat dioperasikan dari jarak jauh melalui headset VR dan sarung tangan untuk melakukan sejumlah tugas. 4) Misalnya, kita dapat mengoperasikan Beomni dari jarak jauh untuk membuka botol kaca berisi soda, memutar gagang pintu, atau mengambil sejumput garam. 5) Fitur utama dari desain Beomni adalah otak AI-nya yang dapat belajar dari waktu ke waktu.\n\n(https://www.republika)",
+      "prompt": "Konjungsi yang terdapat dalam teks tersebut menggunakan konjungsi ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "intrakalimat"
+        },
+        {
+          "key": "B",
+          "text": "antarkalimat"
+        },
+        {
+          "key": "C",
+          "text": "antarparagraf"
+        },
+        {
+          "key": "D",
+          "text": "intrakalimat dan antarparagraf"
+        },
+        {
+          "key": "E",
+          "text": "intrakalimat dan antarkalimat"
+        }
+      ],
+      "answer": "E",
+      "explanation": "Teks tersebut menggunakan konjungsi intrakalimat (seperti 'dan', 'untuk', 'atau') sekaligus konjungsi antarkalimat ('Misalnya,' pada awal kalimat 4).",
+      "topic": "Jenis Konjungsi"
+    },
+    {
+      "id": "bahasa-indonesia-pg-39",
+      "number": 39,
+      "passageTitle": "Teks untuk soal nomor 39–40",
+      "passage": "Nejat menciptakan robot perawat sosial yang dapat berinteraksi dengan manusia dan dapat memenuhi kebutuhan mendesak dalam merawat lansia. Robot semacam ini diperkirakan sangat berguna bagi lansia yang menderita alzheimer atau dimensia (kepikunan). Alzheimer adalah salah satu jenis demensia yang paling umum dan bersifat progresif, yang ditandai dengan penurunan daya ingat dan kemampuan berpikir. Robot ini diprogramkan dapat membantu dalam segala hal, dari mengingatkan minum obat sampai memandu olahraga. Gagasan tentang robot lansia ini dipicu oleh perkiraan populasi lansia yang akan terus meningkat.",
+      "prompt": "Kalimat yang tidak padu pada paragraf di atas terdapat pada kalimat ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "pertama"
+        },
+        {
+          "key": "B",
+          "text": "kedua"
+        },
+        {
+          "key": "C",
+          "text": "ketiga"
+        },
+        {
+          "key": "D",
+          "text": "keempat"
+        },
+        {
+          "key": "E",
+          "text": "kelima"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Kalimat ketiga membahas definisi medis penyakit Alzheimer, sehingga menyimpang dari topik utama paragraf tentang robot perawat lansia ciptaan Nejat.",
+      "topic": "Kepaduan Paragraf"
+    },
+    {
+      "id": "bahasa-indonesia-pg-40",
+      "number": 40,
+      "passageTitle": "Teks untuk soal nomor 39–40",
+      "passage": "Nejat menciptakan robot perawat sosial yang dapat berinteraksi dengan manusia dan dapat memenuhi kebutuhan mendesak dalam merawat lansia. Robot semacam ini diperkirakan sangat berguna bagi lansia yang menderita alzheimer atau dimensia (kepikunan). Alzheimer adalah salah satu jenis demensia yang paling umum dan bersifat progresif, yang ditandai dengan penurunan daya ingat dan kemampuan berpikir. Robot ini diprogramkan dapat membantu dalam segala hal, dari mengingatkan minum obat sampai memandu olahraga. Gagasan tentang robot lansia ini dipicu oleh perkiraan populasi lansia yang akan terus meningkat.",
+      "prompt": "Berdasarkan letak kalimat utamanya, teks tersebut termasuk jenis teks ....",
+      "options": [
+        {
+          "key": "A",
+          "text": "deduktif"
+        },
+        {
+          "key": "B",
+          "text": "induktif"
+        },
+        {
+          "key": "C",
+          "text": "deduktif induktif"
+        },
+        {
+          "key": "D",
+          "text": "ineratif"
+        },
+        {
+          "key": "E",
+          "text": "deskriptif"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Kalimat utama terletak pada awal paragraf (kalimat pertama), kemudian diikuti oleh kalimat-kalimat penjelas, sehingga termasuk paragraf deduktif.",
+      "topic": "Jenis Paragraf"
+    }
+  ],
+  "essays": [
+    {
+      "id": "bahasa-indonesia-es-1",
+      "number": 1,
+      "passageTitle": "Kutipan cerita untuk soal nomor 1–2",
+      "passage": "Kisah yang kutuliskan dari cerita pasienku itu tidak sempat kubacakan untuknya karena tepat pada peringatan Hari Pahlawan, ia wafat karena sakit. Ia benar-benar pahlawan sejati, meski ia sebetulnya bisa saja meminta bantuanku, salah satu menteri di kabinet pemerintahan saat ini. Saat mencairkan uang dari rekeningnya yang jumlahnya tak seberapa itu, aku memasukkan sejumlah uang ke dalam kopor baju miliknya. Sebagai rasa hormatku terhadap sosok kepahlawanannya.\n\nYa, aku adalah dokter militer muda di medan pertempuran Timor Timur yang gusar berteriak kepadanya agar tenang, padahal kondisi jiwaku saat itu juga sangat terguncang, cemas dan panik melihat kedua kaki lelaki itu sudah tidak berbentuk lagi.\n\n(Bamby Cahyadi, Fragmen Kehidupan Pahlawan)",
+      "prompt": "Deskripsikan perwatakan dari tokoh-tokoh yang terdapat dalam teks tersebut!",
+      "rubric": "Menyebutkan tokoh 'pasien/lelaki' dan tokoh 'aku (dokter)' beserta watak masing-masing yang didukung bukti kutipan.",
+      "modelAnswer": "1. Tokoh pasien (lelaki): memiliki watak rendah hati, tidak memanfaatkan jabatan/kekuasaan orang lain (pahlawan sejati yang tidak meminta bantuan menteri meski bisa), serta tabah/tegar.\n2. Tokoh 'aku' (dokter militer muda): memiliki watak penuh rasa hormat dan peduli terhadap pahlawan (diam-diam memasukkan uang ke kopor pasien sebagai tanda hormat), namun juga sempat merasa cemas, panik, dan gusar saat menghadapi situasi kritis di medan perang."
+    },
+    {
+      "id": "bahasa-indonesia-es-2",
+      "number": 2,
+      "passageTitle": "Kutipan cerita untuk soal nomor 1–2",
+      "passage": "Kisah yang kutuliskan dari cerita pasienku itu tidak sempat kubacakan untuknya karena tepat pada peringatan Hari Pahlawan, ia wafat karena sakit. Ia benar-benar pahlawan sejati, meski ia sebetulnya bisa saja meminta bantuanku, salah satu menteri di kabinet pemerintahan saat ini. Saat mencairkan uang dari rekeningnya yang jumlahnya tak seberapa itu, aku memasukkan sejumlah uang ke dalam kopor baju miliknya. Sebagai rasa hormatku terhadap sosok kepahlawanannya.\n\nYa, aku adalah dokter militer muda di medan pertempuran Timor Timur yang gusar berteriak kepadanya agar tenang, padahal kondisi jiwaku saat itu juga sangat terguncang, cemas dan panik melihat kedua kaki lelaki itu sudah tidak berbentuk lagi.\n\n(Bamby Cahyadi, Fragmen Kehidupan Pahlawan)",
+      "prompt": "Tentukan nilai-nilai yang terdapat dalam cerita tersebut disertai penjelasan buktinya!",
+      "rubric": "Mengidentifikasi minimal 2 nilai kehidupan (sosial/kemanusiaan, moral/kepahlawanan) disertai bukti peristiwa dari kutipan.",
+      "modelAnswer": "1. Nilai kepahlawanan / moral: Pasien merupakan pejuang sejati yang tetap rendah hati dan tidak mau memanfaatkan kedekatannya dengan seorang menteri untuk meminta bantuan pribadi.\n2. Nilai sosial / kemanusiaan: Tokoh 'aku' menunjukkan rasa empati dan penghormatan yang tinggi dengan memasukkan sejumlah uang ke dalam kopor milik pasien saat mencairkan uang rekening pasien yang jumlahnya tidak seberapa."
+    },
+    {
+      "id": "bahasa-indonesia-es-3",
+      "number": 3,
+      "passageTitle": "Kutipan biografi untuk soal nomor 3",
+      "passage": "Penilaian orang tentang Goenawan Mohamad pada umumnya menempatkan ia sebagai figur penting dalam dunia sastra Indonesia. Teeuw menilai Goenawan selagi muda sebagai salah satu di antara cahaya terang dalam perpuisian modern Indonesia, menjadi suatu janji yang bakal datang di tengah-tengah tahun kegelapan. Selanjutnya, dinyatakannya bahwa ia (Goenawan) seorang di antara cendekiawan muda yang bisa tetap menghidupkan api harapan dan mampu mengucapkannya dalam puisi-puisi, sebagai hasil karya yang khas berakar pada tradisi sekaligus juga merupakan pernyataan suatu pribadi seorang yang modern.\n\n(https://ensiklopedia.kemdikbud.go.id)",
+      "prompt": "Kemukakan kelebihan tokoh (Goenawan Mohamad) yang dapat ditemukan pada kutipan teks tersebut dalam sebuah paragraf!",
+      "rubric": "Menyusun satu paragraf utuh yang merangkum kelebihan Goenawan Mohamad sesuai teks (figur penting sastra, cahaya terang perpuisian modern, cendekiawan muda yang menghidupkan harapan, karya berakar tradisi sekaligus modern).",
+      "modelAnswer": "Berdasarkan kutipan biografi tersebut, Goenawan Mohamad merupakan figur penting dalam dunia sastra Indonesia yang sejak muda telah menjadi cahaya terang dalam perpuisian modern Indonesia. Sebagai seorang cendekiawan muda, ia memiliki kelebihan dalam menjaga dan menghidupkan api harapan melalui puisi-puisi yang khas karena mampu memadukan akar tradisi dengan ekspresi pribadi seorang manusia modern."
+    },
+    {
+      "id": "bahasa-indonesia-es-4",
+      "number": 4,
+      "passageTitle": "Kutipan teks untuk soal nomor 4",
+      "passage": "Cepat atau lambat, perkembangan kecerdasan buatan (Artificial Intelligence/AI) akan menyatu dengan aktivitas keseharian manusia, terutama dalam hal mata pencaharian. Perusahaan-perusahaan global kini sedang berpacu mengadopsi serta mengembangkan AI dalam sistem bisnis mereka. Para pekerja dan calon pekerja dipaksa untuk beradaptasi dan mengembangkan kecakapan yang belum terjangkau AI.\n\nDalam beberapa waktu ke depan, kemampuan yang dibutuhkan pasar kerja tidak hanya berfokus pada kecakapan teknis (hard skill) semata. Tidak lagi sebatas membuat program, menciptakan mesin pembelajaran, menjaring serta mengolah mahadata (big data), ataupun sejenisnya. Diperlukan juga aspek nonteknis (soft skill). Bahkan, keterampilan ini menduduki indikator prioritas yang dicari perusahaan global dan dapat diterapkan di berbagai bidang, termasuk industri kreatif.\n\n(http://www.Kompas.id)",
+      "prompt": "Kemukakan pendapatmu terkait dengan informasi tersebut!",
+      "rubric": "Menyampaikan opini logis yang relevan dengan topik perkembangan AI, perlunya penguasaan soft skill di samping hard skill, dan kesiapan beradaptasi di dunia kerja.",
+      "modelAnswer": "Perkembangan kecerdasan buatan (AI) memang membawa tantangan sekaligus peluang besar bagi dunia kerja. Oleh karena itu, pelajar dan calon pekerja tidak cukup hanya mengandalkan kemampuan teknis (hard skill) yang berpotensi digantikan oleh otomatisasi, melainkan harus mengasah kemampuan nonteknis (soft skill) seperti kreativitas, komunikasi, kolaborasi, dan kemampuan berpikir kritis agar tetap relevan dan unggul di berbagai bidang industri."
+    },
+    {
+      "id": "bahasa-indonesia-es-5",
+      "number": 5,
+      "prompt": "Buatlah sebuah teks prosedur dari salah satu kegiatan yang pernah kalian lakukan (dapat berupa pembuatan sesuatu, cara menggunakan sesuatu, atau cara melakukan sesuatu)!\nGunakan struktur teks prosedur yang lengkap dan gunakan juga aspek kebahasaan seperti kalimat perintah dan konjungsi kronologis pada bagian langkah-langkah.\nJangan lupa memberi judul dan memperhatikan tata bahasa yang baik dan benar.",
+      "rubric": "Memuat judul, struktur lengkap (tujuan, alat/bahan bila ada, langkah-langkah, penegasan ulang/penutup), penggunaan kalimat imperatif, konjungsi kronologis (pertama, selanjutnya, kemudian, setelah itu), serta EYD yang baik.",
+      "modelAnswer": "Cara Membuat Teh Hangat Manis\n\nTujuan:\nTeh hangat manis merupakan minuman sederhana yang dapat menghangatkan tubuh dan mengembalikan kesegaran. Berikut langkah-langkah membuatnya dengan mudah.\n\nAlat dan Bahan:\n1. 1 kantong teh celup\n2. 2 sendok teh gula pasir\n3. 200 ml air panas\n4. Gelas dan sendok\n\nLangkah-langkah:\n1. Pertama, siapkan gelas bersih dan masukkan satu kantong teh celup ke dalamnya.\n2. Selanjutnya, tuangkan air panas sebanyak 200 ml secara perlahan ke dalam gelas.\n3. Kemudian, celup-celupkan kantong teh hingga air berubah warna menjadi cokelat keemasan, lalu angkat kantong teh tersebut.\n4. Setelah itu, tambahkan dua sendok teh gula pasir sesuai selera dan aduklah hingga gula larut sempurna.\n\nPenutup:\nTeh hangat manis siap dinikmati selagi hangat untuk menemani waktu santai Anda."
+    }
+  ]
+}

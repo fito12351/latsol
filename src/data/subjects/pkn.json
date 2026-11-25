@@ -1,0 +1,648 @@
+{
+  "id": "pkn",
+  "name": "Pendidikan Pancasila (PKN)",
+  "shortName": "PKN",
+  "group": "umum",
+  "schedule": "Rabu, 3 Desember 2025",
+  "durationMinutes": 90,
+  "accentColor": "#EE9EE0",
+  "questions": [
+    {
+      "id": "pkn-pg-1",
+      "number": 1,
+      "prompt": "Sekolah yang bersih dan sehat merupakan dambaan semua warga sekolah. Upaya menciptakan kondisi tersebut merupakan kewajiban semua warga sekolah, namun sering kali seseorang mengingkari kewajibannya. Salah satu bentuk pengingkaran kewajiban di sekolah yang berkaitan menjaga kebersihan adalah ....",
+      "options": [
+        { "key": "A", "text": "Melaporkan teman yang melakukan kecurangan saat ulangan" },
+        { "key": "B", "text": "Tidak mengikuti kegiatan ekstrakurikuler" },
+        { "key": "C", "text": "Membuang sampah di tempat yang tidak sesuai peruntukannya" },
+        { "key": "D", "text": "Tidak memanfaatkan fasilitas perpustakaan" },
+        { "key": "E", "text": "Masuk sekolah tepat waktu" }
+      ],
+      "answer": "C",
+      "explanation": "Menjaga kebersihan lingkungan sekolah merupakan kewajiban setiap warga sekolah. Membuang sampah tidak pada tempatnya atau tidak sesuai peruntukannya merupakan pengingkaran kewajiban terhadap kebersihan sekolah.",
+      "topic": "Hak dan Kewajiban"
+    },
+    {
+      "id": "pkn-pg-2",
+      "number": 2,
+      "prompt": "Hak warga negara untuk didampingi oleh pengacara dalam menjalani proses pengadilan disebut hak ....",
+      "options": [
+        { "key": "A", "text": "Mempertahankan diri" },
+        { "key": "B", "text": "Kemerdekaan agama" },
+        { "key": "C", "text": "Berkumpul dan berserikat" },
+        { "key": "D", "text": "Persamaan hukum" },
+        { "key": "E", "text": "Kemerdekaan pers dan pikiran" }
+      ],
+      "answer": "A",
+      "explanation": "Didampingi pengacara atau penasihat hukum dalam proses peradilan merupakan bagian dari hak warga negara untuk membela atau mempertahankan diri guna memperoleh peradilan yang adil.",
+      "topic": "Hak Warga Negara"
+    },
+    {
+      "id": "pkn-pg-3",
+      "number": 3,
+      "prompt": "Perbuatan menyalin dengan/atau tanpa paksaan merupakan perbuatan yang melanggar HAM. Di lingkungan sekolah kegiatan menyalin jawaban teman disebut juga dengan menyontek. Namun, perilaku tersebut bertentangan dengan pasal ....",
+      "options": [
+        { "key": "A", "text": "28G Ayat (2) Setiap orang berhak untuk bebas dari penyiksaan atau perlakuan yang merendahkan derajat martabat manusia dan berhak memperoleh suaka politik dari negara lain" },
+        { "key": "B", "text": "28H Ayat (1) Setiap orang berhak hidup sejahtera lahir dan batin, bertempat tinggal, dan mendapatkan lingkungan hidup yang baik dan sehat serta berhak memperoleh pelayanan kesehatan" },
+        { "key": "C", "text": "28H Ayat (2) Setiap orang berhak mendapatkan kemudahan dan perlakuan khusus untuk memperoleh kesempatan dan manfaat yang sama guna mencapai persamaan dan keadilan" },
+        { "key": "D", "text": "28H Ayat (3) Setiap orang berhak atas jaminan sosial yang memungkinkan pengembangan dirinya secara utuh sebagai manusia yang bermartabat" },
+        { "key": "E", "text": "28H Ayat (4) Setiap orang berhak mempunyai hak milik pribadi dan hak milik tersebut tidak boleh diambil alih secara sewenang-wenang oleh siapapun" }
+      ],
+      "answer": "E",
+      "explanation": "Menyalin jawaban atau karya orang lain tanpa izin (menyontek/plagiarisme) berarti mengambil hasil pemikiran atau hak milik pribadi orang lain secara sewenang-wenang, yang bertentangan dengan Pasal 28H Ayat (4) UUD NRI Tahun 1945.",
+      "topic": "Pasal HAM UUD 1945"
+    },
+    {
+      "id": "pkn-pg-4",
+      "number": 4,
+      "prompt": "Dalam pasal 28J Ayat (1) UUD NRI Tahun 1945 yang berisi \"Setiap orang wajib menghormati hak asasi manusia orang lain dan tertib kehidupan bermasyarakat, berbangsa, dan bernegara.\" Adanya larangan penggunaan knalpot brong mengindikasikan sebuah peringatan pada perilaku masyarakat Indonesia yang berkenaan dengan HAM, yaitu ....",
+      "options": [
+        { "key": "A", "text": "Dilarang menggunakan kendaraan yang mengeluarkan suara" },
+        { "key": "B", "text": "Kendaraan yang laik jalan dapat memenuhi HAM untuk hidup tertib" },
+        { "key": "C", "text": "Setiap memiliki kendaraan harus menggunakan kendaraan yang memiliki knalpot" },
+        { "key": "D", "text": "Adanya larangan bagi yang memiliki kendaraan untuk memodif kendaraannya" },
+        { "key": "E", "text": "Masyarakat yang tidak hidup tertib dilarang menggunakan kendaraan yang bising" }
+      ],
+      "answer": "B",
+      "explanation": "Pasal 28J Ayat (1) menekankan kewajiban menghormati hak orang lain dan ketertiban bermasyarakat. Penggunaan kendaraan yang laik jalan (sesuai standar kebisingan, bukan knalpot brong) mendukung terpenuhinya hak masyarakat untuk hidup tertib dan nyaman.",
+      "topic": "Kewajiban Menghormati HAM"
+    },
+    {
+      "id": "pkn-pg-5",
+      "number": 5,
+      "prompt": "Konsep dasar pemenuhan hak dan kewajiban warga negara Indonesia disesuaikan dengan kondisi sosial masyarakat Indonesia. Pernyataan yang sesuai dengan pemenuhan hak dan kewajiban warga negara Indonesia adalah ....",
+      "options": [
+        { "key": "A", "text": "Setiap warga negara berhak mendapatkan haknya sesuai yang diinginkan dan berhak menolak kewajiban yang tidak sesuai dengan kemampuannya" },
+        { "key": "B", "text": "Pemerintah memberikan kebebasan kepada warga negara dalam memenuhi hak dan pelaksanaan kewajiban sebagai warga negara" },
+        { "key": "C", "text": "Pemenuhan hak warga negara Indonesia diatur oleh pemerintah secara terbatas guna menjaga keamanan negara" },
+        { "key": "D", "text": "Pemenuhan hak dan kewajiban berjalan beriringan sehingga pemenuhan hak dibatasi oleh kewajiban dalam menghormati hak orang lain" },
+        { "key": "E", "text": "Setiap warga negara berhak melakukan apapun sesuai kemampuannya tanpa memperhatikan hak orang lain" }
+      ],
+      "answer": "D",
+      "explanation": "Dalam sistem demokrasi Pancasila dan UUD NRI Tahun 1945 (khususnya Pasal 28J), pelaksanaan hak dan kewajiban berjalan beriringan secara seimbang; hak seseorang dibatasi oleh kewajiban menghormati hak asasi orang lain.",
+      "topic": "Hak dan Kewajiban"
+    },
+    {
+      "id": "pkn-pg-6",
+      "number": 6,
+      "prompt": "Jika terjadi pengingkaran kewajiban sebagai warga negara dalam bidang pendidikan, perbaikan yang akan saya lakukan selayaknya seorang pelajar ialah ....",
+      "options": [
+        { "key": "A", "text": "Membuat kebijakan kurikulum yang lebih baik" },
+        { "key": "B", "text": "Membuat keputusan dalam musyawarah OSIS" },
+        { "key": "C", "text": "Memenuhi kewajiban pada orang tua" },
+        { "key": "D", "text": "Belajar dengan sungguh-sungguh untuk masa depan" },
+        { "key": "E", "text": "Mencari alternatif pendidikan yang lebih baik" }
+      ],
+      "answer": "D",
+      "explanation": "Kewajiban utama seorang pelajar dalam bidang pendidikan adalah belajar dengan tekun dan sungguh-sungguh agar dapat berkontribusi bagi masa depan bangsa.",
+      "topic": "Kewajiban Pelajar"
+    },
+    {
+      "id": "pkn-pg-7",
+      "number": 7,
+      "prompt": "Toni merupakan anak kelas 7 sekolah menengah pertama. Perilaku Toni sebagaimana perilaku anak usia zaman sekarang. Ia lebih aktif dengan gawainya daripada berkumpul dengan temannya. Perilaku Toni menjadi sebuah kebiasaan yang terbawa di manapun Toni berada. Suatu ketika, Toni diminta ibunya untuk mematikan lampu, namun Toni tidak melakukannya. Perilaku Toni merupakan pelanggaran sila berlambang ....",
+      "options": [
+        { "key": "A", "text": "Padi dan kapas" },
+        { "key": "B", "text": "Rantai emas" },
+        { "key": "C", "text": "Pohon beringin" },
+        { "key": "D", "text": "Kepala banteng" },
+        { "key": "E", "text": "Bintang" }
+      ],
+      "answer": "B",
+      "explanation": "Sikap Toni yang acuh terhadap lingkungan sosial (enggan berkumpul dengan teman) serta tidak menghormati/mematuhi permintaan ibunya mencerminkan kurangnya adab dan kepedulian antarmanusia, yang bertentangan dengan sila ke-2 (Kemanusiaan yang adil dan beradab) berlambang rantai emas.",
+      "topic": "Nilai Praksis Pancasila"
+    },
+    {
+      "id": "pkn-pg-8",
+      "number": 8,
+      "prompt": "Salah satu faktor determinan dalam era globalisasi, yaitu faktor teknologi informasi yang berkembang cepat dan skala masif, namun sering kali digunakan oleh oknum yang tidak bertanggung jawab untuk menyebarkan paham terlarang, seperti komunisme dan radikalisme melalui media sosial maupun lewat netizen journalism, seperti blog dan web. Hal ini yang paling efektif untuk menangkal pengaruh negatif penyebaran paham tersebut adalah ....",
+      "options": [
+        { "key": "A", "text": "Pengenaan hukuman yang berat" },
+        { "key": "B", "text": "Edukasi bagi masyarakat akan bahaya ideologi komunisme dan radikalisme melalui jalur pendidikan dan keluarga" },
+        { "key": "C", "text": "Membentuk divisi penegakan kepolisian" },
+        { "key": "D", "text": "Seminar dan pelatihan bahaya ideologi radikal dan komunisme" },
+        { "key": "E", "text": "Counter propaganda oleh pemerintah melalui media massa" }
+      ],
+      "answer": "B",
+      "explanation": "Edukasi sejak dini melalui jalur pendidikan formal maupun keluarga membangun ketahanan ideologi dan literasi kritis masyarakat sehingga paling efektif menangkal paham terlarang secara berkelanjutan.",
+      "topic": "Ancaman Ideologi Globalisasi"
+    },
+    {
+      "id": "pkn-pg-9",
+      "number": 9,
+      "prompt": "Yayan anak jalanan yang kehidupan sehari-harinya menggelandang. Kadang mengamen untuk membiayai kebutuhan hidupnya. Ia sudah tidak berpikir dengan masa depannya. Soal pendidikan, perlindungan, kasih sayang, dan hak-haknya yang lain hilang karena kemiskinan. Peristiwa di atas tidak sesuai dengan Pasal 31 Ayat (1) yang menyatakan ....",
+      "options": [
+        { "key": "A", "text": "Bahwa setiap warga negara berhak mendapatkan pendidikan" },
+        { "key": "B", "text": "Syarat-syarat tentang pembelaan diatur dengan undang-undang" },
+        { "key": "C", "text": "Fakir miskin dan anak-anak yang terlantar dipelihara oleh negara" },
+        { "key": "D", "text": "Pemerintah memajukan kebudayaan nasional Indonesia" },
+        { "key": "E", "text": "Perekonomian disusun sebagai usaha bersama berdasarkan atas asas kekeluargaan" }
+      ],
+      "answer": "A",
+      "explanation": "Pasal 31 Ayat (1) UUD NRI Tahun 1945 secara tegas menyatakan bahwa \"Setiap warga negara berhak mendapat pendidikan.\" (Sementara fakir miskin dan anak terlantar merupakan bunyi Pasal 34 Ayat (1)).",
+      "topic": "Hak Pendidikan UUD 1945"
+    },
+    {
+      "id": "pkn-pg-10",
+      "number": 10,
+      "prompt": "Dalam menjalankan kehidupan berbangsa dan bernegara, kita sebagai bangsa Indonesia harus mengemban kewajiban dan memahami benar amanat penderitaan rakyat dalam kerangka persatuan dan kesatuan. Beberapa waktu lalu terdapat kasus penghinaan lambang negara oleh artis ternama. Dia tidak mengerti benar akan pentingnya pemahaman konteks Pancasila dalam mengembangkan kehidupan yang berdaulat. Agar kasus seperti itu tidak terjadi, hal yang harus kita lakukan sebagai seorang pelajar untuk menjalankan kewajiban dalam kehidupan berbangsa dan bernegara sejak dini adalah ....",
+      "options": [
+        { "key": "A", "text": "Memahami arti penting Pancasila dan seluk-beluknya" },
+        { "key": "B", "text": "Memahami hakikat demokrasi dan kehidupan sehari-hari" },
+        { "key": "C", "text": "Menjalankan kehidupan sebagaimana mestinya seorang pelajar" },
+        { "key": "D", "text": "Memahami dan mengamalkan isi Pancasila dalam kehidupan sehari-hari" },
+        { "key": "E", "text": "Memahami fungsi instrumen negara" }
+      ],
+      "answer": "D",
+      "explanation": "Tidak cukup hanya memahami secara teoritis, seorang pelajar harus memahami sekaligus mengamalkan nilai-nilai Pancasila dalam kehidupan sehari-hari sebagai wujud kewajiban berbangsa dan bernegara.",
+      "topic": "Pengamalan Pancasila"
+    },
+    {
+      "id": "pkn-pg-11",
+      "number": 11,
+      "prompt": "Dalam kehidupan sehari-hari, semua orang selalu melakukan hak dan kewajiban sesuai dengan pihaknya. Namun, ada beberapa yang melalaikan hak dan kewajiban itu. Agar Indonesia menjadi lebih baik dalam melakukan hak dan kewajiban dengan baik, langkah yang paling tepat untuk dilakukan adalah ....",
+      "options": [
+        { "key": "A", "text": "Mempertegas pihak yang berwajib" },
+        { "key": "B", "text": "Menetapkan undang-undang yang lebih tegas dan tanpa pandang bulu" },
+        { "key": "C", "text": "Melakukan penegasan terhadap pelaku pelanggaran hak dan kewajiban" },
+        { "key": "D", "text": "Menanamkan kesadaran pada semua orang akan pentingnya melakukan hak dan kewajiban dengan baik dan benar" },
+        { "key": "E", "text": "Memperbaiki susunan kepemimpinan negara dari pusat hingga daerah agar menjadi lebih baik dan bebas serta tegas dan memperbaiki susunan masyarakat yang saling berkelompok" }
+      ],
+      "answer": "D",
+      "explanation": "Kesadaran hukum dan moral dari dalam diri setiap warga negara merupakan fondasi utama agar pelaksanaan hak dan kewajiban berjalan seimbang dan berkelanjutan.",
+      "topic": "Kesadaran Hak dan Kewajiban"
+    },
+    {
+      "id": "pkn-pg-12",
+      "number": 12,
+      "prompt": "Apa keuntungan utama dari posisi geografis Indonesia yang dilalui oleh berbagai negara?",
+      "options": [
+        { "key": "A", "text": "Memudahkan interaksi dengan bangsa-bangsa dari negara lain" },
+        { "key": "B", "text": "Menyebabkan terisolasinya Indonesia dari negara lain" },
+        { "key": "C", "text": "Membatasi akses perdagangan internasional" },
+        { "key": "D", "text": "Menghambat perkembangan budaya Indonesia" },
+        { "key": "E", "text": "Menurunkan daya tarik wisatawan internasional" }
+      ],
+      "answer": "A",
+      "explanation": "Posisi silang strategis Indonesia di antara dua benua dan dua samudra menjadi jalur pelayaran dan perdagangan dunia sehingga memudahkan interaksi sosial, ekonomi, dan budaya dengan bangsa lain.",
+      "topic": "Posisi Strategis Indonesia"
+    },
+    {
+      "id": "pkn-pg-13",
+      "number": 13,
+      "prompt": "Apa yang menjadi salah satu kekuatan Indonesia dalam hal keragaman suku bangsa?",
+      "options": [
+        { "key": "A", "text": "Terbatasnya bahasa adat dan produk hukum adat" },
+        { "key": "B", "text": "Kemampuan untuk bergaul dengan bangsa-bangsa lain dengan kompetensi multikulturalisme" },
+        { "key": "C", "text": "Kurangnya keunggulan masing-masing suku bangsa" },
+        { "key": "D", "text": "Minimnya jumlah suku bangsa yang ada di Indonesia" },
+        { "key": "E", "text": "Ketiadaan produk hukum adat yang berlaku" }
+      ],
+      "answer": "B",
+      "explanation": "Pengalaman hidup dalam masyarakat yang sangat beragam melatih bangsa Indonesia memiliki kompetensi multikulturalisme sehingga mampu berinteraksi secara terbuka dan harmonis dengan bangsa lain.",
+      "topic": "Keberagaman Bangsa"
+    },
+    {
+      "id": "pkn-pg-14",
+      "number": 14,
+      "prompt": "Apa kelemahan utama yang dihadapi Indonesia terkait dengan Indeks Modal Manusia (Human Capital Index) menurut laporan terbaru?",
+      "options": [
+        { "key": "A", "text": "Tingkat pendidikan yang sangat tinggi" },
+        { "key": "B", "text": "Peningkatan keterampilan teknis yang cepat" },
+        { "key": "C", "text": "Rendahnya Indeks Modal Manusia dibandingkan dengan negara ASEAN lain" },
+        { "key": "D", "text": "Tingginya jumlah tenaga kerja terampil" },
+        { "key": "E", "text": "Kemajuan teknologi informasi yang pesat" }
+      ],
+      "answer": "C",
+      "explanation": "Salah satu tantangan internal pembangunan SDM Indonesia adalah Indeks Modal Manusia (Human Capital Index) yang masih tertinggal dibandingkan sejumlah negara tetangga di ASEAN.",
+      "topic": "Tantangan Pembangunan SDM"
+    },
+    {
+      "id": "pkn-pg-15",
+      "number": 15,
+      "prompt": "Apa yang menjadi penyebab utama dari ketidakmerataan pembangunan di Indonesia?",
+      "options": [
+        { "key": "A", "text": "Ketersediaan sumber daya alam yang melimpah di seluruh wilayah" },
+        { "key": "B", "text": "Konsentrasi pembangunan yang terpusat di Pulau Jawa" },
+        { "key": "C", "text": "Peningkatan investasi asing di seluruh wilayah Indonesia" },
+        { "key": "D", "text": "Adanya kebijakan pembangunan yang menyasar daerah-daerah timur Indonesia" },
+        { "key": "E", "text": "Kemajuan teknologi yang merata di seluruh wilayah" }
+      ],
+      "answer": "B",
+      "explanation": "Secara historis, pembangunan infrastruktur, ekonomi, dan industri lebih banyak terpusat di Pulau Jawa sehingga memicu kesenjangan pembangunan dengan wilayah lain, terutama Indonesia bagian timur.",
+      "topic": "Ketidakmerataan Pembangunan"
+    },
+    {
+      "id": "pkn-pg-16",
+      "number": 16,
+      "prompt": "Apa dampak utama dari kosmopolitanisme terhadap identitas kebangsaan dan nilai-nilai lokal di suatu negara?",
+      "options": [
+        { "key": "A", "text": "Peningkatan kesadaran nasionalisme dan kebanggaan terhadap budaya lokal" },
+        { "key": "B", "text": "Penguatan nilai-nilai lokal yang lebih mendalam" },
+        { "key": "C", "text": "Pelemahan identitas kebangsaan dan penurunan rasa cinta tanah air" },
+        { "key": "D", "text": "Perubahan nilai-nilai universal menjadi lebih spesifik bagi suatu negara" },
+        { "key": "E", "text": "Peningkatan keragaman budaya yang memperkaya nilai-nilai lokal" }
+      ],
+      "answer": "C",
+      "explanation": "Kosmopolitanisme yang berlebihan memandang diri semata sebagai warga dunia tanpa batas nasional, yang berisiko melemahkan identitas kebangsaan dan rasa cinta tanah air.",
+      "topic": "Tantangan Globalisasi"
+    },
+    {
+      "id": "pkn-pg-17",
+      "number": 17,
+      "prompt": "Apa dampak dari menguatnya radikalisme di Indonesia?",
+      "options": [
+        { "key": "A", "text": "Meningkatnya toleransi antarumat beragama" },
+        { "key": "B", "text": "Terbentuknya pemerintahan demokratis yang kuat" },
+        { "key": "C", "text": "Munculnya kekerasan dan pemaksaan terhadap keyakinan agama lain" },
+        { "key": "D", "text": "Meningkatnya kerjasama internasional" },
+        { "key": "E", "text": "Pengurangan konflik antar komunitas" }
+      ],
+      "answer": "C",
+      "explanation": "Menguatnya paham radikalisme mengancam kerukunan dan kebhinekaan karena mendorong sikap intoleran, pemaksaan kehendak, hingga tindakan kekerasan terhadap kelompok atau keyakinan lain.",
+      "topic": "Ancaman Radikalisme"
+    },
+    {
+      "id": "pkn-pg-18",
+      "number": 18,
+      "prompt": "Dalam konteks globalisasi, apa yang harus dilakukan Indonesia untuk memanfaatkan peluang dengan baik?",
+      "options": [
+        { "key": "A", "text": "Menolak seluruh investasi asing" },
+        { "key": "B", "text": "Menghidupkan nilai-nilai Pancasila dalam pergaulan global" },
+        { "key": "C", "text": "Membatasi partisipasi warga negara di kancah internasional" },
+        { "key": "D", "text": "Menerapkan sistem ekonomi tertutup" },
+        { "key": "E", "text": "Meningkatkan sentralisasi pemerintahan" }
+      ],
+      "answer": "B",
+      "explanation": "Dalam menghadapi globalisasi, Indonesia tetap terbuka terhadap kemajuan dunia sambil menjadikan nilai-nilai Pancasila sebagai filter dan pedoman dalam pergaulan global.",
+      "topic": "Pancasila di Era Globalisasi"
+    },
+    {
+      "id": "pkn-pg-19",
+      "number": 19,
+      "prompt": "Apa dampak dari fundamentalisme pasar terhadap ekonomi Indonesia?",
+      "options": [
+        { "key": "A", "text": "Meningkatkan peran negara dalam menentukan harga" },
+        { "key": "B", "text": "Mendorong privatisasi ekonomi yang lebih besar" },
+        { "key": "C", "text": "Mengurangi kesenjangan ekonomi" },
+        { "key": "D", "text": "Memperkuat peran BUMN" },
+        { "key": "E", "text": "Menciptakan ekonomi yang sepenuhnya terpusat" }
+      ],
+      "answer": "B",
+      "explanation": "Fundamentalisme pasar menuntut campur tangan negara seminimal mungkin dan mendorong privatisasi serta liberalisasi sektor ekonomi, yang bertentangan dengan semangat ekonomi kerakyatan Pasal 33 UUD 1945.",
+      "topic": "Tantangan Ekonomi Global"
+    },
+    {
+      "id": "pkn-pg-20",
+      "number": 20,
+      "prompt": "Apa yang menjadi fokus utama dalam menghadapi tantangan global bagi Indonesia?",
+      "options": [
+        { "key": "A", "text": "Menutup diri dari pengaruh luar" },
+        { "key": "B", "text": "Mengutamakan kepentingan ekonomi individu" },
+        { "key": "C", "text": "Membangun kekuatan militer" },
+        { "key": "D", "text": "Memperkuat nilai-nilai Pancasila dan nasionalisme" },
+        { "key": "E", "text": "Menghapus regulasi domestik" }
+      ],
+      "answer": "D",
+      "explanation": "Penguatan nilai-nilai Pancasila dan nasionalisme merupakan kunci agar bangsa Indonesia mampu bersaing dan beradaptasi di tengah tantangan global tanpa kehilangan jati diri.",
+      "topic": "Ketahanan Nasional Pancasila"
+    },
+    {
+      "id": "pkn-pg-21",
+      "number": 21,
+      "prompt": "Apa yang bisa menjadi solusi menghadapi menguatnya paham individualisme di Indonesia?",
+      "options": [
+        { "key": "A", "text": "Mengadopsi paham tersebut tanpa perubahan" },
+        { "key": "B", "text": "Memperkuat regulasi yang mendukung HAM internasional" },
+        { "key": "C", "text": "Menjalankan nilai-nilai Pancasila yang mendukung gotong royong dan kebersamaan" },
+        { "key": "D", "text": "Menghapus hukum yang berkaitan dengan hak individu" },
+        { "key": "E", "text": "Menutup akses terhadap informasi global" }
+      ],
+      "answer": "C",
+      "explanation": "Paham individualisme yang mementingkan diri sendiri dapat diatasi dengan menghidupkan kembali nilai gotong royong, kekeluargaan, dan kebersamaan yang menjadi ciri khas Pancasila.",
+      "topic": "Gotong Royong Pancasila"
+    },
+    {
+      "id": "pkn-pg-22",
+      "number": 22,
+      "prompt": "Sekelompok masyarakat di suatu daerah memiliki tradisi ketika musim panen mereka bergotong royong untuk menumbuk padi hasil panen secara bergantian. Penyebabnya adalah alat yang mereka gunakan masih bersifat tradisional. Berdasarkan situasi tersebut, arti penting kerjasama yang dilakukan masyarakat adalah ....",
+      "options": [
+        { "key": "A", "text": "Meringankan pekerjaan yang berat dan mempersingkat waktu" },
+        { "key": "B", "text": "Mencegah terjadinya konflik antar warga setempat" },
+        { "key": "C", "text": "Mengurangi biaya yang harus dikeluarkan selama kegiatan berlangsung" },
+        { "key": "D", "text": "Memperkuat rasa kedaerahan dan kebanggaan terhadap tradisi setempat" },
+        { "key": "E", "text": "Mempersulit kinerja masyarakat" }
+      ],
+      "answer": "A",
+      "explanation": "Karena peralatan yang digunakan masih tradisional, pekerjaan menumbuk padi menjadi berat dan lama; dengan bergotong royong secara bergantian, pekerjaan terasa lebih ringan dan selesai lebih cepat.",
+      "topic": "Makna Gotong Royong"
+    },
+    {
+      "id": "pkn-pg-23",
+      "number": 23,
+      "prompt": "Warga Negara Indonesia yang kurang mampu mendapatkan jaminan pendidikan dari negara berupa program Indonesia Pintar. Hal ini sesuai dengan penerapan Pancasila terutama sila ....",
+      "options": [
+        { "key": "A", "text": "Pertama" },
+        { "key": "B", "text": "Kedua" },
+        { "key": "C", "text": "Ketiga" },
+        { "key": "D", "text": "Keempat" },
+        { "key": "E", "text": "Kelima" }
+      ],
+      "answer": "E",
+      "explanation": "Program Indonesia Pintar bertujuan memeratakan akses pendidikan dan meningkatkan kesejahteraan warga kurang mampu, yang mencerminkan sila kelima (Keadilan sosial bagi seluruh rakyat Indonesia).",
+      "topic": "Implementasi Sila Pancasila"
+    },
+    {
+      "id": "pkn-pg-24",
+      "number": 24,
+      "prompt": "Kelompok separatis jelas-jelas sangat bertentangan dengan nasionalisme Indonesia. Dalam upaya mewujudkan keinginannya tidak jarang mereka melakukan teror kepada penduduk yang tidak sepaham dengan mereka. Perilaku tersebut merupakan pelanggaran HAM yang sangat bertentangan dengan nilai praksis Pancasila sila ....",
+      "options": [
+        { "key": "A", "text": "Pertama" },
+        { "key": "B", "text": "Kedua" },
+        { "key": "C", "text": "Ketiga" },
+        { "key": "D", "text": "Keempat" },
+        { "key": "E", "text": "Kelima" }
+      ],
+      "answer": "B",
+      "explanation": "Tindakan teror terhadap penduduk yang tidak sepaham merupakan bentuk kekerasan dan pelanggaran hak asasi manusia, yang bertentangan langsung dengan nilai kemanusiaan pada sila kedua Pancasila.",
+      "topic": "Nilai Praksis Pancasila"
+    },
+    {
+      "id": "pkn-pg-25",
+      "number": 25,
+      "prompt": "Dalam musyawarah RT, Pak Dito sebagai kepala RT memberikan usul untuk melakukan kerja bakti membersihkan selokan. Selokan perlu diperdalam agar air hujan tidak menggenang dan menimbulkan banjir. Pak Adi kurang setuju dengan usul Pak Dito, sebab kebersihan selokan adalah tanggung jawab setiap warga. Namun, sebagian besar warga menyetujui usulan Pak Dito karena memberikan banyak manfaat. Untuk menyikapi hal tersebut, Pak Adi harus ....",
+      "options": [
+        { "key": "A", "text": "Menolak pendapat orang lain" },
+        { "key": "B", "text": "Tidak mengacuhkan pendapat orang lain" },
+        { "key": "C", "text": "Memutuskan untuk meninggalkan ruangan" },
+        { "key": "D", "text": "Tetap pada keyakinannya untuk tidak setuju" },
+        { "key": "E", "text": "Mencoba terbuka terhadap pendapat orang lain" }
+      ],
+      "answer": "E",
+      "explanation": "Dalam musyawarah (sila keempat), setiap peserta wajib bersikap terbuka, menghargai pendapat orang lain, dan menerima keputusan bersama dengan lapang dada demi kepentingan umum.",
+      "topic": "Etika Bermusyawarah"
+    },
+    {
+      "id": "pkn-pg-26",
+      "number": 26,
+      "prompt": "Nilai praksis yang merupakan implementasi Pancasila dalam kehidupan sehari-hari. Salah satu contoh ketika terjadi musibah banjir, banyak relawan yang memberikan bantuan kepada korban bencana alam. Aktivitas tersebut merupakan pelaksanaan nilai praksis Pancasila untuk sila ....",
+      "options": [
+        { "key": "A", "text": "Ketuhanan Yang Maha Esa" },
+        { "key": "B", "text": "Kemanusiaan yang adil dan beradab" },
+        { "key": "C", "text": "Persatuan Indonesia" },
+        { "key": "D", "text": "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan perwakilan" },
+        { "key": "E", "text": "Keadilan sosial bagi seluruh rakyat Indonesia" }
+      ],
+      "answer": "B",
+      "explanation": "Memberikan bantuan kemanusiaan kepada korban bencana alam merupakan wujud nyata sikap tenggang rasa dan kepedulian terhadap sesama sesuai sila kedua (Kemanusiaan yang adil dan beradab).",
+      "topic": "Nilai Praksis Sila Kedua"
+    },
+    {
+      "id": "pkn-pg-27",
+      "number": 27,
+      "prompt": "Pada era globalisasi sangat mudah bagi masyarakat untuk mencari informasi mengenai kehidupan negara lain. Hal tersebut merupakan salah satu faktor yang menyebabkan masuknya budaya asing ke Indonesia. Banyak masyarakat yang meniru kehidupan masyarakat global, seperti sikap hidup individualis dan sikap glamor. Tindakan yang sebaiknya kita lakukan adalah ....",
+      "options": [
+        { "key": "A", "text": "Langsung menerima budaya asing" },
+        { "key": "B", "text": "Menolak semua budaya asing" },
+        { "key": "C", "text": "Memeriksa budaya asing yang sesuai dengan kepribadian bangsa" },
+        { "key": "D", "text": "Mempelajari dan mengembangkan budaya asing" },
+        { "key": "E", "text": "Menerima budaya asing yang menguntungkan pribadi" }
+      ],
+      "answer": "C",
+      "explanation": "Sikap yang bijak terhadap masuknya budaya asing di era globalisasi adalah bersikap selektif, yaitu menyaring dan memeriksa kesesuaian budaya asing dengan nilai Pancasila serta kepribadian bangsa.",
+      "topic": "Sikap Selektif Globalisasi"
+    },
+    {
+      "id": "pkn-pg-28",
+      "number": 28,
+      "prompt": "Bagi masyarakat tradisional Indonesia, kerja bakti dilakukan secara langsung. Tetapi seiring perkembangan zaman, Kang Wawan tidak bisa ikut kerja bakti di lingkungannya secara langsung karena kesibukannya sebagai pejabat. Ia menggantinya dengan memberi konsumsi bagi warga yang melakukan kerja bakti. Menurut ideologi Pancasila hal ini dibenarkan, sebab Pancasila merupakan ideologi yang ....",
+      "options": [
+        { "key": "A", "text": "Liberal" },
+        { "key": "B", "text": "Sosialis" },
+        { "key": "C", "text": "Mutlak" },
+        { "key": "D", "text": "Fleksibel" },
+        { "key": "E", "text": "Rigid" }
+      ],
+      "answer": "D",
+      "explanation": "Sebagai ideologi terbuka, Pancasila bersifat fleksibel dan dinamis sehingga penerapannya (nilai praksis) dapat menyesuaikan perkembangan zaman dan situasi tanpa meninggalkan nilai dasarnya.",
+      "topic": "Pancasila Ideologi Terbuka"
+    },
+    {
+      "id": "pkn-pg-29",
+      "number": 29,
+      "prompt": "Menjamurnya film-film asing menimbulkan pergeseran cara warga Indonesia dalam berpakaian dan bergaya hidup. Budaya ketimuran yang sarat dengan sopan santun mulai luntur. Dimensi ancaman yang sesuai fenomena tersebut adalah ....",
+      "options": [
+        { "key": "A", "text": "Politik" },
+        { "key": "B", "text": "Ekonomi" },
+        { "key": "C", "text": "Ketiga" },
+        { "key": "D", "text": "Sosial budaya" },
+        { "key": "E", "text": "Keamanan" }
+      ],
+      "answer": "D",
+      "explanation": "Pergeseran gaya hidup, cara berpakaian, dan lunturnya nilai sopan santun akibat pengaruh budaya luar termasuk dalam dimensi ancaman di bidang sosial budaya.",
+      "topic": "Dimensi Ancaman Global"
+    },
+    {
+      "id": "pkn-pg-30",
+      "number": 30,
+      "prompt": "Menebang pohon secara liar dapat merusak alam. Tindakan ini dapat merugikan masyarakat dan negara. Penggundulan hutan ini juga bisa menyebabkan bencana alam, seperti tanah longsor dan banjir. Tindakan tersebut merupakan penyimpangan sila ....",
+      "options": [
+        { "key": "A", "text": "Pertama" },
+        { "key": "B", "text": "Kedua" },
+        { "key": "C", "text": "Ketiga" },
+        { "key": "D", "text": "Keempat" },
+        { "key": "E", "text": "Kelima" }
+      ],
+      "answer": "E",
+      "explanation": "Penebangan liar merusak kelestarian sumber daya alam dan merugikan kepentingan umum (masyarakat luas dan negara), yang bertentangan dengan butir pengamalan sila kelima Pancasila.",
+      "topic": "Penyimpangan Nilai Pancasila"
+    },
+    {
+      "id": "pkn-pg-31",
+      "number": 31,
+      "prompt": "Dalam menjalankan kehidupan berbangsa dan bernegara, kita sebagai bangsa Indonesia harus mengemban kewajiban dan memahami benar amanat penderitaan rakyat dalam kerangka persatuan dan kesatuan. Beberapa waktu lalu terdapat kasus penghinaan lambang negara oleh artis ternama. Dia tidak mengerti benar akan pentingnya pemahaman konteks Pancasila dalam mengembangkan kehidupan yang berdaulat. Agar kasus seperti itu tidak terjadi, hal yang harus kita lakukan sebagai seorang pelajar untuk menjalankan kewajiban dalam kehidupan berbangsa dan bernegara sejak dini adalah ....",
+      "options": [
+        { "key": "A", "text": "Memahami arti penting Pancasila dan seluk-beluknya" },
+        { "key": "B", "text": "Memahami hakikat demokrasi dan kehidupan sehari-hari" },
+        { "key": "C", "text": "Menjalankan kehidupan sebagaimana mestinya seorang pelajar" },
+        { "key": "D", "text": "Memahami dan mengamalkan isi Pancasila dalam kehidupan sehari-hari" },
+        { "key": "E", "text": "Memahami fungsi instrumen negara" }
+      ],
+      "answer": "D",
+      "explanation": "Menghormati lambang negara dan menjaga kedaulatan bangsa diwujudkan pelajar dengan memahami serta mengamalkan nilai-nilai Pancasila secara nyata dalam kehidupan sehari-hari.",
+      "topic": "Pengamalan Pancasila"
+    },
+    {
+      "id": "pkn-pg-32",
+      "number": 32,
+      "prompt": "Zaman dahulu ketika berbelanja pembeli harus datang ke toko dan bertemu dengan penjual. Pada zaman sekarang berbelanja bisa dilakukan secara online. Kita dapat membeli barang dari manapun. Barang dari luar negeri juga mudah didapatkan. Menyikapi hal ini, sebagai generasi penerus bangsa sebaiknya ....",
+      "options": [
+        { "key": "A", "text": "Mengikuti gaya hidup bebas" },
+        { "key": "B", "text": "Meningkatkan sikap individualis" },
+        { "key": "C", "text": "Membiasakan membeli barang impor" },
+        { "key": "D", "text": "Menanamkan gerakan cinta produk dalam negeri" },
+        { "key": "E", "text": "Memblokir barang-barang luar negeri yang dijual secara online" }
+      ],
+      "answer": "D",
+      "explanation": "Di tengah kemudahan akses barang impor melalui perdagangan daring, generasi penerus bangsa perlu menanamkan gerakan cinta dan bangga menggunakan produk dalam negeri untuk mendukung perekonomian nasional.",
+      "topic": "Cinta Produk Dalam Negeri"
+    },
+    {
+      "id": "pkn-pg-33",
+      "number": 33,
+      "prompt": "Di Indonesia sering terjadi demonstrasi yang dilakukan oleh masyarakat dengan tujuan untuk mengkritik kebijakan pemerintah. Namun, aksi tersebut sering berujung pada kerusuhan yang menyebabkan kerusakan pada fasilitas umum di sekitar lokasi demonstrasi. Selain itu, demonstrasi juga menyebabkan kemacetan lalu lintas. Tindakan demonstrasi tersebut bertentangan dengan salah satu prinsip dasar Pancasila yaitu sila ....",
+      "options": [
+        { "key": "A", "text": "Pertama" },
+        { "key": "B", "text": "Kedua" },
+        { "key": "C", "text": "Ketiga" },
+        { "key": "D", "text": "Keempat" },
+        { "key": "E", "text": "Kelima" }
+      ],
+      "answer": "E",
+      "explanation": "Perusakan fasilitas umum dan gangguan ketertiban lalu lintas merupakan perbuatan yang merugikan kepentingan umum dan hak masyarakat luas, sehingga bertentangan dengan sila kelima Pancasila.",
+      "topic": "Penyimpangan Nilai Pancasila"
+    },
+    {
+      "id": "pkn-pg-34",
+      "number": 34,
+      "prompt": "Manusia diciptakan oleh Tuhan dengan kondisi yang berbeda-beda, tidak hanya terbatas pada perbedaan jenis kelamin, suku, bangsa, dan warna kulit, tetapi juga dalam keadaan ekonomi yang berbeda. Beberapa orang dapat menikmati kehidupan yang mapan, sementara yang lain kurang beruntung. Di Indonesia warga yang kurang mampu menerima perlindungan kesehatan dari pemerintah melalui program Kartu Indonesia Sehat. Hal ini sesuai dengan penerapan Pancasila, yakni sila ....",
+      "options": [
+        { "key": "A", "text": "Pertama" },
+        { "key": "B", "text": "Kedua" },
+        { "key": "C", "text": "Ketiga" },
+        { "key": "D", "text": "Keempat" },
+        { "key": "E", "text": "Kelima" }
+      ],
+      "answer": "E",
+      "explanation": "Program Kartu Indonesia Sehat memberikan jaminan perlindungan kesehatan bagi masyarakat kurang mampu agar tercipta pemerataan kesejahteraan sesuai sila kelima (Keadilan sosial bagi seluruh rakyat Indonesia).",
+      "topic": "Implementasi Sila Kelima"
+    },
+    {
+      "id": "pkn-pg-35",
+      "number": 35,
+      "prompt": "Bangsa Indonesia adalah komunitas majemuk yang dipengaruhi oleh berbagai kebudayaan dari negara asing. Faktor penyebab tingginya pengaruh bangsa-bangsa tersebut terhadap kebudayaan lokal dari sisi geografis adalah ....",
+      "options": [
+        { "key": "A", "text": "Lokasi Indonesia berada di antara dua benua dan dua samudra" },
+        { "key": "B", "text": "Lokasi Indonesia berada di atas tiga pertemuan lempeng tektonik aktif" },
+        { "key": "C", "text": "Masyarakat Indonesia zaman dahulu memiliki pemikiran terbuka" },
+        { "key": "D", "text": "Kolonialisme bangsa luar sangat kuat" },
+        { "key": "E", "text": "Lokasi Indonesia berada di daerah tropis" }
+      ],
+      "answer": "A",
+      "explanation": "Secara geografis, Indonesia berada pada posisi silang di antara Benua Asia dan Australia serta Samudra Hindia dan Pasifik, menjadikannya persimpangan lalu lintas perdagangan dan akulturasi budaya dunia.",
+      "topic": "Letak Geografis Indonesia"
+    },
+    {
+      "id": "pkn-pg-36",
+      "number": 36,
+      "prompt": "Keberagaman yang ada di Indonesia merupakan potensi dan modal dasar bagi pembangunan. Selain itu, keberagaman juga dapat menjadi ancaman bagi keutuhan bangsa Indonesia. Keragaman pada bangsa ini, seperti keragaman suku, tradisi, seni, alat musik, tarian membawa dampak positif bagi bangsa Indonesia, yaitu ....",
+      "options": [
+        { "key": "A", "text": "Memperlihatkan kepada dunia luar bahwa Indonesia memiliki kekayaan budaya" },
+        { "key": "B", "text": "Masyarakat Indonesia lebih mudah mewujudkan tujuan nasionalnya" },
+        { "key": "C", "text": "Keragaman ini merupakan unsur yang dapat membangun rasa nasionalisme dan patriotisme" },
+        { "key": "D", "text": "Indonesia menjadi bangsa yang disegani dan dihargai karena keragaman dan kebhinekaannya" },
+        { "key": "E", "text": "Indonesia menjadi bangsa yang mudah diadu domba" }
+      ],
+      "answer": "D",
+      "explanation": "Kekayaan budaya yang beraneka ragam dan tetap hidup rukun dalam semboyan Bhinneka Tunggal Ika menjadikan Indonesia disegani dan dihargai di mata dunia internasional.",
+      "topic": "Dampak Positif Keberagaman"
+    },
+    {
+      "id": "pkn-pg-37",
+      "number": 37,
+      "prompt": "Agar pelanggaran hak dapat dikurangi atau dicegah maka para pelanggar hak itu sebaiknya ....",
+      "options": [
+        { "key": "A", "text": "Diserahkan kepada lembaga internasional agar dihukum" },
+        { "key": "B", "text": "Dihukum mati agar tidak mengulangi perbuatannya" },
+        { "key": "C", "text": "Diberikan sanksi sesuai hukum yang berlaku" },
+        { "key": "D", "text": "Dijatuhi hukuman yang berat oleh pengadilan" },
+        { "key": "E", "text": "Dibiarkan saja" }
+      ],
+      "answer": "C",
+      "explanation": "Sebagai negara hukum, penegakan terhadap pelaku pelanggaran hak warga negara dilakukan secara adil dengan menjatuhkan sanksi tegas sesuai peraturan perundang-undangan yang berlaku.",
+      "topic": "Penegakan Hukum HAM"
+    },
+    {
+      "id": "pkn-pg-38",
+      "number": 38,
+      "prompt": "Kasus pelanggaran hak hidup, rasa aman dan perlindungan dari ancaman ketakutan, bertentangan dengan UUD NRI Tahun 1945, terutama Pasal ....",
+      "options": [
+        { "key": "A", "text": "28G Ayat (1)" },
+        { "key": "B", "text": "28H Ayat (1)" },
+        { "key": "C", "text": "28H Ayat (3)" },
+        { "key": "D", "text": "28G Ayat (2)" },
+        { "key": "E", "text": "28H Ayat (2)" }
+      ],
+      "answer": "A",
+      "explanation": "Pasal 28G Ayat (1) UUD NRI Tahun 1945 menjamin hak setiap orang atas perlindungan diri pribadi, keluarga, kehormatan, martabat, harta benda, serta rasa aman dan perlindungan dari ancaman ketakutan.",
+      "topic": "Pasal HAM UUD 1945"
+    },
+    {
+      "id": "pkn-pg-39",
+      "number": 39,
+      "prompt": "Pejabat yang tertangkap tangan melakukan praktik penyuapan divonis bebas karena dinyatakan tidak bersalah. Namun, seseorang yang mengambil beberapa pucuk pakis di pekarangan orang lain, diperkarakan di pengadilan dan divonis 1 tahun penjara tanpa diberi kesempatan untuk melakukan pembelaan. Peristiwa ini termasuk pelanggaran hak yang diamanatkan Pasal .... UUD NRI Tahun 1945",
+      "options": [
+        { "key": "A", "text": "25A" },
+        { "key": "B", "text": "26 Ayat (1)" },
+        { "key": "C", "text": "26 Ayat (2)" },
+        { "key": "D", "text": "26 Ayat (3)" },
+        { "key": "E", "text": "27 Ayat (1)" }
+      ],
+      "answer": "E",
+      "explanation": "Ketimpangan perlakuan hukum antara pejabat korup dan rakyat kecil melanggar asas persamaan kedudukan di dalam hukum yang dijamin oleh Pasal 27 Ayat (1) UUD NRI Tahun 1945.",
+      "topic": "Persamaan di Hadapan Hukum"
+    },
+    {
+      "id": "pkn-pg-40",
+      "number": 40,
+      "prompt": "Untuk membantu siswa SMA/SMK dari keluarga tidak mampu agar bisa melanjutkan pendidikan ke perguruan tinggi pemerintah melaksanakan program Bidik Misi. Hal ini menunjukkan bahwa pemerintah berusaha mengembangkan hak warga negara yang dijamin dalam UUD NRI Tahun 1945 Pasal ....",
+      "options": [
+        { "key": "A", "text": "29 Ayat (2)" },
+        { "key": "B", "text": "30 Ayat (1)" },
+        { "key": "C", "text": "31 Ayat (2)" },
+        { "key": "D", "text": "33 Ayat (1)" },
+        { "key": "E", "text": "34 Ayat (1)" }
+      ],
+      "answer": "C",
+      "explanation": "Program Bidikmisi merupakan wujud tanggung jawab pemerintah dalam membiayai dan memperluas akses pendidikan warga negara sebagaimana diatur dalam Pasal 31 UUD NRI Tahun 1945 (pilihan yang merujuk pada pasal pendidikan adalah Pasal 31 Ayat (2), yang juga sejalan dengan perlindungan warga kurang mampu).",
+      "topic": "Pasal Pendidikan UUD 1945"
+    }
+  ],
+  "essays": [
+    {
+      "id": "pkn-es-1",
+      "number": 1,
+      "prompt": "Berikan contoh kasus pelanggaran hak dan pengingkaran kewajiban yang Anda ketahui dengan analisis peraturan perundang-undangan yang mengaturnya !",
+      "rubric": "Menyebutkan minimal 1 contoh pelanggaran hak beserta dasar hukumnya dan 1 contoh pengingkaran kewajiban beserta dasar hukumnya secara jelas dan logis.",
+      "modelAnswer": "1. Contoh pelanggaran hak: Kasus penganiayaan atau perundungan (bullying) di lingkungan sekolah maupun masyarakat yang merampas rasa aman dan martabat korban. Hal ini melanggar UUD NRI Tahun 1945 Pasal 28G Ayat (1) tentang hak atas perlindungan diri dan rasa aman, Pasal 28I Ayat (2) tentang hak bebas dari perlakuan diskriminatif, serta UU No. 35 Tahun 2014 tentang Perlindungan Anak (Pasal 54 dan 76C).\n2. Contoh pengingkaran kewajiban: Pengendara sepeda motor yang menerobos lampu merah, tidak memakai helm, atau menggunakan knalpot brong. Perilaku tersebut mengingkari kewajiban warga negara untuk menaati hukum dan ketertiban sesuai UUD NRI Tahun 1945 Pasal 27 Ayat (1) dan Pasal 28J Ayat (1), serta melanggar UU No. 22 Tahun 2009 tentang Lalu Lintas dan Angkutan Jalan."
+    },
+    {
+      "id": "pkn-es-2",
+      "number": 2,
+      "prompt": "Berikan contoh sikap intoleransi ! (5)",
+      "rubric": "Menyebutkan 5 contoh nyata sikap intoleransi dalam kehidupan bermasyarakat, bersekolah, atau bernegara.",
+      "modelAnswer": "Lima contoh sikap intoleransi:\n1. Melarang atau mengganggu umat beragama lain yang sedang menjalankan ibadah.\n2. Membeda-bedakan atau mengejek teman di sekolah karena perbedaan suku, ras, agama, atau status ekonomi.\n3. Menyebarkan ujaran kebencian (hate speech) terhadap kelompok tertentu di media sosial.\n4. Menolak bekerja sama atau bergaul dengan tetangga yang berbeda keyakinan atau budaya.\n5. Memaksakan kehendak, pendapat, atau keyakinan pribadi kepada orang lain dalam diskusi maupun kehidupan sehari-hari."
+    },
+    {
+      "id": "pkn-es-3",
+      "number": 3,
+      "prompt": "Wilayah Indonesia berada di posisi silang atau strategis di dunia. Apa keuntungan dari aspek ekonomi yang diperoleh Negara Indonesia berada di posisi tersebut ?",
+      "rubric": "Menjelaskan keuntungan ekonomi posisi silang Indonesia (jalur perdagangan internasional, investasi, pariwisata, ekspor-impor, sektor maritim).",
+      "modelAnswer": "Keuntungan posisi silang Indonesia dari aspek ekonomi meliputi:\n1. Menjadi jalur utama pelayaran dan perdagangan internasional (antara Samudra Hindia dan Pasifik serta Benua Asia dan Australia) yang meningkatkan pendapatan dari jasa pelabuhan, logistik, dan transportasi laut.\n2. Mempermudah kegiatan ekspor-impor serta memperluas akses pasar produk Indonesia ke berbagai negara.\n3. Menarik minat investor asing untuk menanamkan modal dan membangun industri di Indonesia.\n4. Mendorong pertumbuhan sektor pariwisata mancanegara karena kemudahan akses dan keanekaragaman hayati serta budaya."
+    },
+    {
+      "id": "pkn-es-4",
+      "number": 4,
+      "prompt": "Sebutkan tradisi yang ditemukan para pendiri bangsa yang digunakan sebagai Dasar merumuskan Pancasila ! (4)",
+      "rubric": "Menyebutkan 4 tradisi luhur bangsa Indonesia yang menjadi akar nilai dalam perumusan Pancasila.",
+      "modelAnswer": "Empat tradisi luhur bangsa Indonesia yang digali para pendiri bangsa dalam merumuskan Pancasila:\n1. Tradisi religiusitas / ketuhanan (kepercayaan kepada Tuhan Yang Maha Esa).\n2. Tradisi gotong royong dan tolong-menolong dalam kehidupan bermasyarakat.\n3. Tradisi musyawarah untuk mufakat dalam mengambil keputusan bersama.\n4. Tradisi tepa selira, toleransi, dan kekeluargaan dalam hidup berdampingan di tengah keberagaman."
+    },
+    {
+      "id": "pkn-es-5",
+      "number": 5,
+      "prompt": "Bagaimana peluang penerapan Pancasila di era digital dalam kehidupan sehari-hari ?",
+      "rubric": "Menjelaskan peluang penerapan nilai-nilai Pancasila secara konkret melalui teknologi digital (literasi digital, dakwah/konten positif, solidaritas online, demokrasi digital, UMKM digital).",
+      "modelAnswer": "Era digital memberikan berbagai peluang besar untuk menerapkan nilai-nilai Pancasila dalam kehidupan sehari-hari:\n1. Sila 1: Memanfaatkan media digital untuk menyebarkan konten edukasi keagamaan yang menyejukkan dan saling menghormati antarumat beragama.\n2. Sila 2: Menggunakan media sosial dengan etika digital (sopan santun, anti-hoaks, anti-perundungan) serta menggalang donasi kemanusiaan secara daring (crowdfunding).\n3. Sila 3: Mempromosikan budaya daerah, wisata, dan rasa cinta tanah air kepada masyarakat luas maupun dunia internasional melalui platform digital.\n4. Sila 4: Memperluas partisipasi masyarakat dalam menyampaikan aspirasi dan berdiskusi secara sehat dan demokratis melalui ruang publik digital.\n5. Sila 5: Memberdayakan ekonomi kerakyatan melalui e-commerce dan pemasaran digital bagi UMKM sehingga tercipta pemerataan kesejahteraan."
+    }
+  ]
+}

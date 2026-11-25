@@ -1,0 +1,648 @@
+{
+  "id": "pkwu",
+  "name": "Prakarya & Kewirausahaan",
+  "shortName": "PKWU",
+  "group": "umum",
+  "schedule": "Jumat, 5 Desember 2025",
+  "durationMinutes": 90,
+  "accentColor": "#EE9EE0",
+  "questions": [
+    {
+      "id": "pkwu-pg-1",
+      "number": 1,
+      "prompt": "Di bawah ini yang bukan merupakan jenis-jenis tanaman herbal yang dapat digunakan sebagai bahan dasar pembuatan produk nonpangan adalah ....",
+      "options": [
+        { "key": "A", "text": "daun meranti dan daun kangkung" },
+        { "key": "B", "text": "jahe dan serai" },
+        { "key": "C", "text": "kencur dan gingseng" },
+        { "key": "D", "text": "daun sirih dan temulawak" },
+        { "key": "E", "text": "lavender dan kunyit" }
+      ],
+      "answer": "A",
+      "explanation": "Jahe, serai, kencur, ginseng, daun sirih, temulawak, lavender, dan kunyit merupakan tanaman herbal/obat yang kaya minyak atsiri dan senyawa bioaktif untuk produk nonpangan (sabun, minyak aromaterapi, obat kumur). Daun meranti (pohon kayu) dan daun kangkung (sayuran) bukan tanaman herbal bahan produk nonpangan.",
+      "topic": "Tanaman Herbal Nonpangan"
+    },
+    {
+      "id": "pkwu-pg-2",
+      "number": 2,
+      "prompt": "Manfaat utama dari lengkuas bagi kesehatan tubuh, yaitu ....",
+      "options": [
+        { "key": "A", "text": "menurunkan berat badan" },
+        { "key": "B", "text": "mengurangi rasa nyeri" },
+        { "key": "C", "text": "meningkatkan energi" },
+        { "key": "D", "text": "mengobati jerawat" },
+        { "key": "E", "text": "memperbaiki kualitas tidur" }
+      ],
+      "answer": "B",
+      "explanation": "Lengkuas mengandung senyawa antiinflamasi dan analgesik alami (seperti galangin dan flavonoid) yang bermanfaat untuk meredakan peradangan serta mengurangi rasa nyeri, termasuk nyeri sendi dan otot.",
+      "topic": "Manfaat Tanaman Herbal"
+    },
+    {
+      "id": "pkwu-pg-3",
+      "number": 3,
+      "prompt": "Kunyit merupakan salah satu herbal yang memiliki berbagai manfaat bagi kesehatan. Salah satu manfaat kunyit bagi kesehatan tubuh, yaitu ....",
+      "options": [
+        { "key": "A", "text": "menjaga kolesterol tinggi" },
+        { "key": "B", "text": "menjaga tekanan darah tinggi" },
+        { "key": "C", "text": "mengatasi masalah pernapasan" },
+        { "key": "D", "text": "menurunkan kadar gula darah" },
+        { "key": "E", "text": "meningkatkan produksi insulin" }
+      ],
+      "answer": "D",
+      "explanation": "Kandungan kurkumin pada kunyit berfungsi sebagai antioksidan dan antiinflamasi yang membantu meningkatkan sensitivitas insulin serta menurunkan kadar gula darah.",
+      "topic": "Manfaat Tanaman Herbal"
+    },
+    {
+      "id": "pkwu-pg-4",
+      "number": 4,
+      "prompt": "Tradisi mengunyah sirih merupakan salah satu tradisi yang memiliki manfaat bagi kesehatan mulut, yaitu dapat mencegah gigi berlubang serta penyakit gusi lainnya. Hal ini karena mengunyah sirih terbukti dapat ....",
+      "options": [
+        { "key": "A", "text": "melawan virus yang masuk melalui mulut" },
+        { "key": "B", "text": "menghilangkan sisa makanan dalam mulut" },
+        { "key": "C", "text": "meningkatkan perkembangan bakteri baik dalam mulut" },
+        { "key": "D", "text": "mempercepat mulut memproduksi air liur" },
+        { "key": "E", "text": "menghambat pertumbuhan bakteri yang ada dalam mulut" }
+      ],
+      "answer": "E",
+      "explanation": "Daun sirih mengandung senyawa antiseptik dan antibakteri (seperti kavikol dan eugenol) yang efektif menghambat pertumbuhan bakteri penyebab plak, gigi berlubang, dan bau mulut.",
+      "topic": "Manfaat Tanaman Herbal"
+    },
+    {
+      "id": "pkwu-pg-5",
+      "number": 5,
+      "prompt": "Manfaat dari minyak esensial buah jeruk yaitu ....",
+      "options": [
+        { "key": "A", "text": "antibakteri, antivirus, dan antikanker" },
+        { "key": "B", "text": "mengurangi bau mulut, sakit gigi, dan gusi bengkak" },
+        { "key": "C", "text": "antiseptik, antiinflamasi dan merawat kulit" },
+        { "key": "D", "text": "meredakan stress, gangguan pernapasan, dan nyeri" },
+        { "key": "E", "text": "mengatasi gangguan tidur dan stres" }
+      ],
+      "answer": "C",
+      "explanation": "Minyak esensial buah/kulit jeruk mengandung limonena yang bersifat antiseptik dan antiinflamasi sehingga banyak dimanfaatkan dalam produk nonpangan untuk merawat kesehatan kulit.",
+      "topic": "Produk Olahan Nonpangan"
+    },
+    {
+      "id": "pkwu-pg-6",
+      "number": 6,
+      "prompt": "Pada proses pembuatan larutan obat kumur dari bahan daun sirih, perlu ditambahkan garam dapur. Fungsi garam dapur dalam pembuatan larutan kumur mulut dari daun sirih adalah untuk ....",
+      "options": [
+        { "key": "A", "text": "mencegah penggumpalan larutan" },
+        { "key": "B", "text": "memberikan efek pemanis" },
+        { "key": "C", "text": "menambah rasa" },
+        { "key": "D", "text": "penstabil rasa dan warna larutan" },
+        { "key": "E", "text": "memberikan efek antibakteri tambahan" }
+      ],
+      "answer": "E",
+      "explanation": "Garam dapur (NaCl) bersifat antiseptik alami yang membantu menghambat pertumbuhan bakteri di rongga mulut sehingga memberikan efek antibakteri tambahan pada obat kumur daun sirih.",
+      "topic": "Produk Olahan Nonpangan"
+    },
+    {
+      "id": "pkwu-pg-7",
+      "number": 7,
+      "prompt": "Setelah minyak cengkeh jadi, disarankan untuk menyimpannya dalam wadah yang gelap dan sejuk. Hal ini dilakukan untuk mencegah terjadinya ....",
+      "options": [
+        { "key": "A", "text": "penurunan khasiat minyak" },
+        { "key": "B", "text": "penguapan minyak" },
+        { "key": "C", "text": "kontaminasi jamur" },
+        { "key": "D", "text": "kerusakan minyak oleh bakteri" },
+        { "key": "E", "text": "perubahan warna kulit" }
+      ],
+      "answer": "A",
+      "explanation": "Paparan cahaya matahari dan suhu panas dapat memicu oksidasi serta fotodegradasi senyawa aktif dalam minyak atsiri cengkeh, sehingga penyimpanan di tempat gelap dan sejuk mencegah penurunan khasiat minyak.",
+      "topic": "Penyimpanan Produk Herbal"
+    },
+    {
+      "id": "pkwu-pg-8",
+      "number": 8,
+      "prompt": "Fungsi utama dari kemasan suatu produk nonpangan dari bahan herbal adalah ....",
+      "options": [
+        { "key": "A", "text": "sebagai identitas brand" },
+        { "key": "B", "text": "memudahkan pendistribusian" },
+        { "key": "C", "text": "sebagai media promosi" },
+        { "key": "D", "text": "mengawetkan dan melindungi produk" },
+        { "key": "E", "text": "memberikan informasi" }
+      ],
+      "answer": "D",
+      "explanation": "Fungsi primer/utama kemasan adalah melindungi isi produk dari kerusakan fisik, kontaminasi, dan pengaruh lingkungan (cahaya, udara, kelembapan) agar kualitas produk tetap terjaga/awet.",
+      "topic": "Fungsi Kemasan"
+    },
+    {
+      "id": "pkwu-pg-9",
+      "number": 9,
+      "prompt": "Kemasan disposable memiliki ciri-ciri sebagai berikut, kecuali ....",
+      "options": [
+        { "key": "A", "text": "digunakan dalam satu kali pakai" },
+        { "key": "B", "text": "langsung dibuang setelah digunakan" },
+        { "key": "C", "text": "biasanya terbuat dari kaca" },
+        { "key": "D", "text": "contohnya adalah kemasan plastik" },
+        { "key": "E", "text": "tidak bisa digunakan kembali" }
+      ],
+      "answer": "C",
+      "explanation": "Kemasan disposable adalah kemasan sekali pakai yang langsung dibuang setelah isinya habis (umumnya plastik tipis, kertas, atau karton). Wadah kaca biasanya termasuk kemasan multitrip karena dapat dibersihkan dan digunakan kembali.",
+      "topic": "Jenis Kemasan"
+    },
+    {
+      "id": "pkwu-pg-10",
+      "number": 10,
+      "prompt": "Desain kemasan produk yang unik, inovatif, dan berbeda dari produk lainnya bertujuan untuk ....",
+      "options": [
+        { "key": "A", "text": "menurunkan harga produk" },
+        { "key": "B", "text": "meningkatkan efisiensi" },
+        { "key": "C", "text": "memperluas pangsa pasar" },
+        { "key": "D", "text": "menawarkan nilai beda" },
+        { "key": "E", "text": "menambah nilai produk" }
+      ],
+      "answer": "E",
+      "explanation": "Desain kemasan yang unik dan inovatif memberikan daya tarik visual sekaligus meningkatkan persepsi kualitas di mata konsumen sehingga bertujuan menambah nilai jual/nilai produk.",
+      "topic": "Desain Kemasan"
+    },
+    {
+      "id": "pkwu-pg-11",
+      "number": 11,
+      "prompt": "Kemasan terdiri dari berbagai jenis, misalnya kemasan primer, sekunder, dan tersier yang dibedakan berdasarkan ....",
+      "options": [
+        { "key": "A", "text": "fungsi" },
+        { "key": "B", "text": "frekuensi pemakaian" },
+        { "key": "C", "text": "jenis bahan" },
+        { "key": "D", "text": "desain" },
+        { "key": "E", "text": "harga" }
+      ],
+      "answer": "A",
+      "explanation": "Kemasan primer, sekunder, dan tersier dibedakan berdasarkan struktur isi/fungsi perlindungannya: primer bersentuhan langsung dengan produk, sekunder mengelompokkan kemasan primer, dan tersier melindungi selama pengangkutan/distribusi.",
+      "topic": "Klasifikasi Kemasan"
+    },
+    {
+      "id": "pkwu-pg-12",
+      "number": 12,
+      "prompt": "Suatu kegiatan untuk memperkenalkan suatu produk, baik barang ataupun jasa kepada masyarakat untuk mengenali, membeli, hingga mengonsumsi atau menggunakan produk tersebut disebut ....",
+      "options": [
+        { "key": "A", "text": "pemasaran" },
+        { "key": "B", "text": "promosi" },
+        { "key": "C", "text": "strategi" },
+        { "key": "D", "text": "operasi pasar" },
+        { "key": "E", "text": "transaksi" }
+      ],
+      "answer": "B",
+      "explanation": "Promosi adalah upaya memperkenalkan produk barang atau jasa kepada calon konsumen untuk menarik minat sehingga mereka mengenali, membeli, dan menggunakan produk tersebut.",
+      "topic": "Konsep Promosi"
+    },
+    {
+      "id": "pkwu-pg-13",
+      "number": 13,
+      "prompt": "Apa yang menjadi tujuan utama dari promosi ....",
+      "options": [
+        { "key": "A", "text": "mengenalkan kegunaan produk" },
+        { "key": "B", "text": "menjelaskan cara penggunaan produk dan bagaimana membuat produk" },
+        { "key": "C", "text": "membuat produk menjadi lebih bagus dan dapat digunakan oleh pembeli" },
+        { "key": "D", "text": "mengenalkan produk kepada calon pembeli dan membuat pembeli membeli produk" },
+        { "key": "E", "text": "merancang produk" }
+      ],
+      "answer": "D",
+      "explanation": "Tujuan utama promosi adalah menginformasikan dan memperkenalkan produk kepada calon konsumen serta membujuk mereka agar tertarik melakukan pembelian.",
+      "topic": "Tujuan Promosi"
+    },
+    {
+      "id": "pkwu-pg-14",
+      "number": 14,
+      "prompt": "Kegiatan dan media promosi bergantung pada ....",
+      "options": [
+        { "key": "A", "text": "pasar target promosi" },
+        { "key": "B", "text": "tempat penjualan produk yang dilakukan" },
+        { "key": "C", "text": "target pasar untuk promosi" },
+        { "key": "D", "text": "usia dan penghasilan masyarakat" },
+        { "key": "E", "text": "tempat sasaran yang merupakan target promosi tersebut" }
+      ],
+      "answer": "C",
+      "explanation": "Pemilihan kegiatan serta media promosi harus disesuaikan dengan karakteristik target pasar untuk promosi agar pesan tersampaikan secara efektif.",
+      "topic": "Strategi Promosi"
+    },
+    {
+      "id": "pkwu-pg-15",
+      "number": 15,
+      "prompt": "Promosi merupakan ujung tombak dari pemasaran. Oleh karena itu memilih media promosi harus lebih efektif dan efisien dalam pemasaran, maka yang perlu kita lakukan adalah ....",
+      "options": [
+        { "key": "A", "text": "memilih konten yang baik" },
+        { "key": "B", "text": "melihat sasaran atau target audien yang ingin dituju" },
+        { "key": "C", "text": "mencari media online yang tepat" },
+        { "key": "D", "text": "melihat prospek usaha" },
+        { "key": "E", "text": "memilih produk inovasi" }
+      ],
+      "answer": "B",
+      "explanation": "Agar pemilihan media promosi efektif dan efisien, langkah awal yang tepat adalah melihat sasaran atau target audiens yang ingin dituju sehingga media yang dipilih benar-benar menjangkau mereka.",
+      "topic": "Media Promosi"
+    },
+    {
+      "id": "pkwu-pg-16",
+      "number": 16,
+      "prompt": "Salah satu kekurangan promosi melalui media tradisional adalah ....",
+      "options": [
+        { "key": "A", "text": "terbatas pada satu jenis target konsumen" },
+        { "key": "B", "text": "harga yang murah" },
+        { "key": "C", "text": "jangkauan calon konsumen yang luas" },
+        { "key": "D", "text": "sulit untuk diukur hasilnya" },
+        { "key": "E", "text": "tidak memerlukan biaya promosi" }
+      ],
+      "answer": "D",
+      "explanation": "Promosi melalui media tradisional (seperti koran, brosur, atau baliho) memiliki kelemahan berupa sulitnya mengukur secara pasti jumlah audiens yang melihat atau melakukan konversi pembelian dibanding media digital.",
+      "topic": "Media Promosi"
+    },
+    {
+      "id": "pkwu-pg-17",
+      "number": 17,
+      "prompt": "Proposal usaha disusun untuk keberlangsungan suatu bisnis. Salah satu manfaat penyusunan proposal usaha adalah ....",
+      "options": [
+        { "key": "A", "text": "mengetahui potensi keberhasilan" },
+        { "key": "B", "text": "mengomunikasikan ide dengan jelas" },
+        { "key": "C", "text": "meminimalkan risiko kegagalan" },
+        { "key": "D", "text": "memperoleh laba yang lebih kuat" },
+        { "key": "E", "text": "memprediksi hasil bisnis" }
+      ],
+      "answer": "B",
+      "explanation": "Salah satu manfaat utama penyusunan proposal usaha adalah untuk mengomunikasikan ide, konsep, dan rencana bisnis secara jelas dan sistematis kepada pihak terkait, mitra, maupun calon investor.",
+      "topic": "Proposal Usaha"
+    },
+    {
+      "id": "pkwu-pg-18",
+      "number": 18,
+      "prompt": "Proposal usaha dapat dibedakan menjadi tiga jenis, salah satunya adalah proposal usaha formal. Proposal usaha formal umumnya digunakan untuk ....",
+      "options": [
+        { "key": "A", "text": "merespons permintaan proposal dari pihak lain" },
+        { "key": "B", "text": "merupakan panduan dalam mengembangkan bisnis" },
+        { "key": "C", "text": "menyampaikan ide bisnis dengan jelas" },
+        { "key": "D", "text": "membuat gambaran terkait ide usaha kepada pihak terkait" },
+        { "key": "E", "text": "mengetahui keuntungan yang akan didapat" }
+      ],
+      "answer": "A",
+      "explanation": "Proposal usaha formal (solicited proposal) umumnya disusun dengan format baku untuk merespons permintaan proposal secara resmi dari pihak lain, seperti lembaga pendanaan, bank, atau mitra proyek.",
+      "topic": "Jenis Proposal Usaha"
+    },
+    {
+      "id": "pkwu-pg-19",
+      "number": 19,
+      "prompt": "Masakan oriental merupakan makanan yang berasal dari benua Asia. Masakan oriental memiliki ciri khas yang membedakan dengan masakan dari daerah lain. Ciri khas utama dari masakan oriental adalah ....",
+      "options": [
+        { "key": "A", "text": "penggunaan minyak sayur yang banyak" },
+        { "key": "B", "text": "penyajian menu berdiri sendiri" },
+        { "key": "C", "text": "susunan menu yang terstandarisasi" },
+        { "key": "D", "text": "teknik pengolahan yang sederhana" },
+        { "key": "E", "text": "penggunaan rempah yang beragam" }
+      ],
+      "answer": "E",
+      "explanation": "Masakan oriental berasal dari Asia dan memiliki ciri khas utama penggunaan bumbu dan rempah segar yang sangat beragam (seperti bawang putih, jahe, serai, cabai, dan aneka rempah lainnya), serta penyajian menu yang berdiri sendiri.",
+      "topic": "Masakan Oriental"
+    },
+    {
+      "id": "pkwu-pg-20",
+      "number": 20,
+      "prompt": "Karakteristik makanan Jepang yang membedakan dengan makanan daerah lain, yaitu makanan Jepang ....",
+      "options": [
+        { "key": "A", "text": "menggunakan banyak rempah" },
+        { "key": "B", "text": "teknik memasak yang kompleks" },
+        { "key": "C", "text": "menggunakan bahan ikan mentah atau ayam" },
+        { "key": "D", "text": "susunan makanan yang terstandarisasi" },
+        { "key": "E", "text": "penggunaan saus tomat" }
+      ],
+      "answer": "C",
+      "explanation": "Kuliner khas Jepang menonjolkan kesegaran bahan alami dengan bumbu ringan, salah satunya sangat terkenal dengan pemanfaatan ikan mentah (seperti pada sushi dan sashimi) maupun olahan daging ayam.",
+      "topic": "Masakan Oriental Jepang"
+    },
+    {
+      "id": "pkwu-pg-21",
+      "number": 21,
+      "prompt": "Orang Jepang suka memakan hewan dalam keadaan masih hidup di dalam panci atau mangkok. Di bawah ini contoh makanan Jepang yang disajikan saat masih hidup adalah ....",
+      "options": [
+        { "key": "A", "text": "sushi" },
+        { "key": "B", "text": "shirako" },
+        { "key": "C", "text": "basashi" },
+        { "key": "D", "text": "odori odon" },
+        { "key": "E", "text": "fugusashi" }
+      ],
+      "answer": "D",
+      "explanation": "Odori-don (odori odon) adalah hidangan mangkuk nasi khas Jepang dengan cumi-cumi segar yang disajikan hidup dan tampak menari saat disiram kecap asin.",
+      "topic": "Masakan Oriental Jepang"
+    },
+    {
+      "id": "pkwu-pg-22",
+      "number": 22,
+      "prompt": "Selain terkenal dengan budayanya, Korea juga terkenal akan masakan yang sangat khas. Masakan Korea memiliki karakteristik yang sangat khas berupa ....",
+      "options": [
+        { "key": "A", "text": "penggunaan rempah yang beragam" },
+        { "key": "B", "text": "penggunaan gochujang dalam hampir semua hidangan" },
+        { "key": "C", "text": "penggunaan bumbu sederhana" },
+        { "key": "D", "text": "tidak menggunakan daging dalam hidangan" },
+        { "key": "E", "text": "tidak suka makanan pedas" }
+      ],
+      "answer": "B",
+      "explanation": "Masakan Korea memiliki cita rasa pedas-gurih yang khas karena sering menggunakan pasta cabai fermentasi (gochujang) dalam berbagai hidangannya.",
+      "topic": "Masakan Oriental Korea"
+    },
+    {
+      "id": "pkwu-pg-23",
+      "number": 23,
+      "prompt": "Kimci merupakan salah satu hidangan terkenal dari Korea yang diolah dengan cara ....",
+      "options": [
+        { "key": "A", "text": "digoreng dengan minyak panas" },
+        { "key": "B", "text": "diasinkan dan difermentasi" },
+        { "key": "C", "text": "dipanggang dengan bumbu" },
+        { "key": "D", "text": "direbus dengan kuah kaldu" },
+        { "key": "E", "text": "direbus dengan kuah" }
+      ],
+      "answer": "B",
+      "explanation": "Kimchi dibuat dari sayuran (seperti sawi putih dan lobak) yang diasinkan terlebih dahulu lalu dibumbui dan difermentasi dengan bakteri asam laktat.",
+      "topic": "Masakan Oriental Korea"
+    },
+    {
+      "id": "pkwu-pg-24",
+      "number": 24,
+      "prompt": "Nasi dan macam-macam roti yang dimakan dengan lauk pauk, seperti gule dan kari merupakan karakteristik dari makanan di daerah ....",
+      "options": [
+        { "key": "A", "text": "Singapura" },
+        { "key": "B", "text": "Vietnam" },
+        { "key": "C", "text": "Thailand" },
+        { "key": "D", "text": "Pakistan" },
+        { "key": "E", "text": "Tiongkok" }
+      ],
+      "answer": "D",
+      "explanation": "Kuliner Asia Selatan seperti Pakistan dan India memiliki ciri khas makanan pokok berupa nasi (seperti biryani) dan beragam roti (naan, chapati, roti canai) yang disajikan bersama lauk berbumbu rempah tajam seperti kari dan gule.",
+      "topic": "Karakteristik Masakan Asia"
+    },
+    {
+      "id": "pkwu-pg-25",
+      "number": 25,
+      "prompt": "Daerah Tiongkok yang terkenal dengan masakan pedas karena menggunakan banyak cabai, bawang putih, dan daun bawang adalah ....",
+      "options": [
+        { "key": "A", "text": "Kanton" },
+        { "key": "B", "text": "Zechuan" },
+        { "key": "C", "text": "Hong Kong" },
+        { "key": "D", "text": "Shanghai" },
+        { "key": "E", "text": "Beijing" }
+      ],
+      "answer": "B",
+      "explanation": "Masakan daerah Sichuan (Zechuan/Szechuan) di Tiongkok sangat terkenal dengan cita rasa pedas dan menyengat karena melimpahnya penggunaan cabai, merica Sichuan, bawang putih, dan daun bawang.",
+      "topic": "Masakan Oriental Tiongkok"
+    },
+    {
+      "id": "pkwu-pg-26",
+      "number": 26,
+      "prompt": "Teknik memasak yang berasal dari Tiongkok dan mempunyai cara memasak diaduk-aduk dalam waktu singkat serta memerlukan minyak yang sedikit lebih banyak adalah ....",
+      "options": [
+        { "key": "A", "text": "sauting" },
+        { "key": "B", "text": "grilling" },
+        { "key": "C", "text": "stir frying" },
+        { "key": "D", "text": "pan frying" },
+        { "key": "E", "text": "baking" }
+      ],
+      "answer": "C",
+      "explanation": "Stir frying (menumis cepat dengan wajan/wok bersuhu tinggi sambil terus diaduk) adalah teknik memasak khas Tiongkok dalam waktu singkat dengan minyak agak lebih banyak dibanding sauteing.",
+      "topic": "Teknik Memasak Oriental"
+    },
+    {
+      "id": "pkwu-pg-27",
+      "number": 27,
+      "prompt": "Jenis bahan makanan yang cocok untuk dimasak menggunakan poaching ....",
+      "options": [
+        { "key": "A", "text": "cair dan kental" },
+        { "key": "B", "text": "tipis dan berserat" },
+        { "key": "C", "text": "kaku dan tipis" },
+        { "key": "D", "text": "lunak atau lembut" },
+        { "key": "E", "text": "berserat dan tebal" }
+      ],
+      "answer": "D",
+      "explanation": "Poaching adalah teknik merebus bahan makanan dalam cairan bersuhu di bawah titik didih (sekitar 70–85 °C) sehingga cocok untuk bahan bertekstur lunak atau lembut seperti telur, ikan, dan buah.",
+      "topic": "Teknik Memasak Panas Basah"
+    },
+    {
+      "id": "pkwu-pg-28",
+      "number": 28,
+      "prompt": "Teknik boiling merupakan teknik yang sangat umum digunakan untuk mengolah makanan oriental. Salah satu contoh makanan yang menggunakan teknik boiling adalah ....",
+      "options": [
+        { "key": "A", "text": "kimchi jjigae" },
+        { "key": "B", "text": "bolu kukus" },
+        { "key": "C", "text": "ramen" },
+        { "key": "D", "text": "beef tendon" },
+        { "key": "E", "text": "salmon curry" }
+      ],
+      "answer": "C",
+      "explanation": "Teknik boiling adalah memasak bahan makanan dalam air mendidih (100 °C). Pembuatan mi ramen merupakan contoh penerapan teknik boiling saat merebus mi dan kuah.",
+      "topic": "Teknik Memasak Panas Basah"
+    },
+    {
+      "id": "pkwu-pg-29",
+      "number": 29,
+      "prompt": "Teknik memasak bahan makanan dengan uap air mendidih. Sebelum mengukus alat pengukus yang sudah berisi air harus dipanaskan terlebih dahulu hingga mengeluarkan uap, disebut teknik memasak ....",
+      "options": [
+        { "key": "A", "text": "Teknik boiling" },
+        { "key": "B", "text": "Teknik steaming" },
+        { "key": "C", "text": "Teknik stewing" },
+        { "key": "D", "text": "Teknik poaching" },
+        { "key": "E", "text": "Teknik braising" }
+      ],
+      "answer": "B",
+      "explanation": "Steaming (mengukus) adalah teknik memasak menggunakan uap air panas dari air yang dididihkan di bagian bawah alat pengukus tanpa merendam bahan makanan di dalam air.",
+      "topic": "Teknik Memasak Panas Basah"
+    },
+    {
+      "id": "pkwu-pg-30",
+      "number": 30,
+      "prompt": "Perhatikan beberapa pernyataan berikut!\n(1) Nama produk pangan olahan\n(2) Daftar bahan yang digunakan\n(3) Nomor izin edar\n(4) Alamat calon pembeli\n(5) Nama distributor\nBerdasarkan pernyataan di atas, suatu label pangan olahan harus memuat hal-hal yang ditunjukkan oleh nomor ....",
+      "options": [
+        { "key": "A", "text": "(1), (2), dan (3)" },
+        { "key": "B", "text": "(1), (2), dan (4)" },
+        { "key": "C", "text": "(2), (3), dan (4)" },
+        { "key": "D", "text": "(2), (3), dan (5)" },
+        { "key": "E", "text": "(3), (4), dan (5)" }
+      ],
+      "answer": "A",
+      "explanation": "Sesuai ketentuan pelabelan pangan (BPOM), label pangan olahan wajib memuat informasi produk seperti nama produk pangan olahan (1), daftar bahan/komposisi yang digunakan (2), dan nomor izin edar (3).",
+      "topic": "Label Pangan"
+    },
+    {
+      "id": "pkwu-pg-31",
+      "number": 31,
+      "prompt": "Nama dan alamat produsen wajib dicantumkan pada label pangan. Nama dan alamat produsen wajib dicantumkan pada label pangan karena ....",
+      "options": [
+        { "key": "A", "text": "memberikan informasi kepada konsumen" },
+        { "key": "B", "text": "meningkatkan kesadaran merk" },
+        { "key": "C", "text": "melindungi konsumen" },
+        { "key": "D", "text": "memenuhi peraturan hukum" },
+        { "key": "E", "text": "memudahkan pelacakan produk" }
+      ],
+      "answer": "E",
+      "explanation": "Pencantuman nama dan alamat produsen secara spesifik berfungsi untuk memudahkan penelusuran/pelacakan produk serta pertanggungjawaban apabila terjadi masalah mutu atau keamanan pangan.",
+      "topic": "Label Pangan"
+    },
+    {
+      "id": "pkwu-pg-32",
+      "number": 32,
+      "prompt": "Logo halal merupakan informasi yang biasanya tercantum dalam kemasan makanan, logo halal dapat dicantumkan pada label produk jika ....",
+      "options": [
+        { "key": "A", "text": "produsen mengingatkannya" },
+        { "key": "B", "text": "produk telah diuji laboratorium" },
+        { "key": "C", "text": "produk sudah memiliki merk dagang" },
+        { "key": "D", "text": "produk memiliki tanggal kadaluwarsa yang jelas" },
+        { "key": "E", "text": "produk sudah mendapat sertifikat halal dari MUI" }
+      ],
+      "answer": "E",
+      "explanation": "Pencantuman logo halal pada kemasan produk pangan hanya boleh dilakukan setelah produk tersebut lolos audit/pemeriksaan dan resmi memperoleh sertifikat halal dari otoritas berwenang (MUI/BPJPH).",
+      "topic": "Label Pangan"
+    },
+    {
+      "id": "pkwu-pg-33",
+      "number": 33,
+      "prompt": "Di bawah ini sifat-sifat yang harus dimiliki oleh suatu kemasan produk pangan olahan, kecuali ....",
+      "options": [
+        { "key": "A", "text": "kedap air (mampu menahan air atau kelembaban udara sekitarnya)" },
+        { "key": "B", "text": "bersifat toksik dan inert" },
+        { "key": "C", "text": "kuat dan tidak mudah bocor" },
+        { "key": "D", "text": "mudah dikerjakan secara massal dan harganya relatif murah" },
+        { "key": "E", "text": "permeable terhadap udara (oksigen dan gas lain)" }
+      ],
+      "answer": "B",
+      "explanation": "Kemasan pangan wajib bersifat non-toksik (tidak beracun) dan inert (tidak bereaksi dengan bahan pangan). Pilihan B menyatakan \"bersifat toksik\" yang bertentangan dengan syarat keamanan kemasan pangan.",
+      "topic": "Syarat Kemasan Pangan"
+    },
+    {
+      "id": "pkwu-pg-34",
+      "number": 34,
+      "prompt": "Strategi promosi yang menggunakan media sosial untuk menjangkau lebih banyak konsumen adalah ....",
+      "options": [
+        { "key": "A", "text": "melakukan riset pasar" },
+        { "key": "B", "text": "memahami target konsumen" },
+        { "key": "C", "text": "menentukan tujuan promosi" },
+        { "key": "D", "text": "memanfaatkan media sosial" },
+        { "key": "E", "text": "bekerja sama dengan influencer" }
+      ],
+      "answer": "D",
+      "explanation": "Strategi promosi berbasis media sosial untuk menjangkau lebih banyak konsumen secara langsung dilakukan dengan memanfaatkan berbagai platform media sosial (Instagram, TikTok, Facebook, dll.) secara optimal.",
+      "topic": "Promosi Digital"
+    },
+    {
+      "id": "pkwu-pg-35",
+      "number": 35,
+      "prompt": "Mencantumkan informasi dalam kemasan merupakan hal yang penting. Tujuan mencantumkan informasi produk secara lengkap pada kemasan produk penting yaitu untuk ....",
+      "options": [
+        { "key": "A", "text": "membuat kemasan terlihat lebih menarik" },
+        { "key": "B", "text": "memberikan informasi kepada pelanggan tentang produk" },
+        { "key": "C", "text": "meningkatkan efisiensi distribusi" },
+        { "key": "D", "text": "memberikan daya tarik visual" },
+        { "key": "E", "text": "mengurangi biaya produksi" }
+      ],
+      "answer": "B",
+      "explanation": "Pencantuman label/informasi produk yang lengkap bertujuan memberikan informasi yang jelas dan jujur kepada konsumen mengenai komposisi, berat bersih, cara penggunaan, dan tanggal kedaluwarsa.",
+      "topic": "Label Kemasan"
+    },
+    {
+      "id": "pkwu-pg-36",
+      "number": 36,
+      "prompt": "Kemasan kaleng merupakan kemasan yang terbuat dari logam yang memiliki kelebihan dan kekurangan. Kelebihan dari kemasan kaleng sebagai kemasan pangan adalah ....",
+      "options": [
+        { "key": "A", "text": "murah dan mudah di daur ulang" },
+        { "key": "B", "text": "ringan dan mudah diangkut" },
+        { "key": "C", "text": "tahan terhadap sinar matahari dan kekuatan mekanis besar" },
+        { "key": "D", "text": "tidak mempengaruhi cita rasa segar produk" },
+        { "key": "E", "text": "mudah terurai dan ramah lingkungan" }
+      ],
+      "answer": "C",
+      "explanation": "Kemasan kaleng (logam) unggul karena kedap terhadap cahaya/sinar matahari, gas, dan mikroba serta memiliki kekuatan mekanis yang besar sehingga tahan terhadap benturan selama distribusi.",
+      "topic": "Bahan Kemasan"
+    },
+    {
+      "id": "pkwu-pg-37",
+      "number": 37,
+      "prompt": "Berikut ini merupakan tujuan dan manfaat dari promosi produk pangan oriental kecuali ....",
+      "options": [
+        { "key": "A", "text": "memberikan informasi produk kepada pelanggan" },
+        { "key": "B", "text": "menambah stok barang" },
+        { "key": "C", "text": "memperkenalkan produk atau jasa baru" },
+        { "key": "D", "text": "meningkatkan penjualan dan keuntungan" },
+        { "key": "E", "text": "memperkenalkan citra brand" }
+      ],
+      "answer": "B",
+      "explanation": "Promosi bertujuan menginformasikan produk, memperkenalkan produk baru dan citra merek, serta meningkatkan penjualan/keuntungan. Menambah stok barang merupakan bagian dari manajemen persediaan/produksi, bukan tujuan promosi.",
+      "topic": "Tujuan Promosi"
+    },
+    {
+      "id": "pkwu-pg-38",
+      "number": 38,
+      "prompt": "Berikut yang termasuk dalam perencanaan keuangan dalam rencana usaha makanan adalah ....",
+      "options": [
+        { "key": "A", "text": "mengidentifikasi tujuan dan visi bisnis" },
+        { "key": "B", "text": "analisis pasar dan persaingan" },
+        { "key": "C", "text": "mematangkan rencana keuangan" },
+        { "key": "D", "text": "memilih strategi pemasaran yang efektif" },
+        { "key": "E", "text": "manajemen resiko" }
+      ],
+      "answer": "C",
+      "explanation": "Dalam penyusunan rencana usaha makanan, aspek perencanaan keuangan berfokus pada pematangan rencana keuangan seperti rincian modal awal, biaya operasional, proyeksi pendapatan, dan perhitungan BEP.",
+      "topic": "Perencanaan Usaha"
+    },
+    {
+      "id": "pkwu-pg-39",
+      "number": 39,
+      "prompt": "Dalam perencanaan usaha makanan diperlukan manajemen risiko. Manajemen risiko perlu diperhatikan karena berfungsi untuk ....",
+      "options": [
+        { "key": "A", "text": "menentukan target pasar yang spesifik" },
+        { "key": "B", "text": "mengelola risiko yang mungkin dihadapi" },
+        { "key": "C", "text": "mengembangkan strategi pemasaran yang tepat" },
+        { "key": "D", "text": "mengidentifikasi trend makanan terkini" },
+        { "key": "E", "text": "memilih strategi pemasaran yang efektif" }
+      ],
+      "answer": "B",
+      "explanation": "Manajemen risiko berfungsi untuk mengidentifikasi, menganalisis, dan mengelola berbagai potensi risiko yang mungkin dihadapi usaha (seperti bahan baku rusak atau penurunan permintaan) agar kerugian dapat diminimalkan.",
+      "topic": "Manajemen Risiko"
+    },
+    {
+      "id": "pkwu-pg-40",
+      "number": 40,
+      "prompt": "Rencana usaha perlu dirumuskan sebelum dilaksanakannya kegiatan produksi. Hal ini bertujuan untuk ....",
+      "options": [
+        { "key": "A", "text": "menentukan target pasar yang spesifik" },
+        { "key": "B", "text": "menghitung biaya awal yang diperlukan" },
+        { "key": "C", "text": "mencari ide-ide baru untuk bisnis" },
+        { "key": "D", "text": "mengidentifikasi tujuan dan visi bisnis" },
+        { "key": "E", "text": "mengelola resiko yang mungkin dihadapi" }
+      ],
+      "answer": "D",
+      "explanation": "Perumusan rencana usaha sebelum kegiatan produksi bertujuan untuk menetapkan arah dan pedoman kerja melalui identifikasi tujuan serta visi bisnis yang jelas sebelum eksekusi operasional berjalan.",
+      "topic": "Perencanaan Usaha"
+    }
+  ],
+  "essays": [
+    {
+      "id": "pkwu-es-1",
+      "number": 1,
+      "prompt": "Sebutkan dan jelaskan 5 contoh produk olahan nonpangan dari tanaman herbal!",
+      "rubric": "Menyebutkan 5 produk olahan nonpangan berbahan tanaman herbal beserta penjelasan singkat bahan herbal dan kegunaannya (misalnya sabun herbal, minyak atsiri/esensial, obat kumur daun sirih, lulur/masker herbal, balsem/minyak gosok, lilin aromaterapi, sampo herbal).",
+      "modelAnswer": "1. Sabun herbal (misalnya dari kunyit, daun sirih, atau serai): digunakan untuk membersihkan kulit sekaligus memberi efek antiseptik dan antiinflamasi.\n2. Minyak atsiri/aromaterapi (misalnya dari lavender, serai wangi, atau kulit jeruk): dimanfaatkan sebagai pengharum ruangan, relaksasi, dan pereda stres.\n3. Obat kumur herbal (dari ekstrak daun sirih dan garam): berfungsi menghambat bakteri penyebab plak dan bau mulut.\n4. Lulur atau masker wajah herbal (dari temulawak, kunyit, atau kencur): digunakan untuk perawatan kulit, mengangkat sel kulit mati, dan mencerahkan kulit.\n5. Minyak gosok/balsem herbal (dari jahe, cengkeh, atau serai): memberikan efek hangat untuk meredakan pegal linu, nyeri otot, dan masuk angin."
+    },
+    {
+      "id": "pkwu-es-2",
+      "number": 2,
+      "prompt": "Daerah Melayu atau yang biasa kita kenal daerah Indonesia, Malaysia, dan Singapura memiliki kemiripan karakteristik masakan yang membedakan dengan daerah lain di Asia. Bagaimana karakteristik dari masakan khas Melayu?",
+      "rubric": "Menjelaskan ciri khas masakan Melayu meliputi penggunaan rempah-rempah aromatik yang kaya, santan kelapa, rasa gurih-pedas, bahan utama nasi serta hasil laut/daging, dan proses memasak dengan bumbu halus.",
+      "modelAnswer": "Karakteristik masakan khas Melayu antara lain:\n1. Kaya akan penggunaan bumbu dan rempah-rempah aromatik seperti serai, lengkuas, kunyit, jahe, ketumbar, jintan, kapulaga, kayu manis, dan daun jeruk.\n2. Banyak menggunakan santan kelapa untuk menghasilkan kuah yang kental dan cita rasa gurih.\n3. Cita rasa umumnya gurih, berempah tajam, dan cenderung pedas dengan pemanfaatan cabai serta belacan (terasi).\n4. Menggunakan bahan utama nasi sebagai makanan pokok yang dipadukan dengan lauk ikan, hasil laut, ayam, atau daging sapi (contohnya rendang, gulai, laksa, dan nasi lemak)."
+    },
+    {
+      "id": "pkwu-es-3",
+      "number": 3,
+      "prompt": "Teknik pengolahan makanan panas basah adalah mengolah makanan dengan bantuan cairan. Sebutkan 5 dan jelaskan mengenai teknik memasak panas basah!",
+      "rubric": "Menyebutkan 5 teknik memasak panas basah (moist heat cooking) beserta penjelasan cara dan kisaran suhunya, misalnya boiling, poaching, simmering, stewing, braising, atau steaming.",
+      "modelAnswer": "Lima teknik memasak panas basah (moist heat cooking):\n1. Boiling (merebus): memasak bahan makanan dalam cairan (air, kaldu, atau santan) yang mendidih penuh pada suhu 100 °C hingga matang.\n2. Simmering: merebus bahan makanan dalam cairan dengan api kecil pada suhu sedikit di bawah titik didih (sekitar 85–95 °C) agar bumbu meresap dan tekstur bahan tetap utuh.\n3. Poaching: memasak bahan makanan bertekstur lembut (seperti telur atau ikan) dalam sedikit cairan bersuhu rendah (70–85 °C) tanpa mendidih.\n4. Steaming (mengukus): memasak bahan makanan menggunakan uap air panas dari air mendidih di dalam alat pengukus tertutup.\n5. Stewing (menyetup/menggulai): memasak potongan bahan makanan secara perlahan dalam sedikit cairan atau saus kental dengan panci tertutup hingga empuk dan bumbu menyatu."
+    },
+    {
+      "id": "pkwu-es-4",
+      "number": 4,
+      "prompt": "Apakah yang dimaksud dengan label produk? Sebutkan pula isi informasi dari label produk!",
+      "rubric": "Menjelaskan pengertian label produk sebagai keterangan tertulis/gambar pada kemasan, serta menyebutkan unsur wajib isi label (nama produk, komposisi, berat bersih, nama dan alamat produsen, tanggal kedaluwarsa, nomor izin edar, dan logo halal bila dipersyaratkan).",
+      "modelAnswer": "Label produk adalah setiap keterangan mengenai barang/produk pangan atau nonpangan yang berbentuk gambar, tulisan, atau kombinasi keduanya yang disertakan, ditempelkan, atau dicetak pada kemasan produk.\n\nIsi informasi yang tercantum pada label produk antara lain:\n1. Nama produk.\n2. Daftar bahan atau komposisi yang digunakan.\n3. Berat bersih atau isi bersih (netto).\n4. Nama dan alamat pihak yang memproduksi atau mengimpor.\n5. Tanggal dan kode produksi serta tanggal kedaluwarsa.\n6. Nomor izin edar (seperti PIRT atau BPOM).\n7. Keterangan halal (bagi yang dipersyaratkan) serta petunjuk penggunaan/penyimpanan."
+    },
+    {
+      "id": "pkwu-es-5",
+      "number": 5,
+      "prompt": "Sebutkan alasan penting untuk menyusun rencana usaha sebelum dilaksanakannya proses produksi!",
+      "rubric": "Menyebutkan minimal 4 alasan penting penyusunan rencana usaha sebelum produksi: pedoman/arah usaha, perhitungan modal dan biaya, analisis pasar dan strategi pemasaran, mitigasi risiko, serta alat untuk menarik mitra/investor.",
+      "modelAnswer": "Alasan penting menyusun rencana usaha sebelum proses produksi dilaksanakan:\n1. Menjadi pedoman dan arah kerja yang jelas agar tujuan serta visi bisnis tercapai secara terstruktur.\n2. Menghitung kebutuhan modal awal, biaya produksi, harga pokok penjualan, dan proyeksi keuntungan sehingga keuangan terkendali.\n3. Mengenali target pasar, kebutuhan konsumen, serta posisi pesaing agar produk tepat sasaran.\n4. Mengidentifikasi dan meminimalkan potensi risiko usaha sejak dini.\n5. Memudahkan evaluasi kinerja serta menjadi dokumen pendukung saat mencari mitra kerja sama atau permodalan dari investor/lembaga keuangan."
+    }
+  ]
+}

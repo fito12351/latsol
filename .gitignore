@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+*.tsbuildinfo
+
+# Android build outputs & local SDK config
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/app/release-key.jks
+
+# iOS Pods / user data
+ios/App/Pods/
+ios/App/App.xcworkspace/xcuserdata/
+ios/App/App.xcodeproj/xcuserdata/
+
+# Keep exported release APK tracked in Releases instead of git history
+*.apk

@@ -1,0 +1,648 @@
+{
+  "id": "seni-rupa",
+  "name": "Seni Rupa",
+  "shortName": "SRUP",
+  "group": "umum",
+  "schedule": "Selasa, 9 Desember 2025",
+  "durationMinutes": 90,
+  "accentColor": "#EE9EE0",
+  "questions": [
+    {
+      "id": "seni-rupa-pg-1",
+      "number": 1,
+      "prompt": "Sebuah karya seni yang dibuat dengan mengutamakan kegunaannya sehari-hari merupakan karya seni rupa...",
+      "options": [
+        { "key": "A", "text": "Murni" },
+        { "key": "B", "text": "Terapan" },
+        { "key": "C", "text": "Tradisional" },
+        { "key": "D", "text": "Modern" },
+        { "key": "E", "text": "Desain" }
+      ],
+      "answer": "B",
+      "explanation": "Seni rupa terapan (applied art) adalah karya seni rupa yang diciptakan dengan mengutamakan fungsi pakai atau kegunaan dalam kehidupan sehari-hari tanpa mengesampingkan nilai estetis.",
+      "topic": "Konsep Seni Rupa Terapan"
+    },
+    {
+      "id": "seni-rupa-pg-2",
+      "number": 2,
+      "prompt": "Alat-alat yang diciptakan oleh manusia zaman prasejarah yang termasuk karya seni rupa terapan digunakan untuk...",
+      "options": [
+        { "key": "A", "text": "Memutus kehidupan" },
+        { "key": "B", "text": "Menjaga kehidupan mereka" },
+        { "key": "C", "text": "Hiburan bagi mereka" },
+        { "key": "D", "text": "Memenuhi kebutuhan hidup" },
+        { "key": "E", "text": "Mengurangi kebutuhan mereka" }
+      ],
+      "answer": "D",
+      "explanation": "Pada zaman prasejarah, manusia menciptakan peralatan seperti kapak batu, gerabah, dan perkakas lainnya untuk memenuhi kebutuhan hidup sehari-hari seperti berburu dan mengolah makanan.",
+      "topic": "Sejarah Seni Terapan"
+    },
+    {
+      "id": "seni-rupa-pg-3",
+      "number": 3,
+      "prompt": "Nilai estetis pada karya seni dibuat dengan menambahkan...",
+      "options": [
+        { "key": "A", "text": "Gradasi" },
+        { "key": "B", "text": "Pencahayaan" },
+        { "key": "C", "text": "Desain" },
+        { "key": "D", "text": "Tekstur" },
+        { "key": "E", "text": "Gelap-terang" }
+      ],
+      "answer": "D",
+      "explanation": "Penambahan tekstur pada permukaan karya seni rupa memberikan variasi raba maupun visual yang memperkaya tampilan dan meningkatkan nilai estetis karya tersebut.",
+      "topic": "Unsur Estetis Seni Rupa"
+    },
+    {
+      "id": "seni-rupa-pg-4",
+      "number": 4,
+      "prompt": "Berikut contoh karya seni rupa terapan dua dimensi adalah...",
+      "options": [
+        { "key": "A", "text": "Kerajinan ukiran dari kayu" },
+        { "key": "B", "text": "Wayang kulit" },
+        { "key": "C", "text": "Kendi dari tanah liat" },
+        { "key": "D", "text": "Kerajinan topi dari bambu" },
+        { "key": "E", "text": "Bakul tenong" }
+      ],
+      "answer": "B",
+      "explanation": "Wayang kulit berbentuk pipih (memiliki ukuran panjang dan lebar) sehingga digolongkan sebagai karya seni rupa terapan dua dimensi, sedangkan ukiran kayu, kendi, topi bambu, dan bakul tenong berbentuk tiga dimensi.",
+      "topic": "Dimensi Seni Rupa"
+    },
+    {
+      "id": "seni-rupa-pg-5",
+      "number": 5,
+      "prompt": "Teknik pembuatan karya seni rupa terapan batik tulis memerlukan alat untuk menggambar motif dengan lilin panas yang dikenal dengan...",
+      "options": [
+        { "key": "A", "text": "Kuas" },
+        { "key": "B", "text": "Pisau palet" },
+        { "key": "C", "text": "Canting" },
+        { "key": "D", "text": "Pahat" },
+        { "key": "E", "text": "Pensil" }
+      ],
+      "answer": "C",
+      "explanation": "Canting adalah alat khusus bertangkai dengan wadah tembaga kecil dan cucuk untuk menorehkan malam (lilin panas) ke permukaan kain pada proses batik tulis.",
+      "topic": "Teknik Batik"
+    },
+    {
+      "id": "seni-rupa-pg-6",
+      "number": 6,
+      "prompt": "Bagi seorang perupa seni terapan, fungsi seni adalah untuk...",
+      "options": [
+        { "key": "A", "text": "Media ekspresi" },
+        { "key": "B", "text": "Sarana mendapatkan pengalaman estetis" },
+        { "key": "C", "text": "Menciptakan benda fungsional yang estetis" },
+        { "key": "D", "text": "Memenuhi kebutuhan benda fungsional yang mahal" },
+        { "key": "E", "text": "Menciptakan benda fungsional tanpa nilai estetis" }
+      ],
+      "answer": "C",
+      "explanation": "Perupa seni terapan merancang karya agar memiliki fungsi guna praktis sekaligus tetap memiliki nilai keindahan (estetis).",
+      "topic": "Fungsi Seni Terapan"
+    },
+    {
+      "id": "seni-rupa-pg-7",
+      "number": 7,
+      "prompt": "Berikut adalah beberapa jenis karya seni.\n1) Seni lukis\n2) Seni tari\n3) Seni keramik\n4) Seni kriya\n5) Seni desain\nDari karya seni di atas, yang termasuk jenis karya seni rupa terapan adalah nomor...",
+      "options": [
+        { "key": "A", "text": "1 dan 2" },
+        { "key": "B", "text": "1 dan 3" },
+        { "key": "C", "text": "2 dan 3" },
+        { "key": "D", "text": "2 dan 4" },
+        { "key": "E", "text": "3 dan 5" }
+      ],
+      "answer": "E",
+      "explanation": "Seni lukis termasuk seni rupa murni dan seni tari termasuk seni pertunjukan, sedangkan seni keramik (3) dan seni desain (5) termasuk seni rupa terapan.",
+      "topic": "Jenis Seni Terapan"
+    },
+    {
+      "id": "seni-rupa-pg-8",
+      "number": 8,
+      "prompt": "Seni kriya adalah bentuk seni yang mengutamakan keterampilan tangan dalam menciptakan benda-benda yang bersifat...",
+      "options": [
+        { "key": "A", "text": "Fiktif" },
+        { "key": "B", "text": "Fungsional dan estetis" },
+        { "key": "C", "text": "Hanya estetis" },
+        { "key": "D", "text": "Digital" },
+        { "key": "E", "text": "Otomatis" }
+      ],
+      "answer": "B",
+      "explanation": "Seni kriya memadukan keahlian keterampilan tangan (craftsmanship) untuk menghasilkan benda yang fungsional (dapat digunakan) sekaligus estetis (indah).",
+      "topic": "Pengertian Seni Kriya"
+    },
+    {
+      "id": "seni-rupa-pg-9",
+      "number": 9,
+      "prompt": "Seni kriya di Indonesia memiliki peranan yang sangat penting dalam menjaga...",
+      "options": [
+        { "key": "A", "text": "Perkembangan teknologi" },
+        { "key": "B", "text": "Warisan budaya dan tradisi lokal" },
+        { "key": "C", "text": "Pola pikir modern" },
+        { "key": "D", "text": "Seni rupa kontemporer" },
+        { "key": "E", "text": "Kebudayaan asing" }
+      ],
+      "answer": "B",
+      "explanation": "Kriya Nusantara sarat akan motif, teknik, dan filosofi daerah sehingga berperan penting dalam melestarikan warisan budaya dan tradisi lokal.",
+      "topic": "Peran Seni Kriya"
+    },
+    {
+      "id": "seni-rupa-pg-10",
+      "number": 10,
+      "prompt": "Penemuan bejana perunggu yang memiliki corak hias menunjukkan bahwa manusia prasejarah telah mengenal nilai...",
+      "options": [
+        { "key": "A", "text": "Komersial" },
+        { "key": "B", "text": "Objektif" },
+        { "key": "C", "text": "Subjektif" },
+        { "key": "D", "text": "Fungsional" },
+        { "key": "E", "text": "Estetis" }
+      ],
+      "answer": "E",
+      "explanation": "Pemberian corak hias/ornamen pada bejana perunggu membuktikan bahwa manusia prasejarah sudah memiliki kepekaan terhadap keindahan atau nilai estetis, bukan sekadar fungsi pakai.",
+      "topic": "Sejarah Seni Kriya"
+    },
+    {
+      "id": "seni-rupa-pg-11",
+      "number": 11,
+      "prompt": "Keris dan topeng merupakan karya seni kriya yang muncul pada masa...",
+      "options": [
+        { "key": "A", "text": "Islam" },
+        { "key": "B", "text": "Hindu" },
+        { "key": "C", "text": "Modern" },
+        { "key": "D", "text": "Prasejarah" },
+        { "key": "E", "text": "Belanda" }
+      ],
+      "answer": "B",
+      "explanation": "Pada masa kerajaan Hindu-Buddha di Nusantara, berkembang pesat berbagai karya kriya klasik seperti keris pusaka, topeng upacara, arca logam, dan ukiran candi.",
+      "topic": "Sejarah Seni Kriya"
+    },
+    {
+      "id": "seni-rupa-pg-12",
+      "number": 12,
+      "prompt": "Bahan keras untuk kerajinan yang diolah menggunakan teknik pemanasan dan tempa adalah...",
+      "options": [
+        { "key": "A", "text": "Kaca" },
+        { "key": "B", "text": "Logam" },
+        { "key": "C", "text": "Bambu" },
+        { "key": "D", "text": "Kayu" },
+        { "key": "E", "text": "Rotan" }
+      ],
+      "answer": "B",
+      "explanation": "Logam (seperti besi, baja, tembaga, dan kuningan) merupakan bahan keras yang dapat dibentuk dengan cara dipanaskan hingga membara kemudian ditempa.",
+      "topic": "Bahan & Teknik Kriya"
+    },
+    {
+      "id": "seni-rupa-pg-13",
+      "number": 13,
+      "prompt": "Serat sutra dimanfaatkan oleh manusia sehingga menjadi benang. Serat tersebut berasal dari...",
+      "options": [
+        { "key": "A", "text": "Tumbuhan" },
+        { "key": "B", "text": "Biji" },
+        { "key": "C", "text": "Domba" },
+        { "key": "D", "text": "Mineral" },
+        { "key": "E", "text": "Ulat" }
+      ],
+      "answer": "E",
+      "explanation": "Serat sutra merupakan serat alami hewani yang dihasilkan dari kepompong larva ulat sutra (Bombyx mori).",
+      "topic": "Bahan Tekstil Kriya"
+    },
+    {
+      "id": "seni-rupa-pg-14",
+      "number": 14,
+      "prompt": "Jenis kain yang digunakan untuk membatik adalah kain...",
+      "options": [
+        { "key": "A", "text": "Brokat" },
+        { "key": "B", "text": "Wol" },
+        { "key": "C", "text": "Rayon" },
+        { "key": "D", "text": "Satin" },
+        { "key": "E", "text": "Mori" }
+      ],
+      "answer": "E",
+      "explanation": "Kain mori adalah kain tenun katun berwarna putih yang umum dijadikan bahan utama membatik karena seratnya rapat dan menyerap malam serta zat warna dengan baik.",
+      "topic": "Bahan Batik"
+    },
+    {
+      "id": "seni-rupa-pg-15",
+      "number": 15,
+      "prompt": "Kulit kambing dan domba sering digunakan dalam seni kriya untuk membuat...",
+      "options": [
+        { "key": "A", "text": "Alat musik tradisional" },
+        { "key": "B", "text": "Furnitur dan pelapis kursi" },
+        { "key": "C", "text": "Barang kecil, seperti sarung tangan dan dompet" },
+        { "key": "D", "text": "Alas kaki dan sandal tradisional" },
+        { "key": "E", "text": "Barang-barang berukuran besar, seperti tas" }
+      ],
+      "answer": "C",
+      "explanation": "Kulit kambing dan domba memiliki tekstur yang lebih tipis, halus, dan lentur dibanding kulit sapi sehingga sangat cocok dibuat barang berukuran kecil seperti sarung tangan dan dompet.",
+      "topic": "Kriya Kulit"
+    },
+    {
+      "id": "seni-rupa-pg-16",
+      "number": 16,
+      "prompt": "Bambu yang digunakan dalam konstruksi ringan biasanya berupa...",
+      "options": [
+        { "key": "A", "text": "Serat bambu" },
+        { "key": "B", "text": "Potongan kecil bambu" },
+        { "key": "C", "text": "Bambu batang utuh" },
+        { "key": "D", "text": "Anyaman bambu" },
+        { "key": "E", "text": "Irisan tipis bambu" }
+      ],
+      "answer": "C",
+      "explanation": "Untuk keperluan konstruksi ringan (seperti rangka gazebo, tiang, atau atap), kekuatan struktural diperoleh dari penggunaan bambu dalam bentuk batang utuh.",
+      "topic": "Kriya Bambu"
+    },
+    {
+      "id": "seni-rupa-pg-17",
+      "number": 17,
+      "prompt": "Kelebihan utama bahan kayu untuk kriya adalah...",
+      "options": [
+        { "key": "A", "text": "Daya tahannya yang tinggi" },
+        { "key": "B", "text": "Harganya yang murah" },
+        { "key": "C", "text": "Teksturnya yang halus dan lembut" },
+        { "key": "D", "text": "Sifatnya yang mudah rusak" },
+        { "key": "E", "text": "Ketersediaannya yang terbatas" }
+      ],
+      "answer": "A",
+      "explanation": "Kayu keras berkualitas (seperti jati atau mahoni) unggul dalam seni kriya karena memiliki kekuatan struktur serta daya tahan yang tinggi dan awet.",
+      "topic": "Kriya Kayu"
+    },
+    {
+      "id": "seni-rupa-pg-18",
+      "number": 18,
+      "prompt": "Bahan berupa serat bambu atau serat rotan dapat dibuat menjadi karya seni rupa dengan teknik...",
+      "options": [
+        { "key": "A", "text": "Menenun" },
+        { "key": "B", "text": "Menyulam" },
+        { "key": "C", "text": "Membordir" },
+        { "key": "D", "text": "Mencetak" },
+        { "key": "E", "text": "Menganyam" }
+      ],
+      "answer": "E",
+      "explanation": "Serat atau bilah bambu dan rotan disilangkan secara tumpang-tindih untuk membentuk benda fungsional menggunakan teknik menganyam.",
+      "topic": "Teknik Kriya Anyam"
+    },
+    {
+      "id": "seni-rupa-pg-19",
+      "number": 19,
+      "prompt": "Karya seni kriya berupa hiasan dinding atau cendera mata merupakan hasil karya seni kriya yang memiliki fungsi sebagai...",
+      "options": [
+        { "key": "A", "text": "Dekorasi" },
+        { "key": "B", "text": "Benda terapan" },
+        { "key": "C", "text": "Mainan" },
+        { "key": "D", "text": "Arsitektur" },
+        { "key": "E", "text": "Benda koleksi" }
+      ],
+      "answer": "A",
+      "explanation": "Hiasan dinding dan cendera mata lebih menonjolkan keindahan visual untuk memperindah ruangan atau kenang-kenangan sehingga berfungsi sebagai dekorasi (benda hias).",
+      "topic": "Fungsi Seni Kriya"
+    },
+    {
+      "id": "seni-rupa-pg-20",
+      "number": 20,
+      "prompt": "Berikut contoh hasil karya seni rupa terapan yang ditemukan di masa prasejarah antara lain...",
+      "options": [
+        { "key": "A", "text": "Candi" },
+        { "key": "B", "text": "Masjid" },
+        { "key": "C", "text": "Kapak batu" },
+        { "key": "D", "text": "Patung Buddha" },
+        { "key": "E", "text": "Rumah Joglo" }
+      ],
+      "answer": "C",
+      "explanation": "Kapak batu (kapak genggam, kapak persegi, kapak lonjong) merupakan peninggalan zaman prasejarah, sedangkan candi/patung Buddha berasal dari masa Hindu-Buddha dan masjid/Joglo dari masa lebih kemudian.",
+      "topic": "Sejarah Seni Prasejarah"
+    },
+    {
+      "id": "seni-rupa-pg-21",
+      "number": 21,
+      "prompt": "Teknik yang digunakan dalam kriya kayu adalah...",
+      "options": [
+        { "key": "A", "text": "Mencetak dan menghaluskan permukaan" },
+        { "key": "B", "text": "Menempa dan membakar bahan" },
+        { "key": "C", "text": "Menenun dan membordir" },
+        { "key": "D", "text": "Memahat dan mengukir" },
+        { "key": "E", "text": "Mencetak dan mencelup" }
+      ],
+      "answer": "D",
+      "explanation": "Kriya kayu umumnya dikerjakan dengan teknik memahat dan mengukir menggunakan alat pahat serta palu kayu untuk membentuk relief atau patung.",
+      "topic": "Teknik Kriya Kayu"
+    },
+    {
+      "id": "seni-rupa-pg-22",
+      "number": 22,
+      "prompt": "Salah satu contoh kriya logam yang terkenal dari Indonesia adalah...",
+      "options": [
+        { "key": "A", "text": "Batik dari Yogyakarta" },
+        { "key": "B", "text": "Keris dari Bali dan Jawa" },
+        { "key": "C", "text": "Wayang kulit dari Jawa" },
+        { "key": "D", "text": "Topeng dari Bali" },
+        { "key": "E", "text": "Kain ikat dari Nusa Tenggara Timur" }
+      ],
+      "answer": "B",
+      "explanation": "Keris dibuat dari tempaan berbagai unsur logam (besi, baja, dan pamor nikel) sehingga merupakan contoh kriya logam ikonik dari Jawa dan Bali.",
+      "topic": "Kriya Logam"
+    },
+    {
+      "id": "seni-rupa-pg-23",
+      "number": 23,
+      "prompt": "Salah satu contoh karya seni kriya pada zaman Hindu adalah...",
+      "options": [
+        { "key": "A", "text": "Lukisan abstrak" },
+        { "key": "B", "text": "Alat musik modern" },
+        { "key": "C", "text": "Keris" },
+        { "key": "D", "text": "Patung modern" },
+        { "key": "E", "text": "Film dokumenter" }
+      ],
+      "answer": "C",
+      "explanation": "Keris mulai berkembang dan mencapai keahlian empu yang tinggi pada masa kerajaan Hindu-Buddha di Jawa.",
+      "topic": "Sejarah Seni Kriya"
+    },
+    {
+      "id": "seni-rupa-pg-24",
+      "number": 24,
+      "prompt": "Pada masa Hindu, seni kriya memiliki muatan nilai-nilai yang bersifat...",
+      "options": [
+        { "key": "A", "text": "Komersial" },
+        { "key": "B", "text": "Religius dan magis" },
+        { "key": "C", "text": "Sekuler" },
+        { "key": "D", "text": "Politis" },
+        { "key": "E", "text": "Individualis" }
+      ],
+      "answer": "B",
+      "explanation": "Seni kriya masa Hindu-Buddha banyak diciptakan untuk keperluan peribadatan, upacara keagamaan, dan benda pusaka yang dipercaya memiliki nilai religius dan magis.",
+      "topic": "Sejarah Seni Kriya"
+    },
+    {
+      "id": "seni-rupa-pg-25",
+      "number": 25,
+      "prompt": "Ciri-ciri kriya zaman Prasejarah adalah...",
+      "options": [
+        { "key": "A", "text": "Berbahan perhiasan perak" },
+        { "key": "B", "text": "Memuat unsur magis" },
+        { "key": "C", "text": "Banyak ukirannya" },
+        { "key": "D", "text": "Benda yang terbuat dari batu" },
+        { "key": "E", "text": "Digunakan sebagai peralatan ritual" }
+      ],
+      "answer": "B",
+      "explanation": "Karya seni kriya pada zaman prasejarah sangat erat kaitannya dengan kepercayaan animisme dan dinamisme sehingga memuat unsur magis/sakral.",
+      "topic": "Sejarah Seni Kriya"
+    },
+    {
+      "id": "seni-rupa-pg-26",
+      "number": 26,
+      "prompt": "Jika motif batik dipadukan dengan bentuk vas, maka karya tersebut termasuk bentuk...",
+      "options": [
+        { "key": "A", "text": "Kriya tradisional" },
+        { "key": "B", "text": "Kriya kontemporer" },
+        { "key": "C", "text": "Kriya digital" },
+        { "key": "D", "text": "Kriya mekanis" },
+        { "key": "E", "text": "Kriya primitif" }
+      ],
+      "answer": "B",
+      "explanation": "Memadukan motif tradisional (batik) ke dalam media atau bentuk baru yang berbeda dari pakem aslinya (seperti vas keramik/kayu) merupakan inovasi ciri khas kriya kontemporer.",
+      "topic": "Perkembangan Seni Kriya"
+    },
+    {
+      "id": "seni-rupa-pg-27",
+      "number": 27,
+      "prompt": "Kriya modern di Indonesia mulai berkembang pada zaman...",
+      "options": [
+        { "key": "A", "text": "Prasejarah" },
+        { "key": "B", "text": "Hindu" },
+        { "key": "C", "text": "Kolonial" },
+        { "key": "D", "text": "Kemerdekaan" },
+        { "key": "E", "text": "Reformasi" }
+      ],
+      "answer": "C",
+      "explanation": "Seni kriya modern di Indonesia mulai berkembang sejak zaman kolonial (abad ke-19) seiring masuknya pengaruh Barat, pendidikan modern, dan penggunaan material baru.",
+      "topic": "Sejarah Seni Kriya"
+    },
+    {
+      "id": "seni-rupa-pg-28",
+      "number": 28,
+      "prompt": "Perhatikan seni kriya berikut ini!\n1) Patung\n2) Kaligrafi\n3) Lukisan minyak\n4) Seni grafis\n5) Batu nisan Kerajaan Aceh\nBentuk seni kriya yang muncul setelah masuknya kebudayaan Islam ditunjukkan nomor...",
+      "options": [
+        { "key": "A", "text": "1 dan 2" },
+        { "key": "B", "text": "2 dan 3" },
+        { "key": "C", "text": "3 dan 4" },
+        { "key": "D", "text": "4 dan 5" },
+        { "key": "E", "text": "2 dan 5" }
+      ],
+      "answer": "E",
+      "explanation": "Masuknya kebudayaan Islam membawa perkembangan seni kaligrafi Arab dan seni ukir batu nisan beraksara/ornamen Islam seperti batu nisan Kerajaan Samudera Pasai/Aceh (nomor 2 dan 5).",
+      "topic": "Seni Kriya Masa Islam"
+    },
+    {
+      "id": "seni-rupa-pg-29",
+      "number": 29,
+      "prompt": "Menhir adalah benda hasil seni rupa terapan peninggalan zaman Megalitikum yang terbuat dari batu berfungsi sebagai tempat...",
+      "options": [
+        { "key": "A", "text": "Menyimpan makanan" },
+        { "key": "B", "text": "Pemujaan dan ritual" },
+        { "key": "C", "text": "Tempat bekal kubur" },
+        { "key": "D", "text": "Penguburan mayat" },
+        { "key": "E", "text": "Memasak makanan" }
+      ],
+      "answer": "B",
+      "explanation": "Menhir berupa tugu batu tegak peninggalan zaman Megalitikum yang didirikan sebagai sarana pemujaan dan ritual menghormati arwah nenek moyang.",
+      "topic": "Peninggalan Megalitikum"
+    },
+    {
+      "id": "seni-rupa-pg-30",
+      "number": 30,
+      "prompt": "Bahan-bahan kriya terfokus menggunakan material yang berupa bahan...",
+      "options": [
+        { "key": "A", "text": "Buatan" },
+        { "key": "B", "text": "Sintetis" },
+        { "key": "C", "text": "Lunak" },
+        { "key": "D", "text": "Keras" },
+        { "key": "E", "text": "Alami" }
+      ],
+      "answer": "E",
+      "explanation": "Seni kriya di Nusantara pada dasarnya banyak memanfaatkan bahan alami dari lingkungan sekitar seperti kayu, bambu, rotan, tanah liat, batu, dan serat alam.",
+      "topic": "Bahan Seni Kriya"
+    },
+    {
+      "id": "seni-rupa-pg-31",
+      "number": 31,
+      "prompt": "Daerah Jepara merupakan daerah penghasil karya seni kriya kayu terkenal yang berasal dari...",
+      "options": [
+        { "key": "A", "text": "Kayu mahoni" },
+        { "key": "B", "text": "Bambu" },
+        { "key": "C", "text": "Kayu meranti" },
+        { "key": "D", "text": "Kayu waru" },
+        { "key": "E", "text": "Kayu jati" }
+      ],
+      "answer": "E",
+      "explanation": "Jepara terkenal secara nasional maupun internasional sebagai pusat seni ukir dan mebel berbahan kayu jati berkualitas tinggi.",
+      "topic": "Kriya Kayu Nusantara"
+    },
+    {
+      "id": "seni-rupa-pg-32",
+      "number": 32,
+      "prompt": "Untuk menghilangkan lilin atau malam pada batik, salah satu cara yang harus dilakukan adalah...",
+      "options": [
+        { "key": "A", "text": "Menyelupkan ke dalam air panas mendidih" },
+        { "key": "B", "text": "Mengerik dengan pisau lukis" },
+        { "key": "C", "text": "Memberi pewarna putih" },
+        { "key": "D", "text": "Menutup bagian yang ada lilinnya dengan kain" },
+        { "key": "E", "text": "Menjemur di bawah sinar matahari" }
+      ],
+      "answer": "A",
+      "explanation": "Proses meluruhkan malam (lilin) setelah pewarnaan batik selesai disebut nglorod, yakni dengan merebus atau mencelupkan kain ke dalam air panas mendidih.",
+      "topic": "Proses Pembuatan Batik"
+    },
+    {
+      "id": "seni-rupa-pg-33",
+      "number": 33,
+      "prompt": "Terakota dan majolika adalah jenis...",
+      "options": [
+        { "key": "A", "text": "Benang" },
+        { "key": "B", "text": "Batu" },
+        { "key": "C", "text": "Kayu" },
+        { "key": "D", "text": "Serat" },
+        { "key": "E", "text": "Tanah liat" }
+      ],
+      "answer": "E",
+      "explanation": "Terakota (gerabah bakar tanpa glasir) dan majolika (gerabah berglasir timah) merupakan jenis karya keramik berbahan dasar tanah liat.",
+      "topic": "Kriya Keramik"
+    },
+    {
+      "id": "seni-rupa-pg-34",
+      "number": 34,
+      "prompt": "Alfonsa Horeng adalah seniman yang mempunyai fokus pada seni kriya, yaitu...",
+      "options": [
+        { "key": "A", "text": "Keris" },
+        { "key": "B", "text": "Batik" },
+        { "key": "C", "text": "Tenun ikat" },
+        { "key": "D", "text": "Ukiran" },
+        { "key": "E", "text": "Tembikar" }
+      ],
+      "answer": "C",
+      "explanation": "Alfonsa Horeng merupakan tokoh pelestari dan seniman kriya tenun ikat tradisional asal Sikka, Flores, Nusa Tenggara Timur (pendiri Rumah Tenun Lepo Lorun).",
+      "topic": "Tokoh Kriya Indonesia"
+    },
+    {
+      "id": "seni-rupa-pg-35",
+      "number": 35,
+      "prompt": "Topeng untuk upacara adat atau tarian tradisional termasuk jenis kriya...",
+      "options": [
+        { "key": "A", "text": "Keramik" },
+        { "key": "B", "text": "Batik" },
+        { "key": "C", "text": "Logam" },
+        { "key": "D", "text": "Ukir" },
+        { "key": "E", "text": "Anyam" }
+      ],
+      "answer": "D",
+      "explanation": "Topeng tradisional umumnya dibuat dari kayu yang dibentuk dan diberi detail ekspresi wajah melalui teknik pahat dan ukir sehingga termasuk jenis kriya ukir.",
+      "topic": "Jenis Seni Kriya"
+    },
+    {
+      "id": "seni-rupa-pg-36",
+      "number": 36,
+      "prompt": "Motif batik Mega mendung merupakan motif batik yang berasal dari daerah...",
+      "options": [
+        { "key": "A", "text": "Solo" },
+        { "key": "B", "text": "Purworejo" },
+        { "key": "C", "text": "Yogyakarta" },
+        { "key": "D", "text": "Cirebon" },
+        { "key": "E", "text": "Betawi" }
+      ],
+      "answer": "D",
+      "explanation": "Motif Mega Mendung yang bergambar gumpalan awan bergradasi warna merupakan motif batik khas dari daerah Cirebon, Jawa Barat.",
+      "topic": "Motif Batik Nusantara"
+    },
+    {
+      "id": "seni-rupa-pg-37",
+      "number": 37,
+      "prompt": "Pewter adalah bahan baku dalam pembuatan kriya logam. Pewter adalah...",
+      "options": [
+        { "key": "A", "text": "Emas murni" },
+        { "key": "B", "text": "Stainless" },
+        { "key": "C", "text": "Timah" },
+        { "key": "D", "text": "Paladium" },
+        { "key": "E", "text": "Baja ringan" }
+      ],
+      "answer": "C",
+      "explanation": "Pewter adalah logam paduan yang bahan utamanya berupa timah (sekitar 85–99%) yang dicampur sedikit tembaga atau antimon, banyak diproduksi menjadi kriya logam di Bangka Belitung.",
+      "topic": "Kriya Logam"
+    },
+    {
+      "id": "seni-rupa-pg-38",
+      "number": 38,
+      "prompt": "Nekara berukuran kecil yang terbuat dari logam campuran, biasanya kuningan dan timah disebut...",
+      "options": [
+        { "key": "A", "text": "Bejana" },
+        { "key": "B", "text": "Perimbas" },
+        { "key": "C", "text": "Moko" },
+        { "key": "D", "text": "Dolmen" },
+        { "key": "E", "text": "Menhir" }
+      ],
+      "answer": "C",
+      "explanation": "Moko adalah nekara berukuran lebih kecil dan ramping dari logam campuran (perunggu, kuningan, timah) yang terkenal di Pulau Alor sebagai benda pusaka dan mas kawin.",
+      "topic": "Peninggalan Logam Nusantara"
+    },
+    {
+      "id": "seni-rupa-pg-39",
+      "number": 39,
+      "prompt": "Hasil karya seni rupa yang bentuknya berupa benda-benda pakai atau benda untuk kebutuhan manusia disebut...",
+      "options": [
+        { "key": "A", "text": "Applied art" },
+        { "key": "B", "text": "Fine art" },
+        { "key": "C", "text": "Decorative art" },
+        { "key": "D", "text": "Desain art" },
+        { "key": "E", "text": "Video art" }
+      ],
+      "answer": "A",
+      "explanation": "Applied art (seni rupa terapan) adalah cabang seni rupa yang menghasilkan benda pakai fungsional untuk kebutuhan manusia, sedangkan fine art adalah seni rupa murni.",
+      "topic": "Konsep Seni Rupa Terapan"
+    },
+    {
+      "id": "seni-rupa-pg-40",
+      "number": 40,
+      "prompt": "Pewarna sintetis yang digunakan pada pembuatan batik celup adalah...",
+      "options": [
+        { "key": "A", "text": "Naptol" },
+        { "key": "B", "text": "Indigosol" },
+        { "key": "C", "text": "Remazol" },
+        { "key": "D", "text": "Rapid" },
+        { "key": "E", "text": "Water glass" }
+      ],
+      "answer": "A",
+      "explanation": "Naptol merupakan zat warna sintetis yang umum digunakan secara khusus pada proses pewarnaan batik teknik celup (bersama garam diazo sebagai pembangkit warna).",
+      "topic": "Pewarnaan Batik"
+    }
+  ],
+  "essays": [
+    {
+      "id": "seni-rupa-es-1",
+      "number": 1,
+      "prompt": "Jelaskanlah apa yang dimaksud dengan seni rupa terapan!",
+      "rubric": "Menjelaskan definisi seni rupa terapan (applied art) sebagai karya seni rupa yang mengutamakan fungsi guna/praktis dalam kehidupan sehari-hari dengan tetap memperhatikan nilai keindahan (estetika).",
+      "modelAnswer": "Seni rupa terapan (applied art) adalah cabang karya seni rupa yang diciptakan dengan mengutamakan fungsi kegunaan atau fungsi pakai untuk membantu kebutuhan manusia sehari-hari, namun tetap dirancang dengan memperhatikan nilai keindahan (estetis)."
+    },
+    {
+      "id": "seni-rupa-es-2",
+      "number": 2,
+      "prompt": "Jelaskanlah fungsi kegunaan!",
+      "rubric": "Menjelaskan makna fungsi kegunaan (fungsi praktis/pakai) dalam karya seni rupa terapan, yaitu nilai fungsional suatu benda agar dapat digunakan secara nyaman, aman, dan bermanfaat sesuai peruntukannya.",
+      "modelAnswer": "Fungsi kegunaan (fungsi praktis) adalah peran utama suatu karya seni terapan untuk dapat digunakan secara langsung dan bermanfaat memenuhi kebutuhan fisik manusia sehari-hari dengan memperhatikan kenyamanan, keamanan, serta kesesuaian bentuk terhadap fungsinya."
+    },
+    {
+      "id": "seni-rupa-es-3",
+      "number": 3,
+      "prompt": "Berikanlah 3 contoh dan penjelasan dari karya seni terapan yang memiliki fungsi kegunaan!",
+      "rubric": "Menyebutkan 3 contoh konkret karya seni rupa terapan (misalnya kursi/mebel ukir, kain batik/pakaian, gerabah/kendi/keramik, anyaman bakul) beserta penjelasan fungsi kegunaannya.",
+      "modelAnswer": "1. Kain Batik: berfungsi sebagai bahan sandang atau pakaian sehari-hari dan busana acara resmi sekaligus menampilkan keindahan motif tradisional.\n2. Gerabah / Kendi Tanah Liat: berfungsi sebagai wadah menyimpan atau mendinginkan air minum serta peralatan memasak dengan bentuk yang estetis.\n3. Kursi dan Meja Ukir Kayu (Mebel): berfungsi sebagai tempat duduk atau perabot rumah tangga yang nyaman digunakan sekaligus memperindah interior ruangan."
+    },
+    {
+      "id": "seni-rupa-es-4",
+      "number": 4,
+      "prompt": "Jelaskanlah apa yang dimaksud dengan seni kriya!",
+      "rubric": "Menjelaskan pengertian seni kriya sebagai seni kerajinan tangan yang mengutamakan keterampilan/keahlian tangan (craftsmanship) dalam mengolah bahan alam maupun buatan menjadi benda fungsional dan/atau estetis.",
+      "modelAnswer": "Seni kriya adalah cabang seni rupa yang menitikberatkan pada keterampilan dan keahlian tangan (craftsmanship) yang tinggi untuk mengolah berbagai material (seperti kayu, logam, tanah liat, tekstil, kulit, atau serat alam) menjadi karya yang bernilai estetis sekaligus memiliki fungsi guna."
+    },
+    {
+      "id": "seni-rupa-es-5",
+      "number": 5,
+      "prompt": "Sebutkanlah 5 contoh karya seni kriya pada zaman Hindu!",
+      "rubric": "Menyebutkan 5 contoh karya seni kriya yang berkembang pada masa Hindu-Buddha di Indonesia (misalnya keris, topeng, arca/patung logam atau batu, perhiasan emas/perak, relief ukiran batu candi, kain tenun/songket, wayang).",
+      "modelAnswer": "Lima contoh karya seni kriya pada zaman Hindu di Indonesia antara lain:\n1. Keris (kriya logam tempa sebagai senjata sekaligus benda pusaka).\n2. Topeng (kriya ukir kayu untuk pertunjukan dan upacara adat/keagamaan).\n3. Arca / Patung dewa dari logam perunggu maupun batu.\n4. Perhiasan emas dan perak (seperti mahkota, gelang, dan kalung kerajaan).\n5. Relief dan ornamen ukiran batu pada bangunan candi."
+    }
+  ]
+}

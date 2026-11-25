@@ -1,0 +1,607 @@
+{
+  "id": "kimia",
+  "name": "Kimia",
+  "shortName": "KIM",
+  "group": "mipa",
+  "schedule": "Rabu, 3 Desember 2025",
+  "durationMinutes": 120,
+  "accentColor": "#B6E938",
+  "questions": [
+    {
+      "id": "kimia-pg-1",
+      "number": 1,
+      "prompt": "Perhatikan data larutan berikut ini:\n(1) Larutan urea 0,2 m\n(2) Larutan gula 0,2 m\n(3) Larutan NaCl 0,2 m\n(4) Larutan K₂SO₄ 0,2 m\nLarutan yang memiliki titik beku yang sama yaitu....",
+      "options": [
+        { "key": "A", "text": "(1) dan (2)" },
+        { "key": "B", "text": "(1) dan (3)" },
+        { "key": "C", "text": "(2) dan (4)" },
+        { "key": "D", "text": "(3) dan (4)" },
+        { "key": "E", "text": "(1) dan (4)" }
+      ],
+      "answer": "A",
+      "explanation": "Penurunan titik beku ΔTf = Kf · m · i. Urea dan gula sama-sama larutan nonelektrolit (i = 1) dengan molalitas sama (0,2 m), sehingga nilai m · i keduanya sama (0,2) dan titik bekunya sama.",
+      "topic": "Penurunan Titik Beku"
+    },
+    {
+      "id": "kimia-pg-2",
+      "number": 2,
+      "prompt": "Larutan urea sebanyak 500 mL mempunyai tekanan osmotik sebesar 2,46 atm pada suhu 27 °C. Jika Mr urea adalah 60 dan R = 0,082 L atm/mol K, maka massa urea yang dilarutkan sebanyak....",
+      "options": [
+        { "key": "A", "text": "0,3 gram" },
+        { "key": "B", "text": "3 gram" },
+        { "key": "C", "text": "30 gram" },
+        { "key": "D", "text": "6 gram" },
+        { "key": "E", "text": "60 gram" }
+      ],
+      "answer": "B",
+      "explanation": "π = M · R · T dengan T = 27 + 273 = 300 K dan V = 0,5 L. Maka 2,46 = (massa / 60) × (1 / 0,5) × 0,082 × 300 = (massa / 30) × 24,6, sehingga massa = (2,46 × 30) / 24,6 = 3 gram.",
+      "topic": "Tekanan Osmotik"
+    },
+    {
+      "id": "kimia-pg-3",
+      "number": 3,
+      "prompt": "Sebanyak 171 gr sukrosa (Mr = 342) dilarutkan dalam 500 gram air. Jika Kb air = 0,52 °C/m, maka titik didih larutan tersebut....",
+      "options": [
+        { "key": "A", "text": "0,104 °C" },
+        { "key": "B", "text": "0,208 °C" },
+        { "key": "C", "text": "100,104 °C" },
+        { "key": "D", "text": "100,52 °C" },
+        { "key": "E", "text": "101,04 °C" }
+      ],
+      "answer": "D",
+      "explanation": "Mol sukrosa = 171 / 342 = 0,5 mol, sehingga molalitas m = 0,5 mol / 0,5 kg = 1 m. ΔTb = Kb · m = 0,52 × 1 = 0,52 °C, maka titik didih larutan Tb = 100 + 0,52 = 100,52 °C.",
+      "topic": "Kenaikan Titik Didih"
+    },
+    {
+      "id": "kimia-pg-4",
+      "number": 4,
+      "prompt": "Perhatikan diagram P-T berikut ini!\nBerdasarkan diagram tersebut, bagian yang menunjukkan proses mendidihnya suatu larutan ditunjukkan oleh....",
+      "image": "/assets/figures/kimia-pg-4.png",
+      "imageCaption": "Diagram fase P-T pelarut dan larutan",
+      "options": [
+        { "key": "A", "text": "K-Q" },
+        { "key": "B", "text": "L-R" },
+        { "key": "C", "text": "R-M" },
+        { "key": "D", "text": "Q-N" },
+        { "key": "E", "text": "M-S" }
+      ],
+      "answer": "D",
+      "explanation": "Pada diagram P-T, kurva sebelah luar (L-R-M) adalah garis fase pelarut murni, sedangkan kurva di bawahnya (K-Q-N) adalah garis fase larutan. Garis Q-N merupakan batas fase cair-gas larutan yang menunjukkan proses mendidihnya larutan.",
+      "topic": "Diagram Fase P-T"
+    },
+    {
+      "id": "kimia-pg-5",
+      "number": 5,
+      "prompt": "Perhatikan banyaknya mol zat pelarut (○) dan mol partikel zat terlarut (●) berikut!\nLarutan yang memiliki tekanan uap jenuh paling besar ditunjukkan oleh gambar nomor....",
+      "image": "/assets/figures/kimia-pg-5.png",
+      "imageCaption": "Ilustrasi komposisi partikel pelarut dan zat terlarut pada lima wadah",
+      "options": [
+        { "key": "A", "text": "(1)" },
+        { "key": "B", "text": "(2)" },
+        { "key": "C", "text": "(3)" },
+        { "key": "D", "text": "(4)" },
+        { "key": "E", "text": "(5)" }
+      ],
+      "answer": "C",
+      "explanation": "Menurut Hukum Raoult (P = Xp · P°), tekanan uap jenuh larutan paling besar dimiliki oleh larutan dengan fraksi mol pelarut paling besar (partikel zat terlarut paling sedikit). Gambar (3) memiliki jumlah partikel terlarut paling sedikit (hanya 1 partikel).",
+      "topic": "Penurunan Tekanan Uap"
+    },
+    {
+      "id": "kimia-pg-6",
+      "number": 6,
+      "prompt": "Sekelompok siswa melakukan percobaan dengan melarutkan 36 gram senyawa glukosa (Mr = 180) dan 6 gram senyawa urea (Mr = 60) secara terpisah. Setiap senyawa dilarutkan dalam 1 Liter air. Pada suhu yang sama, perbandingan tekanan osmotik larutan pertama terhadap larutan kedua adalah....",
+      "options": [
+        { "key": "A", "text": "1 : 1" },
+        { "key": "B", "text": "1 : 2" },
+        { "key": "C", "text": "2 : 1" },
+        { "key": "D", "text": "2 : 3" },
+        { "key": "E", "text": "3 : 2" }
+      ],
+      "answer": "C",
+      "explanation": "Mol glukosa = 36 / 180 = 0,2 mol (M₁ = 0,2 M) dan mol urea = 6 / 60 = 0,1 mol (M₂ = 0,1 M). Karena volume, suhu, dan faktor van 't Hoff (i = 1) sama, maka π₁ : π₂ = M₁ : M₂ = 0,2 : 0,1 = 2 : 1.",
+      "topic": "Perbandingan Tekanan Osmotik"
+    },
+    {
+      "id": "kimia-pg-7",
+      "number": 7,
+      "prompt": "Berikut adalah beberapa pemanfaatan sifat koligatif yang banyak ditemui dalam kehidupan sehari-hari:\n(1) Penggunaan cairan tetes mata\n(2) Proses pemisahan campuran dengan cara distilasi\n(3) Penggunaan garam dapur untuk membunuh lintah\n(4) Penggunaan panci presto untuk memasak tulang ayam\n(5) Pencairan salju menggunakan garam dapur\nPenerapan sifat koligatif larutan yang berhubungan dengan kenaikan titik didih larutan ditunjukkan oleh angka....",
+      "options": [
+        { "key": "A", "text": "(1) dan (2)" },
+        { "key": "B", "text": "(2) dan (3)" },
+        { "key": "C", "text": "(2) dan (4)" },
+        { "key": "D", "text": "(3) dan (4)" },
+        { "key": "E", "text": "(4) dan (5)" }
+      ],
+      "answer": "C",
+      "explanation": "Distilasi memanfaatkan perbedaan titik didih dan panci presto menaikkan titik didih air agar masakan cepat empuk, sedangkan (1) dan (3) berkaitan dengan tekanan osmotik serta (5) berkaitan dengan penurunan titik beku.",
+      "topic": "Penerapan Sifat Koligatif"
+    },
+    {
+      "id": "kimia-pg-8",
+      "number": 8,
+      "prompt": "Diketahui:\nKsp AgCl = 1 × 10⁻¹⁰\nKsp AgBr = 1 × 10⁻¹³\nKsp AgI = 1 × 10⁻¹⁶\nJika s menyatakan kelarutan dalam mol/L, maka....",
+      "options": [
+        { "key": "A", "text": "s AgCl > s AgBr > s AgI" },
+        { "key": "B", "text": "s AgCl > s AgI > s AgBr" },
+        { "key": "C", "text": "s AgI > s AgBr > s AgCl" },
+        { "key": "D", "text": "s AgBr > s AgCl > s AgI" },
+        { "key": "E", "text": "s AgI > s AgBr = s AgCl" }
+      ],
+      "answer": "A",
+      "explanation": "Ketiga garam bertipe AB (Ksp = s²), sehingga kelarutan s = √Ksp. Didapat s AgCl = 10⁻⁵ M, s AgBr = 3,16 × 10⁻⁷ M, dan s AgI = 10⁻⁸ M, maka s AgCl > s AgBr > s AgI.",
+      "topic": "Kelarutan dan Ksp"
+    },
+    {
+      "id": "kimia-pg-9",
+      "number": 9,
+      "prompt": "Jika Ksp Ag₂CrO₄ = 4 × 10⁻¹², maka nilai kelarutan Ag₂CrO₄ dalam larutan 0,01 M K₂CrO₄ adalah...",
+      "options": [
+        { "key": "A", "text": "1 × 10⁻⁸ M" },
+        { "key": "B", "text": "5 × 10⁻⁸ M" },
+        { "key": "C", "text": "1 × 10⁻⁷ M" },
+        { "key": "D", "text": "5 × 10⁻⁵ M" },
+        { "key": "E", "text": "1 × 10⁻⁵ M" }
+      ],
+      "answer": "E",
+      "explanation": "Dari K₂CrO₄ 0,01 M diperoleh [CrO₄²⁻] = 10⁻² M. Untuk Ag₂CrO₄ ⇌ 2Ag⁺ + CrO₄²⁻, Ksp = [Ag⁺]²[CrO₄²⁻] = (2s)²(10⁻²) = 4s² · 10⁻² = 4 × 10⁻¹², sehingga s² = 10⁻¹⁰ dan s = 1 × 10⁻⁵ M.",
+      "topic": "Pengaruh Ion Senama"
+    },
+    {
+      "id": "kimia-pg-10",
+      "number": 10,
+      "prompt": "Larutan jenuh senyawa hidroksida dari suatu logam M, M(OH)₃ mempunyai pH = 9,00. Harga Ksp dari senyawa ini ialah...",
+      "options": [
+        { "key": "A", "text": "3,3 × 10⁻²¹" },
+        { "key": "B", "text": "3,0 × 10⁻²⁰" },
+        { "key": "C", "text": "1,0 × 10⁻¹⁰" },
+        { "key": "D", "text": "3,0 × 10⁻³⁶" },
+        { "key": "E", "text": "3,3 × 10⁻³⁷" }
+      ],
+      "answer": "A",
+      "explanation": "pH = 9 → pOH = 5 → [OH⁻] = 10⁻⁵ M. Pada M(OH)₃ ⇌ M³⁺ + 3OH⁻, [M³⁺] = ⅓[OH⁻] = ⅓ × 10⁻⁵ M. Maka Ksp = [M³⁺][OH⁻]³ = (⅓ × 10⁻⁵)(10⁻⁵)³ = ⅓ × 10⁻²⁰ ≈ 3,3 × 10⁻²¹.",
+      "topic": "Menghitung Ksp dari pH"
+    },
+    {
+      "id": "kimia-pg-11",
+      "number": 11,
+      "prompt": "Apabila terdapat 100 mL larutan AgNO₃ 0,010 M dicampur dengan 100 mL larutan NaCl 0,020 M (Ksp AgCl = 1,8 × 10⁻¹⁰). Setelah pencampuran, apakah endapan AgCl akan terbentuk?",
+      "options": [
+        { "key": "A", "text": "Ya karena Qsp < Ksp" },
+        { "key": "B", "text": "Ya karena Qsp > Ksp" },
+        { "key": "C", "text": "Ya karena Qsp = Ksp" },
+        { "key": "D", "text": "Tidak karena Ksp terlalu kecil" },
+        { "key": "E", "text": "Tidak karena ion Na⁺ mudah larut" }
+      ],
+      "answer": "B",
+      "explanation": "Volume total = 200 mL, sehingga [Ag⁺] = (100 × 0,010)/200 = 5 × 10⁻³ M dan [Cl⁻] = (100 × 0,020)/200 = 10⁻² M. Qsp = [Ag⁺][Cl⁻] = 5 × 10⁻⁵. Karena Qsp > Ksp (5 × 10⁻⁵ > 1,8 × 10⁻¹⁰), maka terbentuk endapan AgCl.",
+      "topic": "Prediksi Pengendapan (Qsp)"
+    },
+    {
+      "id": "kimia-pg-12",
+      "number": 12,
+      "prompt": "Tanah di sekitar pabrik baterai mengandung ion Pb²⁺ yang beracun. Petani menambahkan Na₂SO₄ agar terbentuk endapan PbSO₄ (Ksp = 1,6 × 10⁻⁸). Tujuan penambahan Na₂SO₄ adalah....",
+      "options": [
+        { "key": "A", "text": "Meningkatkan pH tanah agar Pb²⁺ menjadi stabil" },
+        { "key": "B", "text": "Mengubah Pb²⁺ menjadi senyawa mudah menguap" },
+        { "key": "C", "text": "Menurunkan kelarutan Pb²⁺ dengan membentuk endapan PbSO₄" },
+        { "key": "D", "text": "Melarutkan Pb²⁺ menjadi garam netral yang tidak berbahaya" },
+        { "key": "E", "text": "Menetralisir logam Pb²⁺ dengan ion H⁺" }
+      ],
+      "answer": "C",
+      "explanation": "Penambahan Na₂SO₄ memasok ion SO₄²⁻ sehingga hasil kali ion [Pb²⁺][SO₄²⁻] melebihi Ksp PbSO₄ dan kelarutan ion Pb²⁺ turun dengan mengendap sebagai PbSO₄ yang sulit larut.",
+      "topic": "Aplikasi Ksp"
+    },
+    {
+      "id": "kimia-pg-13",
+      "number": 13,
+      "prompt": "Seorang teknisi laboratorium ingin membedakan larutan gula, larutan sabun, dan campuran pasir dalam air. Dengan menggunakan senter, ia mengamati bahwa berkas cahaya terlihat jelas dalam larutan sabun, tetapi tidak terlihat dalam larutan gula dan campuran pasir. Berdasarkan hasil pengamatan tersebut, apa kesimpulan yang paling tepat?",
+      "options": [
+        { "key": "A", "text": "Larutan sabun adalah suspensi karena mampu menghamburkan cahaya." },
+        { "key": "B", "text": "Larutan gula adalah koloid karena tidak dapat menghamburkan cahaya." },
+        { "key": "C", "text": "Campuran pasir dalam air adalah larutan sejati karena partikelnya mengendap." },
+        { "key": "D", "text": "Larutan sabun adalah koloid karena partikelnya cukup besar untuk menghamburkan cahaya namun tidak mengendap." },
+        { "key": "E", "text": "Larutan gula tidak dapat menghantarkan listrik, sedangkan larutan sabun dapat." }
+      ],
+      "answer": "D",
+      "explanation": "Terlihatnya berkas cahaya pada larutan sabun menunjukkan Efek Tyndall, yaitu penghamburan cahaya oleh partikel koloid yang ukurannya cukup besar (1–100 nm) untuk menghamburkan cahaya namun tetap stabil dan tidak mengendap.",
+      "topic": "Sifat Koloid (Efek Tyndall)"
+    },
+    {
+      "id": "kimia-pg-14",
+      "number": 14,
+      "prompt": "Siti memiliki usaha di bidang kuliner. Ia menjual puding dengan berbagai varian rasa. Salah satu bahan pembuatan puding adalah bubuk agar-agar. Apabila bubuk agar-agar dimasak dengan air atau susu, maka akan larut dan mengeraskan setelah dingin. Jenis koloid puding tersebut adalah...",
+      "options": [
+        { "key": "A", "text": "Emulsi padat" },
+        { "key": "B", "text": "Aerosol" },
+        { "key": "C", "text": "Sol" },
+        { "key": "D", "text": "Buih" },
+        { "key": "E", "text": "Koagulan" }
+      ],
+      "answer": "A",
+      "explanation": "Puding/agar-agar yang memadat memiliki fase terdispersi cair yang terperangkap dalam medium pendispersi padat (gel), yang dalam pengelompokan koloid tanpa opsi 'gel' termasuk emulsi padat.",
+      "topic": "Jenis-jenis Koloid"
+    },
+    {
+      "id": "kimia-pg-15",
+      "number": 15,
+      "prompt": "Pembuatan koloid sol logam seperti sol perak, emas, dan platina menggunakan loncatan bunga listrik sehingga bisa mengubah logam menjadi koloid. Dua elektroda logam dicelupkan ke dalam medium pendispersi (air dingin) dengan kedua ujung saling berdekatan dan diberi loncatan listrik menyebabkan logam tersebut menguap dan terkondensasi membentuk partikel koloid. Pembuatan koloid ini disebut dengan cara....",
+      "options": [
+        { "key": "A", "text": "Homogenisasi" },
+        { "key": "B", "text": "Busur bredig" },
+        { "key": "C", "text": "Peptisasi" },
+        { "key": "D", "text": "Hidrolisis" },
+        { "key": "E", "text": "Mekanik" }
+      ],
+      "answer": "B",
+      "explanation": "Metode pembuatan sol logam dengan mengalirkan arus listrik bertegangan tinggi melalui dua elektroda logam di dalam air sehingga logam menguap lalu mengembun menjadi partikel koloid disebut cara busur Bredig.",
+      "topic": "Pembuatan Koloid"
+    },
+    {
+      "id": "kimia-pg-16",
+      "number": 16,
+      "prompt": "Sifat koloid dan penerapannya yang tepat adalah....",
+      "table": {
+        "headers": ["Pilihan", "Sifat Koloid", "Penerapan dalam kehidupan sehari-hari"],
+        "rows": [
+          ["A.", "Koagulasi", "Penggunaan norit (obat sakit perut)"],
+          ["B.", "Adsorpsi", "Penambahan garam Al₂(SO₄)₃ pada kain sebelum pewarnaan"],
+          ["C.", "Gerak Brown", "Sorot lampu di malam hari"],
+          ["D.", "Efek Tyndall", "Pembentukan delta di muara sungai"],
+          ["E.", "Dialisis", "Penggunaan alat cottrel pada cerobong asap pabrik"]
+        ]
+      },
+      "options": [
+        { "key": "A", "text": "Koagulasi — Penggunaan norit (obat sakit perut)" },
+        { "key": "B", "text": "Adsorpsi — Penambahan garam Al₂(SO₄)₃ pada kain sebelum pewarnaan" },
+        { "key": "C", "text": "Gerak Brown — Sorot lampu di malam hari" },
+        { "key": "D", "text": "Efek Tyndall — Pembentukan delta di muara sungai" },
+        { "key": "E", "text": "Dialisis — Penggunaan alat cottrel pada cerobong asap pabrik" }
+      ],
+      "answer": "B",
+      "explanation": "Penambahan garam Al₂(SO₄)₃ membentuk koloid Al(OH)₃ yang mengadsorpsi zat warna pada serat kain (adsorpsi). Adapun norit = adsorpsi, sorot lampu = Efek Tyndall, delta sungai = koagulasi, dan alat Cottrell = koagulasi/elektroforesis.",
+      "topic": "Penerapan Sifat Koloid"
+    },
+    {
+      "id": "kimia-pg-17",
+      "number": 17,
+      "prompt": "Perhatikan persamaan reaksi redoks berikut ini:\n2HBr(aq) + H₂SO₄(aq) → Br₂(g) + SO₂(g) + 2H₂O(l)\nSpesi yang menjadi reduktor pada persamaan reaksi setara di atas adalah....",
+      "options": [
+        { "key": "A", "text": "HBr" },
+        { "key": "B", "text": "H₂SO₄" },
+        { "key": "C", "text": "Br₂" },
+        { "key": "D", "text": "SO₂" },
+        { "key": "E", "text": "H₂O" }
+      ],
+      "answer": "A",
+      "explanation": "Bilangan oksidasi Br naik dari −1 dalam HBr menjadi 0 dalam Br₂ (oksidasi), sedangkan S turun dari +6 dalam H₂SO₄ menjadi +4 dalam SO₂ (reduksi). Zat yang mengalami oksidasi bertindak sebagai reduktor, yaitu HBr.",
+      "topic": "Reduktor dan Oksidator"
+    },
+    {
+      "id": "kimia-pg-18",
+      "number": 18,
+      "prompt": "Pada reaksi redoks berikut ini:\nMnO₄⁻(aq) + C₂O₄²⁻(aq) → Mn²⁺(aq) + CO₂(g)\nJumlah ion H⁺ yang harus ditambahkan pada salah satu sisi reaksi supaya reaksi tersebut setara sebanyak....",
+      "options": [
+        { "key": "A", "text": "4" },
+        { "key": "B", "text": "8" },
+        { "key": "C", "text": "10" },
+        { "key": "D", "text": "16" },
+        { "key": "E", "text": "20" }
+      ],
+      "answer": "D",
+      "explanation": "Reaksi setara dalam suasana asam adalah 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O. Jadi dibutuhkan 16 ion H⁺ di ruas kiri.",
+      "topic": "Penyetaraan Reaksi Redoks"
+    },
+    {
+      "id": "kimia-pg-19",
+      "number": 19,
+      "prompt": "Logam timah sangat reaktif terhadap zat pengoksidasi. Timah yang direaksikan dengan larutan asam nitrat akan mengalami reaksi redoks dengan persamaan sebagai berikut:\nSn(s) + a HNO₃(aq) → b SnO₂(s) + c NO₂(g) + d H₂O(l)\nNilai koefisien a, b, c, d, pada reaksi setara berturut-turut adalah....",
+      "options": [
+        { "key": "A", "text": "1, 4, 2 dan 4" },
+        { "key": "B", "text": "1, 4, 4 dan 2" },
+        { "key": "C", "text": "4, 2, 1 dan 4" },
+        { "key": "D", "text": "4, 1, 4 dan 2" },
+        { "key": "E", "text": "4, 1, 2 dan 4" }
+      ],
+      "answer": "D",
+      "explanation": "Biloks Sn naik 4 (0 → +4) dan N turun 1 (+5 → +4), sehingga koefisien SnO₂ = 1 dan HNO₃ = NO₂ = 4. Persamaan setara: Sn + 4HNO₃ → SnO₂ + 4NO₂ + 2H₂O, sehingga a = 4, b = 1, c = 4, d = 2.",
+      "topic": "Penyetaraan Reaksi Redoks"
+    },
+    {
+      "id": "kimia-pg-20",
+      "number": 20,
+      "prompt": "Perhatikan sel volta berikut:\nPernyataan yang tepat mengenai sel volta tersebut adalah",
+      "image": "/assets/figures/kimia-pg-20.png",
+      "imageCaption": "Rangkaian sel volta dengan elektroda Fe dalam FeSO₄ dan Ni dalam NiSO₄",
+      "options": [
+        { "key": "A", "text": "Notasi sel Ni(s) | Ni²⁺(aq) || Fe²⁺(aq) | Fe(s)" },
+        { "key": "B", "text": "Reaksi sel : Fe²⁺(aq) + Ni(s) → Fe(s) + Ni²⁺(aq)" },
+        { "key": "C", "text": "Besi (Fe) mengalami reduksi" },
+        { "key": "D", "text": "Elektron mengalir dari Nikel (Ni) ke Besi (Fe)" },
+        { "key": "E", "text": "Besi bertindak sebagai anoda" }
+      ],
+      "answer": "E",
+      "explanation": "Pada gambar sel volta, elektroda Fe bertanda negatif (−) dan Ni bertanda positif (+). Dalam sel volta, kutub negatif adalah anoda (KPAN: Katoda Positif, Anoda Negatif), sehingga besi (Fe) bertindak sebagai anoda dan mengalami oksidasi.",
+      "topic": "Sel Volta"
+    },
+    {
+      "id": "kimia-pg-21",
+      "number": 21,
+      "prompt": "Perhatikan gambar percobaan faktor yang mempengaruhi korosi besi berikut!\nPaku yang paling lambat mengalami korosi ditunjukkan oleh gambar nomor....",
+      "image": "/assets/figures/kimia-pg-21.png",
+      "imageCaption": "Lima tabung percobaan perkaratan paku besi",
+      "options": [
+        { "key": "A", "text": "1" },
+        { "key": "B", "text": "2" },
+        { "key": "C", "text": "3" },
+        { "key": "D", "text": "4" },
+        { "key": "E", "text": "5" }
+      ],
+      "answer": "D",
+      "explanation": "Korosi besi memerlukan adanya oksigen (udara) dan air secara bersamaan. Pada tabung nomor 4 yang diberi keterangan tanpa udara dan air (serta terlindung minyak/oli), paku tidak mengalami kontak dengan oksigen dan air sehingga paling lambat berkarat.",
+      "topic": "Korosi Besi"
+    },
+    {
+      "id": "kimia-pg-22",
+      "number": 22,
+      "prompt": "Beberapa metode pencegahan korosi besi dalam kehidupan sehari-hari adalah:\n(2) Pengecatan\n(3) Perlindungan katodik (dihubungkan dengan pipa Mg)\n(4) Melumuri dengan oli\n(5) Pelapisan dengan timah\n(6) Pembalutan dengan plastik\nMetode yang paling tepat digunakan untuk mencegah korosi pada pagar rumah dan mesin kendaraan adalah...",
+      "options": [
+        { "key": "A", "text": "(1) dan (3)" },
+        { "key": "B", "text": "(1) dan (5)" },
+        { "key": "C", "text": "(2) dan (3)" },
+        { "key": "D", "text": "(2) dan (4)" },
+        { "key": "E", "text": "(3) dan (5)" }
+      ],
+      "answer": "D",
+      "explanation": "Pagar rumah umumnya dilindungi dari karat dengan cara pengecatan (2), sedangkan komponen mesin kendaraan dilindungi dari korosi sekaligus dilumasi dengan oli (4).",
+      "topic": "Pencegahan Korosi"
+    },
+    {
+      "id": "kimia-pg-23",
+      "number": 23,
+      "prompt": "Tabel berikut adalah harga potensial elektroda standar dari beberapa logam:\nJika harga potensial elektroda standar besi adalah −0,44 Volt, maka dapat disimpulkan bahwa logam yang paling efektif untuk proteksi katodik besi adalah....",
+      "table": {
+        "headers": ["Logam", "P", "Q", "R", "S", "T"],
+        "rows": [
+          ["Harga E°", "−1,66 V", "−0,76 V", "−0,14 V", "−0,13 V", "+0,80 V"]
+        ]
+      },
+      "options": [
+        { "key": "A", "text": "P" },
+        { "key": "B", "text": "Q" },
+        { "key": "C", "text": "R" },
+        { "key": "D", "text": "S" },
+        { "key": "E", "text": "T" }
+      ],
+      "answer": "A",
+      "explanation": "Proteksi katodik dilakukan dengan menghubungkan besi ke logam yang memiliki E° lebih kecil (lebih negatif) daripada E° Fe (−0,44 V). Logam P (−1,66 V) memiliki E° paling negatif sehingga paling mudah teroksidasi dan paling efektif melindungi besi.",
+      "topic": "Proteksi Katodik"
+    },
+    {
+      "id": "kimia-pg-24",
+      "number": 24,
+      "prompt": "Perhatikan gambar beberapa sel elektrolisis berikut ini:\nSel elektrolisis yang menghasilkan gas hidrogen di ruang katoda adalah...",
+      "image": "/assets/figures/kimia-pg-24.png",
+      "imageCaption": "Empat rangkaian sel elektrolisis larutan NaCl, CuSO₄, Ba(OH)₂, dan AgNO₃",
+      "options": [
+        { "key": "A", "text": "(1) dan (2)" },
+        { "key": "B", "text": "(1) dan (3)" },
+        { "key": "C", "text": "(2) dan (3)" },
+        { "key": "D", "text": "(3) dan (4)" },
+        { "key": "E", "text": "(4) saja" }
+      ],
+      "answer": "B",
+      "explanation": "Dalam larutan berair, kation golongan IA (Na⁺ pada sel 1) dan IIA (Ba²⁺ pada sel 3) tidak tereduksi di katoda, melainkan air yang tereduksi (2H₂O + 2e⁻ → H₂ + 2OH⁻) menghasilkan gas H₂. Sementara pada sel (2) dan (4) yang tereduksi adalah Cu²⁺ dan Ag⁺.",
+      "topic": "Sel Elektrolisis"
+    },
+    {
+      "id": "kimia-pg-25",
+      "number": 25,
+      "prompt": "Untuk menghasilkan padatan Nikel sebanyak 5,9 gram maka waktu yang dibutuhkan untuk mengelektrolisis larutan Nikel (II) sulfat menggunakan elektroda Pt dengan arus sebesar 10 Ampere selama.... (Ar Ni = 59)",
+      "options": [
+        { "key": "A", "text": "(5,9 × 96500 × 2) / (59 × 10)" },
+        { "key": "B", "text": "(59 × 10) / (5,9 × 96500 × 2)" },
+        { "key": "C", "text": "(5,9 × 96500 × 10) / (59 × 2)" },
+        { "key": "D", "text": "(5,9 × 59 × 2) / (96500 × 10)" },
+        { "key": "E", "text": "(5,9 × 10 × 2) / (59 × 96500)" }
+      ],
+      "answer": "A",
+      "explanation": "Berdasarkan Hukum Faraday I, m = (Ar / valensi) × (I · t / 96500). Dengan valensi Ni²⁺ = 2, maka 5,9 = (59 / 2) × (10 · t / 96500), sehingga t = (5,9 × 96500 × 2) / (59 × 10).",
+      "topic": "Hukum Faraday I"
+    },
+    {
+      "id": "kimia-pg-26",
+      "number": 26,
+      "prompt": "Selama elektrolisis lelehan NaCl berlangsung, massa logam natrium yang terkumpul jika arus listrik yang digunakan empat kali lipat arus semula dengan jangka waktu setengah dari waktu semula adalah....",
+      "options": [
+        { "key": "A", "text": "Sama dengan massa semula" },
+        { "key": "B", "text": "Turun dua kali lipat dari semula" },
+        { "key": "C", "text": "Turun seperempat kali dari semula" },
+        { "key": "D", "text": "Naik menjadi tiga kali lipat semula" },
+        { "key": "E", "text": "Naik menjadi dua kali lipat semula" }
+      ],
+      "answer": "E",
+      "explanation": "Massa endapan berbanding lurus dengan hasil kali arus dan waktu (m ∝ I · t). Jika arus I' = 4I dan waktu t' = ½t, maka m' = 4 × ½ × m = 2m (naik menjadi dua kali lipat semula).",
+      "topic": "Hukum Faraday I"
+    },
+    {
+      "id": "kimia-pg-27",
+      "number": 27,
+      "prompt": "Pada elektrolisis larutan K₂SO₄ 1 M dengan elektroda C menggunakan arus sebesar 0,1 Farad. Volume gas (STP) yang dihasilkan di anoda sebanyak....",
+      "options": [
+        { "key": "A", "text": "0,112 Liter" },
+        { "key": "B", "text": "0,224 Liter" },
+        { "key": "C", "text": "0,56 Liter" },
+        { "key": "D", "text": "2,24 Liter" },
+        { "key": "E", "text": "5,60 Liter" }
+      ],
+      "answer": "C",
+      "explanation": "Di anoda C, air teroksidasi: 2H₂O → 4H⁺ + O₂ + 4e⁻. Dengan 0,1 F (0,1 mol elektron), mol O₂ = ¼ × 0,1 = 0,025 mol. Volume O₂ pada STP = 0,025 × 22,4 = 0,56 Liter.",
+      "topic": "Stoikiometri Elektrolisis"
+    },
+    {
+      "id": "kimia-pg-28",
+      "number": 28,
+      "prompt": "Arfan mengalirkan arus listrik melalui larutan AgNO₃ dan CuSO₄ yang disusun secara seri, maka akan terjadi endapan Ag sebanyak 10,8 gram. Berapakah berat endapan Cu yang dihasilkan jika (Ar Ag = 108 g/mol dan Ar Cu = 63,5 g/mol)?",
+      "options": [
+        { "key": "A", "text": "0,108 gram" },
+        { "key": "B", "text": "3,175 gram" },
+        { "key": "C", "text": "6,35 gram" },
+        { "key": "D", "text": "63,5 gram" },
+        { "key": "E", "text": "12,7 gram" }
+      ],
+      "answer": "B",
+      "explanation": "Berdasarkan Hukum Faraday II, m_Ag / e_Ag = m_Cu / e_Cu. Dengan e_Ag = 108/1 = 108 dan e_Cu = 63,5/2 = 31,75, diperoleh 10,8 / 108 = m_Cu / 31,75 → m_Cu = 0,1 × 31,75 = 3,175 gram.",
+      "topic": "Hukum Faraday II"
+    },
+    {
+      "id": "kimia-pg-29",
+      "number": 29,
+      "prompt": "Perhatikan struktur senyawa karbon berikut:\nAtom C primer, sekunder, tersier dan kuartener berturut-turut sebanyak...",
+      "image": "/assets/figures/kimia-pg-29.png",
+      "imageCaption": "Struktur rantai karbon bercabang dengan 8 atom karbon",
+      "options": [
+        { "key": "A", "text": "1, 1, 1, 5" },
+        { "key": "B", "text": "2, 1, 1, 4" },
+        { "key": "C", "text": "4, 1, 1, 2" },
+        { "key": "D", "text": "5, 1, 1, 1" },
+        { "key": "E", "text": "5, 1, 1, 2" }
+      ],
+      "answer": "D",
+      "explanation": "Pada struktur CH₃–CH₂–C(CH₃)₂–CH(CH₃)–CH₃ terdapat 5 gugus –CH₃ (C primer), 1 gugus –CH₂– (C sekunder), 1 gugus –CH– (C tersier), dan 1 atom C yang mengikat 4 atom C lain (C kuartener), jadi 5, 1, 1, 1.",
+      "topic": "Jenis Atom Karbon"
+    },
+    {
+      "id": "kimia-pg-30",
+      "number": 30,
+      "prompt": "Perhatikan struktur senyawa karbon berikut:\nNama yang tepat untuk senyawa hidrokarbon di atas adalah....",
+      "image": "/assets/figures/kimia-pg-30.png",
+      "imageCaption": "Struktur kerangka (skeletal) senyawa alkana bercabang",
+      "options": [
+        { "key": "A", "text": "2-metil-heptana" },
+        { "key": "B", "text": "3,3,5-trimetiloktana" },
+        { "key": "C", "text": "4,6,6-trimetil-oktana" },
+        { "key": "D", "text": "3,3-dimetiloktana" },
+        { "key": "E", "text": "5-etil-3,3-dimetiloktana" }
+      ],
+      "answer": "B",
+      "explanation": "Rantai terpanjang terdiri dari 8 atom karbon (oktana). Penomoran dari ujung kiri memberikan nomor cabang terkecil untuk tiga gugus metil, yaitu di posisi C3, C3, dan C5, sehingga namanya 3,3,5-trimetiloktana.",
+      "topic": "Tata Nama Alkana"
+    },
+    {
+      "id": "kimia-pg-31",
+      "number": 31,
+      "prompt": "Nama yang tepat untuk senyawa hidrokarbon (CH₃)₂CHCC(CH₂)₂CH₃ yaitu....",
+      "options": [
+        { "key": "A", "text": "2-metil-2-pentena" },
+        { "key": "B", "text": "2-metil-3-heksena" },
+        { "key": "C", "text": "2-metil-3-heptuna" },
+        { "key": "D", "text": "3-metil-3-heptuna" },
+        { "key": "E", "text": "6-metil-4-heptuna" }
+      ],
+      "answer": "C",
+      "explanation": "Struktur terbuka senyawa tersebut adalah CH₃–CH(CH₃)–C≡C–CH₂–CH₂–CH₃. Rantai utama sepanjang 7 atom C mengandung ikatan rangkap tiga di C3 (3-heptuna) dan cabang metil di C2, sehingga bernama 2-metil-3-heptuna.",
+      "topic": "Tata Nama Alkuna"
+    },
+    {
+      "id": "kimia-pg-32",
+      "number": 32,
+      "prompt": "Yang merupakan isomer posisi yaitu....",
+      "options": [
+        { "key": "A", "text": "CH₂=CH–CH₃ dan CH₃–CH=CH–CH₃" },
+        { "key": "B", "text": "CH₃–CH(CH₃)–CH₃ dan CH₃–CH₂–CH₂–CH₃" },
+        { "key": "C", "text": "CH₂=CH–CH₂–CH₃ dan CH₃–CH=CH–CH₃" },
+        { "key": "D", "text": "CH₂=CH–CH₃ dan CH≡C–CH₃" },
+        { "key": "E", "text": "CH≡C–CH₃ dan CH≡C–CH₂–CH₃" }
+      ],
+      "answer": "C",
+      "explanation": "1-butena (CH₂=CH–CH₂–CH₃) dan 2-butena (CH₃–CH=CH–CH₃) memiliki rumus molekul sama (C₄H₈) serta kerangka rantai utama yang sama, tetapi berbeda pada letak ikatan rangkap duanya (isomer posisi).",
+      "topic": "Isomer Hidrokarbon"
+    },
+    {
+      "id": "kimia-pg-33",
+      "number": 33,
+      "prompt": "Senyawa hidrokarbon berikut yang memiliki 8 atom karbon adalah....",
+      "options": [
+        { "key": "A", "text": "3-metilpentana" },
+        { "key": "B", "text": "2-metil-heksana" },
+        { "key": "C", "text": "2,3-dimetilbutana" },
+        { "key": "D", "text": "2,2-dimetilpentana" },
+        { "key": "E", "text": "2,4-dimetilheksana" }
+      ],
+      "answer": "E",
+      "explanation": "2,4-dimetilheksana memiliki 6 atom C pada rantai utama heksana ditambah 2 atom C dari dua cabang metil, sehingga jumlah totalnya 6 + 2 = 8 atom karbon.",
+      "topic": "Struktur Alkana"
+    },
+    {
+      "id": "kimia-pg-34",
+      "number": 34,
+      "prompt": "Terdapat reaksi hidrokarbon seperti berikut:\nC₄H₁₀ + Cl₂ → C₄H₉Cl + HCl\nCH₃–CH₂–CH₃ → CH₂=CH–CH₃ + H₂\nCH₂=CH–CH₂–CH₃ + H₂ → CH₃–CH₂–CH₂–CH₃\nJenis reaksi di atas berturut-turut....",
+      "options": [
+        { "key": "A", "text": "Substitusi, adisi, dan eliminasi" },
+        { "key": "B", "text": "Substitusi, eliminasi, dan adisi" },
+        { "key": "C", "text": "Adisi, eliminasi, dan substitusi" },
+        { "key": "D", "text": "Adisi, substitusi, dan eliminasi" },
+        { "key": "E", "text": "Eliminasi, adisi, dan substitusi" }
+      ],
+      "answer": "B",
+      "explanation": "Reaksi (1) penggantian atom H oleh Cl merupakan substitusi; reaksi (2) pembentukan ikatan rangkap dengan pelepasan H₂ adalah eliminasi; reaksi (3) pemutusan ikatan rangkap dengan penambahan H₂ adalah adisi.",
+      "topic": "Reaksi Hidrokarbon"
+    },
+    {
+      "id": "kimia-pg-35",
+      "number": 35,
+      "prompt": "Perhatikan struktur senyawa hidrokarbon berikut ini:\nBerdasarkan struktur senyawa tersebut manakah urutan titik didih yang benar?",
+      "image": "/assets/figures/kimia-pg-35.png",
+      "imageCaption": "Tiga isomer alkana C₅H₁₂: (1) n-pentana, (2) 2-metilbutana, dan (3) 2,2-dimetilpropana",
+      "options": [
+        { "key": "A", "text": "(1) < (2) < (3)" },
+        { "key": "B", "text": "(1) < (3) < (2)" },
+        { "key": "C", "text": "(2) < (1) < (3)" },
+        { "key": "D", "text": "(2) < (3) < (1)" },
+        { "key": "E", "text": "(3) < (2) < (1)" }
+      ],
+      "answer": "E",
+      "explanation": "Pada isomer alkana dengan Mr sama (C₅H₁₂), semakin banyak cabang maka luas permukaan sentuh molekul mengecil sehingga gaya London melemah dan titik didih menurun. Maka urutan titik didih dari terendah ke tertinggi adalah (3) < (2) < (1).",
+      "topic": "Titik Didih Alkana"
+    }
+  ],
+  "essays": [
+    {
+      "id": "kimia-es-1",
+      "number": 1,
+      "prompt": "Beberapa saat yang lalu, Indonesia dihebohkan dengan kasus gagal ginjal massal pada anak-anak. Hasil investigasi menunjukkan bahwa telah terjadi kontaminasi senyawa glikol pada obat flu sirup untuk anak-anak. Senyawa glikol bersifat racun yang dapat menyerang sistem syaraf pusat, jantung dan ginjal. Dalam laboratorium terdapat larutan glikol dengan massa molekul relatif 62 dan memiliki kadar 31%. Hitunglah molalitas larutan glikol tersebut!",
+      "rubric": "Menentukan massa zat terlarut dan massa pelarut (misal basis 100 g larutan: 31 g glikol dan 69 g pelarut), kemudian menghitung molalitas m = (31/62) × (1000/69) = 7,25 molal.",
+      "modelAnswer": "Misalkan massa larutan = 100 gram:\n• Massa glikol (terlarut) = 31% × 100 g = 31 gram\n• Massa pelarut = 100 g − 31 g = 69 gram = 0,069 kg\n• Mol glikol = 31 / 62 = 0,5 mol\n• Molalitas (m) = 0,5 mol / 0,069 kg ≈ 7,25 molal (7,25 m)."
+    },
+    {
+      "id": "kimia-es-2",
+      "number": 2,
+      "prompt": "Perhatikan potensial elektroda berikut ini:\nMg²⁺(aq) + 2e⁻ → Mg(s)   E° = −2,37 volt\nCu²⁺(aq) + 2e⁻ → Cu(s)   E° = +0,34 volt\nAl³⁺(aq) + 3e⁻ → Al(s)   E° = −1,66 volt\na. Urutkanlah logam tersebut berdasarkan semakin kuatnya daya pereduksinya (reduktor)!\nb. Manakah pasangan logam yang bisa menghasilkan nilai potensial terbesar?\nc. Hitunglah nilai potensial sel yang dihasilkan!",
+      "rubric": "a. Urutan reduktor dari lemah ke kuat (E° besar ke kecil): Cu < Al < Mg.\nb. Pasangan logam: Mg (anoda) dan Cu (katoda).\nc. E°sel = +0,34 − (−2,37) = +2,71 volt.",
+      "modelAnswer": "a. Semakin negatif nilai E°, semakin kuat daya pereduksinya. Urutan daya reduktor dari yang paling lemah ke paling kuat: Cu < Al < Mg.\nb. Pasangan logam yang menghasilkan potensial sel terbesar adalah pasangan dengan selisih E° terjauh, yaitu Mg dan Cu (Mg sebagai anoda dan Cu sebagai katoda).\nc. E°sel = E°katoda − E°anoda = (+0,34 V) − (−2,37 V) = +2,71 volt."
+    },
+    {
+      "id": "kimia-es-3",
+      "number": 3,
+      "prompt": "Aki mobil merupakan contoh sel volta yang dapat menghasilkan listrik melalui reaksi redoks antara timbal (Pb) dan timbal dioksida (PbO₂) dalam larutan asam sulfat (H₂SO₄). Reaksi total yang terjadi pada aki ketika mengalirkan listrik adalah:\nPb(s) + PbO₂(s) + 2H₂SO₄(aq) → 2PbSO₄(s) + 2H₂O(l)\na. Tentukan dan jelaskan spesi yang berperan sebagai anoda dan katoda pada reaksi di atas!\nb. Ketika tegangan sel aki habis, elektrolit menjadi lebih encer karena sebagian H₂SO₄ telah bereaksi membentuk PbSO₄ dan H₂O. Apakah sel aki dapat di-charge? Jelaskan!",
+      "rubric": "a. Anoda = Pb (oksidasi, biloks 0 → +2), Katoda = PbO₂ (reduksi, biloks +4 → +2).\nb. Ya, dapat di-charge karena merupakan sel sekunder dengan reaksi reversibel; arus listrik dari luar membalik reaksi sehingga PbSO₄ berubah kembali menjadi Pb, PbO₂, dan H₂SO₄.",
+      "modelAnswer": "a. Spesi yang berperan sebagai anoda adalah Pb(s) karena mengalami reaksi oksidasi (bilangan oksidasi Pb meningkat dari 0 pada Pb menjadi +2 pada PbSO₄). Spesi yang berperan sebagai katoda adalah PbO₂(s) karena mengalami reaksi reduksi (bilangan oksidasi Pb menurun dari +4 pada PbO₂ menjadi +2 pada PbSO₄).\nb. Ya, sel aki dapat di-charge (diisi ulang) karena aki merupakan sel volta sekunder yang reaksinya bersifat reversibel (dapat balik). Saat diberi arus listrik searah dari luar, reaksi berjalan ke arah sebaliknya sehingga endapan PbSO₄ terurai kembali membentuk Pb, PbO₂, dan H₂SO₄."
+    },
+    {
+      "id": "kimia-es-4",
+      "number": 4,
+      "prompt": "Agar tidak mudah berkarat 150 gram kunci pintu rumah dari besi (Fe) di rumah Arief dilapisi dengan tembaga melalui proses penyepuhan/electroplating menggunakan larutan CuSO₄. Jika proses ini menggunakan arus sebesar 10 ampere dan dalam waktu 1930 detik (Ar Cu = 63,5).\na. Tuliskan reaksi yang terjadi!\nb. Hitung massa lapisan kunci yang terbentuk!",
+      "image": "/assets/figures/kimia-es-4.png",
+      "imageCaption": "Skema proses penyepuhan kunci besi dengan logam tembaga (Cu)",
+      "rubric": "a. Anoda (+, Cu): Cu(s) → Cu²⁺(aq) + 2e⁻; Katoda (−, kunci Fe): Cu²⁺(aq) + 2e⁻ → Cu(s).\nb. m = (63,5/2 × 10 × 1930) / 96500 = 6,35 gram.",
+      "modelAnswer": "a. Reaksi elektrolisis penyepuhan:\n• Anoda (logam Cu): Cu(s) → Cu²⁺(aq) + 2e⁻\n• Katoda (kunci besi): Cu²⁺(aq) + 2e⁻ → Cu(s)\n\nb. Massa lapisan tembaga (Cu) yang terbentuk:\nm = (e · I · t) / 96500\nm = ((63,5 / 2) × 10 × 1930) / 96500\nm = 31,75 × (19300 / 96500) = 31,75 × 0,2 = 6,35 gram."
+    },
+    {
+      "id": "kimia-es-5",
+      "number": 5,
+      "prompt": "Diketahui suatu senyawa hidrokarbon 2-butena\na. Tuliskan rumus strukturnya!\nb. Apabila direaksikan dengan Cl₂ tentukan jenis reaksi, tuliskan reaksi dan hasil reaksinya!",
+      "rubric": "a. CH₃–CH=CH–CH₃.\nb. Jenis reaksi: adisi; Persamaan reaksi: CH₃–CH=CH–CH₃ + Cl₂ → CH₃–CHCl–CHCl–CH₃; Nama hasil: 2,3-diklorobutana.",
+      "modelAnswer": "a. Rumus struktur 2-butena:\nCH₃–CH=CH–CH₃\n\nb. Jika direaksikan dengan Cl₂:\n• Jenis reaksi: Reaksi adisi (penjenuhan ikatan rangkap dua menjadi ikatan tunggal).\n• Persamaan reaksi: CH₃–CH=CH–CH₃ + Cl₂ → CH₃–CHCl–CHCl–CH₃\n• Nama hasil reaksi: 2,3-diklorobutana."
+    }
+  ]
+}

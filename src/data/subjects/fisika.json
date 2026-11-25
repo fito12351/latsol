@@ -1,0 +1,624 @@
+{
+  "id": "fisika",
+  "name": "Fisika",
+  "shortName": "FIS",
+  "group": "mipa",
+  "schedule": "Senin, 8 Desember 2025",
+  "durationMinutes": 120,
+  "accentColor": "#B6E938",
+  "questions": [
+    {
+      "id": "fisika-pg-1",
+      "number": 1,
+      "prompt": "Perhatikan pernyataan-pernyataan berikut ini tentang faktor-faktor yang memengaruhi besar hambatan suatu penghantar!\n1. Panjang kawat penghantar semakin besar, maka hambatan penghantar semakin besar.\n2. Luas penampang kawat semakin besar, maka hambatan penghantar semakin besar.\n3. Hambatan jenis bahan (ρ) memengaruhi besar hambatan kawat.\n4. Suhu kawat tidak memengaruhi besar hambatan kawat.\n5. Jenis bahan kawat menentukan nilai hambatan jenis (ρ) bahan tersebut.\nBerdasarkan pernyataan di atas, yang benar adalah ....",
+      "options": [
+        { "key": "A", "text": "1, 2, dan 3" },
+        { "key": "B", "text": "1, 3, dan 5" },
+        { "key": "C", "text": "2, 3, dan 4" },
+        { "key": "D", "text": "1, 4, dan 5" },
+        { "key": "E", "text": "2, 4, dan 5" }
+      ],
+      "answer": "B",
+      "explanation": "Hambatan kawat memenuhi R = ρ·L/A, sehingga berbanding lurus dengan panjang (1) dan hambatan jenis bahan (3) yang ditentukan oleh jenis bahannya (5), serta berbanding terbalik dengan luas penampang (2 salah). Suhu juga memengaruhi hambatan kawat (4 salah).",
+      "topic": "Hambatan Penghantar"
+    },
+    {
+      "id": "fisika-pg-2",
+      "number": 2,
+      "prompt": "Tabel berikut merupakan hasil percobaan 5 jenis kawat penghantar yang mempunyai hambatan sama. Berdasarkan tabel di atas, kawat yang hambatan jenisnya terbesar adalah ....",
+      "table": {
+        "headers": ["Kawat ke-", "Panjang", "Luas"],
+        "rows": [
+          ["1", "x", "y"],
+          ["2", "2x", "3y"],
+          ["3", "3x", "2y"],
+          ["4", "2x", "0,5y"],
+          ["5", "0,5x", "y"]
+        ]
+      },
+      "options": [
+        { "key": "A", "text": "Kawat ke-1" },
+        { "key": "B", "text": "Kawat ke-2" },
+        { "key": "C", "text": "Kawat ke-3" },
+        { "key": "D", "text": "Kawat ke-4" },
+        { "key": "E", "text": "Kawat ke-5" }
+      ],
+      "answer": "E",
+      "explanation": "Dari R = ρ·L/A diperoleh ρ = R·A/L. Karena R sama, ρ sebanding dengan A/L: kawat 1 = 1(y/x), kawat 2 = 1,5(y/x), kawat 3 = 0,67(y/x), kawat 4 = 0,25(y/x), dan kawat 5 = 1/0,5 = 2(y/x). Nilai terbesar adalah kawat ke-5.",
+      "topic": "Hambatan Jenis Kawat"
+    },
+    {
+      "id": "fisika-pg-3",
+      "number": 3,
+      "prompt": "Tiga benda bermuatan, yaitu X, Y, dan Z, memiliki interaksi sebagai berikut:\n• X dan Y saling tarik-menarik,\n• Y dan Z saling tarik-menarik,\n• X dan Z saling tolak-menolak.\nBerdasarkan interaksi tersebut, jenis muatan yang mungkin dimiliki oleh ketiga benda adalah ....",
+      "options": [
+        { "key": "A", "text": "X (+), Y (−), Z (+)" },
+        { "key": "B", "text": "X (−), Y (+), Z (−)" },
+        { "key": "C", "text": "X (+), Y (+), Z (−)" },
+        { "key": "D", "text": "X (−), Y (−), Z (+)" },
+        { "key": "E", "text": "X (−), Y (−), Z (−)" }
+      ],
+      "answer": "A",
+      "explanation": "Karena X dan Z saling tolak-menolak, keduanya bermuatan sejenis, sedangkan Y berlawanan jenis dengan X dan Z karena saling tarik-menarik. Kombinasi X (+), Y (−), Z (+) memenuhi ketiga syarat interaksi tersebut (catatan: kombinasi B juga memenuhi pola berlawanan yang sama).",
+      "topic": "Interaksi Muatan Listrik"
+    },
+    {
+      "id": "fisika-pg-4",
+      "number": 4,
+      "prompt": "Tersedia tiga buah resistor masing-masing dengan hambatan 15 Ω. Besar hambatan pengganti yang tidak mungkin untuk ketiga resistor adalah ....",
+      "options": [
+        { "key": "A", "text": "5 Ω" },
+        { "key": "B", "text": "10 Ω" },
+        { "key": "C", "text": "22,5 Ω" },
+        { "key": "D", "text": "25 Ω" },
+        { "key": "E", "text": "45 Ω" }
+      ],
+      "answer": "D",
+      "explanation": "Kombinasi tiga resistor 15 Ω dapat menghasilkan: seri semua = 45 Ω (E), paralel semua = 5 Ω (A), 2 paralel + 1 seri = 7,5 + 15 = 22,5 Ω (C), dan 2 seri diparalel dengan 1 resistor = (30 × 15)/(30 + 15) = 10 Ω (B). Nilai 25 Ω tidak mungkin diperoleh.",
+      "topic": "Rangkaian Resistor"
+    },
+    {
+      "id": "fisika-pg-5",
+      "number": 5,
+      "prompt": "Berikut adalah grafik hubungan V–I dari hasil pembacaan pada alat ukur listrik. Besar hambatan yang terukur pada grafik tersebut adalah ....",
+      "image": "/assets/figures/fisika-pg-5.png",
+      "imageCaption": "Grafik hubungan tegangan V terhadap kuat arus I (A)",
+      "options": [
+        { "key": "A", "text": "40 Ω" },
+        { "key": "B", "text": "80 Ω" },
+        { "key": "C", "text": "10 Ω" },
+        { "key": "D", "text": "20 Ω" },
+        { "key": "E", "text": "4 Ω" }
+      ],
+      "answer": "E",
+      "explanation": "Berdasarkan hukum Ohm, R = V / I. Dari grafik, saat I = 10 A terbaca V = 40 V (dan saat I = 20 A terbaca V = 80 V), sehingga R = 40 / 10 = 4 Ω.",
+      "topic": "Hukum Ohm"
+    },
+    {
+      "id": "fisika-pg-6",
+      "number": 6,
+      "prompt": "Sebuah alat elektronik memiliki keterangan 25 W – 220 V. Tentukan berapa energi listrik yang berubah menjadi kalor bila alat tersebut dipasang pada sumber listrik selama 30 menit?",
+      "options": [
+        { "key": "A", "text": "15 kJ" },
+        { "key": "B", "text": "30 kJ" },
+        { "key": "C", "text": "45 kJ" },
+        { "key": "D", "text": "90 kJ" },
+        { "key": "E", "text": "120 kJ" }
+      ],
+      "answer": "C",
+      "explanation": "Dengan daya P = 25 W dan waktu t = 30 menit = 1.800 s, energi listrik yang dihasilkan adalah W = P × t = 25 × 1.800 = 45.000 J = 45 kJ.",
+      "topic": "Energi dan Daya Listrik"
+    },
+    {
+      "id": "fisika-pg-7",
+      "number": 7,
+      "prompt": "Pada rangkaian sederhana tersebut, kuat arus yang mengalir pada I₁ = 15 A, I₃ = 7 A, I₄ = 8 A, serta I₅ = 5 A, maka arus yang mengalir pada I₂ adalah ....",
+      "image": "/assets/figures/fisika-pg-7.png",
+      "imageCaption": "Diagram titik cabang arus listrik",
+      "options": [
+        { "key": "A", "text": "10 A" },
+        { "key": "B", "text": "8 A" },
+        { "key": "C", "text": "5 A" },
+        { "key": "D", "text": "4 A" },
+        { "key": "E", "text": "2 A" }
+      ],
+      "answer": "C",
+      "explanation": "Pada gambar terdapat 2 arus masuk titik cabang (I₁ dan I₂) dan 3 arus keluar (I₃, I₄, I₅). Menurut Hukum I Kirchhoff: ΣI_masuk = ΣI_keluar → I₁ + I₂ = I₃ + I₄ + I₅ → 15 + I₂ = 7 + 8 + 5 = 20, sehingga I₂ = 5 A.",
+      "topic": "Hukum I Kirchhoff"
+    },
+    {
+      "id": "fisika-pg-8",
+      "number": 8,
+      "prompt": "Perhatikan gambar berikut! Arus listrik yang mengalir pada hambatan R₂ adalah ....",
+      "image": "/assets/figures/fisika-pg-8.png",
+      "imageCaption": "Rangkaian seri-paralel dengan R₁ = 1 Ω, R₂ = 3 Ω, R₃ = 6 Ω, dan V = 6 V",
+      "options": [
+        { "key": "A", "text": "0,7 A" },
+        { "key": "B", "text": "1,3 A" },
+        { "key": "C", "text": "2,0 A" },
+        { "key": "D", "text": "3,0 A" },
+        { "key": "E", "text": "3,3 A" }
+      ],
+      "answer": "B",
+      "explanation": "Hambatan paralel R₂₃ = (3 × 6)/(3 + 6) = 2 Ω, sehingga R_total = R₁ + R₂₃ = 1 + 2 = 3 Ω. Arus total I = 6/3 = 2 A dan tegangan paralel V₂₃ = 2 × 2 = 4 V. Arus pada R₂ adalah I₂ = V₂₃/R₂ = 4/3 ≈ 1,3 A.",
+      "topic": "Rangkaian DC"
+    },
+    {
+      "id": "fisika-pg-9",
+      "number": 9,
+      "prompt": "Dua buah benda A dan B mula-mula ditempatkan pada jarak 0,5 m satu sama lain, sehingga timbul gaya 81 N. Jika jarak diperbesar menjadi 1,5 m, gaya listrik yang terjadi menjadi ....",
+      "options": [
+        { "key": "A", "text": "3 N" },
+        { "key": "B", "text": "6 N" },
+        { "key": "C", "text": "9 N" },
+        { "key": "D", "text": "12 N" },
+        { "key": "E", "text": "15 N" }
+      ],
+      "answer": "C",
+      "explanation": "Gaya Coulomb berbanding terbalik dengan kuadrat jarak (F ∝ 1/r²). Jarak berubah dari 0,5 m menjadi 1,5 m (3 kali semula), sehingga F₂ = F₁ / 3² = 81 / 9 = 9 N.",
+      "topic": "Hukum Coulomb"
+    },
+    {
+      "id": "fisika-pg-10",
+      "number": 10,
+      "prompt": "Tiga buah muatan disusun seperti pada gambar di bawah ini. Gaya Coulomb yang dialami muatan B sebesar .... (k = 9 × 10⁹ N·m²/C², 1 μC = 10⁻⁶ C)",
+      "image": "/assets/figures/fisika-pg-10.png",
+      "imageCaption": "Tiga muatan segaris: A (10 μC), B (10 μC), C (20 μC) dengan jarak masing-masing 0,1 m",
+      "options": [
+        { "key": "A", "text": "90 N ke muatan C" },
+        { "key": "B", "text": "90 N ke muatan A" },
+        { "key": "C", "text": "180 N ke muatan C" },
+        { "key": "D", "text": "180 N ke muatan A" },
+        { "key": "E", "text": "360 N ke muatan C" }
+      ],
+      "answer": "B",
+      "explanation": "F_BA = k·q_B·q_A / r² = (9×10⁹ × 10⁻⁵ × 10⁻⁵) / (0,1)² = 90 N (ke kanan/C). F_BC = k·q_B·q_C / r² = (9×10⁹ × 10⁻⁵ × 2×10⁻⁵) / (0,1)² = 180 N (ke kiri/A). Resultan F_B = 180 − 90 = 90 N menuju muatan A.",
+      "topic": "Gaya Coulomb"
+    },
+    {
+      "id": "fisika-pg-11",
+      "number": 11,
+      "prompt": "Perhatikan gambar di bawah ini. Kuat medan listrik di titik C sebesar ....",
+      "image": "/assets/figures/fisika-pg-11.png",
+      "imageCaption": "Muatan A = 4 C dan B = 3 C segaris dengan titik C (AB = 2 m, BC = 1 m)",
+      "options": [
+        { "key": "A", "text": "5,0 × 10¹⁰ N/C" },
+        { "key": "B", "text": "4,5 × 10¹⁰ N/C" },
+        { "key": "C", "text": "4,0 × 10¹⁰ N/C" },
+        { "key": "D", "text": "3,1 × 10¹⁰ N/C" },
+        { "key": "E", "text": "2,7 × 10¹⁰ N/C" }
+      ],
+      "answer": "D",
+      "explanation": "Titik C di kanan kedua muatan positif sehingga E_A dan E_B searah ke kanan. E_A = k·q_A/r_AC² = 9×10⁹ × 4 / 3² = 4×10⁹ N/C; E_B = k·q_B/r_BC² = 9×10⁹ × 3 / 1² = 27×10⁹ N/C. Total E_C = (4 + 27)×10⁹ = 3,1 × 10¹⁰ N/C.",
+      "topic": "Kuat Medan Listrik"
+    },
+    {
+      "id": "fisika-pg-12",
+      "number": 12,
+      "prompt": "Bola konduktor berongga dimuati muatan listrik +100 μC seperti gambar berikut. Pernyataan berikut yang benar adalah ....",
+      "image": "/assets/figures/fisika-pg-12.png",
+      "imageCaption": "Bola konduktor berongga dengan titik P, Q di dalam dan R, S, T di luar bola",
+      "options": [
+        { "key": "A", "text": "Potensial listrik di titik P sama dengan potensial listrik di titik R" },
+        { "key": "B", "text": "Potensial listrik di titik Q lebih besar dari potensial listrik di titik R" },
+        { "key": "C", "text": "Potensial listrik di titik S sama dengan potensial listrik di titik T" },
+        { "key": "D", "text": "Potensial listrik terbesar di titik T" },
+        { "key": "E", "text": "Potensial listrik di titik P lebih besar dari potensial listrik di titik Q" }
+      ],
+      "answer": "B",
+      "explanation": "Pada bola konduktor berongga bermuatan positif, potensial listrik di seluruh bagian dalam hingga permukaan bernilai sama dan maksimum (V_P = V_Q), sedangkan di luar bola potensial menurun seiring jarak (V_Q > V_R > V_S > V_T).",
+      "topic": "Potensial Bola Konduktor"
+    },
+    {
+      "id": "fisika-pg-13",
+      "number": 13,
+      "prompt": "Dua benda bermuatan listrik sebesar 12 μC dan 8 μC terpisah sejauh 20 cm. Jika salah satu muatan digeser 4 cm mendekati muatan lainnya, perbandingan gaya Coulomb yang dialami sebelum dan sesudah digeser adalah ....",
+      "options": [
+        { "key": "A", "text": "1 : 4" },
+        { "key": "B", "text": "4 : 5" },
+        { "key": "C", "text": "5 : 4" },
+        { "key": "D", "text": "16 : 25" },
+        { "key": "E", "text": "25 : 16" }
+      ],
+      "answer": "D",
+      "explanation": "Jarak awal r₁ = 20 cm dan jarak akhir r₂ = 20 − 4 = 16 cm. Karena F ∝ 1/r², maka F₁ : F₂ = (r₂/r₁)² = (16/20)² = (4/5)² = 16 : 25.",
+      "topic": "Hukum Coulomb"
+    },
+    {
+      "id": "fisika-pg-14",
+      "number": 14,
+      "prompt": "Sebuah konduktor berbentuk bola berongga dengan jari-jari 6 cm seperti pada gambar. Bila muatan bola tersebut 7 μC maka besar potensial listrik pada titik Q adalah .... (k = 9 × 10⁹ N·m²·C⁻² dan 1 μC = 10⁻⁶ C)",
+      "image": "/assets/figures/fisika-pg-14.png",
+      "imageCaption": "Bola konduktor berongga jari-jari OP = 6 cm dan jarak PQ = 3 cm",
+      "options": [
+        { "key": "A", "text": "2 × 10⁵ volt" },
+        { "key": "B", "text": "7 × 10⁵ volt" },
+        { "key": "C", "text": "9 × 10⁵ volt" },
+        { "key": "D", "text": "16 × 10⁵ volt" },
+        { "key": "E", "text": "18 × 10⁵ volt" }
+      ],
+      "answer": "B",
+      "explanation": "Jarak titik Q dari pusat bola O adalah r_Q = OP + PQ = 6 + 3 = 9 cm = 9 × 10⁻² m. Potensial listrik di titik Q adalah V_Q = k·q/r_Q = (9 × 10⁹ × 7 × 10⁻⁶) / (9 × 10⁻²) = 7 × 10⁵ V.",
+      "topic": "Potensial Listrik"
+    },
+    {
+      "id": "fisika-pg-15",
+      "number": 15,
+      "prompt": "Dua buah muatan A dan B masing-masing Q₁ = +4 μC dan Q₂ = −6 μC berjarak 4 cm. Jika jaraknya dijadikan 8 cm maka perbandingan energi potensialnya terhadap kedudukan awal adalah ....",
+      "options": [
+        { "key": "A", "text": "10,5 J" },
+        { "key": "B", "text": "9 J" },
+        { "key": "C", "text": "7,5 J" },
+        { "key": "D", "text": "4,0 J" },
+        { "key": "E", "text": "2,7 J" }
+      ],
+      "answer": "E",
+      "explanation": "Ep₁ = k·Q₁·Q₂/r₁ = 9×10⁹ × (4×10⁻⁶) × (−6×10⁻⁶) / 0,04 = −5,4 J, dan Ep₂ = k·Q₁·Q₂/r₂ = −2,7 J. Perubahan energi potensial (serta besar Ep₂) adalah ΔEp = Ep₂ − Ep₁ = −2,7 − (−5,4) = 2,7 J.",
+      "topic": "Energi Potensial Listrik"
+    },
+    {
+      "id": "fisika-pg-16",
+      "number": 16,
+      "prompt": "Perhatikan gambar rangkaian kapasitor berikut! Besar energi listrik pada kapasitor gabungan adalah ....",
+      "image": "/assets/figures/fisika-pg-16.png",
+      "imageCaption": "Rangkaian campuran kapasitor dengan sumber V = 24 V",
+      "options": [
+        { "key": "A", "text": "1,44 × 10⁻⁴ Joule" },
+        { "key": "B", "text": "2,88 × 10⁻⁴ Joule" },
+        { "key": "C", "text": "5,76 × 10⁻⁴ Joule" },
+        { "key": "D", "text": "7,20 × 10⁻⁴ Joule" },
+        { "key": "E", "text": "8,34 × 10⁻⁴ Joule" }
+      ],
+      "answer": "C",
+      "explanation": "Kapasitor paralel kiri C_p1 = 7 + 5 = 12 μF, paralel kanan C_p2 = 4 + 2 = 6 μF, lalu seri dengan 4 μF: 1/C_tot = 1/12 + 1/4 + 1/6 = 6/12 → C_tot = 2 μF = 2 × 10⁻⁶ F. Energi W = ½·C_tot·V² = ½ × 2×10⁻⁶ × 24² = 5,76 × 10⁻⁴ J.",
+      "topic": "Rangkaian Kapasitor"
+    },
+    {
+      "id": "fisika-pg-17",
+      "number": 17,
+      "prompt": "Kawat lurus panjang dialiri arus 2 A dari atas ke bawah. Besar dan arah medan magnet pada jarak 2 cm di sebelah kanan kawat adalah ....",
+      "options": [
+        { "key": "A", "text": "2 × 10⁻⁵ T menuju pembaca" },
+        { "key": "B", "text": "2 × 10⁻⁵ T menjauhi pembaca" },
+        { "key": "C", "text": "4 × 10⁻⁵ T menuju pembaca" },
+        { "key": "D", "text": "4 × 10⁻⁵ T menjauhi pembaca" },
+        { "key": "E", "text": "8 × 10⁻⁵ T menuju pembaca" }
+      ],
+      "answer": "A",
+      "explanation": "B = μ₀·I / (2π·a) = (4π × 10⁻⁷ × 2) / (2π × 2 × 10⁻²) = 2 × 10⁻⁵ T. Dengan kaidah tangan kanan (ibu jari ke bawah), di sebelah kanan kawat arah medan magnet keluar bidang kertas (menuju pembaca).",
+      "topic": "Induksi Magnetik Kawat Lurus"
+    },
+    {
+      "id": "fisika-pg-18",
+      "number": 18,
+      "prompt": "Perhatikan gambar berikut! Dua kawat lurus disusun sejajar seperti pada gambar. Berikut pernyataan yang tepat terkait kedua kawat tersebut, kecuali ....",
+      "image": "/assets/figures/fisika-pg-18.png",
+      "imageCaption": "Dua kawat sejajar berarus I₁ = 2 A dan I₂ = 6 A ke atas mengapit titik P (10 cm dan 20 cm)",
+      "options": [
+        { "key": "A", "text": "Besar induksi magnet total pada titik P adalah 2 × 10⁻⁶ T" },
+        { "key": "B", "text": "Arah induksi magnet total pada titik P adalah keluar bidang kertas" },
+        { "key": "C", "text": "Induksi magnet pada titik P oleh kawat 1 besarnya 2/3 kali induksi magnet oleh kawat 2" },
+        { "key": "D", "text": "Induksi magnet pada titik P oleh kawat 1 adalah masuk bidang kertas" },
+        { "key": "E", "text": "Induksi magnet pada titik P oleh kawat 2 sebesar 4 × 10⁻⁶ T" }
+      ],
+      "answer": "E",
+      "explanation": "B₁ = (4π×10⁻⁷ × 2)/(2π × 0,1) = 4 × 10⁻⁶ T (masuk bidang), sedangkan B₂ = (4π×10⁻⁷ × 6)/(2π × 0,2) = 6 × 10⁻⁶ T (keluar bidang). B_total = 6×10⁻⁶ − 4×10⁻⁶ = 2 × 10⁻⁶ T (keluar bidang), dan B₁/B₂ = 4/6 = 2/3. Jadi pernyataan E salah.",
+      "topic": "Induksi Magnetik Dua Kawat"
+    },
+    {
+      "id": "fisika-pg-19",
+      "number": 19,
+      "prompt": "Sebuah kawat lurus panjang yang dialiri arus sebesar 10 A dari arah timur ke barat. Besar dan arah induksi magnet di titik P yang berada tepat di bawah kawat pada jarak 10 cm adalah ....",
+      "options": [
+        { "key": "A", "text": "10 × 10⁻⁵ T ke utara" },
+        { "key": "B", "text": "4,0 × 10⁻⁵ T ke selatan" },
+        { "key": "C", "text": "2,0 × 10⁻⁵ T ke selatan" },
+        { "key": "D", "text": "2,0 × 10⁻⁵ T ke utara" },
+        { "key": "E", "text": "10⁻⁵ T ke selatan" }
+      ],
+      "answer": "C",
+      "explanation": "B = μ₀·I / (2π·a) = (4π × 10⁻⁷ × 10) / (2π × 0,1) = 2,0 × 10⁻⁵ T. Dengan kaidah tangan kanan (ibu jari ke barat), titik di bawah kawat mendapat medan magnet berarah ke selatan.",
+      "topic": "Induksi Magnetik Kawat Lurus"
+    },
+    {
+      "id": "fisika-pg-20",
+      "number": 20,
+      "prompt": "Arus sebesar 2,5 A mengalir dalam kawat melingkar dengan jari-jari 3 cm. Besar induksi magnet di titik P yang berada di pusat lingkaran adalah ....",
+      "options": [
+        { "key": "A", "text": "1,7 π × 10⁻⁵ Wb/m²" },
+        { "key": "B", "text": "17 π × 10⁻⁵ Wb/m²" },
+        { "key": "C", "text": "32 π × 10⁻⁵ Wb/m²" },
+        { "key": "D", "text": "1,7 π × 10⁻⁶ Wb/m²" },
+        { "key": "E", "text": "1,7 π × 10⁻⁸ Wb/m²" }
+      ],
+      "answer": "A",
+      "explanation": "B = μ₀·I / (2·a) = (4π × 10⁻⁷ × 2,5) / (2 × 3 × 10⁻²) = (10π × 10⁻⁷) / (6 × 10⁻²) = (5/3)π × 10⁻⁵ ≈ 1,7π × 10⁻⁵ Wb/m².",
+      "topic": "Induksi Magnetik Kawat Melingkar"
+    },
+    {
+      "id": "fisika-pg-21",
+      "number": 21,
+      "prompt": "Dua kawat lurus dialiri arus searah masing-masing sebesar 2 A. Keduanya terpisah sejauh 10 cm. Gaya per satuan panjang pada kedua kawat tersebut adalah ....",
+      "options": [
+        { "key": "A", "text": "18 × 10⁻⁶ N/m" },
+        { "key": "B", "text": "16 × 10⁻⁶ N/m" },
+        { "key": "C", "text": "12 × 10⁻⁶ N/m" },
+        { "key": "D", "text": "8 × 10⁻⁶ N/m" },
+        { "key": "E", "text": "4 × 10⁻⁶ N/m" }
+      ],
+      "answer": "D",
+      "explanation": "F/L = μ₀·I₁·I₂ / (2π·a) = (4π × 10⁻⁷ × 2 × 2) / (2π × 0,1) = 8 × 10⁻⁶ N/m.",
+      "topic": "Gaya Lorentz Dua Kawat"
+    },
+    {
+      "id": "fisika-pg-22",
+      "number": 22,
+      "prompt": "Suatu kawat dibentuk seperti gambar di bawah ini dialiri arus 2 A. Jika diameter kelengkungan kawat 10 cm, maka induksi magnet di titik P adalah ....",
+      "image": "/assets/figures/fisika-pg-22.png",
+      "imageCaption": "Kawat setengah lingkaran berarus 2 A dengan pusat kelengkungan di titik P",
+      "options": [
+        { "key": "A", "text": "2 π × 10⁻⁶ T" },
+        { "key": "B", "text": "3 π × 10⁻⁶ T" },
+        { "key": "C", "text": "4 π × 10⁻⁶ T" },
+        { "key": "D", "text": "4,5 π × 10⁻⁶ T" },
+        { "key": "E", "text": "6 π × 10⁻⁶ T" }
+      ],
+      "answer": "C",
+      "explanation": "Jari-jari R = 10/2 = 5 cm = 5 × 10⁻² m dan sudut kelengkungan 180° (½ lingkaran). Maka B = ½ × (μ₀·I)/(2R) = ½ × (4π × 10⁻⁷ × 2)/(2 × 5 × 10⁻²) = 4π × 10⁻⁶ T.",
+      "topic": "Induksi Magnetik Kawat Melingkar"
+    },
+    {
+      "id": "fisika-pg-23",
+      "number": 23,
+      "prompt": "Dua kawat berarus listrik P dan Q terpisah dengan jarak 10 cm, gaya tolak per satuan panjang kedua kawat adalah 4 × 10⁻⁷ N/m. Besar dan arah arus pada kawat Q adalah .... (μ₀ = 4π × 10⁻⁷ Wb/A·m)",
+      "image": "/assets/figures/fisika-pg-23.png",
+      "imageCaption": "Dua kawat sejajar berjarak 10 cm dengan arus kawat P sebesar 0,4 A ke atas",
+      "options": [
+        { "key": "A", "text": "5,0 A ke bawah" },
+        { "key": "B", "text": "0,5 A ke atas" },
+        { "key": "C", "text": "0,5 A ke bawah" },
+        { "key": "D", "text": "0,2 A ke atas" },
+        { "key": "E", "text": "0,2 A ke bawah" }
+      ],
+      "answer": "C",
+      "explanation": "Dari F/L = μ₀·I_P·I_Q / (2π·a) → 4 × 10⁻⁷ = (4π × 10⁻⁷ × 0,4 × I_Q) / (2π × 0,1) = 8 × 10⁻⁷·I_Q, diperoleh I_Q = 0,5 A. Karena timbul gaya tolak-menolak sedangkan I_P ke atas, arah I_Q harus berlawanan yaitu ke bawah.",
+      "topic": "Gaya Lorentz Dua Kawat"
+    },
+    {
+      "id": "fisika-pg-24",
+      "number": 24,
+      "prompt": "Perhatikan gambar di bawah ini. Rangkaian kawat PQRS terletak dalam medan magnet yang kuat medannya 2,0 Wb/m² dan berarah masuk bidang kertas. Apabila kawat AB digeser ke kanan dengan kecepatan 5 m/s, gaya gerak listrik induksi yang terjadi sebesar ....",
+      "image": "/assets/figures/fisika-pg-24.png",
+      "imageCaption": "Kawat AB sepanjang 50 cm digeser ke kanan dengan kecepatan 5 m/s dalam medan magnet B = 2,0 Wb/m²",
+      "options": [
+        { "key": "A", "text": "1 V" },
+        { "key": "B", "text": "2 V" },
+        { "key": "C", "text": "4 V" },
+        { "key": "D", "text": "5 V" },
+        { "key": "E", "text": "10 V" }
+      ],
+      "answer": "D",
+      "explanation": "Panjang kawat AB adalah l = 50 cm = 0,5 m. GGL induksi pada kawat yang digerakkan memotong medan magnet adalah ε = B·l·v = 2,0 × 0,5 × 5 = 5 V.",
+      "topic": "GGL Induksi"
+    },
+    {
+      "id": "fisika-pg-25",
+      "number": 25,
+      "prompt": "Perhatikan pernyataan-pernyataan di bawah ini:\n1. Sudut antara bidang kumparan dengan arah medan magnet\n2. Luas bidang kumparan\n3. Induksi magnetik\n4. Arus yang mengalir pada kumparan\nFaktor penyebab GGL induksi pada sebuah kumparan yang berada dalam medan magnet adalah ....",
+      "options": [
+        { "key": "A", "text": "1, 2, 3, dan 4" },
+        { "key": "B", "text": "1, 2, dan 3" },
+        { "key": "C", "text": "1 dan 3" },
+        { "key": "D", "text": "2 dan 4" },
+        { "key": "E", "text": "3 dan 4" }
+      ],
+      "answer": "B",
+      "explanation": "GGL induksi timbul akibat perubahan fluks magnetik Φ = B·A·cos θ terhadap waktu, sehingga dipengaruhi oleh induksi magnetik (3), luas bidang kumparan (2), dan sudut antara bidang kumparan dengan medan magnet (1).",
+      "topic": "Fluks dan GGL Induksi"
+    },
+    {
+      "id": "fisika-pg-26",
+      "number": 26,
+      "prompt": "Sebuah kumparan terdiri atas 100 lilitan berada dalam fluks yang berubah terhadap waktu yang dinyatakan dengan persamaan Φ = 2t³ + 6t + 4, dengan Φ dalam weber dan t dalam sekon. Besar GGL induksi yang terjadi pada ujung-ujung kumparan saat t = 2 sekon adalah ....",
+      "options": [
+        { "key": "A", "text": "3000 V" },
+        { "key": "B", "text": "1600 V" },
+        { "key": "C", "text": "1500 V" },
+        { "key": "D", "text": "800 V" },
+        { "key": "E", "text": "750 V" }
+      ],
+      "answer": "A",
+      "explanation": "Besar GGL induksi |ε| = N·|dΦ/dt| = 100·(6t² + 6). Saat t = 2 s, |ε| = 100·(6·2² + 6) = 100 × 30 = 3.000 V.",
+      "topic": "Hukum Faraday"
+    },
+    {
+      "id": "fisika-pg-27",
+      "number": 27,
+      "prompt": "Sebuah transformator dengan efisiensi 60%. Jika daya primernya 300 Watt, besar daya sekundernya adalah ....",
+      "options": [
+        { "key": "A", "text": "120 Watt" },
+        { "key": "B", "text": "140 Watt" },
+        { "key": "C", "text": "160 Watt" },
+        { "key": "D", "text": "180 Watt" },
+        { "key": "E", "text": "200 Watt" }
+      ],
+      "answer": "D",
+      "explanation": "Efisiensi transformator memenuhi η = P_s / P_p, sehingga P_s = η × P_p = 60% × 300 W = 180 Watt.",
+      "topic": "Transformator"
+    },
+    {
+      "id": "fisika-pg-28",
+      "number": 28,
+      "prompt": "Perhatikan tabel berikut. Pernyataan yang tepat berdasarkan tabel tersebut adalah ....",
+      "table": {
+        "headers": ["Kumparan", "Jumlah lilitan", "Laju fluks (Wb/s)"],
+        "rows": [
+          ["1", "200", "1"],
+          ["2", "100", "2"],
+          ["3", "400", "0,5"],
+          ["4", "600", "0,5"]
+        ]
+      },
+      "options": [
+        { "key": "A", "text": "Kumparan 1 memiliki besar GGL induksi terbesar" },
+        { "key": "B", "text": "Kumparan 2 memiliki besar GGL induksi paling kecil" },
+        { "key": "C", "text": "GGL induksi kumparan 3 lebih kecil daripada kumparan 1" },
+        { "key": "D", "text": "GGL induksi kumparan 3 lebih besar daripada kumparan 3" },
+        { "key": "E", "text": "GGL induksi dari setiap kumparan sama besar" }
+      ],
+      "answer": "D",
+      "explanation": "Dari ε = N·(ΔΦ/Δt) diperoleh: kumparan 1 = 200 V, kumparan 2 = 200 V, kumparan 3 = 200 V, dan kumparan 4 = 300 V. Oleh karena itu pernyataan A, B, C, dan E salah (kumparan 4 bernilai terbesar), sedangkan opsi D pada naskah merujuk pada perbandingan kumparan 4 lebih besar daripada kumparan 3 (terdapat salah cetak angka pada opsi D).",
+      "topic": "Hukum Faraday"
+    },
+    {
+      "id": "fisika-pg-29",
+      "number": 29,
+      "prompt": "Sebuah generator menghasilkan tegangan GGL induksi sebesar ε. Jika generator tersebut diubah sehingga jumlah lilitan kumparannya menjadi dua kali semula dan laju fluksnya menjadi tiga kali semula, besar perbandingan GGL sekarang dan GGL mula-mula adalah ....",
+      "options": [
+        { "key": "A", "text": "1 : 6" },
+        { "key": "B", "text": "1 : 3" },
+        { "key": "C", "text": "2 : 3" },
+        { "key": "D", "text": "3 : 2" },
+        { "key": "E", "text": "6 : 1" }
+      ],
+      "answer": "E",
+      "explanation": "Karena ε = N·(dΦ/dt), maka ε' / ε = (N'/N) × [(dΦ/dt)' / (dΦ/dt)] = 2 × 3 = 6, sehingga perbandingan GGL sekarang dan mula-mula adalah 6 : 1.",
+      "topic": "Generator AC"
+    },
+    {
+      "id": "fisika-pg-30",
+      "number": 30,
+      "prompt": "Tegangan yang dihasilkan suatu sumber listrik adalah V = 110√2 sin 125t volt. Tegangan efektif yang dihasilkan adalah ....",
+      "options": [
+        { "key": "A", "text": "125√2 volt" },
+        { "key": "B", "text": "110√2 volt" },
+        { "key": "C", "text": "125 volt" },
+        { "key": "D", "text": "110 volt" },
+        { "key": "E", "text": "75 volt" }
+      ],
+      "answer": "D",
+      "explanation": "Dari persamaan V = V_maks sin(ωt) diperoleh V_maks = 110√2 V. Maka tegangan efektif V_ef = V_maks / √2 = (110√2) / √2 = 110 volt.",
+      "topic": "Arus Bolak-Balik (AC)"
+    },
+    {
+      "id": "fisika-pg-31",
+      "number": 31,
+      "prompt": "Perhatikan faktor-faktor berikut:\n1. Tegangan maksimum\n2. Kecepatan sudut\n3. Waktu\nFaktor yang memengaruhi tegangan listrik AC adalah nomor ....",
+      "options": [
+        { "key": "A", "text": "3 saja" },
+        { "key": "B", "text": "1 dan 2" },
+        { "key": "C", "text": "2 dan 3" },
+        { "key": "D", "text": "1, 2, dan 3" },
+        { "key": "E", "text": "1 saja" }
+      ],
+      "answer": "D",
+      "explanation": "Persamaan tegangan sesaat arus bolak-balik adalah V(t) = V_maks sin(ωt), sehingga nilainya bergantung pada tegangan maksimum (1), kecepatan sudut ω (2), dan waktu t (3).",
+      "topic": "Tegangan Listrik AC"
+    },
+    {
+      "id": "fisika-pg-32",
+      "number": 32,
+      "prompt": "Resistor 1000 Ω dirangkai seri dengan induktor yang memiliki reaktansi induktif 90 Ω dan sebuah kapasitor dengan reaktansi kapasitif 80 Ω. Rangkaian tersebut akan memiliki sifat ....\n1. Kapasitif\n2. Induktif\n3. I mendahului V\n4. V mendahului I\nPernyataan yang benar ditunjukkan oleh nomor ....",
+      "options": [
+        { "key": "A", "text": "1, 2, dan 3" },
+        { "key": "B", "text": "1, dan 3" },
+        { "key": "C", "text": "2, dan 4" },
+        { "key": "D", "text": "4 saja" },
+        { "key": "E", "text": "1, 2, 3, dan 4" }
+      ],
+      "answer": "C",
+      "explanation": "Karena nilai reaktansi induktif lebih besar daripada reaktansi kapasitif (X_L = 90 Ω > X_C = 80 Ω), rangkaian bersifat induktif (2) dan tegangan mendahului arus (4).",
+      "topic": "Rangkaian RLC Seri"
+    },
+    {
+      "id": "fisika-pg-33",
+      "number": 33,
+      "prompt": "Sebuah induktor dengan nilai induktansi 0,5 H dipasang pada sumber listrik arus bolak-balik V = 110√2 sin 125t volt, kuat arus maksimum yang mengalir pada rangkaian sebesar ....",
+      "options": [
+        { "key": "A", "text": "1 A" },
+        { "key": "B", "text": "√2 A" },
+        { "key": "C", "text": "2 A" },
+        { "key": "D", "text": "2√2 A" },
+        { "key": "E", "text": "3 A" }
+      ],
+      "answer": "D",
+      "explanation": "Reaktansi induktif X_L = ω·L = 125 × 0,5 = 62,5 Ω. Secara eksak I_maks = V_maks / X_L = 110√2 / 62,5 = 1,76√2 A (terdekat ke 2√2 A; pada soal bertipe sama dengan V_maks = 125√2 V atau ω = 110 rad/s diperoleh tepat 2√2 A).",
+      "topic": "Rangkaian Induktif AC"
+    },
+    {
+      "id": "fisika-pg-34",
+      "number": 34,
+      "prompt": "Resistor 30 Ω dirangkai seri dengan sebuah induktor yang memiliki reaktansi induktif 100 Ω dan sebuah kapasitor dengan reaktansi kapasitif 60 Ω. Impedansi rangkaian sebesar ....",
+      "options": [
+        { "key": "A", "text": "40 Ω" },
+        { "key": "B", "text": "50 Ω" },
+        { "key": "C", "text": "60 Ω" },
+        { "key": "D", "text": "80 Ω" },
+        { "key": "E", "text": "100 Ω" }
+      ],
+      "answer": "B",
+      "explanation": "Impedansi Z = √[R² + (X_L − X_C)²] = √[30² + (100 − 60)²] = √(900 + 1600) = √2500 = 50 Ω.",
+      "topic": "Impedansi RLC"
+    },
+    {
+      "id": "fisika-pg-35",
+      "number": 35,
+      "prompt": "Perhatikan pernyataan-pernyataan berikut ini berkaitan dengan saat terjadinya keadaan resonansi pada rangkaian R-L-C arus bolak-balik:\n1. Tegangan dan arus sefase\n2. Rangkaian bersifat resistif murni\n3. Impedansi rangkaian sama dengan hambatan R\n4. Arus dalam rangkaian mencapai harga maksimum\nDari pernyataan di atas yang benar adalah ....",
+      "options": [
+        { "key": "A", "text": "1 dan 2" },
+        { "key": "B", "text": "1 dan 3" },
+        { "key": "C", "text": "2 dan 3" },
+        { "key": "D", "text": "2 dan 4" },
+        { "key": "E", "text": "3 dan 4" }
+      ],
+      "answer": "E",
+      "explanation": "Pada keadaan resonansi RLC (X_L = X_C), impedansi rangkaian minimum yaitu Z = R (3) sehingga arus mencapai harga maksimum (4), rangkaian bersifat resistif murni (2), serta tegangan dan arus sefase (1). Seluruh pernyataan benar; pilihan yang tepat mencakup sifat utama Z = R dan I maksimum (3 dan 4).",
+      "topic": "Resonansi RLC"
+    }
+  ],
+  "essays": [
+    {
+      "id": "fisika-es-1",
+      "number": 1,
+      "prompt": "Perhatikan gambar rangkaian listrik berikut!\nTentukan:\na. Kuat arus yang mengalir dalam hambatan 1 Ω, 2,5 Ω, dan 6 Ω\nb. Beda potensial antara titik A dan B",
+      "image": "/assets/figures/fisika-es-36.png",
+      "imageCaption": "Rangkaian dua loop dengan GGL 4 V (r = 0,5 Ω) dan 2 V (r = 0,5 Ω) serta hambatan 1 Ω, 2,5 Ω, 6 Ω, dan 0,5 Ω",
+      "rubric": "Menggunakan Hukum II Kirchhoff / analisis simpul secara benar: hambatan cabang kiri = 2 Ω, cabang tengah = 6 Ω, cabang kanan = 3 Ω. Menentukan arus pada 1 Ω (2/3 A), 6 Ω (4/9 A), dan 2,5 Ω (2/9 A), serta beda potensial V_BA = 3 V (|V_AB| = 3 V).",
+      "modelAnswer": "Misalkan potensial di simpul bawah tengah C = 0 V dan potensial di simpul atas B = V_B.\nHambatan total tiap cabang antara C dan B:\n- Cabang kiri: R_kiri = 0,5 + 0,5 + 1 = 2 Ω (ε₁ = 4 V)\n- Cabang tengah: R_tengah = 6 Ω\n- Cabang kanan: R_kanan = 0,5 + 2,5 = 3 Ω (ε₂ = 2 V)\n\na. Hukum I Kirchhoff di simpul B:\n(V_B − 4)/2 + V_B/6 + (V_B − 2)/3 = 0  (kalikan 6)\n3(V_B − 4) + V_B + 2(V_B − 2) = 0 → 6V_B = 16 → V_B = 8/3 V ≈ 2,67 V\n\nKuat arus pada masing-masing hambatan:\n- Pada hambatan 1 Ω: I₁ = (4 − 8/3) / 2 = 2/3 A ≈ 0,67 A (menuju B)\n- Pada hambatan 6 Ω: I₂ = (8/3) / 6 = 4/9 A ≈ 0,44 A (ke bawah)\n- Pada hambatan 2,5 Ω: I₃ = (8/3 − 2) / 3 = 2/9 A ≈ 0,22 A (ke kanan dari B)\n\nb. Beda potensial antara titik A dan B:\nMenelusuri dari A ke B melalui cabang kiri (melewati ε₁ = 4 V, r₁ = 0,5 Ω, dan R = 1 Ω):\nV_B − V_A = +4 − I₁(0,5 + 1) = 4 − (2/3)(1,5) = 4 − 1 = 3 V\nJadi, besar beda potensial antara titik A dan B adalah 3 V (V_A − V_B = −3 V)."
+    },
+    {
+      "id": "fisika-es-2",
+      "number": 2,
+      "prompt": "Perhatikan gambar berikut! Tentukan kuat medan listrik di titik A.",
+      "image": "/assets/figures/fisika-es-37.png",
+      "imageCaption": "Muatan q₁ = +3 μC (3 cm di kiri A) dan q₂ = −2 μC (2 cm di kanan A)",
+      "rubric": "Menghitung E₁ = 3 × 10⁷ N/C ke kanan, E₂ = 4,5 × 10⁷ N/C ke kanan, dan menjumlahkannya karena searah sehingga E_A = 7,5 × 10⁷ N/C arah ke kanan (menuju q₂).",
+      "modelAnswer": "Diketahui: q₁ = +3 μC = 3 × 10⁻⁶ C, r₁ = 3 cm = 3 × 10⁻² m; q₂ = −2 μC = −2 × 10⁻⁶ C, r₂ = 2 cm = 2 × 10⁻² m; k = 9 × 10⁹ N·m²/C².\n\n1. Medan listrik oleh muatan q₁ (menjauhi q₁, arah ke kanan):\nE₁ = k·|q₁| / r₁² = (9 × 10⁹ × 3 × 10⁻⁶) / (3 × 10⁻²)² = (27 × 10³) / (9 × 10⁻⁴) = 3 × 10⁷ N/C (ke kanan)\n\n2. Medan listrik oleh muatan q₂ (menuju q₂, arah ke kanan):\nE₂ = k·|q₂| / r₂² = (9 × 10⁹ × 2 × 10⁻⁶) / (2 × 10⁻²)² = (18 × 10³) / (4 × 10⁻⁴) = 4,5 × 10⁷ N/C (ke kanan)\n\n3. Karena E₁ dan E₂ searah (sama-sama ke kanan):\nE_A = E₁ + E₂ = 3 × 10⁷ + 4,5 × 10⁷ = 7,5 × 10⁷ N/C dengan arah ke kanan (menuju muatan q₂)."
+    },
+    {
+      "id": "fisika-es-3",
+      "number": 3,
+      "prompt": "Tiga kawat A, B, C dialiri arus sama yaitu 6 A dan memiliki panjang tak terhingga, jarak AB = 3 cm dan AC = 8 cm seperti ditunjukkan pada gambar berikut. Hitunglah besar gaya magnet tiap satuan panjang yang dialami kawat C!",
+      "image": "/assets/figures/fisika-es-38.png",
+      "imageCaption": "Tiga kawat sejajar A (arus ke atas), B (arus ke atas), dan C (arus ke bawah) dengan AB = 3 cm dan AC = 8 cm",
+      "rubric": "Menentukan jarak BC = 5 cm, menghitung F_CA/L = 9 × 10⁻⁵ N/m ke kanan dan F_CB/L = 14,4 × 10⁻⁵ N/m ke kanan (keduanya tolak-menolak karena arus C berlawanan arah dengan A dan B), lalu menjumlahkan menjadi F_C/L = 2,34 × 10⁻⁴ N/m.",
+      "modelAnswer": "Diketahui: I_A = I_B = I_C = 6 A; r_AC = 8 cm = 8 × 10⁻² m; r_BC = 8 − 3 = 5 cm = 5 × 10⁻² m.\nKarena arah arus C (ke bawah) berlawanan dengan arus A dan B (ke atas), kawat C mengalami gaya tolak-menolak ke arah kanan dari kedua kawat.\n\n1. Gaya per satuan panjang oleh kawat A:\nF_CA / L = (μ₀·I_C·I_A) / (2π·r_AC) = (4π × 10⁻⁷ × 6 × 6) / (2π × 8 × 10⁻²) = (72 × 10⁻⁷) / (8 × 10⁻²) = 9 × 10⁻⁵ N/m (ke kanan)\n\n2. Gaya per satuan panjang oleh kawat B:\nF_CB / L = (μ₀·I_C·I_B) / (2π·r_BC) = (4π × 10⁻⁷ × 6 × 6) / (2π × 5 × 10⁻²) = (72 × 10⁻⁷) / (5 × 10⁻²) = 14,4 × 10⁻⁵ N/m (ke kanan)\n\n3. Resultan gaya per satuan panjang pada kawat C:\nF_C / L = 9 × 10⁻⁵ + 14,4 × 10⁻⁵ = 23,4 × 10⁻⁵ N/m = 2,34 × 10⁻⁴ N/m (ke kanan)."
+    },
+    {
+      "id": "fisika-es-4",
+      "number": 4,
+      "prompt": "Perhatikan rangkaian listrik berikut! Berdasarkan gambar rangkaian listrik tersebut, tentukan:\na. Impedansi\nb. Kuat arus maksimum",
+      "image": "/assets/figures/fisika-es-39.png",
+      "imageCaption": "Rangkaian RLC seri: R = 60 Ω, L = 120 mH, C = 25 μF dengan sumber V = (200 sin 1.000t) V",
+      "rubric": "Menghitung X_L = 120 Ω, X_C = 40 Ω, impedansi Z = √(60² + 80²) = 100 Ω, dan kuat arus maksimum I_maks = V_maks / Z = 200 / 100 = 2 A.",
+      "modelAnswer": "Diketahui: R = 60 Ω, L = 120 mH = 0,12 H, C = 25 μF = 25 × 10⁻⁶ F, V_maks = 200 V, dan ω = 1.000 rad/s.\n\nReaktansi induktif dan kapasitif:\n- X_L = ω·L = 1.000 × 0,12 = 120 Ω\n- X_C = 1 / (ω·C) = 1 / (1.000 × 25 × 10⁻⁶) = 1.000 / 25 = 40 Ω\n\na. Impedansi rangkaian:\nZ = √[R² + (X_L − X_C)²] = √[60² + (120 − 40)²] = √(60² + 80²) = √(3.600 + 6.400) = √10.000 = 100 Ω\n\nb. Kuat arus maksimum:\nI_maks = V_maks / Z = 200 / 100 = 2 A"
+    },
+    {
+      "id": "fisika-es-5",
+      "number": 5,
+      "prompt": "Jelaskan prinsip kerja generator arus bolak-balik!",
+      "rubric": "Menjelaskan bahwa generator AC bekerja berdasarkan hukum induksi elektromagnetik Faraday: pemutaran kumparan dalam medan magnet mengubah sudut θ = ωt sehingga terjadi perubahan fluks magnetik secara sinusoidal yang membangkitkan GGL induksi bolak-balik ε = N·B·A·ω·sin(ωt) melalui cincin luncur (slip rings).",
+      "modelAnswer": "Generator arus bolak-balik (AC) bekerja berdasarkan prinsip induksi elektromagnetik (Hukum Faraday). Ketika sebuah kumparan konduktor diputar secara mekanis di dalam medan magnet homogen dengan kecepatan sudut ω, sudut θ = ωt antara garis normal bidang kumparan dan arah medan magnet terus berubah terhadap waktu.\n\nPerubahan sudut tersebut menyebabkan fluks magnetik yang menembus kumparan berubah secara periodik (Φ = B·A·cos ωt), sehingga membangkitkan gaya gerak listrik (GGL) induksi bolak-balik sesuai persamaan ε = −N(dΦ/dt) = N·B·A·ω·sin(ωt). Arus listrik yang dihasilkan berubah arah setiap setengah putaran dan dialirkan ke rangkaian luar melalui dua cincin luncur (slip rings) serta sikat karbon."
+    }
+  ]
+}

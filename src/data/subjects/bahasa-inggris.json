@@ -1,0 +1,725 @@
+{
+  "id": "bahasa-inggris",
+  "name": "Bahasa Inggris",
+  "shortName": "ENG",
+  "group": "bahasa",
+  "schedule": "Jumat, 5 Desember 2025",
+  "durationMinutes": 90,
+  "accentColor": "#A1D7F4",
+  "questions": [
+    {
+      "id": "bahasa-inggris-pg-1",
+      "number": 1,
+      "passageTitle": "Comic strip for questions 1–5",
+      "image": "/assets/figures/bing-pg-1-5.png",
+      "imageCaption": "Four-panel classroom comic strip about saving energy",
+      "prompt": "What is the main message of the comic strip?",
+      "options": [
+        { "key": "A", "text": "Students should bring more notebooks to school." },
+        { "key": "B", "text": "Teachers should check the classroom's energy use." },
+        { "key": "C", "text": "Everyone in the classroom can take small actions to save energy." },
+        { "key": "D", "text": "Only one student is responsible for saving energy." },
+        { "key": "E", "text": "Energy saving is not important in school." }
+      ],
+      "answer": "C",
+      "explanation": "Komik empat panel tersebut menampilkan berbagai siswa di kelas yang masing-masing melakukan tindakan sederhana (mematikan lampu, menutup tirai, memakai buku tulis) untuk menghemat energi bersama.",
+      "topic": "Reading Comprehension"
+    },
+    {
+      "id": "bahasa-inggris-pg-2",
+      "number": 2,
+      "passageTitle": "Comic strip for questions 1–5",
+      "image": "/assets/figures/bing-pg-1-5.png",
+      "imageCaption": "Four-panel classroom comic strip about saving energy",
+      "prompt": "If the students forget to turn off the lights before leaving the classroom, what will most likely happen?",
+      "options": [
+        { "key": "A", "text": "The classroom will stay dark." },
+        { "key": "B", "text": "Energy will be wasted unnecessarily." },
+        { "key": "C", "text": "The lights will stop working." },
+        { "key": "D", "text": "The students will get a reward." },
+        { "key": "E", "text": "The curtains will close automatically." }
+      ],
+      "answer": "B",
+      "explanation": "Jika lampu dibiarkan menyala saat ruang kelas kosong, energi listrik akan terbuang secara sia-sia (wasted unnecessarily).",
+      "topic": "Cause and Effect"
+    },
+    {
+      "id": "bahasa-inggris-pg-3",
+      "number": 3,
+      "passageTitle": "Comic strip for questions 1–5",
+      "image": "/assets/figures/bing-pg-1-5.png",
+      "imageCaption": "Four-panel classroom comic strip about saving energy",
+      "prompt": "How does each student in the comic contribute to energy saving?",
+      "options": [
+        { "key": "A", "text": "By doing unrelated classroom chores." },
+        { "key": "B", "text": "By applying different simple energy-saving actions." },
+        { "key": "C", "text": "By discussing energy topics only." },
+        { "key": "D", "text": "By decorating the classroom walls." },
+        { "key": "E", "text": "By bringing new electrical devices." }
+      ],
+      "answer": "B",
+      "explanation": "Setiap panel menunjukkan siswa melakukan tindakan hemat energi yang sederhana namun berbeda-beda: mematikan lampu, menutup tirai, dan menggunakan buku catatan.",
+      "topic": "Reading Comprehension"
+    },
+    {
+      "id": "bahasa-inggris-pg-4",
+      "number": 4,
+      "passageTitle": "Comic strip for questions 1–5",
+      "image": "/assets/figures/bing-pg-1-5.png",
+      "imageCaption": "Four-panel classroom comic strip about saving energy",
+      "prompt": "What can you infer about the teacher's attitude toward saving energy?",
+      "options": [
+        { "key": "A", "text": "The teacher doesn't care about energy use." },
+        { "key": "B", "text": "The teacher supports and encourages students to save energy." },
+        { "key": "C", "text": "The teacher ignores students' actions." },
+        { "key": "D", "text": "The teacher thinks energy saving is too difficult." },
+        { "key": "E", "text": "The teacher prefers to use more electricity." }
+      ],
+      "answer": "B",
+      "explanation": "Dari panel pertama yang mengajak \"Let's save energy!\" dan praktik hemat energi di kelas, dapat disimpulkan bahwa guru mendukung dan mendorong siswa menghemat energi.",
+      "topic": "Inference"
+    },
+    {
+      "id": "bahasa-inggris-pg-5",
+      "number": 5,
+      "passageTitle": "Comic strip for questions 1–5",
+      "image": "/assets/figures/bing-pg-1-5.png",
+      "imageCaption": "Four-panel classroom comic strip about saving energy",
+      "prompt": "Which of the following actions shows critical thinking about saving energy in the classroom?",
+      "options": [
+        { "key": "A", "text": "Turning off the lights even when it's still dark outside." },
+        { "key": "B", "text": "Ignoring classmates' reminders about saving energy" },
+        { "key": "C", "text": "Keeping lights on during lunchtime." },
+        { "key": "D", "text": "Using natural light instead of lamps when possible." },
+        { "key": "E", "text": "Leaving windows open all day." }
+      ],
+      "answer": "D",
+      "explanation": "Memanfaatkan cahaya alami matahari daripada menyalakan lampu saat memungkinkan menunjukkan pemikiran kritis dan efisien dalam menghemat energi.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "bahasa-inggris-pg-6",
+      "number": 6,
+      "passageTitle": "Text for questions 6–10",
+      "passage": "It was a cloudy Monday morning when Mr. Harris, the science teacher at Sunrise Senior High, announced a week-long project: \"Find a way to make our school more energy-efficient.\" Most students sighed, thinking it would be just another boring assignment.\n\nHowever, Ella, a quiet but observant student, took it seriously. Every afternoon, she stayed late to observe how energy was being used around the school. She noticed fans running in empty classrooms, lights left on during daylight, and computers never shut down.\n\nThe next day, Ella presented her findings to the class. \"We waste more than half of our electricity every day,\" she said. \"If we all turn off what we don't use, we can save money and protect the planet.\" Some students were surprised, others skeptical.\n\nTo prove her point, Ella led a \"One Hour Power-Off\" campaign — encouraging everyone to turn off all unnecessary lights and devices for one hour. When the school received their next electricity bill, it had dropped by almost 30%.\n\nThe principal praised Ella and decided to make the campaign a monthly event. Ella realized that one small spark of awareness could create a wave of change.",
+      "prompt": "What does Ella's action mainly teach others about saving energy?",
+      "options": [
+        { "key": "A", "text": "It is only possible through expensive technology." },
+        { "key": "B", "text": "It requires shutting down all power sources." },
+        { "key": "C", "text": "It should be handled only by the school principal." },
+        { "key": "D", "text": "It depends on government programs." },
+        { "key": "E", "text": "It starts with individual awareness and habits." }
+      ],
+      "answer": "E",
+      "explanation": "Tindakan Ella membuktikan bahwa penghematan energi dimulai dari kesadaran dan kebiasaan individu (mematikan perangkat yang tidak dipakai) sehingga menghasilkan dampak besar.",
+      "topic": "Narrative Text"
+    },
+    {
+      "id": "bahasa-inggris-pg-7",
+      "number": 7,
+      "passageTitle": "Text for questions 6–10",
+      "passage": "It was a cloudy Monday morning when Mr. Harris, the science teacher at Sunrise Senior High, announced a week-long project: \"Find a way to make our school more energy-efficient.\" Most students sighed, thinking it would be just another boring assignment.\n\nHowever, Ella, a quiet but observant student, took it seriously. Every afternoon, she stayed late to observe how energy was being used around the school. She noticed fans running in empty classrooms, lights left on during daylight, and computers never shut down.\n\nThe next day, Ella presented her findings to the class. \"We waste more than half of our electricity every day,\" she said. \"If we all turn off what we don't use, we can save money and protect the planet.\" Some students were surprised, others skeptical.\n\nTo prove her point, Ella led a \"One Hour Power-Off\" campaign — encouraging everyone to turn off all unnecessary lights and devices for one hour. When the school received their next electricity bill, it had dropped by almost 30%.\n\nThe principal praised Ella and decided to make the campaign a monthly event. Ella realized that one small spark of awareness could create a wave of change.",
+      "prompt": "What was the effect of Ella's \"One Hour Power-Off\" campaign?",
+      "options": [
+        { "key": "A", "text": "The school became completely solar-powered." },
+        { "key": "B", "text": "The principal canceled all future science projects." },
+        { "key": "C", "text": "The lights were damaged during the event." },
+        { "key": "D", "text": "Students refused to participate in the campaign." },
+        { "key": "E", "text": "The electricity bill was reduced significantly." }
+      ],
+      "answer": "E",
+      "explanation": "Pada paragraf keempat disebutkan bahwa tagihan listrik sekolah turun hampir 30% (\"dropped by almost 30%\") setelah kampanye tersebut.",
+      "topic": "Narrative Text"
+    },
+    {
+      "id": "bahasa-inggris-pg-8",
+      "number": 8,
+      "passageTitle": "Text for questions 6–10",
+      "passage": "It was a cloudy Monday morning when Mr. Harris, the science teacher at Sunrise Senior High, announced a week-long project: \"Find a way to make our school more energy-efficient.\" Most students sighed, thinking it would be just another boring assignment.\n\nHowever, Ella, a quiet but observant student, took it seriously. Every afternoon, she stayed late to observe how energy was being used around the school. She noticed fans running in empty classrooms, lights left on during daylight, and computers never shut down.\n\nThe next day, Ella presented her findings to the class. \"We waste more than half of our electricity every day,\" she said. \"If we all turn off what we don't use, we can save money and protect the planet.\" Some students were surprised, others skeptical.\n\nTo prove her point, Ella led a \"One Hour Power-Off\" campaign — encouraging everyone to turn off all unnecessary lights and devices for one hour. When the school received their next electricity bill, it had dropped by almost 30%.\n\nThe principal praised Ella and decided to make the campaign a monthly event. Ella realized that one small spark of awareness could create a wave of change.",
+      "prompt": "What can we infer about Ella's character from the story?",
+      "options": [
+        { "key": "A", "text": "She is careless and dislikes responsibility." },
+        { "key": "B", "text": "She prefers to work alone because she doesn't trust others." },
+        { "key": "C", "text": "She is observant, responsible, and proactive." },
+        { "key": "D", "text": "She only cares about getting good grades." },
+        { "key": "E", "text": "She ignores environmental issues." }
+      ],
+      "answer": "C",
+      "explanation": "Teks menyebut Ella sebagai siswa yang cermat (\"observant\"), serius mengerjakan tugas (responsible), dan berinisiatif memimpin kampanye (proactive).",
+      "topic": "Characterization"
+    },
+    {
+      "id": "bahasa-inggris-pg-9",
+      "number": 9,
+      "passageTitle": "Text for questions 6–10",
+      "passage": "It was a cloudy Monday morning when Mr. Harris, the science teacher at Sunrise Senior High, announced a week-long project: \"Find a way to make our school more energy-efficient.\" Most students sighed, thinking it would be just another boring assignment.\n\nHowever, Ella, a quiet but observant student, took it seriously. Every afternoon, she stayed late to observe how energy was being used around the school. She noticed fans running in empty classrooms, lights left on during daylight, and computers never shut down.\n\nThe next day, Ella presented her findings to the class. \"We waste more than half of our electricity every day,\" she said. \"If we all turn off what we don't use, we can save money and protect the planet.\" Some students were surprised, others skeptical.\n\nTo prove her point, Ella led a \"One Hour Power-Off\" campaign — encouraging everyone to turn off all unnecessary lights and devices for one hour. When the school received their next electricity bill, it had dropped by almost 30%.\n\nThe principal praised Ella and decided to make the campaign a monthly event. Ella realized that one small spark of awareness could create a wave of change.",
+      "prompt": "If Ella had not conducted her observations, what might have happened?",
+      "options": [
+        { "key": "A", "text": "The students would still continue wasting electricity." },
+        { "key": "B", "text": "The school would automatically save energy." },
+        { "key": "C", "text": "The government would inspect the school." },
+        { "key": "D", "text": "Mr. Harris would cancel the project." },
+        { "key": "E", "text": "The principal would raise the school's budget." }
+      ],
+      "answer": "A",
+      "explanation": "Tanpa pengamatan dan temuan Ella, pemborosan listrik (kipas menyala di kelas kosong, lampu menyala di siang hari, komputer tidak dimatikan) kemungkinan besar akan terus berlanjut.",
+      "topic": "Inference"
+    },
+    {
+      "id": "bahasa-inggris-pg-10",
+      "number": 10,
+      "passageTitle": "Text for questions 6–10",
+      "passage": "It was a cloudy Monday morning when Mr. Harris, the science teacher at Sunrise Senior High, announced a week-long project: \"Find a way to make our school more energy-efficient.\" Most students sighed, thinking it would be just another boring assignment.\n\nHowever, Ella, a quiet but observant student, took it seriously. Every afternoon, she stayed late to observe how energy was being used around the school. She noticed fans running in empty classrooms, lights left on during daylight, and computers never shut down.\n\nThe next day, Ella presented her findings to the class. \"We waste more than half of our electricity every day,\" she said. \"If we all turn off what we don't use, we can save money and protect the planet.\" Some students were surprised, others skeptical.\n\nTo prove her point, Ella led a \"One Hour Power-Off\" campaign — encouraging everyone to turn off all unnecessary lights and devices for one hour. When the school received their next electricity bill, it had dropped by almost 30%.\n\nThe principal praised Ella and decided to make the campaign a monthly event. Ella realized that one small spark of awareness could create a wave of change.",
+      "prompt": "Which of the following best represents the theme of the story?",
+      "options": [
+        { "key": "A", "text": "A small idea can lead to big positive change." },
+        { "key": "B", "text": "Energy saving requires advanced science." },
+        { "key": "C", "text": "Teamwork can overcome any obstacle." },
+        { "key": "D", "text": "Technology is more important than awareness." },
+        { "key": "E", "text": "School projects should always be competitive." }
+      ],
+      "answer": "A",
+      "explanation": "Kalimat penutup cerita secara langsung menegaskan temanya: \"one small spark of awareness could create a wave of change\" (ide kecil dapat membawa perubahan positif yang besar).",
+      "topic": "Theme"
+    },
+    {
+      "id": "bahasa-inggris-pg-11",
+      "number": 11,
+      "passageTitle": "Saving Energy Together (for questions 11–15)",
+      "passage": "Saving Energy Together\n\nIn a small town called Serasi Ville, there lived a group of friends who were passionate about conserving energy. Indra, Lili, and Ben formed a team called \"EcoPals\" with the mission of spreading awareness and encouraging their community to adopt energy-saving habits.\n\nOne day, the town faced a sudden power outage, leaving everyone in the dark. The EcoPals realized that there was an urgent need for more efficient energy practices in Serasi Ville. They brainstormed ideas to address the issue and decided to organize a community meeting.\n\nDuring the meeting, EcoPals shared information about simple ways to save energy, such as turning off lights when not needed, unplugging devices, and using energy-efficient appliances. They also discussed the benefits of conserving energy, not only for the environment but also for reducing electricity bills.\n\nThe community embraced the EcoPals' suggestions and started implementing them in their daily lives. Indra, Lili and Ben took the initiative to organize a workshop, where they demonstrated how to make solar-powered lamps using recycled materials. The town began to glow with a newfound sense of environmental responsibility.\n\nAs months passed, Serasi Ville transformed into a shining example of a community dedicated to energy conservation. The EcoPals continued their efforts, expanding their project to neighboring towns. The simple idea of saving energy together had a ripple effect, creating a positive impact on the environment and fostering a sense of unity among the people.",
+      "prompt": "What is the mission of the EcoPals?",
+      "options": [
+        { "key": "A", "text": "Reducing waste" },
+        { "key": "B", "text": "Conserving energy" },
+        { "key": "C", "text": "Promoting local business" },
+        { "key": "D", "text": "Conserving water" },
+        { "key": "E", "text": "Recycling trash" }
+      ],
+      "answer": "B",
+      "explanation": "Paragraf pertama menjelaskan bahwa EcoPals dibentuk dengan misi menyebarkan kesadaran dan mendorong masyarakat mengadopsi kebiasaan menghemat energi (conserving energy).",
+      "topic": "Reading Comprehension"
+    },
+    {
+      "id": "bahasa-inggris-pg-12",
+      "number": 12,
+      "passageTitle": "Saving Energy Together (for questions 11–15)",
+      "passage": "Saving Energy Together\n\nIn a small town called Serasi Ville, there lived a group of friends who were passionate about conserving energy. Indra, Lili, and Ben formed a team called \"EcoPals\" with the mission of spreading awareness and encouraging their community to adopt energy-saving habits.\n\nOne day, the town faced a sudden power outage, leaving everyone in the dark. The EcoPals realized that there was an urgent need for more efficient energy practices in Serasi Ville. They brainstormed ideas to address the issue and decided to organize a community meeting.\n\nDuring the meeting, EcoPals shared information about simple ways to save energy, such as turning off lights when not needed, unplugging devices, and using energy-efficient appliances. They also discussed the benefits of conserving energy, not only for the environment but also for reducing electricity bills.\n\nThe community embraced the EcoPals' suggestions and started implementing them in their daily lives. Indra, Lili and Ben took the initiative to organize a workshop, where they demonstrated how to make solar-powered lamps using recycled materials. The town began to glow with a newfound sense of environmental responsibility.\n\nAs months passed, Serasi Ville transformed into a shining example of a community dedicated to energy conservation. The EcoPals continued their efforts, expanding their project to neighboring towns. The simple idea of saving energy together had a ripple effect, creating a positive impact on the environment and fostering a sense of unity among the people.",
+      "prompt": "How did Indra, Lili and Ben go beyond suggesting energy-saving habits during the workshop?",
+      "options": [
+        { "key": "A", "text": "Introduced advanced energy technologies." },
+        { "key": "B", "text": "Discussed the benefits of energy consumption." },
+        { "key": "C", "text": "Demonstrated the construction of solar-powered lamps." },
+        { "key": "D", "text": "Conducted a sustainability symposium." },
+        { "key": "E", "text": "Discussed the benefits electricity." }
+      ],
+      "answer": "C",
+      "explanation": "Pada paragraf keempat disebutkan bahwa dalam lokakarya (workshop), mereka mendemonstrasikan cara membuat lampu bertenaga surya (solar-powered lamps) dari bahan daur ulang.",
+      "topic": "Reading Comprehension"
+    },
+    {
+      "id": "bahasa-inggris-pg-13",
+      "number": 13,
+      "passageTitle": "Saving Energy Together (for questions 11–15)",
+      "passage": "Saving Energy Together\n\nIn a small town called Serasi Ville, there lived a group of friends who were passionate about conserving energy. Indra, Lili, and Ben formed a team called \"EcoPals\" with the mission of spreading awareness and encouraging their community to adopt energy-saving habits.\n\nOne day, the town faced a sudden power outage, leaving everyone in the dark. The EcoPals realized that there was an urgent need for more efficient energy practices in Serasi Ville. They brainstormed ideas to address the issue and decided to organize a community meeting.\n\nDuring the meeting, EcoPals shared information about simple ways to save energy, such as turning off lights when not needed, unplugging devices, and using energy-efficient appliances. They also discussed the benefits of conserving energy, not only for the environment but also for reducing electricity bills.\n\nThe community embraced the EcoPals' suggestions and started implementing them in their daily lives. Indra, Lili and Ben took the initiative to organize a workshop, where they demonstrated how to make solar-powered lamps using recycled materials. The town began to glow with a newfound sense of environmental responsibility.\n\nAs months passed, Serasi Ville transformed into a shining example of a community dedicated to energy conservation. The EcoPals continued their efforts, expanding their project to neighboring towns. The simple idea of saving energy together had a ripple effect, creating a positive impact on the environment and fostering a sense of unity among the people.",
+      "prompt": "How did the community respond to EcoPals' suggestions?",
+      "options": [
+        { "key": "A", "text": "Applied suggestions in every day routine." },
+        { "key": "B", "text": "Ignored the suggestions" },
+        { "key": "C", "text": "Demanded more power consumption." },
+        { "key": "D", "text": "Organized protests." },
+        { "key": "E", "text": "Not caring" }
+      ],
+      "answer": "A",
+      "explanation": "Paragraf keempat menyatakan: \"The community embraced the EcoPals' suggestions and started implementing them in their daily lives.\"",
+      "topic": "Reading Comprehension"
+    },
+    {
+      "id": "bahasa-inggris-pg-14",
+      "number": 14,
+      "passageTitle": "Saving Energy Together (for questions 11–15)",
+      "passage": "Saving Energy Together\n\nIn a small town called Serasi Ville, there lived a group of friends who were passionate about conserving energy. Indra, Lili, and Ben formed a team called \"EcoPals\" with the mission of spreading awareness and encouraging their community to adopt energy-saving habits.\n\nOne day, the town faced a sudden power outage, leaving everyone in the dark. The EcoPals realized that there was an urgent need for more efficient energy practices in Serasi Ville. They brainstormed ideas to address the issue and decided to organize a community meeting.\n\nDuring the meeting, EcoPals shared information about simple ways to save energy, such as turning off lights when not needed, unplugging devices, and using energy-efficient appliances. They also discussed the benefits of conserving energy, not only for the environment but also for reducing electricity bills.\n\nThe community embraced the EcoPals' suggestions and started implementing them in their daily lives. Indra, Lili and Ben took the initiative to organize a workshop, where they demonstrated how to make solar-powered lamps using recycled materials. The town began to glow with a newfound sense of environmental responsibility.\n\nAs months passed, Serasi Ville transformed into a shining example of a community dedicated to energy conservation. The EcoPals continued their efforts, expanding their project to neighboring towns. The simple idea of saving energy together had a ripple effect, creating a positive impact on the environment and fostering a sense of unity among the people.",
+      "prompt": "In what way did Serasi Ville become a \"shining example\" of a community dedicated to energy conservation?",
+      "options": [
+        { "key": "A", "text": "Increased industrialization." },
+        { "key": "B", "text": "Global recognition in environmental awards." },
+        { "key": "C", "text": "Wasteful of energy." },
+        { "key": "D", "text": "Development of energy-intensive project." },
+        { "key": "E", "text": "Reduction in energy consumption." }
+      ],
+      "answer": "E",
+      "explanation": "Serasi Ville menjadi teladan karena warganya menerapkan kebiasaan hemat energi (mematikan lampu, mencabut perangkat, memakai peralatan hemat energi) sehingga mengurangi konsumsi energi.",
+      "topic": "Reading Comprehension"
+    },
+    {
+      "id": "bahasa-inggris-pg-15",
+      "number": 15,
+      "passageTitle": "Saving Energy Together (for questions 11–15)",
+      "passage": "Saving Energy Together\n\nIn a small town called Serasi Ville, there lived a group of friends who were passionate about conserving energy. Indra, Lili, and Ben formed a team called \"EcoPals\" with the mission of spreading awareness and encouraging their community to adopt energy-saving habits.\n\nOne day, the town faced a sudden power outage, leaving everyone in the dark. The EcoPals realized that there was an urgent need for more efficient energy practices in Serasi Ville. They brainstormed ideas to address the issue and decided to organize a community meeting.\n\nDuring the meeting, EcoPals shared information about simple ways to save energy, such as turning off lights when not needed, unplugging devices, and using energy-efficient appliances. They also discussed the benefits of conserving energy, not only for the environment but also for reducing electricity bills.\n\nThe community embraced the EcoPals' suggestions and started implementing them in their daily lives. Indra, Lili and Ben took the initiative to organize a workshop, where they demonstrated how to make solar-powered lamps using recycled materials. The town began to glow with a newfound sense of environmental responsibility.\n\nAs months passed, Serasi Ville transformed into a shining example of a community dedicated to energy conservation. The EcoPals continued their efforts, expanding their project to neighboring towns. The simple idea of saving energy together had a ripple effect, creating a positive impact on the environment and fostering a sense of unity among the people.",
+      "prompt": "What long-term impact did EcoPals' project have on neighboring towns?",
+      "options": [
+        { "key": "A", "text": "Increased competition in energy consumption." },
+        { "key": "B", "text": "Stricter energy regulations." },
+        { "key": "C", "text": "Disinterest in environmental initiatives." },
+        { "key": "D", "text": "Adoption of similar conservation projects." },
+        { "key": "E", "text": "Reusing trash." }
+      ],
+      "answer": "D",
+      "explanation": "Paragraf terakhir menyebutkan EcoPals memperluas proyeknya ke kota-kota tetangga dan menimbulkan efek berantai (ripple effect) positif dalam konservasi energi.",
+      "topic": "Reading Comprehension"
+    },
+    {
+      "id": "bahasa-inggris-pg-16",
+      "number": 16,
+      "passageTitle": "Talk Smart Podcast (for questions 16–20)",
+      "passage": "Host (Lina):\nHello everyone, and welcome to Talk Smart, the podcast where we discuss issues that shape our daily lives. Today's topic is quite controversial: Should smartphones be allowed in schools?\n\nGuest (Tom):\nThanks for having me, Lina. Personally, I think smartphones should be allowed. They can be great educational tools. Students can use them to research information quickly, join online discussions, and even use learning apps that make studying more interactive.\n\nHost (Lina):\nThat's a good point, Tom. But some teachers say smartphones cause distractions. Students often text friends or play games during lessons instead of paying attention.\n\nGuest 1 (Sara):\nI agree with that concern. When smartphones are allowed, it's hard to make sure they're used responsibly. They can also lead to cyberbullying or cheating during exams. Schools need to provide a focused environment, and smartphones can ruin that.\n\nGuest 2 (Tom):\nThat's true, but banning them completely might not be the best solution either. Maybe schools should teach students how to use technology wisely instead of just forbidding it.\n\nHost (Lina):\nInteresting! So, maybe the real issue isn't the phone itself, but how students use it. Well, that's all for today's Talk Smart. Thank you, Tom and Sara, for sharing your thoughts. And to our listeners — what do you think? Should smartphones be allowed in schools?",
+      "prompt": "What is the main issue discussed in the podcast?",
+      "options": [
+        { "key": "A", "text": "Whether smartphones should be allowed in schools" },
+        { "key": "B", "text": "The effects of social media on teenagers" },
+        { "key": "C", "text": "The importance of digital literacy for adults" },
+        { "key": "D", "text": "How students can buy smartphones cheaply" },
+        { "key": "E", "text": "Why teachers dislike new techno." }
+      ],
+      "answer": "A",
+      "explanation": "Host Lina membuka dan menutup podcast dengan topik utama: \"Should smartphones be allowed in schools?\"",
+      "topic": "Discussion Text"
+    },
+    {
+      "id": "bahasa-inggris-pg-17",
+      "number": 17,
+      "passageTitle": "Talk Smart Podcast (for questions 16–20)",
+      "passage": "Host (Lina):\nHello everyone, and welcome to Talk Smart, the podcast where we discuss issues that shape our daily lives. Today's topic is quite controversial: Should smartphones be allowed in schools?\n\nGuest (Tom):\nThanks for having me, Lina. Personally, I think smartphones should be allowed. They can be great educational tools. Students can use them to research information quickly, join online discussions, and even use learning apps that make studying more interactive.\n\nHost (Lina):\nThat's a good point, Tom. But some teachers say smartphones cause distractions. Students often text friends or play games during lessons instead of paying attention.\n\nGuest 1 (Sara):\nI agree with that concern. When smartphones are allowed, it's hard to make sure they're used responsibly. They can also lead to cyberbullying or cheating during exams. Schools need to provide a focused environment, and smartphones can ruin that.\n\nGuest 2 (Tom):\nThat's true, but banning them completely might not be the best solution either. Maybe schools should teach students how to use technology wisely instead of just forbidding it.\n\nHost (Lina):\nInteresting! So, maybe the real issue isn't the phone itself, but how students use it. Well, that's all for today's Talk Smart. Thank you, Tom and Sara, for sharing your thoughts. And to our listeners — what do you think? Should smartphones be allowed in schools?",
+      "prompt": "According to Tom, smartphones can help students by...",
+      "options": [
+        { "key": "A", "text": "Making communication faster during class" },
+        { "key": "B", "text": "Helping them to find online entertainment" },
+        { "key": "C", "text": "Supporting research and interactive learning" },
+        { "key": "D", "text": "Allowing them to cheat easily in exams" },
+        { "key": "E", "text": "Preventing cyberbullying" }
+      ],
+      "answer": "C",
+      "explanation": "Tom menyatakan bahwa siswa dapat memakai ponsel untuk mencari informasi dengan cepat (research information), berdiskusi daring, dan memakai aplikasi belajar interaktif.",
+      "topic": "Discussion Text"
+    },
+    {
+      "id": "bahasa-inggris-pg-18",
+      "number": 18,
+      "passageTitle": "Talk Smart Podcast (for questions 16–20)",
+      "passage": "Host (Lina):\nHello everyone, and welcome to Talk Smart, the podcast where we discuss issues that shape our daily lives. Today's topic is quite controversial: Should smartphones be allowed in schools?\n\nGuest (Tom):\nThanks for having me, Lina. Personally, I think smartphones should be allowed. They can be great educational tools. Students can use them to research information quickly, join online discussions, and even use learning apps that make studying more interactive.\n\nHost (Lina):\nThat's a good point, Tom. But some teachers say smartphones cause distractions. Students often text friends or play games during lessons instead of paying attention.\n\nGuest 1 (Sara):\nI agree with that concern. When smartphones are allowed, it's hard to make sure they're used responsibly. They can also lead to cyberbullying or cheating during exams. Schools need to provide a focused environment, and smartphones can ruin that.\n\nGuest 2 (Tom):\nThat's true, but banning them completely might not be the best solution either. Maybe schools should teach students how to use technology wisely instead of just forbidding it.\n\nHost (Lina):\nInteresting! So, maybe the real issue isn't the phone itself, but how students use it. Well, that's all for today's Talk Smart. Thank you, Tom and Sara, for sharing your thoughts. And to our listeners — what do you think? Should smartphones be allowed in schools?",
+      "prompt": "What problem does Sara mention about allowing smartphones?",
+      "options": [
+        { "key": "A", "text": "They are too expensive for most students" },
+        { "key": "B", "text": "They can cause distractions and cyberbullying" },
+        { "key": "C", "text": "They make studying too difficult" },
+        { "key": "D", "text": "They increase physical activity" },
+        { "key": "E", "text": "They reduce homework time" }
+      ],
+      "answer": "B",
+      "explanation": "Sara setuju dengan kekhawatiran soal gangguan belajar (distractions) dan menambahkan risiko perundungan siber (cyberbullying) serta kecurangan ujian.",
+      "topic": "Discussion Text"
+    },
+    {
+      "id": "bahasa-inggris-pg-19",
+      "number": 19,
+      "passageTitle": "Talk Smart Podcast (for questions 16–20)",
+      "passage": "Host (Lina):\nHello everyone, and welcome to Talk Smart, the podcast where we discuss issues that shape our daily lives. Today's topic is quite controversial: Should smartphones be allowed in schools?\n\nGuest (Tom):\nThanks for having me, Lina. Personally, I think smartphones should be allowed. They can be great educational tools. Students can use them to research information quickly, join online discussions, and even use learning apps that make studying more interactive.\n\nHost (Lina):\nThat's a good point, Tom. But some teachers say smartphones cause distractions. Students often text friends or play games during lessons instead of paying attention.\n\nGuest 1 (Sara):\nI agree with that concern. When smartphones are allowed, it's hard to make sure they're used responsibly. They can also lead to cyberbullying or cheating during exams. Schools need to provide a focused environment, and smartphones can ruin that.\n\nGuest 2 (Tom):\nThat's true, but banning them completely might not be the best solution either. Maybe schools should teach students how to use technology wisely instead of just forbidding it.\n\nHost (Lina):\nInteresting! So, maybe the real issue isn't the phone itself, but how students use it. Well, that's all for today's Talk Smart. Thank you, Tom and Sara, for sharing your thoughts. And to our listeners — what do you think? Should smartphones be allowed in schools?",
+      "prompt": "What compromise does Tom suggest?",
+      "options": [
+        { "key": "A", "text": "Completely banning smartphones" },
+        { "key": "B", "text": "Giving free phones to students" },
+        { "key": "C", "text": "Allowing only teachers to use smartphones" },
+        { "key": "D", "text": "Teaching students how to use smartphones responsibly" },
+        { "key": "E", "text": "Using phones only for entertainment" }
+      ],
+      "answer": "D",
+      "explanation": "Tom menyarankan agar sekolah tidak melarang sepenuhnya, melainkan mengajarkan siswa cara menggunakan teknologi secara bijak/bertanggung jawab (\"teach students how to use technology wisely\").",
+      "topic": "Discussion Text"
+    },
+    {
+      "id": "bahasa-inggris-pg-20",
+      "number": 20,
+      "passageTitle": "Talk Smart Podcast (for questions 16–20)",
+      "passage": "Host (Lina):\nHello everyone, and welcome to Talk Smart, the podcast where we discuss issues that shape our daily lives. Today's topic is quite controversial: Should smartphones be allowed in schools?\n\nGuest (Tom):\nThanks for having me, Lina. Personally, I think smartphones should be allowed. They can be great educational tools. Students can use them to research information quickly, join online discussions, and even use learning apps that make studying more interactive.\n\nHost (Lina):\nThat's a good point, Tom. But some teachers say smartphones cause distractions. Students often text friends or play games during lessons instead of paying attention.\n\nGuest 1 (Sara):\nI agree with that concern. When smartphones are allowed, it's hard to make sure they're used responsibly. They can also lead to cyberbullying or cheating during exams. Schools need to provide a focused environment, and smartphones can ruin that.\n\nGuest 2 (Tom):\nThat's true, but banning them completely might not be the best solution either. Maybe schools should teach students how to use technology wisely instead of just forbidding it.\n\nHost (Lina):\nInteresting! So, maybe the real issue isn't the phone itself, but how students use it. Well, that's all for today's Talk Smart. Thank you, Tom and Sara, for sharing your thoughts. And to our listeners — what do you think? Should smartphones be allowed in schools?",
+      "prompt": "What can be inferred from Lina's final comment?",
+      "options": [
+        { "key": "A", "text": "She encourages listeners to think critically about the issue" },
+        { "key": "B", "text": "She fully supports banning smartphones" },
+        { "key": "C", "text": "She believes students don't need technology" },
+        { "key": "D", "text": "She thinks the discussion is unnecessary" },
+        { "key": "E", "text": "She disagrees with both guests" }
+      ],
+      "answer": "A",
+      "explanation": "Dengan merangkum inti persoalan dan bertanya kepada pendengar \"what do you think?\", Lina mengajak pendengar berpikir kritis terhadap isu tersebut.",
+      "topic": "Inference"
+    },
+    {
+      "id": "bahasa-inggris-pg-21",
+      "number": 21,
+      "prompt": "Which sentence correctly uses concrete noun?",
+      "options": [
+        { "key": "A", "text": "She found peace in the quiet garden." },
+        { "key": "B", "text": "The little boy played with a red ball." },
+        { "key": "C", "text": "Her happiness was clear to everyone." },
+        { "key": "D", "text": "The idea was brilliant and new." },
+        { "key": "E", "text": "He felt great love for his family." }
+      ],
+      "answer": "B",
+      "explanation": "Kalimat B hanya menggunakan concrete nouns (\"boy\", \"ball\") yang dapat dilihat dan disentuh, sedangkan A (\"peace\"), C (\"happiness\"), D (\"idea\"), dan E (\"love\") menonjolkan abstract nouns.",
+      "topic": "Grammar: Nouns"
+    },
+    {
+      "id": "bahasa-inggris-pg-22",
+      "number": 22,
+      "prompt": "Which word is an abstract noun?",
+      "options": [
+        { "key": "A", "text": "Computer" },
+        { "key": "B", "text": "Water" },
+        { "key": "C", "text": "Table" },
+        { "key": "D", "text": "Freedom" },
+        { "key": "E", "text": "Tree" }
+      ],
+      "answer": "D",
+      "explanation": "Freedom (kebebasan) adalah abstract noun karena berupa konsep yang tidak berwujud fisik, sedangkan Computer, Water, Table, dan Tree adalah concrete nouns.",
+      "topic": "Grammar: Nouns"
+    },
+    {
+      "id": "bahasa-inggris-pg-23",
+      "number": 23,
+      "passageTitle": "Text for questions 23–27",
+      "passage": "In today's digital era, online shopping has become a part of our daily lives. With just a few clicks, we can buy almost anything—from clothes to groceries—without leaving our homes. Supporters of online shopping argue that it is convenient, time-saving, and offers a wider variety of products than physical stores. Shoppers can compare prices easily and read reviews before making a decision.\n\nHowever, not everyone believes online shopping is the best option. Critics claim that it reduces human interaction and increases the risk of fraud or data theft. Sometimes, the products received do not match the pictures or descriptions shown online. Moreover, online shopping can lead to impulsive buying because it is too easy to add items to the cart.\n\nIn conclusion, online shopping has both benefits and drawbacks. It provides comfort and efficiency but also requires carefulness and self-control. Whether online shopping is good or bad depends on how wisely we use it.",
+      "prompt": "What is the main argument presented in the text?",
+      "options": [
+        { "key": "A", "text": "Online shopping is harmful and should be" },
+        { "key": "B", "text": "Online shopping is better than traditional shopping." },
+        { "key": "C", "text": "Online shopping has both advantages and disadvantages." },
+        { "key": "D", "text": "People should only shop online to save money." },
+        { "key": "E", "text": "Online shopping is the most popular activity in the world." }
+      ],
+      "answer": "C",
+      "explanation": "Teks menyajikan sisi pro dan kontra belanja daring dan menyimpulkan bahwa \"online shopping has both benefits and drawbacks\".",
+      "topic": "Discussion Text"
+    },
+    {
+      "id": "bahasa-inggris-pg-24",
+      "number": 24,
+      "passageTitle": "Text for questions 23–27",
+      "passage": "In today's digital era, online shopping has become a part of our daily lives. With just a few clicks, we can buy almost anything—from clothes to groceries—without leaving our homes. Supporters of online shopping argue that it is convenient, time-saving, and offers a wider variety of products than physical stores. Shoppers can compare prices easily and read reviews before making a decision.\n\nHowever, not everyone believes online shopping is the best option. Critics claim that it reduces human interaction and increases the risk of fraud or data theft. Sometimes, the products received do not match the pictures or descriptions shown online. Moreover, online shopping can lead to impulsive buying because it is too easy to add items to the cart.\n\nIn conclusion, online shopping has both benefits and drawbacks. It provides comfort and efficiency but also requires carefulness and self-control. Whether online shopping is good or bad depends on how wisely we use it.",
+      "prompt": "What can be inferred from the second paragraph?",
+      "options": [
+        { "key": "A", "text": "Online shopping always guarantees product satisfaction." },
+        { "key": "B", "text": "People can interact more when they shop online." },
+        { "key": "C", "text": "There are no risks involved in online shopping." },
+        { "key": "D", "text": "Online shopping can sometimes cause negative experiences." },
+        { "key": "E", "text": "Everyone enjoys shopping online equally." }
+      ],
+      "answer": "D",
+      "explanation": "Paragraf kedua menyebut risiko penipuan, pencurian data, barang tidak sesuai gambar, dan belanja impulsif—yang menunjukkan belanja daring kadang menimbulkan pengalaman negatif.",
+      "topic": "Inference"
+    },
+    {
+      "id": "bahasa-inggris-pg-25",
+      "number": 25,
+      "passageTitle": "Text for questions 23–27",
+      "passage": "In today's digital era, online shopping has become a part of our daily lives. With just a few clicks, we can buy almost anything—from clothes to groceries—without leaving our homes. Supporters of online shopping argue that it is convenient, time-saving, and offers a wider variety of products than physical stores. Shoppers can compare prices easily and read reviews before making a decision.\n\nHowever, not everyone believes online shopping is the best option. Critics claim that it reduces human interaction and increases the risk of fraud or data theft. Sometimes, the products received do not match the pictures or descriptions shown online. Moreover, online shopping can lead to impulsive buying because it is too easy to add items to the cart.\n\nIn conclusion, online shopping has both benefits and drawbacks. It provides comfort and efficiency but also requires carefulness and self-control. Whether online shopping is good or bad depends on how wisely we use it.",
+      "prompt": "Which statement best represents the writer's stance?",
+      "options": [
+        { "key": "A", "text": "The writer fully supports online shopping." },
+        { "key": "B", "text": "The writer opposes online shopping completely." },
+        { "key": "C", "text": "The writer sees both positive and negative sides of online shopping." },
+        { "key": "D", "text": "The writer prefers offline shopping without any exceptions." },
+        { "key": "E", "text": "The writer believes online shopping should replace malls." }
+      ],
+      "answer": "C",
+      "explanation": "Penulis bersikap berimbang dengan melihat sisi positif (kenyamanan dan efisiensi) sekaligus sisi negatif (risiko dan perlu kontrol diri).",
+      "topic": "Author's Stance"
+    },
+    {
+      "id": "bahasa-inggris-pg-26",
+      "number": 26,
+      "passageTitle": "Text for questions 23–27",
+      "passage": "In today's digital era, online shopping has become a part of our daily lives. With just a few clicks, we can buy almost anything—from clothes to groceries—without leaving our homes. Supporters of online shopping argue that it is convenient, time-saving, and offers a wider variety of products than physical stores. Shoppers can compare prices easily and read reviews before making a decision.\n\nHowever, not everyone believes online shopping is the best option. Critics claim that it reduces human interaction and increases the risk of fraud or data theft. Sometimes, the products received do not match the pictures or descriptions shown online. Moreover, online shopping can lead to impulsive buying because it is too easy to add items to the cart.\n\nIn conclusion, online shopping has both benefits and drawbacks. It provides comfort and efficiency but also requires carefulness and self-control. Whether online shopping is good or bad depends on how wisely we use it.",
+      "prompt": "Based on the text, what is the most likely reason people shop online?",
+      "options": [
+        { "key": "A", "text": "It allows them to socialize more." },
+        { "key": "B", "text": "It prevents impulsive spending." },
+        { "key": "C", "text": "It gives them free items easily." },
+        { "key": "D", "text": "It always provides better quality products." },
+        { "key": "E", "text": "It is convenient and saves time." }
+      ],
+      "answer": "E",
+      "explanation": "Paragraf pertama menyebut alasan utama pendukung belanja daring: \"it is convenient, time-saving, and offers a wider variety of products\".",
+      "topic": "Reading Comprehension"
+    },
+    {
+      "id": "bahasa-inggris-pg-27",
+      "number": 27,
+      "passageTitle": "Text for questions 23–27",
+      "passage": "In today's digital era, online shopping has become a part of our daily lives. With just a few clicks, we can buy almost anything—from clothes to groceries—without leaving our homes. Supporters of online shopping argue that it is convenient, time-saving, and offers a wider variety of products than physical stores. Shoppers can compare prices easily and read reviews before making a decision.\n\nHowever, not everyone believes online shopping is the best option. Critics claim that it reduces human interaction and increases the risk of fraud or data theft. Sometimes, the products received do not match the pictures or descriptions shown online. Moreover, online shopping can lead to impulsive buying because it is too easy to add items to the cart.\n\nIn conclusion, online shopping has both benefits and drawbacks. It provides comfort and efficiency but also requires carefulness and self-control. Whether online shopping is good or bad depends on how wisely we use it.",
+      "prompt": "If the writer wanted to strengthen the argument against online shopping, what evidence would be most effective?",
+      "options": [
+        { "key": "A", "text": "A personal story about how online shopping saved time." },
+        { "key": "B", "text": "A list of popular e-commerce websites." },
+        { "key": "C", "text": "An advertisement promoting online stores." },
+        { "key": "D", "text": "A picture of happy online customers." },
+        { "key": "E", "text": "A survey showing that online shoppers spend more money impulsively" }
+      ],
+      "answer": "E",
+      "explanation": "Survei tentang pembelanja daring yang menghabiskan lebih banyak uang secara impulsif secara langsung memperkuat argumen kontra di paragraf kedua.",
+      "topic": "Critical Evaluation"
+    },
+    {
+      "id": "bahasa-inggris-pg-28",
+      "number": 28,
+      "passageTitle": "Should Students Have Homework Every Day (for questions 28–32)",
+      "passage": "Should Students Have Homework Every Day\n\nHomework has been a long-standing tradition in schools around the world. Many teachers believe that daily homework helps students review their lessons and develop discipline. By doing assignments regularly, students can strengthen their understanding and improve their academic performance. Supporters also argue that homework teaches responsibility and time management—skills that are essential in life.\n\nOn the other hand, opponents of daily homework say that too much of it can cause stress and take away valuable time that students need to rest or pursue hobbies. Some students even lose motivation to learn because they feel overwhelmed by the constant pressure. Additionally, homework can increase inequality since not all students have the same access to resources or support at home.\n\nIn conclusion, homework can be beneficial if given in moderation. Instead of assigning homework every day, teachers should focus on quality rather than quantity. The goal should be to encourage learning, not to burden students.",
+      "prompt": "What is the writer's main argument about homework?",
+      "options": [
+        { "key": "A", "text": "Homework should be given every single day." },
+        { "key": "B", "text": "Homework should be completely eliminated from schools." },
+        { "key": "C", "text": "Homework is useful but should not be given excessively." },
+        { "key": "D", "text": "Students should decide how much homework they want." },
+        { "key": "E", "text": "Teachers should not check homework anymore." }
+      ],
+      "answer": "C",
+      "explanation": "Kesimpulan penulis menegaskan bahwa pekerjaan rumah bermanfaat jika diberikan secukupnya (\"if given in moderation\") dengan fokus pada kualitas, bukan kuantitas setiap hari.",
+      "topic": "Discussion Text"
+    },
+    {
+      "id": "bahasa-inggris-pg-29",
+      "number": 29,
+      "passageTitle": "Should Students Have Homework Every Day (for questions 28–32)",
+      "passage": "Should Students Have Homework Every Day\n\nHomework has been a long-standing tradition in schools around the world. Many teachers believe that daily homework helps students review their lessons and develop discipline. By doing assignments regularly, students can strengthen their understanding and improve their academic performance. Supporters also argue that homework teaches responsibility and time management—skills that are essential in life.\n\nOn the other hand, opponents of daily homework say that too much of it can cause stress and take away valuable time that students need to rest or pursue hobbies. Some students even lose motivation to learn because they feel overwhelmed by the constant pressure. Additionally, homework can increase inequality since not all students have the same access to resources or support at home.\n\nIn conclusion, homework can be beneficial if given in moderation. Instead of assigning homework every day, teachers should focus on quality rather than quantity. The goal should be to encourage learning, not to burden students.",
+      "prompt": "What can be inferred about the writer's attitude toward homework?",
+      "options": [
+        { "key": "A", "text": "The writer believes homework is harmful and useless." },
+        { "key": "B", "text": "The writer supports a balanced approach to homework." },
+        { "key": "C", "text": "The writer thinks students should have no free time." },
+        { "key": "D", "text": "The writer dislikes all kinds of school assignments." },
+        { "key": "E", "text": "The writer believes students learn better without guidance." }
+      ],
+      "answer": "B",
+      "explanation": "Penulis mendukung pendekatan yang seimbang: tetap memberi PR yang bermutu namun tidak membebani siswa setiap hari.",
+      "topic": "Author's Attitude"
+    },
+    {
+      "id": "bahasa-inggris-pg-30",
+      "number": 30,
+      "passageTitle": "Should Students Have Homework Every Day (for questions 28–32)",
+      "passage": "Should Students Have Homework Every Day\n\nHomework has been a long-standing tradition in schools around the world. Many teachers believe that daily homework helps students review their lessons and develop discipline. By doing assignments regularly, students can strengthen their understanding and improve their academic performance. Supporters also argue that homework teaches responsibility and time management—skills that are essential in life.\n\nOn the other hand, opponents of daily homework say that too much of it can cause stress and take away valuable time that students need to rest or pursue hobbies. Some students even lose motivation to learn because they feel overwhelmed by the constant pressure. Additionally, homework can increase inequality since not all students have the same access to resources or support at home.\n\nIn conclusion, homework can be beneficial if given in moderation. Instead of assigning homework every day, teachers should focus on quality rather than quantity. The goal should be to encourage learning, not to burden students.",
+      "prompt": "Which statement supports the argument against daily homework?",
+      "options": [
+        { "key": "A", "text": "Homework helps students remember what they learn." },
+        { "key": "B", "text": "Homework teaches students responsibility." },
+        { "key": "C", "text": "Too much homework can make students lose motivation." },
+        { "key": "D", "text": "Students can manage time better with more assignments." },
+        { "key": "E", "text": "Daily homework improves test scores." }
+      ],
+      "answer": "C",
+      "explanation": "Paragraf kedua menyebutkan argumen penolak PR harian: \"Some students even lose motivation to learn because they feel overwhelmed\".",
+      "topic": "Reading Comprehension"
+    },
+    {
+      "id": "bahasa-inggris-pg-31",
+      "number": 31,
+      "passageTitle": "Should Students Have Homework Every Day (for questions 28–32)",
+      "passage": "Should Students Have Homework Every Day\n\nHomework has been a long-standing tradition in schools around the world. Many teachers believe that daily homework helps students review their lessons and develop discipline. By doing assignments regularly, students can strengthen their understanding and improve their academic performance. Supporters also argue that homework teaches responsibility and time management—skills that are essential in life.\n\nOn the other hand, opponents of daily homework say that too much of it can cause stress and take away valuable time that students need to rest or pursue hobbies. Some students even lose motivation to learn because they feel overwhelmed by the constant pressure. Additionally, homework can increase inequality since not all students have the same access to resources or support at home.\n\nIn conclusion, homework can be beneficial if given in moderation. Instead of assigning homework every day, teachers should focus on quality rather than quantity. The goal should be to encourage learning, not to burden students.",
+      "prompt": "What would best strengthen the writer's conclusion?",
+      "options": [
+        { "key": "A", "text": "A study showing that students with less homework perform better academically." },
+        { "key": "B", "text": "A story about a teacher who gives daily assignments." },
+        { "key": "C", "text": "A list of schools that still use traditional homework." },
+        { "key": "D", "text": "A student who enjoys doing homework every day." },
+        { "key": "E", "text": "An example of students using online learning platforms." }
+      ],
+      "answer": "A",
+      "explanation": "Penelitian yang membuktikan siswa dengan PR lebih sedikit justru berprestasi lebih baik mendukung langsung saran penulis agar PR tidak diberikan setiap hari melainkan fokus pada kualitas.",
+      "topic": "Critical Evaluation"
+    },
+    {
+      "id": "bahasa-inggris-pg-32",
+      "number": 32,
+      "passageTitle": "Should Students Have Homework Every Day (for questions 28–32)",
+      "passage": "Should Students Have Homework Every Day\n\nHomework has been a long-standing tradition in schools around the world. Many teachers believe that daily homework helps students review their lessons and develop discipline. By doing assignments regularly, students can strengthen their understanding and improve their academic performance. Supporters also argue that homework teaches responsibility and time management—skills that are essential in life.\n\nOn the other hand, opponents of daily homework say that too much of it can cause stress and take away valuable time that students need to rest or pursue hobbies. Some students even lose motivation to learn because they feel overwhelmed by the constant pressure. Additionally, homework can increase inequality since not all students have the same access to resources or support at home.\n\nIn conclusion, homework can be beneficial if given in moderation. Instead of assigning homework every day, teachers should focus on quality rather than quantity. The goal should be to encourage learning, not to burden students.",
+      "prompt": "If schools followed the writer's suggestion, what would most likely happen?",
+      "options": [
+        { "key": "A", "text": "Students would stop learning completely." },
+        { "key": "B", "text": "Teachers would give more exams instead of homework." },
+        { "key": "C", "text": "Students might have more time to rest and focus on meaningful learning." },
+        { "key": "D", "text": "Parents would complain about the lack of homework." },
+        { "key": "E", "text": "The quality of education would drop significantly." }
+      ],
+      "answer": "C",
+      "explanation": "Dengan mengurangi PR harian dan berfokus pada kualitas tugas, siswa memiliki waktu cukup untuk beristirahat sekaligus belajar secara lebih bermakna.",
+      "topic": "Inference"
+    },
+    {
+      "id": "bahasa-inggris-pg-33",
+      "number": 33,
+      "prompt": "Which of the following sentences uses emotive phrase to strongly influence the reader's feeling?",
+      "options": [
+        { "key": "A", "text": "Many animals live in the forest, and some are endangered." },
+        { "key": "B", "text": "It is important to recycle plastic to help the environment." },
+        { "key": "C", "text": "Imagine watching your favorite beach disappear forever under rising sea levels." },
+        { "key": "D", "text": "The school is planning a program about climate change." },
+        { "key": "E", "text": "Trees provide oxygen, which is useful for human survival." }
+      ],
+      "answer": "C",
+      "explanation": "Kalimat C memakai bahasa emotif (\"Imagine watching your favorite beach disappear forever...\") untuk membangkitkan rasa kehilangan dan kepedulian pembaca, sedangkan pilihan lain bersifat informatif/netral.",
+      "topic": "Emotive Language"
+    },
+    {
+      "id": "bahasa-inggris-pg-34",
+      "number": 34,
+      "prompt": "Direct speech: She said, \"I have finished my homework.\"\nWhat is the correct reported speech?",
+      "options": [
+        { "key": "A", "text": "She said that she finished her homework." },
+        { "key": "B", "text": "She said that I had finished my homework." },
+        { "key": "C", "text": "She said that she has finished her homework." },
+        { "key": "D", "text": "She said that she had finished her homework." },
+        { "key": "E", "text": "She said that she was finishing her homework." }
+      ],
+      "answer": "D",
+      "explanation": "Pada reported speech dengan reporting verb bentuk lampau (said), Present Perfect (\"have finished\") berubah menjadi Past Perfect (\"had finished\"), serta \"I\" → \"she\" dan \"my\" → \"her\".",
+      "topic": "Reported Speech"
+    },
+    {
+      "id": "bahasa-inggris-pg-35",
+      "number": 35,
+      "prompt": "Anton : I have an interview tomorrow, but I don't know a lot about company.\nNita  : In my opinion, you should do some research online. I'll help you.\nAnton : I think you're right. Thanks.\n\nThe underlined word (research) has the same meaning as...",
+      "options": [
+        { "key": "A", "text": "problem" },
+        { "key": "B", "text": "studying" },
+        { "key": "C", "text": "investigation" },
+        { "key": "D", "text": "production" },
+        { "key": "E", "text": "process" }
+      ],
+      "answer": "C",
+      "explanation": "Kata benda \"research\" (penelitian/penelusuran informasi) bersinonim paling tepat dengan \"investigation\" (penyelidikan/penelusuran sistematis).",
+      "topic": "Vocabulary: Synonym"
+    },
+    {
+      "id": "bahasa-inggris-pg-36",
+      "number": 36,
+      "prompt": "During a class discussion, the teacher said, \"If you study hard, you will pass the exam.\"\nLater, a student reported it to a friend.\nWhat is the correct reported speech?",
+      "options": [
+        { "key": "A", "text": "The teacher said that if we study hard, we will pass the exam." },
+        { "key": "B", "text": "The teacher said that if we studied hard, we would pass the exam." },
+        { "key": "C", "text": "The teacher said that if we had studied hard, we would have passed the exam." },
+        { "key": "D", "text": "The teacher said that if they study hard, they will pass the exam." },
+        { "key": "E", "text": "The teacher said that if they studied hard, they would have passed the exam." }
+      ],
+      "answer": "B",
+      "explanation": "Dalam reported speech dengan reporting verb \"said\", Present Simple (\"study\") mundur ke Past Simple (\"studied\"), \"will\" menjadi \"would\", dan kata ganti \"you\" yang ditujukan kepada para siswa menjadi \"we\" saat diceritakan siswa ke temannya.",
+      "topic": "Reported Speech"
+    },
+    {
+      "id": "bahasa-inggris-pg-37",
+      "number": 37,
+      "passageTitle": "Text for questions 37–39",
+      "passage": "Everybody should change their way of life to reduce global warming. There are several things that can do. One of them is by buying and consuming fresh local groceries as much as possible. It of course includes local vegetables, fruits, bread, etc.\n\nLocal groceries don't need much transportation to get it into the market. It of course means, the amount of carbon dioxide produced is less than the groceries from other region. Therefore, by buying local groceries we are helping reduce the amount of carbon dioxide produced.\n\nConsuming fresh groceries instead of frozen ones are healthier for us. Furthermore, fresh food or groceries means no requirements for it to be freeze up. It means that no electricity is needed and saving energy means reducing carbon dioxide and money.\n\nSo, from now on we should consume fresh local groceries to reduce global warming.",
+      "prompt": "The text gives us information about .... ...",
+      "options": [
+        { "key": "A", "text": "The ways to minimize global warning" },
+        { "key": "B", "text": "The ways to increase global warning" },
+        { "key": "C", "text": "The effects of global warning" },
+        { "key": "D", "text": "The importance of consuming local groceries" },
+        { "key": "E", "text": "The importance of knowing global warning" }
+      ],
+      "answer": "D",
+      "explanation": "Seluruh isi teks membahas manfaat dan pentingnya mengonsumsi bahan pangan lokal yang segar (local fresh groceries) untuk mengurangi emisi karbon, menghemat listrik, dan menjaga kesehatan.",
+      "topic": "Hortatory Exposition"
+    },
+    {
+      "id": "bahasa-inggris-pg-38",
+      "number": 38,
+      "passageTitle": "Text for questions 37–39",
+      "passage": "Everybody should change their way of life to reduce global warming. There are several things that can do. One of them is by buying and consuming fresh local groceries as much as possible. It of course includes local vegetables, fruits, bread, etc.\n\nLocal groceries don't need much transportation to get it into the market. It of course means, the amount of carbon dioxide produced is less than the groceries from other region. Therefore, by buying local groceries we are helping reduce the amount of carbon dioxide produced.\n\nConsuming fresh groceries instead of frozen ones are healthier for us. Furthermore, fresh food or groceries means no requirements for it to be freeze up. It means that no electricity is needed and saving energy means reducing carbon dioxide and money.\n\nSo, from now on we should consume fresh local groceries to reduce global warming.",
+      "prompt": "To reduce the global warming we should ....",
+      "options": [
+        { "key": "A", "text": "Buy import product" },
+        { "key": "B", "text": "Buy expensive clothes" },
+        { "key": "C", "text": "Consume frozen foods" },
+        { "key": "D", "text": "Consume fresh foods" },
+        { "key": "E", "text": "Not use electricity efficiently" }
+      ],
+      "answer": "D",
+      "explanation": "Paragraf ketiga dan keempat menganjurkan untuk mengonsumsi bahan makanan segar lokal (consume fresh foods) alih-alih makanan beku agar tidak boros listrik.",
+      "topic": "Hortatory Exposition"
+    },
+    {
+      "id": "bahasa-inggris-pg-39",
+      "number": 39,
+      "passageTitle": "Text for questions 37–39",
+      "passage": "Everybody should change their way of life to reduce global warming. There are several things that can do. One of them is by buying and consuming fresh local groceries as much as possible. It of course includes local vegetables, fruits, bread, etc.\n\nLocal groceries don't need much transportation to get it into the market. It of course means, the amount of carbon dioxide produced is less than the groceries from other region. Therefore, by buying local groceries we are helping reduce the amount of carbon dioxide produced.\n\nConsuming fresh groceries instead of frozen ones are healthier for us. Furthermore, fresh food or groceries means no requirements for it to be freeze up. It means that no electricity is needed and saving energy means reducing carbon dioxide and money.\n\nSo, from now on we should consume fresh local groceries to reduce global warming.",
+      "prompt": "\"We are helping reduce the amount of global warming\" (Paragraph 2)\nThe underlined word, reduce, can be replaced by ....",
+      "options": [
+        { "key": "A", "text": "Increase" },
+        { "key": "B", "text": "Decrease" },
+        { "key": "C", "text": "Improve" },
+        { "key": "D", "text": "Add" },
+        { "key": "E", "text": "Maximize" }
+      ],
+      "answer": "B",
+      "explanation": "Kata \"reduce\" (mengurangi) bersinonim dengan \"decrease\" (menurunkan/mengurangi), sedangkan increase, add, dan maximize adalah antonimnya.",
+      "topic": "Vocabulary: Synonym"
+    },
+    {
+      "id": "bahasa-inggris-pg-40",
+      "number": 40,
+      "prompt": "\"Those pictures and videos can remind us to romantic, sadness, and also unforgettable memories\"\nThe underlined word (unforgettable) means...",
+      "options": [
+        { "key": "A", "text": "memorable" },
+        { "key": "B", "text": "forgotten" },
+        { "key": "C", "text": "forbidden" },
+        { "key": "D", "text": "happy" },
+        { "key": "E", "text": "trivial" }
+      ],
+      "answer": "A",
+      "explanation": "\"Unforgettable\" berarti tidak terlupakan/berkesan, yang maknanya sama dengan \"memorable\".",
+      "topic": "Vocabulary: Synonym"
+    }
+  ],
+  "essays": [
+    {
+      "id": "bahasa-inggris-es-1",
+      "number": 1,
+      "passageTitle": "Text for number 1–3",
+      "passage": "A digital wallet is a complex and versatile financial tool that resides in the digital environment and allows users to handle their financial operations safely and easily. Its primary function is that of a virtual repository, operating as a centralized hub for holding multiple types of digital currency, payment methods, and transactional data. A digital wallet, unlike its physical equivalent, is neither limited by physical space nor the requirement for traditional payment cards. Instead, it embraces the digital landscape, allowing users to engage in a wide range of financial transactions without relying on physical currency or credit cards.\n\nDigital wallets provide customers with a dynamic and user-friendly interface for effective digital asset management and organizing. Users may conduct electronic transactions, make purchases, and transfer money all from the safety of their digital wallet.",
+      "prompt": "What is the advantage of using digital wallet?",
+      "rubric": "Mention at least 3 key advantages from the text: safe and easy financial operations, centralized storage for multiple payment methods/currencies/data, no physical space limit or need for cash/cards, and a user-friendly interface for electronic transactions, purchases, and money transfers.",
+      "modelAnswer": "Using a digital wallet allows users to handle financial operations safely and easily through a centralized virtual hub that stores multiple digital currencies, payment methods, and transaction data. Unlike a physical wallet, it is not limited by physical space and lets users make purchases, conduct electronic transactions, and transfer money through a user-friendly interface without carrying cash or credit cards."
+    },
+    {
+      "id": "bahasa-inggris-es-2",
+      "number": 2,
+      "passageTitle": "Text for number 1–3",
+      "passage": "A digital wallet is a complex and versatile financial tool that resides in the digital environment and allows users to handle their financial operations safely and easily. Its primary function is that of a virtual repository, operating as a centralized hub for holding multiple types of digital currency, payment methods, and transactional data. A digital wallet, unlike its physical equivalent, is neither limited by physical space nor the requirement for traditional payment cards. Instead, it embraces the digital landscape, allowing users to engage in a wide range of financial transactions without relying on physical currency or credit cards.\n\nDigital wallets provide customers with a dynamic and user-friendly interface for effective digital asset management and organizing. Users may conduct electronic transactions, make purchases, and transfer money all from the safety of their digital wallet.",
+      "prompt": "Explain why security is an essential feature of digital wallets.",
+      "rubric": "Explain that digital wallets serve as a centralized hub storing sensitive financial assets, payment methods, and transactional data online, so strong security is needed to protect users from fraud or theft during electronic transactions.",
+      "modelAnswer": "Security is essential because a digital wallet acts as a centralized virtual repository holding sensitive transactional data, multiple payment methods, and digital currency. Without strong security, users' digital assets and financial operations—such as purchases and money transfers—would be vulnerable to unauthorized access, fraud, or data theft."
+    },
+    {
+      "id": "bahasa-inggris-es-3",
+      "number": 3,
+      "passageTitle": "Text for number 1–3",
+      "passage": "A digital wallet is a complex and versatile financial tool that resides in the digital environment and allows users to handle their financial operations safely and easily. Its primary function is that of a virtual repository, operating as a centralized hub for holding multiple types of digital currency, payment methods, and transactional data. A digital wallet, unlike its physical equivalent, is neither limited by physical space nor the requirement for traditional payment cards. Instead, it embraces the digital landscape, allowing users to engage in a wide range of financial transactions without relying on physical currency or credit cards.\n\nDigital wallets provide customers with a dynamic and user-friendly interface for effective digital asset management and organizing. Users may conduct electronic transactions, make purchases, and transfer money all from the safety of their digital wallet.",
+      "prompt": "Explain the major differences between a digital wallet and a physical wallet.",
+      "rubric": "Contrast physical vs. digital environment, physical space limitation vs. unlimited virtual repository, and reliance on physical cash/cards vs. electronic transactions and digital asset management.",
+      "modelAnswer": "First, a digital wallet resides in a digital environment as a virtual repository, whereas a physical wallet is a tangible object. Second, a digital wallet is not limited by physical space and can store multiple digital currencies, payment methods, and transaction records in one centralized hub, while a physical wallet has limited space. Third, a digital wallet enables users to conduct electronic transactions, purchases, and money transfers via a user-friendly interface without relying on physical cash or traditional credit cards."
+    },
+    {
+      "id": "bahasa-inggris-es-4",
+      "number": 4,
+      "prompt": "Jack said:\"Please come to the show with me. We'll have a lot of fun.\" So, in the end, I went with him.\nChange the sentence indirect speech!",
+      "rubric": "Correctly convert the polite imperative (asked/invited me to come...) and the future statement (said that we would have...) while adjusting pronouns (me -> him, 'll -> would) and keeping the final clause.",
+      "modelAnswer": "Jack asked me to come to the show with him and said that we would have a lot of fun, so in the end, I went with him."
+    },
+    {
+      "id": "bahasa-inggris-es-5",
+      "number": 5,
+      "prompt": "He ......... (not sleep) for three nights, even though he ......... (go) to bed early yesterday evening.\nComplete the sentence using the words in brackets!",
+      "rubric": "Use Present Perfect negative ('has not slept' / 'hasn't slept', or Past Perfect 'had not slept' in past narrative) for the duration 'for three nights', and Simple Past ('went') for the completed past time 'yesterday evening'.",
+      "modelAnswer": "He has not slept (hasn't slept) for three nights, even though he went to bed early yesterday evening.\n(Note: 'hasn't slept' expresses an ongoing condition up to the present, while 'went' is Simple Past due to 'yesterday evening'.)"
+    }
+  ]
+}

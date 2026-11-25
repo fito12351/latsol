@@ -1,0 +1,702 @@
+{
+  "id": "bahasa-jawa",
+  "name": "Bahasa Jawa",
+  "shortName": "BJW",
+  "group": "bahasa",
+  "schedule": "Kamis, 4 Desember 2025",
+  "durationMinutes": 90,
+  "accentColor": "#F9D55C",
+  "questions": [
+    {
+      "id": "bahasa-jawa-pg-1",
+      "number": 1,
+      "passageTitle": "Teks Eksposisi Busana Adat Jawa",
+      "passage": "Pakaian adat Jawa ora mung dadi lambang kabudayan, nanging uga nduwèni makna filosofi kang jero. Contoné, busana beskap lan blangkon kang biyasa dienggo déning priya nggambarake sifat andhap asor lan tata krama sing luhur. Ing sisih liya, kebaya kang dienggo déning wanita Jawa nuduhaké keanggunan, kesabaran, lan tanggung jawab. Nanging, ing jaman globalisasi saiki, akèh para mudha sing luwih seneng nganggo busana modern tinimbang busana adat. Pramila, perlu ana usaha kanggo nguri-uri lan ngenalaké manèh makna filosofis busana adat Jawa marang generasi enom supaya ora ilang saka jati diri bangsa.",
+      "prompt": "Apa gagasan utama (tesis) saka wacana teks eksposisi kasebut?",
+      "options": [
+        { "key": "A", "text": "Busana adat Jawa mung dienggo ing acara resmi lan upacara adat." },
+        { "key": "B", "text": "Busana modern luwih disenengi déning generasi enom tinimbang busana adat." },
+        { "key": "C", "text": "Pakaian adat Jawa nduwèni makna filosofi lan kudu dilestarèkaké supaya ora ilang saka jati diri bangsa." },
+        { "key": "D", "text": "Blangkon lan kebaya mung minangka hiasan budaya tanpa teges sing jero." },
+        { "key": "E", "text": "Kabèh wong Jawa kudu nganggo busana adat saben dina supaya ora kelangan budayane." }
+      ],
+      "answer": "C",
+      "explanation": "Gagasan utama (tesis) wacana kasebut yaiku busana adat Jawa nduwèni makna filosofi kang jero lan perlu dilestarèkaké marang generasi enom supaya ora ilang saka jati diri bangsa.",
+      "topic": "Teks Eksposisi"
+    },
+    {
+      "id": "bahasa-jawa-pg-2",
+      "number": 2,
+      "passageTitle": "Teks Busana Adat Jawa",
+      "passage": "Busana adat Jawa ora mung dadi perangan saka sandhangan, nanging uga dadi simbol kepribadian lan tata krama wong Jawa. Contoné, beskap kang dienggo déning priya nggambarake ketertiban lan wibawa. Saben pola lan warna nduwèni makna tartamtu. Nanging, saiki akeh priya enom sing ora ngerti makna saka busana adat iki.",
+      "prompt": "Apa tujuan pangripta teks kasebut?",
+      "options": [
+        { "key": "A", "text": "Nglairaké kritik marang wong Jawa sing ora seneng busana modern." },
+        { "key": "B", "text": "Ngomongaké sejarah panggunaan beskap ing kraton Jawa." },
+        { "key": "C", "text": "Nandhesaké yèn busana adat luwih apik tinimbang busana modern." },
+        { "key": "D", "text": "Ngenalaké makna filosofis busana adat Jawa supaya diapresiasi manèh." },
+        { "key": "E", "text": "Nglarang para mudha nganggo sandhangan manca." }
+      ],
+      "answer": "D",
+      "explanation": "Teks kasebut ngandharaké yèn saben pola lan warna busana adat nduwèni makna filosofis sing saiki akèh ora dimangertèni priya enom, mula tujuane kanggo ngenalaké manèh supaya diapresiasi.",
+      "topic": "Teks Eksposisi"
+    },
+    {
+      "id": "bahasa-jawa-pg-3",
+      "number": 3,
+      "passageTitle": "Teks Kebaya Jawa",
+      "passage": "Kebaya Jawa minangka lambang keanggunan lan kesabaran wanita. Sanajan prasaja, kebaya nduwèni daya tarik estetis sing ora ana tandhingané. Sayangé, akeh wanita Jawa saiki luwih milih gaun modern amarga luwih praktis lan modis.",
+      "prompt": "Apa masalah utama sing digambarake ing teks kasebut?",
+      "options": [
+        { "key": "A", "text": "Wanita Jawa ora bisa nganggo kebaya." },
+        { "key": "B", "text": "Kebaya ora cocog kanggo upacara resmi." },
+        { "key": "C", "text": "Busana modern ngganti posisi kebaya tradisional." },
+        { "key": "D", "text": "Wong enom ora seneng budaya Jawa." },
+        { "key": "E", "text": "Kebaya ora nduwèni makna filosofis." }
+      ],
+      "answer": "C",
+      "explanation": "Ukara pungkasan teks kanthi cetha nyatakaké masalah utama, yaiku akèh wanita Jawa saiki luwih milih gaun modern amarga luwih praktis lan modis tinimbang kebaya tradisional.",
+      "topic": "Teks Eksposisi"
+    },
+    {
+      "id": "bahasa-jawa-pg-4",
+      "number": 4,
+      "passageTitle": "Teks Busana Adat Jawa",
+      "passage": "Panggunaan busana adat ora mung kanggo kabutuhan upacara, nanging uga kanggo nguri-uri kabudayan Jawa. Yen generasi enom mung nganggep busana adat minangka tontonan, dhasar budaya bakal luntur alon-alon.",
+      "prompt": "Apa akibat saka sikap generasi enom sing ora peduli marang busana adat?",
+      "options": [
+        { "key": "A", "text": "Busana adat bakal dadi tren anyar." },
+        { "key": "B", "text": "Busana adat bakal ilang maknané lan fungsi budayané." },
+        { "key": "C", "text": "Generasi enom dadi luwih kreatif." },
+        { "key": "D", "text": "Busana adat bakal luwih populer." },
+        { "key": "E", "text": "Ora ana pangaruhé babar pisan." }
+      ],
+      "answer": "B",
+      "explanation": "Yèn generasi enom mung nganggep busana adat minangka tontonan lan ora peduli, dhasar budaya bakal luntur saéngga makna lan fungsi budayané ilang.",
+      "topic": "Teks Eksposisi"
+    },
+    {
+      "id": "bahasa-jawa-pg-5",
+      "number": 5,
+      "passageTitle": "Teks Tradisi Kraton",
+      "passage": "Tradisi kraton kang isih lumaku ing babagan busana adat Jawa, busana adat nduwèni aturan/pranatan sing ketat. Priya manganggo beskap kanthi warna tartamtu nalika nindakake upacara, dene wanita manganggo kebaya kanthi corak lembut. Iki nuduhaké yèn busana uga minangka simbol tata urip lan etika.",
+      "prompt": "Apa makna utama sing digambarake ing teks kasebut?",
+      "options": [
+        { "key": "A", "text": "Busana adat minangka simbol tata krama lan etika urip wong Jawa." },
+        { "key": "B", "text": "Busana adat mung kanggo wong kraton." },
+        { "key": "C", "text": "Busana adat Jawa ora ana peraturané." },
+        { "key": "D", "text": "Kebaya lan beskap mung kanggo tari tradisional." },
+        { "key": "E", "text": "Busana adat Jawa ora nduwèni nilai spiritual." }
+      ],
+      "answer": "A",
+      "explanation": "Ukara pungkasan teks nandhesaké yèn aturan busana adat kasebut nuduhaké busana minangka simbol tata urip lan etika (tata krama) wong Jawa.",
+      "topic": "Busana Adat Jawa"
+    },
+    {
+      "id": "bahasa-jawa-pg-6",
+      "number": 6,
+      "passageTitle": "Teks Busana Kontemporer",
+      "passage": "Ing jaman modern iki, sawetara perancang busana wiwit nggabungaké unsur tradisional ing desainé. Contoné, beskap lan kebaya diolah dadi busana kontemporer tanpa ninggalake makna filosofis. Iki nuduhaké yèn tradisi lan modernitas bisa mlaku bebarengan.",
+      "prompt": "Apa ide pokok saka teks kasebut?",
+      "options": [
+        { "key": "A", "text": "Busana tradisional ora cocog kanggo jaman saiki." },
+        { "key": "B", "text": "Busana modern luwih penting tinimbang adat." },
+        { "key": "C", "text": "Busana kontemporer ora nduwèni nilai budaya." },
+        { "key": "D", "text": "Unsur tradisional bisa digabung karo unsur modern kanthi harmonis." },
+        { "key": "E", "text": "Wong Jawa kudu nganggo busana adat saben dina." }
+      ],
+      "answer": "D",
+      "explanation": "Ide pokok paragraf kasebut yaiku unsur tradisional lan modernitas bisa digabungaké lan mlaku bebarengan tanpa ninggalaké makna filosofisé.",
+      "topic": "Teks Eksposisi"
+    },
+    {
+      "id": "bahasa-jawa-pg-7",
+      "number": 7,
+      "passageTitle": "Teks Busana Adat Jawa",
+      "passage": "Busana adat Jawa ora mung kanggo gaya, nanging uga minangka pangeling-eling yèn wong Jawa kudu tetep njaga nilai kesederhanaan lan sopan santun. Yen nilai iki ditinggal, ora mung busanane sing ilang, nanging uga karakter bangsa.",
+      "prompt": "Apa pesen moral saka teks kasebut?",
+      "options": [
+        { "key": "A", "text": "Busana adat mung kanggo upacara manten." },
+        { "key": "B", "text": "Nilai kesederhanaan lan sopan santun kudu dijaga minangka identitas Jawa." },
+        { "key": "C", "text": "Wong Jawa kudu nyonto budaya manca." },
+        { "key": "D", "text": "Busana adat ora ana gunané." },
+        { "key": "E", "text": "Busana adat kudu dilarang ing acara resmi." }
+      ],
+      "answer": "B",
+      "explanation": "Teks kasebut ngelingaké supaya wong Jawa tetep njaga nilai kesederhanaan lan sopan santun amarga dadi karakter lan identitas bangsa.",
+      "topic": "Busana Adat Jawa"
+    },
+    {
+      "id": "bahasa-jawa-pg-8",
+      "number": 8,
+      "prompt": "Salah sawijining wacan kang bisa mbudidaya ngandharake pokok pikiran lan tujuane njembarake kawruh utawa pangerten sing maca diarani teks ...",
+      "options": [
+        { "key": "A", "text": "Eksposisi" },
+        { "key": "B", "text": "Persuasi" },
+        { "key": "C", "text": "Narasi" },
+        { "key": "D", "text": "Deskripsi" },
+        { "key": "E", "text": "Argumentasi" }
+      ],
+      "answer": "A",
+      "explanation": "Teks eksposisi yaiku wacan kang njlèntrèhaké pokok pikiran kanthi objektif kanggo njembaraké kawruh utawa pangertèn pamaos.",
+      "topic": "Jenis Wacan"
+    },
+    {
+      "id": "bahasa-jawa-pg-9",
+      "number": 9,
+      "passageTitle": "Wacana Sandhiwara Jawa (kanggo soal 9–15)",
+      "passage": "Drama utawa sandhiwara Jawa minangka salah siji wujud kesenian panggung sing nggabungaké unsur basa, musik, lan tari. Sandhiwara ora mung dadi tontonan, nanging uga dadi tuntunan amarga nggambarake nilai moral lan kabudayan. Ing jaman saiki, sandhiwara Jawa wiwit kurang disenengi déning para mudha amarga kalah populer karo hiburan digital. Nanging, sawetara kelompok seni isih tetep nguri-uri lan ngembangaké sandhiwara kanthi cara anyar, kayata nampilaké ing media sosial supaya luwih dikenal.",
+      "prompt": "Apa gagasan utama (tesis) saka wacana kasebut?",
+      "options": [
+        { "key": "A", "text": "Sandhiwara Jawa mung dadi tontonan hiburan kanggo wong tuwa." },
+        { "key": "B", "text": "Sandhiwara Jawa kudu diganti karo hiburan modern." },
+        { "key": "C", "text": "Sandhiwara Jawa ora pantes ditonton generasi enom." },
+        { "key": "D", "text": "Sandhiwara Jawa nduwèni nilai moral lan budaya sing kudu dilestarèkaké kanthi cara modern." },
+        { "key": "E", "text": "Hiburan digital luwih migunani tinimbang sandhiwara Jawa." }
+      ],
+      "answer": "D",
+      "explanation": "Wacana kasebut nandhesaké yèn sandhiwara Jawa minangka tuntunan nilai moral lan kabudayan sing perlu dilestarèkaké lan dikembangaké nganggo cara anyar kayata media sosial.",
+      "topic": "Sandhiwara Jawa"
+    },
+    {
+      "id": "bahasa-jawa-pg-10",
+      "number": 10,
+      "passageTitle": "Wacana Sandhiwara Jawa (kanggo soal 9–15)",
+      "passage": "Drama utawa sandhiwara Jawa minangka salah siji wujud kesenian panggung sing nggabungaké unsur basa, musik, lan tari. Sandhiwara ora mung dadi tontonan, nanging uga dadi tuntunan amarga nggambarake nilai moral lan kabudayan. Ing jaman saiki, sandhiwara Jawa wiwit kurang disenengi déning para mudha amarga kalah populer karo hiburan digital. Nanging, sawetara kelompok seni isih tetep nguri-uri lan ngembangaké sandhiwara kanthi cara anyar, kayata nampilaké ing media sosial supaya luwih dikenal.",
+      "prompt": "Nilai moral apa sing bisa dijupuk saka anane sandhiwara Jawa miturut wacana kasebut?",
+      "options": [
+        { "key": "A", "text": "Pentinge teknologi digital kanggo seni Jawa." },
+        { "key": "B", "text": "Kewajiban ninggal tradisi lawas." },
+        { "key": "C", "text": "Ajakan kanggo nguri-uri budaya kanthi nut ing jaman." },
+        { "key": "D", "text": "Larangan kanggo nggawe inovasi seni." },
+        { "key": "E", "text": "Pentinge nonton hiburan manca." }
+      ],
+      "answer": "C",
+      "explanation": "Wacana nuduhaké tuladha nguri-uri lan ngembangaké sandhiwara Jawa supaya tetep urip kanthi nut ombyaking jaman (inovasi digital).",
+      "topic": "Sandhiwara Jawa"
+    },
+    {
+      "id": "bahasa-jawa-pg-11",
+      "number": 11,
+      "passageTitle": "Wacana Sandhiwara Jawa (kanggo soal 9–15)",
+      "passage": "Drama utawa sandhiwara Jawa minangka salah siji wujud kesenian panggung sing nggabungaké unsur basa, musik, lan tari. Sandhiwara ora mung dadi tontonan, nanging uga dadi tuntunan amarga nggambarake nilai moral lan kabudayan. Ing jaman saiki, sandhiwara Jawa wiwit kurang disenengi déning para mudha amarga kalah populer karo hiburan digital. Nanging, sawetara kelompok seni isih tetep nguri-uri lan ngembangaké sandhiwara kanthi cara anyar, kayata nampilaké ing media sosial supaya luwih dikenal.",
+      "prompt": "Yèn para siswa dadi sutradara sandhiwara Jawa, kepiye cara sing paling efektif kanggo nguri-uri ngrembakane sandhiwara miturut isi ing wacana kasebut?",
+      "options": [
+        { "key": "A", "text": "Nampilaké sandhiwara mung ing pasar rakyat." },
+        { "key": "B", "text": "Ngganti basa Jawa nganggo basa Inggris." },
+        { "key": "C", "text": "Nggabungaké teknologi digital lan media sosial kanggo promosi." },
+        { "key": "D", "text": "Ngganti isi sandhiwara dadi film laga." },
+        { "key": "E", "text": "Nggawé sandhiwara tanpa unsur budaya Jawa." }
+      ],
+      "answer": "C",
+      "explanation": "Miturut wacana, cara anyar kanggo ngembangaké sandhiwara Jawa supaya luwih dikenal para mudha yaiku nampilaké liwat media sosial lan teknologi digital.",
+      "topic": "Sandhiwara Jawa"
+    },
+    {
+      "id": "bahasa-jawa-pg-12",
+      "number": 12,
+      "passageTitle": "Wacana Sandhiwara Jawa (kanggo soal 9–15)",
+      "passage": "Drama utawa sandhiwara Jawa minangka salah siji wujud kesenian panggung sing nggabungaké unsur basa, musik, lan tari. Sandhiwara ora mung dadi tontonan, nanging uga dadi tuntunan amarga nggambarake nilai moral lan kabudayan. Ing jaman saiki, sandhiwara Jawa wiwit kurang disenengi déning para mudha amarga kalah populer karo hiburan digital. Nanging, sawetara kelompok seni isih tetep nguri-uri lan ngembangaké sandhiwara kanthi cara anyar, kayata nampilaké ing media sosial supaya luwih dikenal.",
+      "prompt": "Kepiye panemumu yèn sandhiwara Jawa mung ditampilaké ing panggung tradisional tanpa inovasi?",
+      "options": [
+        { "key": "A", "text": "Bakal luwih disenengi para mudha." },
+        { "key": "B", "text": "Bakal ilang panggemaré amarga ora melu ombyaking jaman." },
+        { "key": "C", "text": "Bakal dadi warisan sing luwih lestari." },
+        { "key": "D", "text": "Ora ana pengaruhé karo eksistensiné." },
+        { "key": "E", "text": "Bakal luwih nguntungaké seniman enom." }
+      ],
+      "answer": "B",
+      "explanation": "Tanpa inovasi lan adaptasi jaman, sandhiwara Jawa bakal kalah saingan karo hiburan digital lan kelangan panggemar, utamané generasi enom.",
+      "topic": "Sandhiwara Jawa"
+    },
+    {
+      "id": "bahasa-jawa-pg-13",
+      "number": 13,
+      "passageTitle": "Wacana Sandhiwara Jawa (kanggo soal 9–15)",
+      "passage": "Drama utawa sandhiwara Jawa minangka salah siji wujud kesenian panggung sing nggabungaké unsur basa, musik, lan tari. Sandhiwara ora mung dadi tontonan, nanging uga dadi tuntunan amarga nggambarake nilai moral lan kabudayan. Ing jaman saiki, sandhiwara Jawa wiwit kurang disenengi déning para mudha amarga kalah populer karo hiburan digital. Nanging, sawetara kelompok seni isih tetep nguri-uri lan ngembangaké sandhiwara kanthi cara anyar, kayata nampilaké ing media sosial supaya luwih dikenal.",
+      "prompt": "Ing sandhiwara Jawa, karakter tokoh biasané digambarake kanthi carané ngomong lan tindak-tanduké. Apa tujuane cara panggambaran karakter kuwi?",
+      "options": [
+        { "key": "A", "text": "Supaya penonton ora kesusu." },
+        { "key": "B", "text": "Kanggo nggawe tontonan luwih rame." },
+        { "key": "C", "text": "Kanggo nuduhaké watak lan nilai moral sing arep diandharake." },
+        { "key": "D", "text": "Kanggo ngindari konflik antar tokoh." },
+        { "key": "E", "text": "Kanggo nyuda wektu pagelaran." }
+      ],
+      "answer": "C",
+      "explanation": "Panggambaran karakter tokoh liwat pocapan (dialog) lan tindak-tanduk (akting) nduwèni tujuan nuduhaké watak tokoh lan pesen moral ing lakon sandhiwara.",
+      "topic": "Sandhiwara Jawa"
+    },
+    {
+      "id": "bahasa-jawa-pg-14",
+      "number": 14,
+      "passageTitle": "Wacana Sandhiwara Jawa (kanggo soal 9–15)",
+      "passage": "Drama utawa sandhiwara Jawa minangka salah siji wujud kesenian panggung sing nggabungaké unsur basa, musik, lan tari. Sandhiwara ora mung dadi tontonan, nanging uga dadi tuntunan amarga nggambarake nilai moral lan kabudayan. Ing jaman saiki, sandhiwara Jawa wiwit kurang disenengi déning para mudha amarga kalah populer karo hiburan digital. Nanging, sawetara kelompok seni isih tetep nguri-uri lan ngembangaké sandhiwara kanthi cara anyar, kayata nampilaké ing media sosial supaya luwih dikenal.",
+      "prompt": "Kepiye peran siswa jaman saiki kanggo nglestarakaké sandhiwara Jawa adhedhasar isi teks?",
+      "options": [
+        { "key": "A", "text": "Nonton lan nyebarake sandhiwara Jawa liwat media sosial." },
+        { "key": "B", "text": "Ora perlu melu amarga kuwi tanggung jawab seniman." },
+        { "key": "C", "text": "Ninggal budaya lawas amarga wis ora relevan." },
+        { "key": "D", "text": "Mbandhingaké karo film manca." },
+        { "key": "E", "text": "Mung sinau teori sandhiwara tanpa praktik." }
+      ],
+      "answer": "A",
+      "explanation": "Adhedhasar teks, siswa bisa melu nguri-uri sandhiwara Jawa kanthi nonton lan nyebaraké karya sandhiwara liwat media sosial supaya luwih dikenal.",
+      "topic": "Sandhiwara Jawa"
+    },
+    {
+      "id": "bahasa-jawa-pg-15",
+      "number": 15,
+      "passageTitle": "Wacana Sandhiwara Jawa (kanggo soal 9–15)",
+      "passage": "Drama utawa sandhiwara Jawa minangka salah siji wujud kesenian panggung sing nggabungaké unsur basa, musik, lan tari. Sandhiwara ora mung dadi tontonan, nanging uga dadi tuntunan amarga nggambarake nilai moral lan kabudayan. Ing jaman saiki, sandhiwara Jawa wiwit kurang disenengi déning para mudha amarga kalah populer karo hiburan digital. Nanging, sawetara kelompok seni isih tetep nguri-uri lan ngembangaké sandhiwara kanthi cara anyar, kayata nampilaké ing media sosial supaya luwih dikenal.",
+      "prompt": "Yèn sandhiwara Jawa digabung karo unsur modern kaya musik pop utawa pencahayaan digital, apa keuntungané miturut isi wacana kasebut?",
+      "options": [
+        { "key": "A", "text": "Nglunturaké nilai budaya Jawa." },
+        { "key": "B", "text": "Ngilangaké makna moral sandhiwara." },
+        { "key": "C", "text": "Nambah daya tarik generasi enom tanpa ninggal nilai tradisi." },
+        { "key": "D", "text": "Ngganti budaya Jawa dadi budaya global." },
+        { "key": "E", "text": "Nyuda minatè masyarakat marang sandhiwara." }
+      ],
+      "answer": "C",
+      "explanation": "Nggabungaké unsur modern ing sandhiwara Jawa bisa nambah daya tarik tumrap generasi enom supaya tetep seneng tanpa ngilangaké nilai tradisi lan moralé.",
+      "topic": "Sandhiwara Jawa"
+    },
+    {
+      "id": "bahasa-jawa-pg-16",
+      "number": 16,
+      "passageTitle": "Teks Sesorah Hari Kartini (kanggo soal 16–20)",
+      "passage": "Ing sawijining acara \"Hari Kartini\", ana sesorah sing dijupuk temané Perané Wanita Enom Ing Nglestarèkaké Budaya Jawa. Ing sesorah kasebut, panyatur ngajak para siswa supaya ora isin nganggo basa Jawa lan busana adat ing saben peringatan budaya. Miturut panyatur, nguri-uri budaya Jawa ora ateges ninggal jaman modern, nanging carané supaya tradisi bisa lestari bareng kemajuan teknologi. Yen generasi enom ora gelem melu njaga budaya, bakal angel ngembangaké identitas bangsa ing jaman global iki.",
+      "prompt": "Apa pokok pikiran utama ing sesorah kasebut?",
+      "options": [
+        { "key": "A", "text": "Nguwuh-uwuh supaya kabeh wong nganggo busana adat saben dina," },
+        { "key": "B", "text": "Ngajak generasi enom supaya ora isin nguri-uri budaya Jawa." },
+        { "key": "C", "text": "Nglawan pengaruh budaya manca kanthi kekerasan" },
+        { "key": "D", "text": "Ngluhuraké basa manca luwih saka basa Jawa" },
+        { "key": "E", "text": "Nglestarakaké teknologi modern tanpa budaya." }
+      ],
+      "answer": "B",
+      "explanation": "Pokok pikiran utama sesorah kasebut yaiku ngajak para siswa (generasi enom) supaya ora isin nganggo basa Jawa, busana adat, lan nguri-uri budaya Jawa.",
+      "topic": "Sesorah"
+    },
+    {
+      "id": "bahasa-jawa-pg-17",
+      "number": 17,
+      "passageTitle": "Teks Sesorah Hari Kartini (kanggo soal 16–20)",
+      "passage": "Ing sawijining acara \"Hari Kartini\", ana sesorah sing dijupuk temané Perané Wanita Enom Ing Nglestarèkaké Budaya Jawa. Ing sesorah kasebut, panyatur ngajak para siswa supaya ora isin nganggo basa Jawa lan busana adat ing saben peringatan budaya. Miturut panyatur, nguri-uri budaya Jawa ora ateges ninggal jaman modern, nanging carané supaya tradisi bisa lestari bareng kemajuan teknologi. Yen generasi enom ora gelem melu njaga budaya, bakal angel ngembangaké identitas bangsa ing jaman global iki.",
+      "prompt": "Apa masalah utama (isi pokok) sing diangkat ing sesorah kasebut?",
+      "options": [
+        { "key": "A", "text": "Kurangé kesadaran generasi enom nguri-uri budaya Jawa," },
+        { "key": "B", "text": "Generasi enom luwih seneng basa manca tinimbang basa Jawa." },
+        { "key": "C", "text": "Budaya Jawa wis ilang saka masyarakat," },
+        { "key": "D", "text": "Teknologi dadi alangan kanggo wong Jawa," },
+        { "key": "E", "text": "Ora ana wong sing seneng nganggo busana adat." }
+      ],
+      "answer": "A",
+      "explanation": "Masalah utama sing diangkat yaiku kurangé kesadaran lan rasa percaya dhiri generasi enom kanggo melu njaga lan nguri-uri budaya Jawa.",
+      "topic": "Sesorah"
+    },
+    {
+      "id": "bahasa-jawa-pg-18",
+      "number": 18,
+      "passageTitle": "Teks Sesorah Hari Kartini (kanggo soal 16–20)",
+      "passage": "Ing sawijining acara \"Hari Kartini\", ana sesorah sing dijupuk temané Perané Wanita Enom Ing Nglestarèkaké Budaya Jawa. Ing sesorah kasebut, panyatur ngajak para siswa supaya ora isin nganggo basa Jawa lan busana adat ing saben peringatan budaya. Miturut panyatur, nguri-uri budaya Jawa ora ateges ninggal jaman modern, nanging carané supaya tradisi bisa lestari bareng kemajuan teknologi. Yen generasi enom ora gelem melu njaga budaya, bakal angel ngembangaké identitas bangsa ing jaman global iki.",
+      "prompt": "Apa nilai moral sing bisa dijupuk saka isi sesorah kasebut?",
+      "options": [
+        { "key": "A", "text": "Wong enom kudu isin nganggo busana tradisional." },
+        { "key": "B", "text": "Budaya Jawa kudu ditinggal supaya ora ketinggalan jaman." },
+        { "key": "C", "text": "Nguri-uri budaya ora ateges ora bisa maju." },
+        { "key": "D", "text": "Mung wong tuwa sing tanggung jawab njaga budaya." },
+        { "key": "E", "text": "Basa Jawa ora perlu digunakaké ing acara resmi." }
+      ],
+      "answer": "C",
+      "explanation": "Sesorah mratélakaké yèn nguri-uri budaya Jawa ora ateges ninggal jaman modern, tegesé tetep bisa maju bebarengan karo teknologi.",
+      "topic": "Sesorah"
+    },
+    {
+      "id": "bahasa-jawa-pg-19",
+      "number": 19,
+      "passageTitle": "Teks Sesorah Hari Kartini (kanggo soal 16–20)",
+      "passage": "Ing sawijining acara \"Hari Kartini\", ana sesorah sing dijupuk temané Perané Wanita Enom Ing Nglestarèkaké Budaya Jawa. Ing sesorah kasebut, panyatur ngajak para siswa supaya ora isin nganggo basa Jawa lan busana adat ing saben peringatan budaya. Miturut panyatur, nguri-uri budaya Jawa ora ateges ninggal jaman modern, nanging carané supaya tradisi bisa lestari bareng kemajuan teknologi. Yen generasi enom ora gelem melu njaga budaya, bakal angel ngembangaké identitas bangsa ing jaman global iki.",
+      "prompt": "Apa efek sing dikarepake panyatur saka sesorah kasebut marang para pamirsa?",
+      "options": [
+        { "key": "A", "text": "Supaya pamirsa luwih seneng hiburan modern." },
+        { "key": "B", "text": "Supaya para siswa luwih bangga lan melu nguri-uri budaya Jawa." },
+        { "key": "C", "text": "Supaya wong tuwa ora melu acara budaya." },
+        { "key": "D", "text": "Supaya basa Jawa ora digunakaké maneh." },
+        { "key": "E", "text": "Supaya generasi enom mung fokus sinau teknologi." }
+      ],
+      "answer": "B",
+      "explanation": "Panyatur ngajak para siswa supaya ora isin lan luwih bangga nganggo basa Jawa sarta busana adat kanggo nglestarèkaké budaya.",
+      "topic": "Sesorah"
+    },
+    {
+      "id": "bahasa-jawa-pg-20",
+      "number": 20,
+      "passageTitle": "Teks Sesorah Hari Kartini (kanggo soal 16–20)",
+      "passage": "Ing sawijining acara \"Hari Kartini\", ana sesorah sing dijupuk temané Perané Wanita Enom Ing Nglestarèkaké Budaya Jawa. Ing sesorah kasebut, panyatur ngajak para siswa supaya ora isin nganggo basa Jawa lan busana adat ing saben peringatan budaya. Miturut panyatur, nguri-uri budaya Jawa ora ateges ninggal jaman modern, nanging carané supaya tradisi bisa lestari bareng kemajuan teknologi. Yen generasi enom ora gelem melu njaga budaya, bakal angel ngembangaké identitas bangsa ing jaman global iki.",
+      "prompt": "Tembung \"nguri-uri budaya Jawa ora ateges ninggal jaman modern\" nduwèni teges apa kang kinandhut?",
+      "options": [
+        { "key": "A", "text": "Tradisi lan modernitas bisa mlaku bareng" },
+        { "key": "B", "text": "Budaya Jawa kudu diowahi dadi budaya modern." },
+        { "key": "C", "text": "Budaya Jawa ora cocog kanggo jaman saiki." },
+        { "key": "D", "text": "Wong Jawa kudu ninggal adat istiadat." },
+        { "key": "E", "text": "Kemajuan teknologi luwih penting tinimbang budaya" }
+      ],
+      "answer": "A",
+      "explanation": "Ukara kasebut tegesé njaga tradisi lan melu perkembangan modernitas/teknologi iku ora padha dene mungsuhan, nanging bisa mlaku bebarengan.",
+      "topic": "Sesorah"
+    },
+    {
+      "id": "bahasa-jawa-pg-21",
+      "number": 21,
+      "prompt": "Salah siji ciri geguritan yaiku gaya bahasane cenderung ekspresif lan simbolis. Tujuan utama saka ciri kasebut yaiku...",
+      "options": [
+        { "key": "A", "text": "Nambahake unsur komedi" },
+        { "key": "B", "text": "Nyampurake basa krama lan ngoko" },
+        { "key": "C", "text": "Ngandhut makna jero lan rasa estetis" },
+        { "key": "D", "text": "Mbangun dialog antar tokoh" },
+        { "key": "E", "text": "Nglengkapi struktur naratif geguritan" }
+      ],
+      "answer": "C",
+      "explanation": "Gaya basa ekspresif lan simbolis ing geguritan nduwèni tujuan supaya tembung-tembungé ngandhut makna kang jero lan rasa kaéndahan (estetis).",
+      "topic": "Geguritan"
+    },
+    {
+      "id": "bahasa-jawa-pg-22",
+      "number": 22,
+      "prompt": "Ing geguritan, majas personifikasi kerep dienggo. Majas iki nduweni fungsi kanggo...",
+      "options": [
+        { "key": "A", "text": "Mbangun kalimat logis lan obyektif" },
+        { "key": "B", "text": "Menehi watak manungsa marang barang utawa alam" },
+        { "key": "C", "text": "Nambah unsur dialog antar tokoh" },
+        { "key": "D", "text": "Ngandhut unsur ironi tanpa emosi" },
+        { "key": "E", "text": "Mbangun drama tragedi ing pungkasan geguritan" }
+      ],
+      "answer": "B",
+      "explanation": "Personifikasi yaiku majas kang nyritakaké barang mati utawa unsur alam kaya-kaya duwé watak lan tumindak kaya manungsa.",
+      "topic": "Gaya Basa Geguritan"
+    },
+    {
+      "id": "bahasa-jawa-pg-23",
+      "number": 23,
+      "prompt": "Kagatekna bait geguritan iki:\n\"Srengege ngguyu ing pucuking gunung,\nLamun wengi wis lunga saka panggone.\"\nMaksud lan amanat saka baris kasebut yaiku...",
+      "options": [
+        { "key": "A", "text": "Ngibaratake esuk minangka harapan anyar" },
+        { "key": "B", "text": "Nduduhake kekuatan manungsa nglawan wengi" },
+        { "key": "C", "text": "Nglambangake rasa wedi marang pepeteng" },
+        { "key": "D", "text": "Nggambarake ambruké rasa cinta" },
+        { "key": "E", "text": "Nyritakake aktivitas masyarakat desa" }
+      ],
+      "answer": "A",
+      "explanation": "Srengéngé kang ngguyu sawisé wengi lunga nglambangaké tekané esuk minangka pangarep-arep (harapan) anyar sawisé pepeteng/kasusahan.",
+      "topic": "Geguritan"
+    },
+    {
+      "id": "bahasa-jawa-pg-24",
+      "number": 24,
+      "prompt": "Nalika maca geguritan, siswa kudu bisa nemtokake makna tersirat. Kaprigelan iki kalebu kemampuan...",
+      "options": [
+        { "key": "A", "text": "Memori tingkat rendah" },
+        { "key": "B", "text": "Analisis lan interpretasi" },
+        { "key": "C", "text": "Ngrampungake masalah matematika" },
+        { "key": "D", "text": "Nambah kosakata formal" },
+        { "key": "E", "text": "Ngapalake struktur tembang" }
+      ],
+      "answer": "B",
+      "explanation": "Nemtokaké makna tersirat ing geguritan mbutuhaké kaprigelan nganalisis diksi lan napsiraké (interpretasi) simbol-simbolé.",
+      "topic": "Geguritan"
+    },
+    {
+      "id": "bahasa-jawa-pg-25",
+      "number": 25,
+      "prompt": "Geguritan kerep nggunakake diksi konotatif. Penggunaan diksi iki dimaksudake kanggo...",
+      "options": [
+        { "key": "A", "text": "Mbentuk makna apa adanya" },
+        { "key": "B", "text": "Ngluwari geguritan saka unsur estetika" },
+        { "key": "C", "text": "Nambah unsur argumentative" },
+        { "key": "D", "text": "Ngasilake swasana rasa lan makna rangkep" },
+        { "key": "E", "text": "Nyuda ambiguitas kawruh" }
+      ],
+      "answer": "D",
+      "explanation": "Diksi konotatif (makna kias) dipilih ing geguritan kanggo ngasilaké swasana rasa (imaji emosional) lan makna kang sugih/rangkep.",
+      "topic": "Diksi Geguritan"
+    },
+    {
+      "id": "bahasa-jawa-pg-26",
+      "number": 26,
+      "prompt": "Ing geguritan, pujangga asring nggunakake simbol \"kembang\". Ing konteks umum, simbol iki bisa tegesé...",
+      "options": [
+        { "key": "A", "text": "Kabegjan, keendahan, lan katresnan" },
+        { "key": "B", "text": "Penderitaan lan rasa trauma" },
+        { "key": "C", "text": "Ambisi lan kekuasaan" },
+        { "key": "D", "text": "Kesunyian lan kesendirian" },
+        { "key": "E", "text": "Hubungan politik antar bangsa" }
+      ],
+      "answer": "A",
+      "explanation": "Ing sastra Jawa lan Indonesia, simbol \"kembang\" lumrahé nglambangaké kaéndahan, kabegjan, pangarep-arep, utawa katresnan.",
+      "topic": "Simbol Geguritan"
+    },
+    {
+      "id": "bahasa-jawa-pg-27",
+      "number": 27,
+      "prompt": "Tuladha geguritan sing migunakake citraan auditorial yaiku...",
+      "options": [
+        { "key": "A", "text": "\"Banyu mili bening kaya kaca\"" },
+        { "key": "B", "text": "\"Kembang gumebyar anget ing pangkuan bumi\"" },
+        { "key": "C", "text": "\"Krincing swara gamelan muni lembut ngudang rasa\"" },
+        { "key": "D", "text": "\"Langit biru nyawang saklawase\"" },
+        { "key": "E", "text": "\"Lenga ngambyar madangi pawon\"" }
+      ],
+      "answer": "C",
+      "explanation": "Citraan auditorial yaiku citraan kang ana sesambungané karo indra pangrungu (swara), kaya ukara \"Krincing swara gamelan muni lembut\".",
+      "topic": "Citraan Geguritan"
+    },
+    {
+      "id": "bahasa-jawa-pg-28",
+      "number": 28,
+      "prompt": "Salah siji unsur batin geguritan yaiku tema. Yen geguritan ngemot tema sosial, geguritan kasebut biasane...",
+      "options": [
+        { "key": "A", "text": "Nyritakake pengalaman pribadi penyair" },
+        { "key": "B", "text": "Nyorot masalah masyarakat lan kemanusiaan" },
+        { "key": "C", "text": "Nggambarake hubungan politik antar negara" },
+        { "key": "D", "text": "Fokus marang keindahan alam" },
+        { "key": "E", "text": "Menegaskan struktur tembang tradisional" }
+      ],
+      "answer": "B",
+      "explanation": "Tema sosial ing geguritan lumrahé ngrembug utawa nyorot kahanan lan masalah ing masyarakat sarta nilai-nilai kamanungsan.",
+      "topic": "Unsur Batin Geguritan"
+    },
+    {
+      "id": "bahasa-jawa-pg-29",
+      "number": 29,
+      "prompt": "Wangsulan ing ngisor iki sing mung isi aksara swara?",
+      "image": "/assets/figures/bjawa-pg-29.png",
+      "imageCaption": "Pilihan A–E wujud aksara Jawa kanggo pitakon aksara swara",
+      "options": [
+        { "key": "A", "text": "Pilihan A (lihat gambar aksara)" },
+        { "key": "B", "text": "Pilihan B (lihat gambar aksara)" },
+        { "key": "C", "text": "Pilihan C (lihat gambar aksara: ꦄ, ꦆ, ꦈ, ꦌ, ꦎ)" },
+        { "key": "D", "text": "Pilihan D (lihat gambar aksara)" },
+        { "key": "E", "text": "Pilihan E (lihat gambar aksara)" }
+      ],
+      "answer": "C",
+      "explanation": "Pilihan C mung ngemot aksara swara (ꦄ = A, ꦆ = I, ꦈ = U, ꦌ = E, ꦎ = O), déné pilihan liyané kecampuran aksara legena, murda, utawa pa cerek/nga lelet.",
+      "topic": "Aksara Swara"
+    },
+    {
+      "id": "bahasa-jawa-pg-30",
+      "number": 30,
+      "prompt": "Pilihan tulisan sing salah panganggone aksara swara ing candhake iki:",
+      "image": "/assets/figures/bjawa-pg-30.png",
+      "imageCaption": "Pilihan tulisan aksara Jawa lan alih aksarané kanggo soal 30",
+      "options": [
+        { "key": "A", "text": "ꦄꦩꦺꦫꦶꦏ → Amerika" },
+        { "key": "B", "text": "ꦆꦁꦒꦿꦶꦱ꧀ → Inggris" },
+        { "key": "C", "text": "ꦈꦤ꧀ꦠꦫꦶ → Untari" },
+        { "key": "D", "text": "Tulisan aksara Jawa kanggo Plong → Plong (lihat gambar)" },
+        { "key": "E", "text": "ꦌꦭꦶꦁꦧꦼꦤꦶꦁ → Eling bening" }
+      ],
+      "answer": "D",
+      "explanation": "Tembung \"Plong\" ora diawali huruf vokal (nggunakaké konsonan P lan taling-tarung) lan tulisan aksara Jawané ing pilihan D ora trep karo ukara \"Plong\", déné A (ꦄ), B (ꦆ), C (ꦈ), lan E (ꦌ) migunakaké aksara swara ing wiwitan tembung.",
+      "topic": "Aksara Swara"
+    },
+    {
+      "id": "bahasa-jawa-pg-31",
+      "number": 31,
+      "prompt": "Aksara swara digunakake kanggo nulis...",
+      "options": [
+        { "key": "A", "text": "Awalan vokal tanpa aksara lingga" },
+        { "key": "B", "text": "Suku kata pungkasan" },
+        { "key": "C", "text": "Tembung serapan negara manca" },
+        { "key": "D", "text": "Tembung saroja" },
+        { "key": "E", "text": "Tembung aran" }
+      ],
+      "answer": "C",
+      "explanation": "Aksara swara (ꦄ, ꦆ, ꦈ, ꦌ, ꦎ) digunakaké kanggo nulis tembung serapan utawa jeneng negara/kutha/wong saka manca kang diawali swara vokal.",
+      "topic": "Aksara Swara"
+    },
+    {
+      "id": "bahasa-jawa-pg-32",
+      "number": 32,
+      "prompt": "Wacan pilihan ing ngisor lan pilihen sing paling trep kanggo nulis \"Urologi\" nganggo aksara swara ing wiwitaning tembung!",
+      "image": "/assets/figures/bjawa-pg-32.png",
+      "imageCaption": "Pilihan A–E panulisan aksara Jawa kanggo tembung Urologi",
+      "options": [
+        { "key": "A", "text": "Pilihan A (diawali aksara swara ꦈ / U — lihat gambar)" },
+        { "key": "B", "text": "Pilihan B (diawali aksara swara ꦌ / E — lihat gambar)" },
+        { "key": "C", "text": "Pilihan C (diawali aksara swara ꦈ, wangun cendhak — lihat gambar)" },
+        { "key": "D", "text": "Pilihan D (diawali aksara swara ꦈ, tanpa taling-tarung — lihat gambar)" },
+        { "key": "E", "text": "Pilihan E (diawali aksara swara ꦄ / A — lihat gambar)" }
+      ],
+      "answer": "A",
+      "explanation": "Panulisan \"Urologi\" kudu diawali aksara swara U (ꦈ) lan ngemot sandhangan swara kanggo suku tembung -ro-lo-gi (pilihan A; déné E salah amarga nganggo ꦄ, B nganggo ꦌ, lan C/D ora trep suku tembungé).",
+      "topic": "Aksara Swara"
+    },
+    {
+      "id": "bahasa-jawa-pg-33",
+      "number": 33,
+      "prompt": "Wacanen kang setiti pitakonan Pilihan Ganda camboran (Majemuk) candhake iki!\n\nPakaian adat Jawa nduwèni makna filosofis sing jero. Ing upacara adat kraton, busana kaya blangkon, beskap, lan jarik ora namung minangka sandhangan, nanging ugo minangka gambaran unggah-ungguh, drajat sosial, lan tata krama wong Jawa.\nPitakon:\nSaka teks ing dhuwur, unsur budaya apa waé sing kakandhut ing penganggone busana adat Jawa?\n1. Tata krama\n2. Status social\n3. Kepemimpinan\n4. Upacara adat\n\nPilihan wangsulan:",
+      "options": [
+        { "key": "A", "text": "1,2,3" },
+        { "key": "B", "text": "1,2,4" },
+        { "key": "C", "text": "2,3,4" },
+        { "key": "D", "text": "1,3,5" },
+        { "key": "E", "text": "3,4," }
+      ],
+      "answer": "B",
+      "explanation": "Ing teks kasebut disebutaké \"upacara adat\" (4), \"drajat sosial / status sosial\" (2), lan \"tata krama\" (1), déné kepemimpinan (3) ora disebutaké.",
+      "topic": "Busana Adat Jawa"
+    },
+    {
+      "id": "bahasa-jawa-pg-34",
+      "number": 34,
+      "prompt": "Ing budaya Jawa, blangkon lan jarik nduwèni makna tartamtu. Pilih pratelan sing bener babagan makna busana kuwi!\n1. Blangkon minangka simbol kesiapan lan ketertiban pikiran.\n2. Jarik nggambarake rasa kesederhanaan lan kesabaran.\n3. Jarik minangka simbol agresi lan kekuatan fisik.\n4. Blangkon digandhengake karo tradisi para prajurit perang Jawa.\n5. Jarik kerep digandhengake karo filosofi ibu nglindhungi anaké.\n\nPilihan wangsulan:",
+      "options": [
+        { "key": "A", "text": "1,2" },
+        { "key": "B", "text": "1,3" },
+        { "key": "C", "text": "2,4" },
+        { "key": "D", "text": "1,2,5" },
+        { "key": "E", "text": "3,4,5" }
+      ],
+      "answer": "D",
+      "explanation": "Blangkon nglambangaké kesiapan lan ketertiban pikiran (1), jarik nggambarake kesederhanaan lan kesabaran (2) sarta kerep digandhengaké karo filosofi ibu nglindhungi/nggendhong anaké (5). Pratelan 3 lan 4 salah.",
+      "topic": "Busana Adat Jawa"
+    },
+    {
+      "id": "bahasa-jawa-pg-35",
+      "number": 35,
+      "prompt": "Nalika upacara adat manten Jawa, calon manten lan kulawargané nganggo busana adat jangkep kayata dodot, paes, lan siger. Makna saka panganggone busana kasebut yaiku ...\n1. Ngurmati tradisi leluhur\n2. Mbedakake kelas ekonomi\n3. Ngraketake nilai budaya lan religious\n4. Munggahaké gengsi\n5. Nggambarake watak luhur lan keteguhan ati\n\nPilihan jawaban:",
+      "options": [
+        { "key": "A", "text": "1,3,5" },
+        { "key": "B", "text": "2,3,4" },
+        { "key": "C", "text": "1,2,5" },
+        { "key": "D", "text": "2,4,5" },
+        { "key": "E", "text": "3,4,5" }
+      ],
+      "answer": "A",
+      "explanation": "Panganggoné busana manten Jawa ngandhut makna ngurmati tradisi leluhur (1), ngraketake nilai budaya lan religius (3), sarta nggambarake watak luhur lan keteguhan ati (5).",
+      "topic": "Busana Adat Jawa"
+    },
+    {
+      "id": "bahasa-jawa-pg-36",
+      "number": 36,
+      "prompt": "Sebutna sebab kenapa busana adat Jawa ora namung dianggo ing upacara formal nanging uga acara budaya lan seni?\n1. Bisa nuduhake identitas budaya\n2. Mempromosikan kebathikan\n3. Nambah rasa bangga marang daerah\n4. Ngembangake ekonomi kreatif busana tradisional\n5. Supaya luwih modis tinimbang busana modern\n\nPilihan jawaban:",
+      "options": [
+        { "key": "A", "text": "1,3" },
+        { "key": "B", "text": "1,3,4" },
+        { "key": "C", "text": "2,3,5" },
+        { "key": "D", "text": "3,4,5" },
+        { "key": "E", "text": "1,2,5" }
+      ],
+      "answer": "B",
+      "explanation": "Busana adat Jawa ing acara budaya lan seni bisa nuduhaké identitas budaya (1), nambah rasa bangga marang daerah (3), lan ngembangaké ekonomi kreatif busana tradisional (4).",
+      "topic": "Busana Adat Jawa"
+    },
+    {
+      "id": "bahasa-jawa-pg-37",
+      "number": 37,
+      "passageTitle": "Geguritan \"Swaraning Ati\" (kanggo soal 37–39)",
+      "passage": "\"Swaraning Ati\"\n\nNalika wengi ngelus rasa,\nRembulan nglairake cahya lir pangarep-arep.\nAngin alon nyeret swara katresnan,\nMemeleh kaya tembang lirih ing pengimpenan.\nIng sela-sela sepi,\nAti iki padha gulung rasa donga,\nNyilih cahya saka lintang sing gumun,\nNyawiji maring pangarep-arep anyar.\nNanging, ora saben padhang ateges lega,\nKadhang sumunar mung dadi pepethan rasa.\nKaya banyu kali mangalir tenang,\nIng njero ana pusaran sing ora katon.\nAku terus mlaku,\nNggawa swara sing tak titipake marang bengi.\nMuga swara iki nggayuh wujud,\nDadi bukti yen ati durung mati.\nYen esuk teka,\nKembang-kembang ngleluri embun,\nMugo donga iki dadi wungu,\nLan ati iki munggah ing cahya katentreman.",
+      "prompt": "Gaya basa kiasan apa wae sing gumathok ana ing geguritan kasebut?\n1. Personifikasi (rembulan nglairake cahya)\n2. Metafora (ati iki padha gulung rasa donga)\n3. Hiperbola (dadi bukti yen ati durung mati)\n4. Simile (memeleh kaya tembang lirih ing pengimpenan)\n5. Ironi (Nanging, ora saben padhang ateges lega)\n\nPilihan:",
+      "options": [
+        { "key": "A", "text": "1,2,4" },
+        { "key": "B", "text": "1,3,5" },
+        { "key": "C", "text": "2,4,5" },
+        { "key": "D", "text": "1,2,3,4" },
+        { "key": "E", "text": "1,2,4,5" }
+      ],
+      "answer": "A",
+      "explanation": "Gaya basa kiasan sing paling trep yaiku personifikasi ing \"rembulan nglairake cahya\" (1), metafora ing \"ati iki padha gulung rasa donga\" (2), lan simile kanthi tembung \"kaya\" ing \"memeleh kaya tembang lirih ing pengimpenan\" (4). Ukara ing angka 5 dudu ironi.",
+      "topic": "Gaya Basa Geguritan"
+    },
+    {
+      "id": "bahasa-jawa-pg-38",
+      "number": 38,
+      "passageTitle": "Geguritan \"Swaraning Ati\" (kanggo soal 37–39)",
+      "passage": "\"Swaraning Ati\"\n\nNalika wengi ngelus rasa,\nRembulan nglairake cahya lir pangarep-arep.\nAngin alon nyeret swara katresnan,\nMemeleh kaya tembang lirih ing pengimpenan.\nIng sela-sela sepi,\nAti iki padha gulung rasa donga,\nNyilih cahya saka lintang sing gumun,\nNyawiji maring pangarep-arep anyar.\nNanging, ora saben padhang ateges lega,\nKadhang sumunar mung dadi pepethan rasa.\nKaya banyu kali mangalir tenang,\nIng njero ana pusaran sing ora katon.\nAku terus mlaku,\nNggawa swara sing tak titipake marang bengi.\nMuga swara iki nggayuh wujud,\nDadi bukti yen ati durung mati.\nYen esuk teka,\nKembang-kembang ngleluri embun,\nMugo donga iki dadi wungu,\nLan ati iki munggah ing cahya katentreman.",
+      "prompt": "Apa kesimpulan sing pas babagan kondisi batin tokoh lirik ing geguritan kasebut?\n1. Ngalami konflik batin\n2. Wis nemokake ketenangan sepenuhe\n3. Golek sinar pangarep-arep anyar\n4. Ragu-ragu lan gundah\n5. Ngrangkul pasrah kanthi tenang\n\nWangsulan kang trep pilihan ing ngisor iki!:",
+      "options": [
+        { "key": "A", "text": "1,3,4" },
+        { "key": "B", "text": "2,3,5" },
+        { "key": "C", "text": "1,2,5" },
+        { "key": "D", "text": "3,4" },
+        { "key": "E", "text": "1,4,5" }
+      ],
+      "answer": "A",
+      "explanation": "Tokoh lirik ngalami konflik batin (\"ing njero ana pusaran sing ora katon\") (1), ngupaya golek sinar pangarep-arep anyar (3), lan isih ngrasakake ragu-ragu/gundah (\"ora saben padhang ateges lega\") (4), durung tekan ketenangan sepenuhé.",
+      "topic": "Geguritan"
+    },
+    {
+      "id": "bahasa-jawa-pg-39",
+      "number": 39,
+      "passageTitle": "Geguritan \"Swaraning Ati\" (kanggo soal 37–39)",
+      "passage": "\"Swaraning Ati\"\n\nNalika wengi ngelus rasa,\nRembulan nglairake cahya lir pangarep-arep.\nAngin alon nyeret swara katresnan,\nMemeleh kaya tembang lirih ing pengimpenan.\nIng sela-sela sepi,\nAti iki padha gulung rasa donga,\nNyilih cahya saka lintang sing gumun,\nNyawiji maring pangarep-arep anyar.\nNanging, ora saben padhang ateges lega,\nKadhang sumunar mung dadi pepethan rasa.\nKaya banyu kali mangalir tenang,\nIng njero ana pusaran sing ora katon.\nAku terus mlaku,\nNggawa swara sing tak titipake marang bengi.\nMuga swara iki nggayuh wujud,\nDadi bukti yen ati durung mati.\nYen esuk teka,\nKembang-kembang ngleluri embun,\nMugo donga iki dadi wungu,\nLan ati iki munggah ing cahya katentreman.",
+      "prompt": "Apa pesan moral sing bisa dikembangake saka geguritan kasebut?\n1. Tetep ngupaya pangarep-arep sanajan ing sepi\n2. Urip perlu digateke kanthi temen supaya untuk katentreman\n3. Kesusahan mesthi mungkasi rasa pangarep-arep\n4. Padhang bisa dimaknani bungah\n5. Pasrah tanpa usaha luwih utama\n\nPilihan:",
+      "options": [
+        { "key": "A", "text": "1,2,4" },
+        { "key": "B", "text": "1,3,4" },
+        { "key": "C", "text": "2,3,5" },
+        { "key": "D", "text": "1,4" },
+        { "key": "E", "text": "3,5" }
+      ],
+      "answer": "A",
+      "explanation": "Geguritan ngajak supaya tetep ngupaya pangarep-arep sanajan ing kahanan sepi (1), nggatekaké urip lan donga supaya antuk katentreman (2), lan padhang nglambangaké kabungahan/katentreman (4). Angka 3 lan 5 kosok balèn karo semangat geguritan.",
+      "topic": "Amanat Geguritan"
+    },
+    {
+      "id": "bahasa-jawa-pg-40",
+      "number": 40,
+      "prompt": "Kagatosna geguritan ngandhap:\nBapa\nMatur nuwun bapa\nKanthi tetesing kringetmu\nTuwuh krenteg ing ati kudu bisa satuhu\nMangerteni babagan ngelmu\n\nManut isi utawa surasne, geguritan kasebut kalebet...",
+      "options": [
+        { "key": "A", "text": "Ode" },
+        { "key": "B", "text": "Himne" },
+        { "key": "C", "text": "Satire" },
+        { "key": "D", "text": "Balada" },
+        { "key": "E", "text": "Romansa" }
+      ],
+      "answer": "A",
+      "explanation": "Ode yaiku geguritan kang isiné pangalembana utawa atur panuwun marang sawijining tokoh/wong kang gedhé jasané (kayata bapa/wong tuwa utawa pahlawan).",
+      "topic": "Jenis Geguritan"
+    }
+  ],
+  "essays": [
+    {
+      "id": "bahasa-jawa-es-1",
+      "number": 1,
+      "prompt": "Assalamu'alaikum warahmatullahi wabarakatuh.\nPara rawuh ingkang kinurmatan,\nIngkang sepisanan, kula nyuwun pangapunten menawi wonten kalepatan utawi kekirangan sajroning panyelenggaraan acara punika.\nMugi puji syukur tansah kita aturaken dhumateng Gusti Allah SWT, ingkang sampun maringi berkah, rahmat, lan kanikmatan, saéngga ing dinten menika kita saged bebarengan nglaksanani acara syukuran kanthi wilujeng, tanpa alangan punapa-punapa.\nSyukuran menika dipunwontenaken minangka wujud rasa syukur dhumateng Gusti Kang Maha Welas lan Maha Asih, awit sampun maringi katentreman, kabagyan, lan kaslametan dhateng kita sedaya.\nMugi kanthi adaning acara syukuran menika, kita sedaya tansah pinaringan kesehatan, rejeki ingkang kathah lan berkah, saha katentreman ing gesang.\n\nTeks sesorah pambagyaharja kasebut kalebu ing perangan .....!",
+      "rubric": "Nyebutake perangan sesorah kanthi trep: Pambuka (Purwaka Basa: salam pambuka, atur pakurmatan, panyuwunan pangapunten, lan puji syukur) sarta Surasa Basa/Isi lan Pangarep-arep (tujuan acara syukuran lan donga pangarep-arep).",
+      "modelAnswer": "Teks sesorah pambagyaharja kasebut kalebu ing perangan Pambuka (Purwaka Basa) lan wiwitaning Isi (Surasa Basa) sarta Pangarep-arep. Rincianipun:\n1. Salam pambuka: \"Assalamu'alaikum warahmatullahi wabarakatuh.\"\n2. Atur pakurmatan/panyapa: \"Para rawuh ingkang kinurmatan\"\n3. Purwaka basa (nyuwun pangapunten lan muji syukur marang Gusti Allah SWT).\n4. Surasa basa/isi lan pangarep-arep (ngandharake tujuan acara syukuran lan pangarep-arep mugi pinaringan kesehatan, rejeki berkah, lan katentreman), déné perangan wasana basa lan salam panutup dereng wonten."
+    },
+    {
+      "id": "bahasa-jawa-es-2",
+      "number": 2,
+      "prompt": "Geguritan: \"Laku Urip\"\n\nLaku urip kudu ngati-ati,\nora kabeh dalan katon padhang,\nkadhang peteng nanging isiné pepadhang,\nsapa sabar bakal nemu padhang sejati.\nSapa sombong bakal tiba,\nsapa andhap asor bakal mulya,\ngusti ora sare, adil ing pamrih,\nsapa nandur kabecikan, bakal ngundhuh kamulyan.\n\nWangsulana pitakon iki:\na. Apa tema utama geguritan \"Laku Urip\"?\nb. Apa tegesé ukara \"gusti ora sare\" ing geguritan kasebut?\nc. Baris \"sapa nandur kabecikan, bakal ngundhuh kamulyan\" ngemot unen-unen kang tegesé...\nd. Apa amanat utawa piwulang kang bisa dijupuk saka geguritan kasebut?\ne. Apa tegese unen-unen \"sapa sabar bakal nemu padhang sejati\"?",
+      "rubric": "Ngandharake limang wangsulan (a–e) adhedhasar isi lan nilai moral geguritan \"Laku Urip\" kanthi runtut lan cetha.",
+      "modelAnswer": "a. Tema utama geguritan \"Laku Urip\" yaiku pitutur luhur babagan tata cara nglakoni urip kanthi sabar, andhap asor, ngati-ati, lan tumindak becik.\nb. Tegesé \"Gusti ora sare\" yaiku Gusti Allah tansah pirsa (ora tau turu/lali) marang kabèh tumindaké manungsa lan bakal maringi piwales kanthi adil.\nc. Unen-unen \"sapa nandur kabecikan, bakal ngundhuh kamulyan\" tegesé sapa waé kang tumindak becik ing uripé bakal nampa kabegjan, pakurmatan, lan wohing kabecikan ing tembé mburi.\nd. Amanaté yaiku ing sajroning urip kita kudu ngati-ati, sabar ngadhepi pacoban, aja sombong, tansah andhap asor, lan sregep tumindak becik amarga Gusti Allah iku adil.\ne. Tegesé \"sapa sabar bakal nemu padhang sejati\" yaiku wong kang sabar lan tabah ngadhepi pepeteng utawa pacoban urip ing tembé bakal nemokaké dalan metu, kabegjan, lan katentreman kang sejati."
+    },
+    {
+      "id": "bahasa-jawa-es-3",
+      "number": 3,
+      "passageTitle": "Wacan: \"Busana Adat Jawa minangka Lambang Tatakrama lan Kabudayan\"",
+      "passage": "Busana adat Jawa ora mung sandhangan sing éndah wujudé, nanging uga nduwèni makna jero bab tata krama lan ajining diri. Wong Jawa nganut falsafah \"ajining diri saka lathi, ajining raga saka busana\". Tegesé, cara nganggo busana dadi gambaran kepribadian lan unggah-ungguh sawijining wong.\nIng acara adat utawa upacara resmi, busana adat Jawa dipigunakaké miturut peranè saben wong. Contoné, pria nganggo beskap, blangkon, lan jarik, déné wanita nganggo kebaya lan sanggul. Saben busana nduwèni pakem lan tata cara panganggoné, kayata cara ngiket jarik utawa nganggo selop sing sopan lan tertib.\nBusana adat uga nggambarake nilai-nilai luhur kabudayan Jawa, kayata andhap asor, kesederhanaan, lan kaendahan sing ora ngluwihi wates. Saka busana iki, kita bisa sinau yèn wong Jawa ngajeni tatanan lan kaanggunan, ora mung kanggo kaéndahan fisik nanging uga kanggo ngurmati pepadhané.\nIng jaman modern saiki, busana adat Jawa wiwit akeh dipadukake karo busana modhèren. Sanajan mangkono, inti saka busana adat ora kena ilang, amarga busana iki minangka identitas budaya lan warisan leluhur sing kudu dilestarèkaké.",
+      "prompt": "Wangsulana pitakon candhake iki!\na. Apa gagasan utama paragraf pisanan teks kasebut?\nb. Apa fungsi busana adat Jawa miturut teks kasebut?\nc. Apa pakem busana pria Jawa sing kasebut ing teks?\nd. Apa nilai budaya sing digambarake saka busana adat Jawa?\ne. Apa pesen utama sing bisa dijupuk saka teks kasebut?",
+      "rubric": "Njawab pitakon a–e adhedhasar isi wacan \"Busana Adat Jawa minangka Lambang Tatakrama lan Kabudayan\" kanthi trep lan jangkep.",
+      "modelAnswer": "a. Gagasan utama paragraf pisanan yaiku busana adat Jawa nduwèni makna jero babagan tata krama lan ajining diri sarta dadi gambaran kepribadian lan unggah-ungguh.\nb. Fungsi busana adat Jawa yaiku minangka sandhangan ing acara adat/upacara resmi miturut perané, gambaran kepribadian lan tata krama, wujud pakurmatan marang pepadhané, sarta identitas budaya lan warisan leluhur.\nc. Pakem busana pria Jawa sing kasebut ing teks yaiku nganggo beskap, blangkon, lan jarik, sarta tata cara panganggoné kayata cara ngiket jarik lan nganggo selop sing sopan lan tertib.\nd. Nilai budaya sing digambaraké yaiku andhap asor, kesederhanaan, kaéndahan sing ora ngluwihi wates, ngajèni tatanan, kaanggunan, lan ngurmati pepadhané.\ne. Pesen utama teks yaiku sanajan ing jaman modern busana adat bisa dipadukaké karo busana modhèren, inti lan makna filosofis busana adat Jawa ora kena ilang lan kudu tetep dilestarèkaké minangka identitas budaya."
+    },
+    {
+      "id": "bahasa-jawa-es-4",
+      "number": 4,
+      "prompt": "Sebutna lan jlentrehna jinis sandiwara!",
+      "rubric": "Nyebutake lan njlentrehake minimal 4–5 jinis sandiwara (manut isine/swasanane kayata tragedi, komedi, tragikomedi, melodrama, opera/sendratari, utawa jinis sandiwara tradhisional/modern).",
+      "modelAnswer": "Jinis-jinis sandiwara miturut isi lan swasanané:\n1. Tragedi (Drama Duka): sandiwara kang nyritakaké lelakon sedhih, kasangsaran, utawa kacilakan tokoh utama nganti pungkasané.\n2. Komedi (Drama Suka): sandiwara kang isiné lucu lan nyenengaké, kerep ngemot sindiran alus kanthi pungkasan kang nyenengaké.\n3. Tragikomedi: sandiwara kang nggabungaké unsur sedhih (tragedi) lan unsur lucu (komedi).\n4. Melodrama: sandiwara kang critané nyentuh rasa/emosi banget lan biasané diiringi musik.\n5. Opera / Sendratari: sandiwara kang pagelarané diutamakaké nganggo tembang/musik (opera) utawa jogèd/tari tanpa dialog lisan (sendratari).\n(Miturut wujud budaya Jawa uga ana sandiwara tradhisional kayata kethoprak, wayang wong, lan ludruk, sarta sandiwara modern)."
+    },
+    {
+      "id": "bahasa-jawa-es-5",
+      "number": 5,
+      "prompt": "Komplitana/lengkapana ukara mawa aksara Jawa kang gothang miturut wacan iki!\n\nAksara ... biasané ... nalika tulisan ... déning swara ... utawa ..., sing ora duwé ...ing ...",
+      "image": "/assets/figures/bjawa-es-45.png",
+      "imageCaption": "Wacan aksara Jawa kanggo ngganepi ukara ing soal 45",
+      "rubric": "Nggenepi tembung-tembung kang gothang ing ukara adhedhasar wacan aksara Jawa lan kaidah panganggone aksara swara kanthi trep.",
+      "modelAnswer": "Wangsulan jangkepé miturut wacan aksara Jawa:\n\"Aksara swara biyasané digunakaké nalika tulisan diwiwiti déning swara vokal utawa tembung manca, sing ora duwé aksara konsonan/pasangan ing ngarepé (wiwitaning tembung).\"\n\nTembung kang gothang:\n1. swara\n2. digunakaké\n3. diwiwiti\n4. vokal\n5. tembung manca / swara liyané\n6. aksara konsonan / pasangan\n7. wiwitaning / ngarepé"
+    }
+  ]
+}

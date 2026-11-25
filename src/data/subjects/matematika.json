@@ -1,0 +1,498 @@
+{
+  "id": "matematika",
+  "name": "Matematika",
+  "shortName": "MTK",
+  "group": "mipa",
+  "schedule": "Selasa, 2 Desember 2025",
+  "durationMinutes": 120,
+  "accentColor": "#A1D7F4",
+  "questions": [
+    {
+      "id": "matematika-pg-1",
+      "number": 1,
+      "prompt": "Aida menabung di bank sebesar Rp 5.000.000,00. Pihak bank memberikan bunga 0,2% setiap bulan. Jika bank tersebut membebankan biaya administrasi sebesar Rp 6.500,00 setiap bulan, jumlah tabungan Aida setelah satu bulan adalah ....",
+      "options": [
+        { "key": "A", "text": "Rp 5.003.500,00" },
+        { "key": "B", "text": "Rp 5.004.500,00" },
+        { "key": "C", "text": "Rp 5.006.500,00" },
+        { "key": "D", "text": "Rp 5.010.000,00" },
+        { "key": "E", "text": "Rp 5.016.500,00" }
+      ],
+      "answer": "A",
+      "explanation": "Bunga 1 bulan = 0,2% × Rp 5.000.000 = Rp 10.000. Saldo setelah dikurangi biaya administrasi = Rp 5.000.000 + Rp 10.000 − Rp 6.500 = Rp 5.003.500,00.",
+      "topic": "Bunga Tabungan"
+    },
+    {
+      "id": "matematika-pg-2",
+      "number": 2,
+      "prompt": "Modal sebesar Rp 1.000.000,00 dipinjamkan selama 1 tahun dengan suku bunga tunggal 2% per bulan. Setelah satu tahun, besar pengembalian modal tersebut adalah ....",
+      "options": [
+        { "key": "A", "text": "Rp 1.100.000,00" },
+        { "key": "B", "text": "Rp 1.200.000,00" },
+        { "key": "C", "text": "Rp 1.240.000,00" },
+        { "key": "D", "text": "Rp 1.250.000,00" },
+        { "key": "E", "text": "Rp 1.365.000,00" }
+      ],
+      "answer": "C",
+      "explanation": "Lama pinjaman 1 tahun = 12 bulan. Bunga = Rp 1.000.000 × 2% × 12 = Rp 240.000. Besar pengembalian = Rp 1.000.000 + Rp 240.000 = Rp 1.240.000,00.",
+      "topic": "Bunga Tunggal"
+    },
+    {
+      "id": "matematika-pg-3",
+      "number": 3,
+      "prompt": "Pak Amin meminjam uang di koperasi sebesar Rp 500.000,00. Jika koperasi memperhitungkan suku bunga tunggal sebesar 1,5% setiap bulan, ia harus mengembalikan pinjamannya sebesar Rp 560.000,00. Lama pinjaman adalah ....",
+      "options": [
+        { "key": "A", "text": "6 bulan" },
+        { "key": "B", "text": "7 bulan" },
+        { "key": "C", "text": "8 bulan" },
+        { "key": "D", "text": "9 bulan" },
+        { "key": "E", "text": "10 bulan" }
+      ],
+      "answer": "C",
+      "explanation": "Besar bunga = Rp 560.000 − Rp 500.000 = Rp 60.000. Bunga per bulan = 1,5% × Rp 500.000 = Rp 7.500. Lama pinjaman t = 60.000 / 7.500 = 8 bulan.",
+      "topic": "Bunga Tunggal"
+    },
+    {
+      "id": "matematika-pg-4",
+      "number": 4,
+      "prompt": "Bu Keisya meminjam uang di koperasi sebesar Rp 3.000.000,00. Setelah 1 tahun, Bu Keisya harus mengembalikan uang sebesar Rp 3.240.000,00. Besar suku bunga (pertahun) yang diberikan koperasi tersebut adalah ....",
+      "options": [
+        { "key": "A", "text": "5%" },
+        { "key": "B", "text": "6%" },
+        { "key": "C", "text": "7%" },
+        { "key": "D", "text": "8%" },
+        { "key": "E", "text": "9%" }
+      ],
+      "answer": "D",
+      "explanation": "Bunga 1 tahun = Rp 3.240.000 − Rp 3.000.000 = Rp 240.000. Persentase suku bunga = (240.000 / 3.000.000) × 100% = 8%.",
+      "topic": "Bunga Tunggal"
+    },
+    {
+      "id": "matematika-pg-5",
+      "number": 5,
+      "prompt": "Uang Ria sebesar Rp 1.200.000,00 didepositokan atas dasar bunga tunggal 9% setahun. Besarnya bunga tabungan Ria yang disimpan selama 5 tahun adalah ....",
+      "options": [
+        { "key": "A", "text": "Rp 450.000,00" },
+        { "key": "B", "text": "Rp 480.000,00" },
+        { "key": "C", "text": "Rp 500.000,00" },
+        { "key": "D", "text": "Rp 540.000,00" },
+        { "key": "E", "text": "Rp 600.000,00" }
+      ],
+      "answer": "D",
+      "explanation": "Bunga = M₀ × i × t = Rp 1.200.000 × 9% × 5 = Rp 1.200.000 × 0,45 = Rp 540.000,00.",
+      "topic": "Bunga Tunggal"
+    },
+    {
+      "id": "matematika-pg-6",
+      "number": 6,
+      "prompt": "Pak Ahmad meminjam uang sebesar Rp 50.000.000,00 untuk usahanya dengan sistem diskonto 4% pertahun (anggap 1 tahun = 360 hari, 1 bulan = 30 hari). Jika pinjaman tersebut dikembalikan setelah 42 bulan, besar modal yang diterima Pak Ahmad adalah ....",
+      "options": [
+        { "key": "A", "text": "Rp 40.500.000,00" },
+        { "key": "B", "text": "Rp 40.000.000,00" },
+        { "key": "C", "text": "Rp 41.000.000,00" },
+        { "key": "D", "text": "Rp 42.000.000,00" },
+        { "key": "E", "text": "Rp 43.000.000,00" }
+      ],
+      "answer": "E",
+      "explanation": "Waktu t = 42 bulan = 42/12 = 3,5 tahun. Diskonto D = Rp 50.000.000 × 4% × 3,5 = Rp 7.000.000. Modal diterima = Rp 50.000.000 − Rp 7.000.000 = Rp 43.000.000,00.",
+      "topic": "Diskonto"
+    },
+    {
+      "id": "matematika-pg-7",
+      "number": 7,
+      "prompt": "Pak Rendra meminjam uang sebesar Rp 15.000.000,00 dengan sistem diskonto 12% pertahun dan akan mengembalikan pinjaman tersebut setelah 210 hari. Besar modal yang diterima Pak Rendra jika dalam setahun dihitung 360 hari adalah ....",
+      "options": [
+        { "key": "A", "text": "Rp 13.850.000,00" },
+        { "key": "B", "text": "Rp 13.950.000,00" },
+        { "key": "C", "text": "Rp 14.000.000,00" },
+        { "key": "D", "text": "Rp 14.550.000,00" },
+        { "key": "E", "text": "Rp 14.950.000,00" }
+      ],
+      "answer": "B",
+      "explanation": "Diskonto D = Rp 15.000.000 × 12% × (210/360) = Rp 15.000.000 × 0,12 × (7/12) = Rp 1.050.000. Modal diterima = Rp 15.000.000 − Rp 1.050.000 = Rp 13.950.000,00.",
+      "topic": "Diskonto"
+    },
+    {
+      "id": "matematika-pg-8",
+      "number": 8,
+      "prompt": "Bu Ana meminjam uang di bank sebesar Rp 10.000.000,00 untuk modal usaha dengan sistem diskonto 10% pertahun. Jika pinjaman tersebut akan dikembalikan setelah 2 tahun 3 bulan, besar diskonto dari pinjaman tersebut adalah ....",
+      "options": [
+        { "key": "A", "text": "Rp 1.750.000,00" },
+        { "key": "B", "text": "Rp 2.250.000,00" },
+        { "key": "C", "text": "Rp 3.000.000,00" },
+        { "key": "D", "text": "Rp 3.550.000,00" },
+        { "key": "E", "text": "Rp 4.750.000,00" }
+      ],
+      "answer": "B",
+      "explanation": "Waktu t = 2 tahun 3 bulan = 2,25 tahun. Besar diskonto D = Rp 10.000.000 × 10% × 2,25 = Rp 2.250.000,00.",
+      "topic": "Diskonto"
+    },
+    {
+      "id": "matematika-pg-9",
+      "number": 9,
+      "prompt": "Pak Danang mendapat pinjaman dengan sistem diskonto 15% pertahun dan akan mengembalikan pinjaman tersebut selama 6 bulan. Jika pinjaman yang diterima Pak Danang adalah sebesar Rp 18.500.000,00 maka pinjaman yang harus dikembalikan saat jatuh tempo adalah ....",
+      "options": [
+        { "key": "A", "text": "Rp 20.000.000,00" },
+        { "key": "B", "text": "Rp 21.000.000,00" },
+        { "key": "C", "text": "Rp 22.000.000,00" },
+        { "key": "D", "text": "Rp 23.000.000,00" },
+        { "key": "E", "text": "Rp 24.000.000,00" }
+      ],
+      "answer": "A",
+      "explanation": "Persentase diskonto 6 bulan = 15% × (6/12) = 7,5% = 0,075. Modal diterima M₀ = M(1 − 0,075) = 0,925M, sehingga M = 18.500.000 / 0,925 = Rp 20.000.000,00.",
+      "topic": "Diskonto"
+    },
+    {
+      "id": "matematika-pg-10",
+      "number": 10,
+      "prompt": "Bu Andin menabung di bank sebesar Rp 8.000.000,00 dan pihak bank memberikan suku bunga majemuk 5% pertahun. Jika tabungan tersebut tidak pernah diambil dan biaya administrasi diabaikan, besar tabungan Bu Andin setelah 3 tahun adalah .... *(1,05³ = 1,157625 ; 1,005³ = 1,051507512)",
+      "options": [
+        { "key": "A", "text": "Rp 7.261.000,00" },
+        { "key": "B", "text": "Rp 8.261.000,00" },
+        { "key": "C", "text": "Rp 9.261.000,00" },
+        { "key": "D", "text": "Rp 9.260.000,00" },
+        { "key": "E", "text": "Rp 9.560.000,00" }
+      ],
+      "answer": "C",
+      "explanation": "M₃ = M₀(1 + i)³ = Rp 8.000.000 × (1 + 0,05)³ = Rp 8.000.000 × 1,157625 = Rp 9.261.000,00.",
+      "topic": "Bunga Majemuk"
+    },
+    {
+      "id": "matematika-pg-11",
+      "number": 11,
+      "prompt": "Sari menabung di bank sebesar Rp 2.000.000,00 dengan suku bunga majemuk 3% pertahun. Apabila uang itu tidak pernah diambil, besar tabungan Sari setelah 2 tahun adalah .... *(1,3² = 1,69 ; 1,03² = 1,0609 ; 1,003² = 1,006009)",
+      "options": [
+        { "key": "A", "text": "Rp 2.000.000,00" },
+        { "key": "B", "text": "Rp 2.012.018,00" },
+        { "key": "C", "text": "Rp 2.121.800,00" },
+        { "key": "D", "text": "Rp 3.380.000,00" },
+        { "key": "E", "text": "Rp 21.218.000,00" }
+      ],
+      "answer": "C",
+      "explanation": "M₂ = Rp 2.000.000 × (1 + 0,03)² = Rp 2.000.000 × 1,0609 = Rp 2.121.800,00.",
+      "topic": "Bunga Majemuk"
+    },
+    {
+      "id": "matematika-pg-12",
+      "number": 12,
+      "prompt": "Rina menabung uang sebesar Rp 2.000.000,00 di bank. Pihak bank memberikan bunga majemuk 10%. Bunga dihitung setiap akhir tahun dan menambahkan ke saldo sebelumnya. Besar bunga tabungan Rina setelah 3 tahun adalah .... *(1,001³ = 1,003003 ; 1,01³ = 1,030301 ; 1,1³ = 1,331)",
+      "options": [
+        { "key": "A", "text": "Rp 2.662.000,00" },
+        { "key": "B", "text": "Rp 2.060.602,00" },
+        { "key": "C", "text": "Rp 1.006.006,00" },
+        { "key": "D", "text": "Rp 662.000,00" },
+        { "key": "E", "text": "Rp 60.602,00" }
+      ],
+      "answer": "D",
+      "explanation": "Saldo akhir M₃ = Rp 2.000.000 × 1,1³ = Rp 2.000.000 × 1,331 = Rp 2.662.000. Besar bunga = Rp 2.662.000 − Rp 2.000.000 = Rp 662.000,00.",
+      "topic": "Bunga Majemuk"
+    },
+    {
+      "id": "matematika-pg-13",
+      "number": 13,
+      "prompt": "Sebuah kafe menyediakan 4 jenis kopi, 3 jenis teh, dan 5 jenis jus buah. Jika seseorang ingin memesan minuman, maka banyak pilihan minuman berbeda yang dapat dipilih adalah ....",
+      "options": [
+        { "key": "A", "text": "7" },
+        { "key": "B", "text": "12" },
+        { "key": "C", "text": "15" },
+        { "key": "D", "text": "20" },
+        { "key": "E", "text": "60" }
+      ],
+      "answer": "B",
+      "explanation": "Menggunakan aturan penjumlahan karena hanya memilih satu jenis minuman: 4 + 3 + 5 = 12 pilihan.",
+      "topic": "Aturan Penjumlahan"
+    },
+    {
+      "id": "matematika-pg-14",
+      "number": 14,
+      "prompt": "Terdapat 4 orang putri dan 3 orang putra yang akan dipilih untuk mewakili sekolah dalam mengikuti lomba tari. Jika sekolah hanya akan mengajukan seorang murid, maka banyak cara memilih murid tersebut ada sebanyak ....",
+      "options": [
+        { "key": "A", "text": "7 cara" },
+        { "key": "B", "text": "12 cara" },
+        { "key": "C", "text": "21 cara" },
+        { "key": "D", "text": "42 cara" },
+        { "key": "E", "text": "104 cara" }
+      ],
+      "answer": "A",
+      "explanation": "Karena hanya memilih seorang murid (putri atau putra), banyak cara = 4 + 3 = 7 cara.",
+      "topic": "Aturan Penjumlahan"
+    },
+    {
+      "id": "matematika-pg-15",
+      "number": 15,
+      "prompt": "Tari akan membeli sebuah sepeda motor. Ketika ia berkunjung ke ruang pamer sepeda motor, ternyata ada 4 pilihan merek sepeda motor dan masing-masing merek menyediakan 6 pilihan warna. Banyak cara Tari memilih merek dan warna sepeda motor adalah ....",
+      "options": [
+        { "key": "A", "text": "4 cara" },
+        { "key": "B", "text": "6 cara" },
+        { "key": "C", "text": "10 cara" },
+        { "key": "D", "text": "18 cara" },
+        { "key": "E", "text": "24 cara" }
+      ],
+      "answer": "E",
+      "explanation": "Menggunakan aturan perkalian: 4 merek × 6 warna = 24 cara.",
+      "topic": "Aturan Perkalian"
+    },
+    {
+      "id": "matematika-pg-16",
+      "number": 16,
+      "prompt": "Sebuah gedung olahraga mempunyai 6 buah pintu. Seseorang akan masuk ke gedung tersebut dan keluar melalui pintu yang berbeda. Banyak cara orang tersebut masuk dan keluar gedung tersebut adalah ....",
+      "options": [
+        { "key": "A", "text": "36" },
+        { "key": "B", "text": "30" },
+        { "key": "C", "text": "20" },
+        { "key": "D", "text": "6" },
+        { "key": "E", "text": "5" }
+      ],
+      "answer": "B",
+      "explanation": "Pintu masuk ada 6 pilihan dan pintu keluar (berbeda dari pintu masuk) ada 5 pilihan. Total cara = 6 × 5 = 30 cara.",
+      "topic": "Aturan Perkalian"
+    },
+    {
+      "id": "matematika-pg-17",
+      "number": 17,
+      "prompt": "Nomor pegawai pada suatu pabrik terdiri atas tiga angka dengan angka pertama bukan nol. Banyak nomor pegawai yang ganjil adalah ....",
+      "options": [
+        { "key": "A", "text": "64" },
+        { "key": "B", "text": "85" },
+        { "key": "C", "text": "450" },
+        { "key": "D", "text": "425" },
+        { "key": "E", "text": "324" }
+      ],
+      "answer": "C",
+      "explanation": "Angka pertama (1–9) ada 9 pilihan, angka kedua (0–9) ada 10 pilihan, angka ketiga ganjil (1, 3, 5, 7, 9) ada 5 pilihan. Total = 9 × 10 × 5 = 450.",
+      "topic": "Kaidah Pencacahan"
+    },
+    {
+      "id": "matematika-pg-18",
+      "number": 18,
+      "prompt": "Banyaknya bilangan antara 2.000 dan 5.000 yang dapat disusun dari angka 0, 1, 2, 3, 4, 5, dan 6 dengan syarat tidak ada angka yang sama adalah ....",
+      "options": [
+        { "key": "A", "text": "180" },
+        { "key": "B", "text": "240" },
+        { "key": "C", "text": "360" },
+        { "key": "D", "text": "540" },
+        { "key": "E", "text": "720" }
+      ],
+      "answer": "C",
+      "explanation": "Ribuan hanya boleh angka 2, 3, atau 4 (3 pilihan). Sisa 6 angka untuk ratusan, 5 untuk puluhan, dan 4 untuk satuan. Total = 3 × 6 × 5 × 4 = 360.",
+      "topic": "Kaidah Pencacahan"
+    },
+    {
+      "id": "matematika-pg-19",
+      "number": 19,
+      "prompt": "Luki adalah panitia bazar di sekolahnya. Dia mendapat tugas dari ketua pelaksana untuk membuat kupon. Dia ingin di setiap kupon memiliki kode akses yang unik. Kode akses kupon bazar itu memiliki lima karakter dengan format [AXBYC], dengan A, B, dan C menyatakan huruf, serta X dan Y menyatakan angka. Tidak boleh ada angka dan huruf yang diulang. Banyak kode akses berbeda yang dapat dibuat Luki adalah ....",
+      "options": [
+        { "key": "A", "text": "1.263.600" },
+        { "key": "B", "text": "1.352.000" },
+        { "key": "C", "text": "1.404.000" },
+        { "key": "D", "text": "1.423.656" },
+        { "key": "E", "text": "1.757.600" }
+      ],
+      "answer": "C",
+      "explanation": "Untuk 3 huruf berbeda (A, B, C) dari 26 huruf = 26 × 25 × 24 = 15.600. Untuk 2 angka berbeda (X, Y) dari 10 angka = 10 × 9 = 90. Total = 15.600 × 90 = 1.404.000.",
+      "topic": "Kaidah Pencacahan"
+    },
+    {
+      "id": "matematika-pg-20",
+      "number": 20,
+      "prompt": "Tiga laki-laki dan tiga perempuan duduk berjajar pada sebuah bangku. Jika yang menempati pinggir bangku harus laki-laki, maka banyaknya susunan posisi duduk yang mungkin adalah ....",
+      "options": [
+        { "key": "A", "text": "6" },
+        { "key": "B", "text": "24" },
+        { "key": "C", "text": "120" },
+        { "key": "D", "text": "144" },
+        { "key": "E", "text": "720" }
+      ],
+      "answer": "D",
+      "explanation": "Dua posisi pinggir diisi 2 dari 3 laki-laki: P(3, 2) = 3 × 2 = 6 cara. Empat posisi tengah diisi 4 orang sisanya: 4! = 24 cara. Total = 6 × 24 = 144 susunan.",
+      "topic": "Permutasi"
+    },
+    {
+      "id": "matematika-pg-21",
+      "number": 21,
+      "prompt": "Dalam sebuah rapat, akan diadakan pemilihan pengurus inti. Dari 9 orang calon, akan dipilih 3 orang untuk menjadi ketua, sekretaris, dan bendahara. Banyak susunan pengurus inti yang mungkin terbentuk adalah ....",
+      "options": [
+        { "key": "A", "text": "9" },
+        { "key": "B", "text": "72" },
+        { "key": "C", "text": "84" },
+        { "key": "D", "text": "504" },
+        { "key": "E", "text": "720" }
+      ],
+      "answer": "D",
+      "explanation": "Karena jabatan berbeda (urutan diperhatikan), gunakan permutasi P(9, 3) = 9 × 8 × 7 = 504.",
+      "topic": "Permutasi"
+    },
+    {
+      "id": "matematika-pg-22",
+      "number": 22,
+      "prompt": "Banyaknya susunan huruf yang berbeda yang dapat dibentuk dari huruf-huruf penyusun kata \"MISSISSIPI\" adalah ....",
+      "options": [
+        { "key": "A", "text": "6.300" },
+        { "key": "B", "text": "2.100" },
+        { "key": "C", "text": "1.050" },
+        { "key": "D", "text": "525" },
+        { "key": "E", "text": "200" }
+      ],
+      "answer": "A",
+      "explanation": "Kata \"MISSISSIPI\" memiliki 10 huruf dengan unsur sama: I = 4 dan S = 4 (M = 1, P = 1). Banyak susunan = 10! / (4! × 4!) = 3.628.800 / (24 × 24) = 6.300.",
+      "topic": "Permutasi Unsur Sama"
+    },
+    {
+      "id": "matematika-pg-23",
+      "number": 23,
+      "prompt": "Dalam suatu kegiatan internasional, terdapat 2 orang Amerika, 4 orang Prancis, 4 orang Jerman, dan 2 orang Italia. Mereka diposisikan duduk melingkar dengan syarat warga negara yang sama harus duduk berdampingan. Banyak cara mengatur susunan duduk mereka adalah ....",
+      "options": [
+        { "key": "A", "text": "1.152" },
+        { "key": "B", "text": "2.304" },
+        { "key": "C", "text": "4.608" },
+        { "key": "D", "text": "13.824" },
+        { "key": "E", "text": "27.648" }
+      ],
+      "answer": "D",
+      "explanation": "Ada 4 kelompok negara duduk melingkar: (4 − 1)! = 3! = 6 cara. Susunan dalam tiap kelompok: 2! × 4! × 4! × 2! = 2 × 24 × 24 × 2 = 2.304. Total = 6 × 2.304 = 13.824.",
+      "topic": "Permutasi Siklis"
+    },
+    {
+      "id": "matematika-pg-24",
+      "number": 24,
+      "prompt": "Dari 6 orang pria dan 4 orang wanita, akan dipilih 3 orang untuk menjadi delegasi. Banyak cara memilih 3 orang delegasi tersebut jika harus terdiri atas 2 pria dan 1 wanita adalah ....",
+      "options": [
+        { "key": "A", "text": "120" },
+        { "key": "B", "text": "60" },
+        { "key": "C", "text": "48" },
+        { "key": "D", "text": "30" },
+        { "key": "E", "text": "24" }
+      ],
+      "answer": "B",
+      "explanation": "Banyak cara = C(6, 2) × C(4, 1) = (6 × 5 / 2) × 4 = 15 × 4 = 60 cara.",
+      "topic": "Kombinasi"
+    },
+    {
+      "id": "matematika-pg-25",
+      "number": 25,
+      "prompt": "Seorang murid diminta mengerjakan 8 soal dari 18 soal dengan ketentuan soal nomor 1 sampai 5 harus dikerjakan. Banyak susunan soal yang dapat dipilih murid tersebut adalah ....",
+      "options": [
+        { "key": "A", "text": "1.716" },
+        { "key": "B", "text": "816" },
+        { "key": "C", "text": "626" },
+        { "key": "D", "text": "286" },
+        { "key": "E", "text": "56" }
+      ],
+      "answer": "D",
+      "explanation": "Karena 5 soal wajib dikerjakan, murid tinggal memilih 8 − 5 = 3 soal dari 18 − 5 = 13 soal tersisa. Banyak cara = C(13, 3) = (13 × 12 × 11) / 6 = 286.",
+      "topic": "Kombinasi"
+    },
+    {
+      "id": "matematika-pg-26",
+      "number": 26,
+      "prompt": "Sebuah kotak berisi 6 bola merah dan 4 bola biru. Jika diambil 2 bola sekaligus secara acak, peluang terambilnya kedua bola tersebut berbeda warna adalah ....",
+      "options": [
+        { "key": "A", "text": "3/5" },
+        { "key": "B", "text": "2/5" },
+        { "key": "C", "text": "8/15" },
+        { "key": "D", "text": "4/15" },
+        { "key": "E", "text": "1/3" }
+      ],
+      "answer": "C",
+      "explanation": "n(S) = C(10, 2) = 45. Kejadian 1 merah dan 1 biru: n(A) = C(6, 1) × C(4, 1) = 24. Peluang P(A) = 24/45 = 8/15.",
+      "topic": "Peluang Kejadian"
+    },
+    {
+      "id": "matematika-pg-27",
+      "number": 27,
+      "prompt": "Pak Amir mempunyai 10 bohlam lampu, 4 di antaranya rusak. Pak Amir mengambil 3 buah bohlam lampu secara acak untuk dipasang. Peluang mendapatkan 3 buah bohlam lampu dalam kondisi baik adalah ....",
+      "options": [
+        { "key": "A", "text": "5/6" },
+        { "key": "B", "text": "4/6" },
+        { "key": "C", "text": "3/6" },
+        { "key": "D", "text": "2/6" },
+        { "key": "E", "text": "1/6" }
+      ],
+      "answer": "E",
+      "explanation": "Bohlam baik = 10 − 4 = 6. n(S) = C(10, 3) = 120 dan n(A) = C(6, 3) = 20. Peluang P(A) = 20/120 = 1/6.",
+      "topic": "Peluang Kejadian"
+    },
+    {
+      "id": "matematika-pg-28",
+      "number": 28,
+      "prompt": "Pengibar bendera yang terdiri atas tiga orang akan dipilih dari 3 siswa laki-laki dan 5 siswa perempuan. Peluang yang terpilih paling sedikit 1 laki-laki adalah ....",
+      "options": [
+        { "key": "A", "text": "21/28" },
+        { "key": "B", "text": "23/28" },
+        { "key": "C", "text": "24/28" },
+        { "key": "D", "text": "25/28" },
+        { "key": "E", "text": "27/28" }
+      ],
+      "answer": "B",
+      "explanation": "Total siswa = 8, sehingga n(S) = C(8, 3) = 56. Komplemen (semua perempuan) = C(5, 3) = 10. Peluang minimal 1 laki-laki = 1 − 10/56 = 46/56 = 23/28.",
+      "topic": "Peluang Komplemen"
+    },
+    {
+      "id": "matematika-pg-29",
+      "number": 29,
+      "prompt": "Dalam satu kotak terdapat 15 buah telur yang 10 di antaranya adalah telur bebek. Jika diambil 2 telur secara acak, maka peluang terambil keduanya bukan telur ayam adalah ....",
+      "options": [
+        { "key": "A", "text": "21/2" },
+        { "key": "B", "text": "19/21" },
+        { "key": "C", "text": "4/7" },
+        { "key": "D", "text": "3/7" },
+        { "key": "E", "text": "2/21" }
+      ],
+      "answer": "D",
+      "explanation": "Keduanya bukan telur ayam berarti keduanya telur bebek (ada 10). n(S) = C(15, 2) = 105 dan n(A) = C(10, 2) = 45. Peluang P(A) = 45/105 = 3/7.",
+      "topic": "Peluang Kejadian"
+    },
+    {
+      "id": "matematika-pg-30",
+      "number": 30,
+      "prompt": "Sebuah kotak berisi 4 bola hijau dan 6 bola merah. Dari kotak tersebut akan diambil 3 bola sekaligus secara acak. Percobaan pengambilan ini dilakukan sebanyak 100 kali (dengan pengembalian setiap kali pengambilan). Frekuensi harapan terambilnya 2 bola hijau dan 1 bola merah adalah ....",
+      "options": [
+        { "key": "A", "text": "20 kali" },
+        { "key": "B", "text": "30 kali" },
+        { "key": "C", "text": "40 kali" },
+        { "key": "D", "text": "50 kali" },
+        { "key": "E", "text": "60 kali" }
+      ],
+      "answer": "B",
+      "explanation": "n(S) = C(10, 3) = 120. n(A) = C(4, 2) × C(6, 1) = 6 × 6 = 36. Peluang P(A) = 36/120 = 3/10. Frekuensi harapan = (3/10) × 100 = 30 kali.",
+      "topic": "Frekuensi Harapan"
+    }
+  ],
+  "essays": [
+    {
+      "id": "matematika-es-1",
+      "number": 31,
+      "prompt": "Seorang pedagang bakso meminjam uang dengan sistem diskonto 4,8% per semester dan akan mengembalikan pinjaman tersebut dengan kurun waktu 15 bulan. Jika uang yang diterima pedagang bakso tersebut pada awal periode sebesar Rp 7.040.000,00, tentukan besar pinjaman yang harus dikembalikan saat jatuh tempo!",
+      "rubric": "Mengonversi waktu 15 bulan ke semester (2,5 semester), menghitung persentase diskonto total (12%), menggunakan rumus M₀ = M(1 − i × t), dan memperoleh M = Rp 8.000.000,00.",
+      "modelAnswer": "Diketahui: i = 4,8% per semester, t = 15 bulan = 15/6 = 2,5 semester, M₀ = Rp 7.040.000,00.\nPersentase diskonto = i × t = 4,8% × 2,5 = 12% = 0,12.\nM₀ = M(1 − 0,12)\n7.040.000 = 0,88 M\nM = 7.040.000 / 0,88 = Rp 8.000.000,00.\nJadi, besar pinjaman yang harus dikembalikan saat jatuh tempo adalah Rp 8.000.000,00."
+    },
+    {
+      "id": "matematika-es-2",
+      "number": 32,
+      "prompt": "Pak Karta menabung di bank sebesar Rp 12.000.000,00. Bank tersebut memberikan bunga majemuk 5% pertahun. Tentukan jumlah uang Pak Karta setelah 2 tahun!\n*(1,005² = 1,010025 ; 1,05² = 1,1025 ; 1,5² = 2,25)",
+      "rubric": "Menggunakan rumus bunga majemuk Mₙ = M₀(1 + i)ⁿ dengan i = 0,05 dan n = 2, memilih nilai 1,05² = 1,1025, dan memperoleh Rp 13.230.000,00.",
+      "modelAnswer": "Diketahui: M₀ = Rp 12.000.000,00, i = 5% = 0,05 per tahun, n = 2 tahun.\nM₂ = M₀(1 + i)²\nM₂ = 12.000.000 × (1 + 0,05)²\nM₂ = 12.000.000 × 1,05²\nM₂ = 12.000.000 × 1,1025 = Rp 13.230.000,00.\nJadi, jumlah uang Pak Karta setelah 2 tahun adalah Rp 13.230.000,00."
+    },
+    {
+      "id": "matematika-es-3",
+      "number": 33,
+      "prompt": "Terdapat 3 buku Matematika, 2 buku Fisika, dan 5 buku Geografi yang berbeda akan disusun secara berjajar ke dalam rak yang dapat memuat semua buku. Berapa banyak susunan yang mungkin jika buku yang sejenis harus disusun secara berkelompok?",
+      "rubric": "Menghitung permutasi antar kelompok (3!), permutasi dalam masing-masing kelompok (3!, 2!, 5!), lalu mengalikannya hingga mendapat 8.640 susunan.",
+      "modelAnswer": "Banyak kelompok jenis buku ada 3 (Matematika, Fisika, Geografi), sehingga urutan antarkelompok = 3! = 6.\nUrutan dalam masing-masing kelompok:\n- Buku Matematika = 3! = 6\n- Buku Fisika = 2! = 2\n- Buku Geografi = 5! = 120\nTotal susunan = 3! × 3! × 2! × 5! = 6 × 6 × 2 × 120 = 8.640 susunan."
+    },
+    {
+      "id": "matematika-es-4",
+      "number": 34,
+      "prompt": "Andi beserta 9 orang temannya bermaksud membentuk suatu tim bola voli yang terdiri atas 6 orang. Jika Andi harus menjadi anggota tim tersebut, tentukan banyaknya tim yang mungkin dapat dibentuk!",
+      "rubric": "Menentukan sisa pemain yang harus dipilih (5 orang dari 9 teman Andi), menggunakan kombinasi C(9, 5), dan memperoleh 126 tim.",
+      "modelAnswer": "Total calon pemain = 1 (Andi) + 9 teman = 10 orang.\nKarena Andi wajib menjadi anggota tim berjumlah 6 orang, maka tinggal memilih 6 − 1 = 5 orang dari 9 teman Andi.\nBanyak tim = C(9, 5) = 9! / (5! × 4!) = (9 × 8 × 7 × 6) / (4 × 3 × 2 × 1) = 126 tim."
+    },
+    {
+      "id": "matematika-es-5",
+      "number": 35,
+      "prompt": "Sebuah kantong berisi 7 bola merah dan 3 bola hijau. Tiga bola diambil sekaligus secara acak. Hasil pengambilan bola dikembalikan lagi. Proses pengambilan dilakukan sebanyak 180 kali. Tentukan frekuensi harapan terambil paling sedikit 2 bola merah!",
+      "rubric": "Menghitung n(S) = C(10, 3) = 120, menghitung n(A) = C(7, 2)C(3, 1) + C(7, 3) = 98, menghitung P(A) = 98/120 = 49/60, dan mengalikan dengan 180 untuk memperoleh 147 kali.",
+      "modelAnswer": "Total bola = 7 + 3 = 10, diambil 3 bola sekaligus:\nn(S) = C(10, 3) = (10 × 9 × 8) / 6 = 120.\nKejadian A (paling sedikit 2 bola merah):\n- 2 merah dan 1 hijau: C(7, 2) × C(3, 1) = 21 × 3 = 63\n- 3 merah: C(7, 3) = 35\nn(A) = 63 + 35 = 98.\nP(A) = 98/120 = 49/60.\nFrekuensi harapan = P(A) × 180 = (49/60) × 180 = 147 kali."
+    }
+  ]
+}

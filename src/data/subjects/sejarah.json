@@ -1,0 +1,648 @@
+{
+  "id": "sejarah",
+  "name": "Sejarah",
+  "shortName": "SEJ",
+  "group": "umum",
+  "schedule": "Selasa, 2 Desember 2025",
+  "durationMinutes": 90,
+  "accentColor": "#F9D55C",
+  "questions": [
+    {
+      "id": "sejarah-pg-1",
+      "number": 1,
+      "prompt": "Pada awal kemerdekaan Indonesia harus menghadapi ancaman disintegrasi yang berasal dari dalam dan luar negeri. Ancaman disintegrasi dari dalam negeri pada masa itu berupa....",
+      "options": [
+        { "key": "A", "text": "Dominasi kerajaan-kerajaan lokal" },
+        { "key": "B", "text": "Dukungan rakyat bagi kemerdekaan" },
+        { "key": "C", "text": "Agresi militer yang dijalankan Belanda" },
+        { "key": "D", "text": "Konflik dan pergolakan di sejumlah daerah" },
+        { "key": "E", "text": "Serangan dari pasukan Sekutu dan NICA" }
+      ],
+      "answer": "D",
+      "explanation": "Ancaman disintegrasi dari dalam negeri pada awal kemerdekaan (1945–1965) berupa berbagai konflik dan pergolakan daerah seperti PKI Madiun, DI/TII, APRA, Andi Azis, RMS, PRRI, dan Permesta, sedangkan agresi Belanda dan serangan Sekutu/NICA berasal dari luar negeri.",
+      "topic": "Ancaman Disintegrasi Bangsa"
+    },
+    {
+      "id": "sejarah-pg-2",
+      "number": 2,
+      "prompt": "Gerakan separatis di bawah ini yang merupakan peristiwa konflik dan pergerakan yang berkaitan dengan faktor kepentingan adalah....",
+      "options": [
+        { "key": "A", "text": "DI/TII dan Kahar Muzakar" },
+        { "key": "B", "text": "RMS, Andi Azis, dan APRA" },
+        { "key": "C", "text": "PKI dan Permesta" },
+        { "key": "D", "text": "PRRI dan APRA" },
+        { "key": "E", "text": "RMS dan PKI" }
+      ],
+      "answer": "B",
+      "explanation": "Pemberontakan APRA, Andi Azis, dan RMS berkaitan dengan faktor kepentingan (vested interest), yakni keinginan kelompok eks-KNIL dan elite negara bagian RIS untuk mempertahankan status militer serta bentuk negara federal.",
+      "topic": "Pergolakan Faktor Kepentingan"
+    },
+    {
+      "id": "sejarah-pg-3",
+      "number": 3,
+      "prompt": "Di Indonesia pernah mengalami gangguan keamanan dalam negeri seperti peristiwa Gerakan PKI Madiun, DI/TII, Permesta, dan PRRI. Pemberontakan Permesta di Sulawesi memiliki kesamaan latar belakang dengan Pemberontakan PRRI di Sumatera. Kedua gerakan tersebut dilatarbelakangi sama-sama menginginkan adanya....",
+      "options": [
+        { "key": "A", "text": "Kebijakan yang sesuai keinginan rakyat" },
+        { "key": "B", "text": "Pelaksanaan pemerintahan yang demokratis" },
+        { "key": "C", "text": "Penerapan kebijakan yang lunak dan terbuka" },
+        { "key": "D", "text": "Kebebasan untuk mengatur pemerintahan sendiri" },
+        { "key": "E", "text": "Perhatian pemerintahan pusat terhadap pemerintahan daerah" }
+      ],
+      "answer": "E",
+      "explanation": "PRRI di Sumatera dan Permesta di Sulawesi dilatarbelakangi rasa ketidakpuasan daerah terhadap pemerintah pusat karena ketimpangan pembangunan serta kurangnya perhatian pusat terhadap otonomi dan kesejahteraan daerah.",
+      "topic": "Pemberontakan PRRI dan Permesta"
+    },
+    {
+      "id": "sejarah-pg-4",
+      "number": 4,
+      "prompt": "PRRI merupakan gerakan pemberontakan yang dideklarasikan di Sumatera Barat pada 15 Februari 1958. Terjadinya pemberontakan tersebut memantik kesadaran pemerintah pusat untuk....",
+      "options": [
+        { "key": "A", "text": "Menghindari kebijakan-kebijakan yang memberatkan pemerintah daerah" },
+        { "key": "B", "text": "Memperhatikan aspirasi rakyat daerah dalam menyusun undang-undang" },
+        { "key": "C", "text": "Memeratakan pembangunan daerah-daerah untuk kemajuan bangsa" },
+        { "key": "D", "text": "Melibatkan pasukan di daerah dalam kegiatan Pertahanan Nasional" },
+        { "key": "E", "text": "Mengurangi konflik antara pasukan TNI dan mantan anggota KNIL" }
+      ],
+      "answer": "C",
+      "explanation": "Pemberontakan PRRI menyadarkan pemerintah pusat akan pentingnya pemerataan pembangunan dan alokasi anggaran yang adil bagi seluruh daerah di luar Pulau Jawa untuk mencegah kecemburuan sosial dan disintegrasi.",
+      "topic": "Dampak Pemberontakan PRRI"
+    },
+    {
+      "id": "sejarah-pg-5",
+      "number": 5,
+      "prompt": "Setelah vakum pada masa pendudukan Jepang, PKI kembali menunjukkan pergerakan pasca Proklamasi Kemerdekaan Indonesia. Kembalinya pergerakan PKI tidak lepas dari....",
+      "options": [
+        { "key": "A", "text": "Dikeluarkannya maklumat pemerintah pada tanggal 3 November 1945" },
+        { "key": "B", "text": "Pemberlakuan rekonstruksi dan rasionalisasi Angkatan Perang" },
+        { "key": "C", "text": "Berdirinya Front Nasional yang menentang ideologi Pancasila" },
+        { "key": "D", "text": "Pembentukan Front Demokrasi Rakyat oleh Amir Syarifuddin" },
+        { "key": "E", "text": "Kembalinya Musso dari Uni Soviet ke Indonesia" }
+      ],
+      "answer": "A",
+      "explanation": "Maklumat Pemerintah tanggal 3 November 1945 menganjurkan pembentukan partai-partai politik secara luas. Kebijakan ini dimanfaatkan oleh PKI untuk kembali bergerak secara terbuka di panggung politik Indonesia.",
+      "topic": "Pergerakan PKI Awal Kemerdekaan"
+    },
+    {
+      "id": "sejarah-pg-6",
+      "number": 6,
+      "prompt": "Salah satu akibat dari ditandatanganinya Perjanjian Renville antara Indonesia dengan Belanda adalah terjadinya peristiwa pemberontakan oleh....",
+      "options": [
+        { "key": "A", "text": "Andi Azis" },
+        { "key": "B", "text": "APRA" },
+        { "key": "C", "text": "DI/TII" },
+        { "key": "D", "text": "RMS" },
+        { "key": "E", "text": "PRRI" }
+      ],
+      "answer": "C",
+      "explanation": "Perjanjian Renville memaksa pasukan TNI hijrah dari Jawa Barat ke wilayah RI di Yogyakarta. Kekecewaan atas perjanjian ini mendorong S.M. Kartosuwiryo menolak hijrah dan mendirikan Negara Islam Indonesia (DI/TII) di Jawa Barat.",
+      "topic": "Pemberontakan DI/TII"
+    },
+    {
+      "id": "sejarah-pg-7",
+      "number": 7,
+      "prompt": "Untuk menghadapi Pemberontakan RMS pemerintah mengirimkan sejumlah tokoh asli Maluku untuk melakukan perundingan dengan Soumokil. Tokoh yang dikirim antara lain J. Leimena, Putuhena, Paleupeessi, dan Rehattu. Akan tetapi langkah ini ditolak oleh Soumokil dan para pengikutnya. Berdasarkan wacana di atas dapat diketahui bahwa....",
+      "options": [
+        { "key": "A", "text": "Penumpasan terhadap pemberontakan yang mengancam integrasi bangsa Indonesia hanya dapat diselesaikan melalui cara militer" },
+        { "key": "B", "text": "Pemerintah Indonesia tetap mengedepankan cara damai untuk menghadapi pemberontakan yang mengancam integrasi bangsa" },
+        { "key": "C", "text": "Upaya menghadapi pemberontakan melalui jalur perundingan harus melibatkan pihak ketiga sebagai mediator" },
+        { "key": "D", "text": "Gerakan pemberontakan di Indonesia pada 1945–1965 tidak berhasil ditumpas melalui upaya perundingan" },
+        { "key": "E", "text": "Pemerintah pusat harus melibatkan tokoh-tokoh daerah untuk mencegah upaya disintegrasi bangsa" }
+      ],
+      "answer": "B",
+      "explanation": "Pengiriman misi damai yang dipimpin tokoh Maluku seperti Dr. J. Leimena sebelum melakukan operasi militer menunjukkan bahwa pemerintah Indonesia selalu mengedepankan jalan damai (persuasif) terlebih dahulu.",
+      "topic": "Penumpasan Pemberontakan RMS"
+    },
+    {
+      "id": "sejarah-pg-8",
+      "number": 8,
+      "prompt": "Pemberontakan yang dipimpin oleh Kapten Raymond Westerling, Andi Azis, dan Soumokil dilatarbelakangi oleh permasalahan yang sama. Masalah tersebut terkait dengan keinginan untuk....",
+      "options": [
+        { "key": "A", "text": "Memisahkan diri dari Indonesia" },
+        { "key": "B", "text": "Mempertahankan bentuk negara federal di Indonesia" },
+        { "key": "C", "text": "Menolak pembentukan Negara Indonesia Timur (NIT)" },
+        { "key": "D", "text": "Memperoleh status kemiliteran yang jelas dalam NKRI" },
+        { "key": "E", "text": "Menolak kedatangan pasukan TNI dari Jakarta ke daerah konflik" }
+      ],
+      "answer": "B",
+      "explanation": "APRA (Westerling), Andi Azis, dan RMS (Soumokil) sama-sama muncul pada masa Republik Indonesia Serikat (RIS) karena penolakan terhadap peleburan negara bagian ke dalam NKRI dan keinginan mempertahankan bentuk negara federal.",
+      "topic": "Pemberontakan Era RIS"
+    },
+    {
+      "id": "sejarah-pg-9",
+      "number": 9,
+      "prompt": "Ismail Marzuki merupakan seorang tokoh pemersatu bangsa yang menggunakan seni sebagai media untuk menciptakan integrasi. Lagu-lagu yang diciptakannya sangat diwarnai oleh semangat kecintaannya terhadap tanah air. Berikut ini yang bukan karyanya....",
+      "options": [
+        { "key": "A", "text": "Rayuan Pulau Kelapa" },
+        { "key": "B", "text": "Sepasang Mata Bola" },
+        { "key": "C", "text": "Halo-Halo Bandung" },
+        { "key": "D", "text": "Selendang Sutera" },
+        { "key": "E", "text": "Maju Tak Gentar" }
+      ],
+      "answer": "E",
+      "explanation": "Lagu 'Maju Tak Gentar' adalah ciptaan Cornel Simanjuntak, sedangkan Rayuan Pulau Kelapa, Sepasang Mata Bola, Halo-Halo Bandung, dan Selendang Sutera merupakan karya Ismail Marzuki.",
+      "topic": "Tokoh Pemersatu Bangsa"
+    },
+    {
+      "id": "sejarah-pg-10",
+      "number": 10,
+      "prompt": "Seorang tokoh pejuang perempuan yang menjadi pelopor gerakan Partai Sarikat Islam yang menentang kolonialisme Belanda berasal dari Palopo, Kerajaan Luwu (Sulawesi Selatan) adalah....",
+      "options": [
+        { "key": "A", "text": "Cut Mutia" },
+        { "key": "B", "text": "Dewi Sartika" },
+        { "key": "C", "text": "HR. Rasuna Said" },
+        { "key": "D", "text": "Opu Daeng Risaju" },
+        { "key": "E", "text": "Martha Christina Tiahahu" }
+      ],
+      "answer": "D",
+      "explanation": "Opu Daeng Risaju adalah pejuang perempuan dari Kerajaan Luwu (Palopo, Sulawesi Selatan) yang aktif memimpin Partai Syarikat Islam Indonesia (PSII) cabang Palopo melawan kolonialisme Belanda.",
+      "topic": "Pahlawan Nasional Daerah"
+    },
+    {
+      "id": "sejarah-pg-11",
+      "number": 11,
+      "prompt": "Pada masa awal kemerdekaan, sistem pemerintahan berubah dari Presidensial menjadi Parlementer. Salah satu alasan dan pertimbangan perubahan sistem pemerintahan tersebut adalah...",
+      "options": [
+        { "key": "A", "text": "Presidensial terlalu sulit untuk diterapkan dalam pemerintahan" },
+        { "key": "B", "text": "Presidensial tidak sesuai dengan Indonesia yang multi etnis" },
+        { "key": "C", "text": "Parlementer sangat cocok untuk bangsa Indonesia" },
+        { "key": "D", "text": "Demokrasi bisa segera ditegakkan secara benar" },
+        { "key": "E", "text": "Mempermudah perundingan dengan Belanda" }
+      ],
+      "answer": "E",
+      "explanation": "Perubahan ke sistem parlementer melalui Kabinet Sjahrir dimaksudkan untuk menepis tuduhan Belanda/Sekutu bahwa pemerintahan RI bersifat fasis bentukan Jepang sehingga dapat mempermudah diplomasi dan perundingan dengan Belanda.",
+      "topic": "Perubahan Sistem Pemerintahan 1945"
+    },
+    {
+      "id": "sejarah-pg-12",
+      "number": 12,
+      "prompt": "Terbentuknya Kabinet Sjahrir tanggal 14 November 1945 merupakan suatu bentuk penyelewengan pertama pemerintah RI terhadap pelaksanaan UUD 1945, karena sejak tanggal 14 November 1945 Indonesia menganut sistem pemerintahan...",
+      "options": [
+        { "key": "A", "text": "Parlementer" },
+        { "key": "B", "text": "Presidensial" },
+        { "key": "C", "text": "Liberalisme" },
+        { "key": "D", "text": "Aristokrasi" },
+        { "key": "E", "text": "Terpimpin" }
+      ],
+      "answer": "A",
+      "explanation": "Berdasarkan UUD 1945, sistem pemerintahan Indonesia adalah presidensial. Namun sejak dibentuknya Kabinet Sjahrir I pada 14 November 1945, Indonesia menjalankan sistem parlementer di mana kabinet bertanggung jawab kepada KNIP.",
+      "topic": "Kabinet Sjahrir dan UUD 1945"
+    },
+    {
+      "id": "sejarah-pg-13",
+      "number": 13,
+      "prompt": "Berdasarkan Maklumat Pemerintah 3 November 1945, sistem kepartaian yang dianut pada masa Demokrasi Liberal adalah...",
+      "options": [
+        { "key": "A", "text": "Partai Tunggal" },
+        { "key": "B", "text": "Partai Oposisi" },
+        { "key": "C", "text": "Partai Koalisi" },
+        { "key": "D", "text": "Multi Partai" },
+        { "key": "E", "text": "Dwi Partai" }
+      ],
+      "answer": "D",
+      "explanation": "Maklumat Pemerintah 3 November 1945 mendorong berdirinya berbagai partai politik di Indonesia sehingga Indonesia menganut sistem multi partai yang berlanjut pada masa Demokrasi Liberal.",
+      "topic": "Sistem Kepartaian Demokrasi Liberal"
+    },
+    {
+      "id": "sejarah-pg-14",
+      "number": 14,
+      "prompt": "Keberhasilan menyelenggarakan Konferensi Asia Afrika merupakan prestasi yang pernah dicapai oleh kabinet...",
+      "options": [
+        { "key": "A", "text": "Burhanuddin Harahap" },
+        { "key": "B", "text": "Ali Sastroamidjojo" },
+        { "key": "C", "text": "Djuanda" },
+        { "key": "D", "text": "Natsir" },
+        { "key": "E", "text": "Wilopo" }
+      ],
+      "answer": "B",
+      "explanation": "Konferensi Asia Afrika (KAA) di Bandung pada April 1955 berhasil diselenggarakan pada masa pemerintahan Kabinet Ali Sastroamidjojo I.",
+      "topic": "Kabinet Masa Demokrasi Liberal"
+    },
+    {
+      "id": "sejarah-pg-15",
+      "number": 15,
+      "prompt": "Kabinet Djuanda disebut juga Zaken Kabinet, maksudnya adalah....",
+      "options": [
+        { "key": "A", "text": "Terdapat tiga orang yang menjabat sebagai wakil perdana menteri" },
+        { "key": "B", "text": "Mendapat dukungan militer dalam menjalankan programnya" },
+        { "key": "C", "text": "Memiliki program utama penyelesaian masalah Irian Barat" },
+        { "key": "D", "text": "Terdiri atas orang-orang yang ahli di bidangnya" },
+        { "key": "E", "text": "Memiliki jumlah menteri yang sangat banyak" }
+      ],
+      "answer": "D",
+      "explanation": "Zaken Kabinet adalah kabinet kerja yang menteri-menterinya dipilih berdasarkan keahlian dan kompetensi profesional di bidangnya masing-masing, bukan semata-mata atas dasar perwakilan partai politik.",
+      "topic": "Kabinet Djuanda"
+    },
+    {
+      "id": "sejarah-pg-16",
+      "number": 16,
+      "prompt": "Pelaksanaan Pemilu 1955 dilakukan dalam 2 tahap, yaitu pada tanggal 29 September 1955 dan 15 Desember 1955. Tahap pertama bertujuan memilih...",
+      "options": [
+        { "key": "A", "text": "Anggota MPR" },
+        { "key": "B", "text": "Anggota DPR" },
+        { "key": "C", "text": "Perwakilan dalam KNIP" },
+        { "key": "D", "text": "Anggota Badan Konstituante" },
+        { "key": "E", "text": "Presiden dan wakil presiden" }
+      ],
+      "answer": "B",
+      "explanation": "Pemilu 1955 tahap pertama (29 September 1955) diselenggarakan untuk memilih anggota DPR, sedangkan tahap kedua (15 Desember 1955) untuk memilih anggota Badan Konstituante.",
+      "topic": "Pemilu Pertama 1955"
+    },
+    {
+      "id": "sejarah-pg-17",
+      "number": 17,
+      "prompt": "Pada tahun 1963, Depernas diganti nama menjadi Badan Perencanaan Pembangunan Nasional yang dipimpin oleh Presiden Soekarno. Salah satu tugas Bappenas adalah....",
+      "options": [
+        { "key": "A", "text": "membendung inflasi dan mengurangi jumlah uang yang beredar di masyarakat" },
+        { "key": "B", "text": "menyelenggarakan keamanan rakyat dan negara" },
+        { "key": "C", "text": "menciptakan ekonomi yang bersifat nasional" },
+        { "key": "D", "text": "mencukupi kebutuhan sandang dan pangan" },
+        { "key": "E", "text": "menilai hasil kerja mandataris MPRS" }
+      ],
+      "answer": "E",
+      "explanation": "Tugas Bappenas yang dibentuk pada tahun 1963 antara lain menyusun rencana pembangunan jangka panjang dan jangka pendek, mengawasi laporan pelaksanaan pembangunan, serta menyiapkan dan menilai hasil kerja mandataris MPRS.",
+      "topic": "Ekonomi Demokrasi Terpimpin"
+    },
+    {
+      "id": "sejarah-pg-18",
+      "number": 18,
+      "prompt": "Pada masa Demokrasi Liberal, kabinet yang terbentuk usianya relatif singkat. Penyebab jatuhnya Kabinet Sukiman adalah...",
+      "options": [
+        { "key": "A", "text": "Penandatanganan bantuan ekonomi dan militer berdasarkan Mutual Security Act (MSA)" },
+        { "key": "B", "text": "Gagal dalam menyelesaikan masalah pengembalian Irian Barat ke pangkuan RI" },
+        { "key": "C", "text": "Masalah pergantian KSAD dari A.H. Nasution kepada Bambang Supeno" },
+        { "key": "D", "text": "Terjadinya masalah peristiwa tanah Tanjung Morawa di Sumatera Utara" },
+        { "key": "E", "text": "Kegagalan dalam pelaksanaan pemilu yang sudah diprogramkan" }
+      ],
+      "answer": "A",
+      "explanation": "Kabinet Sukiman jatuh karena penandatanganan perjanjian bantuan ekonomi dan militer berdasarkan Mutual Security Act (MSA) dengan Amerika Serikat oleh Menlu Achmad Soebardjo yang dinilai melanggar politik luar negeri bebas aktif.",
+      "topic": "Jatuhnya Kabinet Sukiman"
+    },
+    {
+      "id": "sejarah-pg-19",
+      "number": 19,
+      "prompt": "Empat partai besar pemenang dalam pelaksanaan pemilu pertama tahun 1955 adalah...",
+      "options": [
+        { "key": "A", "text": "PSH, PNI, NU, dan PKI" },
+        { "key": "B", "text": "Masyumi, PNI, NU, dan PKI" },
+        { "key": "C", "text": "PNI, PBSI, Parkindo, dan PSII" },
+        { "key": "D", "text": "PPTI, NU, PKI, dan Partai Buruh" },
+        { "key": "E", "text": "NU, Masyumi, PSI, dan Partai Buruh" }
+      ],
+      "answer": "B",
+      "explanation": "Empat partai besar peraih suara terbanyak dalam Pemilu 1955 secara berurutan adalah PNI, Masyumi, Nahdlatul Ulama (NU), dan PKI.",
+      "topic": "Hasil Pemilu 1955"
+    },
+    {
+      "id": "sejarah-pg-20",
+      "number": 20,
+      "prompt": "Yang bukan menjadi penyebab ekonomi tersendat-sendat pada masa Demokrasi Liberal adalah...",
+      "options": [
+        { "key": "A", "text": "Keamanan dalam negeri tidak menguntungkan, terjadinya pemberontakan, dan separatisme daerah" },
+        { "key": "B", "text": "Kabinet terlalu sering berganti, programnya belum terlaksana, program baru mulai dirancang" },
+        { "key": "C", "text": "Belum berpengalaman dalam menata ekonomi yang baik, belum memiliki tenaga ahli" },
+        { "key": "D", "text": "Diandalkannya satu jenis impor terutama pertanian dan perkebunan" },
+        { "key": "E", "text": "Dana bantuan dari luar negeri melalui IMF bunganya sangat besar" }
+      ],
+      "answer": "E",
+      "explanation": "Tersendatnya ekonomi pada masa Demokrasi Liberal disebabkan oleh ketidakstabilan politik dan pergantian kabinet, gangguan keamanan/pemberontakan daerah, kurangnya tenaga ahli, serta ketergantungan pada ekspor komoditas pertanian dan perkebunan; bukan akibat tingginya bunga pinjaman IMF.",
+      "topic": "Ekonomi Masa Demokrasi Liberal"
+    },
+    {
+      "id": "sejarah-pg-21",
+      "number": 21,
+      "prompt": "Manipol USDEK adalah doktrin politik yang digagas oleh Soekarno pada masa Demokrasi Terpimpin. Ia menyerukan dibangkitkannya kembali semangat revolusi, keadilan nasional, dan organisasi-organisasi negara demi revolusi yang berkesinambungan. USDEK merupakan kependekan dari....",
+      "options": [
+        { "key": "A", "text": "UUD 45, Sosialisme Indonesia, Demokrasi Terpimpin, Ekonomi Terpimpin, Kepribadian Indonesia" },
+        { "key": "B", "text": "UUD 45, Sosialisme Indonesia, Demokrasi Parlementer, Ekonomi Terpimpin, Kepribadian" },
+        { "key": "C", "text": "Undang-Undang Dasar, Ekonomi, Demokrasi, Kepribadian, Kebudayaan" },
+        { "key": "D", "text": "Undang-Undang, Sosialisme, Demokrasi, Ekonomi, Kepribadian" },
+        { "key": "E", "text": "UUD 45, Sosialisme, Demokrasi, Ekonomi, Kultur" }
+      ],
+      "answer": "A",
+      "explanation": "USDEK merupakan akronim dari Undang-Undang Dasar 1945, Sosialisme Indonesia, Demokrasi Terpimpin, Ekonomi Terpimpin, dan Kepribadian Indonesia.",
+      "topic": "Manipol USDEK"
+    },
+    {
+      "id": "sejarah-pg-22",
+      "number": 22,
+      "prompt": "Pemikiran Ir. Soekarno di bidang ekonomi \"Berdikari\" merupakan akronim dari Berdiri di atas kaki sendiri, maksudnya adalah....",
+      "options": [
+        { "key": "A", "text": "Berdiri di kaki rakyat" },
+        { "key": "B", "text": "Berjuang demi rakyat Indonesia" },
+        { "key": "C", "text": "Berdiri di atas kaki bangsa sendiri" },
+        { "key": "D", "text": "Bersatu demi kemerdekaan Indonesia" },
+        { "key": "E", "text": "Berdaulat di bidang politik, berdikari di bidang ekonomi, berkepribadian di bidang budaya" }
+      ],
+      "answer": "C",
+      "explanation": "Dalam bidang ekonomi, konsep Berdikari berarti berdiri di atas kaki bangsa sendiri, yaitu membangun kemandirian ekonomi nasional tanpa bergantung pada modal atau bantuan negara asing.",
+      "topic": "Konsep Ekonomi Berdikari"
+    },
+    {
+      "id": "sejarah-pg-23",
+      "number": 23,
+      "prompt": "Pada 19 Desember 1961 Presiden Soekarno mengumumkan Tri Komando Rakyat (Trikora) yang bertujuan....",
+      "options": [
+        { "key": "A", "text": "membentuk pemerintahan sementara di Irian Barat" },
+        { "key": "B", "text": "mengusahakan persenjataan ke negara-negara blok komunis" },
+        { "key": "C", "text": "mengadakan agresi militer sebagai usaha pengembalian Irian Barat" },
+        { "key": "D", "text": "menggerakkan rakyat sebagai pendukung usaha pengembalian Irian Barat" },
+        { "key": "E", "text": "mempertahankan kemerdekaan dan kesatuan tanah air dan bangsa Indonesia" }
+      ],
+      "answer": "D",
+      "explanation": "Tri Komando Rakyat (Trikora) yang dikumandangkan Presiden Soekarno di Yogyakarta pada 19 Desember 1961 bertujuan memobilisasi dan menggerakkan seluruh rakyat Indonesia guna mendukung pembebasan Irian Barat dari pendudukan Belanda.",
+      "topic": "Pembebasan Irian Barat"
+    },
+    {
+      "id": "sejarah-pg-24",
+      "number": 24,
+      "prompt": "Pernyataan berikut ini yang merupakan salah satu isi TRIKORA, yaitu....",
+      "options": [
+        { "key": "A", "text": "Bantu perjuangan rakyat Kalimantan Utara" },
+        { "key": "B", "text": "Perhebat ketahanan Revolusi Indonesia" },
+        { "key": "C", "text": "Dukungan aksi mogok buruh Indonesia" },
+        { "key": "D", "text": "Gagalkan pembentukan negara Papua" },
+        { "key": "E", "text": "Boikot produk-produk Belanda" }
+      ],
+      "answer": "D",
+      "explanation": "Isi Trikora meliputi: (1) Gagalkan pembentukan negara boneka Papua buatan Belanda kolonial, (2) Kibarkan Sang Merah Putih di Irian Barat tanah air Indonesia, dan (3) Bersiaplah untuk mobilisasi umum guna mempertahankan kemerdekaan dan kesatuan tanah air dan bangsa.",
+      "topic": "Isi Trikora"
+    },
+    {
+      "id": "sejarah-pg-25",
+      "number": 25,
+      "prompt": "Pada 1965 Indonesia resmi keluar dari keanggotaan PBB. Dampak keputusan Indonesia tersebut adalah....",
+      "options": [
+        { "key": "A", "text": "konfrontasi Indonesia-Malaysia tetap berlanjut" },
+        { "key": "B", "text": "PBB mengucilkan Indonesia dari dunia internasional" },
+        { "key": "C", "text": "PBB membantu penyelesaian konfrontasi Indonesia-Malaysia" },
+        { "key": "D", "text": "Indonesia kehilangan media untuk memperjuangkan kepentingannya di forum internasional" },
+        { "key": "E", "text": "Indonesia semakin disegani oleh negara-negara di Asia-Afrika dan anggota Gerakan Non Blok" }
+      ],
+      "answer": "D",
+      "explanation": "Keluarnya Indonesia dari PBB pada Januari 1965 berdampak merugikan diplomasi Indonesia karena Indonesia kehilangan forum resmi internasional untuk memperjuangkan kepentingan nasionalnya serta terkucil dari pergaulan global.",
+      "topic": "Indonesia Keluar dari PBB"
+    },
+    {
+      "id": "sejarah-pg-26",
+      "number": 26,
+      "prompt": "Salah satu faktor yang mendorong pemerintah Indonesia memilih keluar sebagai anggota PBB pada 7 Januari 1965 adalah....",
+      "options": [
+        { "key": "A", "text": "PBB dianggap lebih berpihak kepada Belanda" },
+        { "key": "B", "text": "keanggotaan PBB lebih banyak diisi oleh kekuatan Oldefos" },
+        { "key": "C", "text": "Malaysia terpilih sebagai anggota tidak tetap Dewan Keamanan PBB" },
+        { "key": "D", "text": "PBB tidak membantu bangsa Indonesia dalam menyelesaikan masalah Irian Barat" },
+        { "key": "E", "text": "PBB belum menunjukkan hasil kerja yang maksimal dalam menciptakan perdamaian dunia" }
+      ],
+      "answer": "C",
+      "explanation": "Faktor pemicu utama keluarnya Indonesia dari PBB pada 7 Januari 1965 adalah diterimanya Malaysia sebagai anggota tidak tetap Dewan Keamanan PBB saat Indonesia sedang berkonfrontasi dengan Malaysia.",
+      "topic": "Politik Luar Negeri Orde Lama"
+    },
+    {
+      "id": "sejarah-pg-27",
+      "number": 27,
+      "prompt": "Berlangsungnya Perang Dingin antara Blok Barat dan Blok Timur turut memengaruhi upaya Indonesia dalam pembebasan Irian Barat. Pengaruh tersebut ditunjukkan dengan....",
+      "options": [
+        { "key": "A", "text": "pemberian bantuan militer Amerika Serikat kepada Indonesia" },
+        { "key": "B", "text": "perubahan sikap Amerika Serikat mengenai masalah Irian Barat" },
+        { "key": "C", "text": "penandatanganan kesepakatan jual beli senjata Indonesia-Uni Soviet" },
+        { "key": "D", "text": "pembentukan pemerintahan sementara di Irian Barat oleh Amerika Serikat" },
+        { "key": "E", "text": "penunjukkan Ellsworth Bunker sebagai penengah perundingan Indonesia-Belanda" }
+      ],
+      "answer": "B",
+      "explanation": "Di tengah Perang Dingin, pendekatan Indonesia ke Uni Soviet untuk membeli persenjataan membuat Amerika Serikat khawatir Indonesia akan jatuh ke pengaruh Blok Timur. Hal ini mendorong perubahan sikap AS dari netral/pro-Belanda menjadi menekan Belanda untuk berunding.",
+      "topic": "Perang Dingin dan Irian Barat"
+    },
+    {
+      "id": "sejarah-pg-28",
+      "number": 28,
+      "prompt": "Perhatikan keterangan-keterangan berikut!\n1) Memberi kekuasaan yang besar kepada presiden, MPR, dan lembaga tinggi negara.\n2) Memberi peluang bagi militer untuk terjun dalam bidang politik.\n3) Menyelamatkan negara dari perpecahan dan krisis politik yang berkepanjangan.\n4) Merintis pembentukan lembaga tertinggi negara.\nSisi negatif berlakunya Dekrit Presiden 5 Juli 1959 ditunjukkan pada nomor....",
+      "options": [
+        { "key": "A", "text": "1) dan 2)" },
+        { "key": "B", "text": "1) dan 3)" },
+        { "key": "C", "text": "1) dan 4)" },
+        { "key": "D", "text": "2) dan 3)" },
+        { "key": "E", "text": "3) dan 4)" }
+      ],
+      "answer": "A",
+      "explanation": "Sisi negatif Dekrit Presiden 5 Juli 1959 adalah memusatkan kekuasaan yang sangat besar pada presiden/MPR serta membuka jalan bagi keterlibatan militer dalam ranah politik praktis (pernyataan 1 dan 2), sedangkan 3 dan 4 merupakan sisi positifnya.",
+      "topic": "Dekrit Presiden 5 Juli 1959"
+    },
+    {
+      "id": "sejarah-pg-29",
+      "number": 29,
+      "prompt": "Amerika Serikat menekan Belanda agar bersedia berunding dengan Indonesia mengenai masalah Irian Barat. Tekanan tersebut diberikan karena....",
+      "options": [
+        { "key": "A", "text": "Belanda kalah dari Indonesia dalam konfrontasi militer" },
+        { "key": "B", "text": "Indonesia berhasil menguasai sebagian besar wilayah Irian Barat" },
+        { "key": "C", "text": "Amerika Serikat telah mengirim Ellsworth Bunker sebagai mediator" },
+        { "key": "D", "text": "Amerika Serikat mencegah keterlibatan Uni Soviet dalam konfrontasi" },
+        { "key": "E", "text": "kedudukan Belanda tidak didukung sepenuhnya oleh rakyat Irian Barat" }
+      ],
+      "answer": "D",
+      "explanation": "Amerika Serikat menekan Belanda agar bersedia berunding dengan Indonesia karena ingin mencegah meluasnya pengaruh dan keterlibatan Uni Soviet dalam konflik Irian Barat di kawasan Asia Tenggara.",
+      "topic": "Diplomasi Pembebasan Irian Barat"
+    },
+    {
+      "id": "sejarah-pg-30",
+      "number": 30,
+      "prompt": "Salah satu langkah yang diambil pemerintah dalam mengatasi permasalahan ekonomi pada masa Demokrasi Terpimpin adalah Deklarasi Ekonomi. Dalam perkembangannya, langkah tersebut mengalami kegagalan karena....",
+      "options": [
+        { "key": "A", "text": "pemerintah gagal memperoleh pinjaman dana dari IMF" },
+        { "key": "B", "text": "pengusaha swasta gagal meningkatkan nilai ekspor dan impor" },
+        { "key": "C", "text": "pemerintah mengeluarkan banyak dana untuk proyek mercusuar" },
+        { "key": "D", "text": "pemerintah memberlakukan pungutan bagi setiap perusahaan swasta" },
+        { "key": "E", "text": "pemerintah fokus pada upaya mengatasi konfrontasi dengan Malaysia" }
+      ],
+      "answer": "C",
+      "explanation": "Deklarasi Ekonomi (Dekon) tahun 1963 gagal memperbaiki perekonomian karena anggaran negara justru tersedot oleh pembiayaan proyek-proyek mercusuar (seperti Monas, Kompleks Senayan/Ganefo) serta biaya konfrontasi Malaysia sehingga memicu hiperinflasi.",
+      "topic": "Deklarasi Ekonomi (Dekon)"
+    },
+    {
+      "id": "sejarah-pg-31",
+      "number": 31,
+      "prompt": "Suatu tatanan baru dalam kehidupan berbangsa dan bernegara yang diletakkan pada pelaksanaan Pancasila dan UUD 1945 secara murni dan konsekuen disebut....",
+      "options": [
+        { "key": "A", "text": "Orde Reformasi" },
+        { "key": "B", "text": "Orde Revolusi" },
+        { "key": "C", "text": "Orde Evolusi" },
+        { "key": "D", "text": "Orde Lama" },
+        { "key": "E", "text": "Orde Baru" }
+      ],
+      "answer": "E",
+      "explanation": "Orde Baru didefinisikan sebagai tatanan kehidupan rakyat, bangsa, dan negara yang diletakkan kembali pada kemurnian pelaksanaan Pancasila dan UUD 1945 secara murni dan konsekuen.",
+      "topic": "Lahirnya Orde Baru"
+    },
+    {
+      "id": "sejarah-pg-32",
+      "number": 32,
+      "prompt": "Gelombang aksi dari mahasiswa, pelajar, organisasi profesi dan organisasi massa menuntut pemerintah untuk segera mengatasi kemelut yang terjadi, mereka bersatu membentuk Front Pancasila. Kesatuan-kesatuan aksi yang tergabung dalam Front Pancasila kemudian lebih dikenal dengan sebutan....",
+      "options": [
+        { "key": "A", "text": "Angkatan 64" },
+        { "key": "B", "text": "Angkatan 65" },
+        { "key": "C", "text": "Angkatan 66" },
+        { "key": "D", "text": "Angkatan 67" },
+        { "key": "E", "text": "Angkatan 68" }
+      ],
+      "answer": "C",
+      "explanation": "Berbagai kesatuan aksi seperti KAMI, KAPPI, KAPI, KASI, dan KAWI yang tergabung dalam Front Pancasila pada tahun 1966 dikenal dengan sebutan Angkatan 66.",
+      "topic": "Angkatan 66 dan Tritura"
+    },
+    {
+      "id": "sejarah-pg-33",
+      "number": 33,
+      "prompt": "Perkembangan informasi yang demikian pesat tak ubahnya seperti pisau bermata dua, artinya....",
+      "options": [
+        { "key": "A", "text": "Pengaruh informasi demikian tajam seperti pisau" },
+        { "key": "B", "text": "Informasi menyebabkan manusia menjadi lebih maju" },
+        { "key": "C", "text": "Di satu sisi berpengaruh positif, di sisi lain berpengaruh negatif" },
+        { "key": "D", "text": "Pengaruh informasi dialami semua lapisan masyarakat" },
+        { "key": "E", "text": "Karena informasi maka wawasan pengetahuan orang menjadi lebih luas" }
+      ],
+      "answer": "C",
+      "explanation": "Ungkapan 'seperti pisau bermata dua' bermakna perkembangan informasi memiliki dua dampak berlawanan sekaligus: di satu sisi memberikan manfaat positif (kemudahan akses ilmu dan komunikasi), di sisi lain menimbulkan dampak negatif (hoaks, degradasi budaya, kejahatan siber).",
+      "topic": "Perkembangan IPTEK dan Informasi"
+    },
+    {
+      "id": "sejarah-pg-34",
+      "number": 34,
+      "prompt": "Industri perkapalan nasional PT. PAL (Penataran Angkatan Laut) merupakan perusahaan nasional hasil dari nasionalisasi Marine Establishment (ME) milik Belanda yang berdiri pada tahun 1849. Perusahaan ini berada di kota....",
+      "options": [
+        { "key": "A", "text": "Aceh" },
+        { "key": "B", "text": "Medan" },
+        { "key": "C", "text": "Jakarta" },
+        { "key": "D", "text": "Surabaya" },
+        { "key": "E", "text": "Semarang" }
+      ],
+      "answer": "D",
+      "explanation": "PT PAL Indonesia (Persero), yang berawal dari Marine Establishment (ME) pada masa kolonial Belanda, berlokasi di kawasan Ujung, Kota Surabaya, Jawa Timur.",
+      "topic": "Industri Strategis Nasional"
+    },
+    {
+      "id": "sejarah-pg-35",
+      "number": 35,
+      "prompt": "Tindakan untuk menggunakan uang rakyat demi kepentingan pribadi/memperkaya diri sendiri adalah bentuk penyimpangan yang terjadi pada masa Orde Baru sampai masa sekarang yang dinamakan....",
+      "options": [
+        { "key": "A", "text": "Nepotisme" },
+        { "key": "B", "text": "Monopoli" },
+        { "key": "C", "text": "Oligopoli" },
+        { "key": "D", "text": "Korupsi" },
+        { "key": "E", "text": "Kolusi" }
+      ],
+      "answer": "D",
+      "explanation": "Penyalahgunaan wewenang atau penggunaan uang negara/rakyat untuk memperkaya diri sendiri maupun kelompok disebut korupsi.",
+      "topic": "Penyimpangan Masa Orde Baru"
+    },
+    {
+      "id": "sejarah-pg-36",
+      "number": 36,
+      "prompt": "Dalam upaya mengisi kemerdekaan, maka bangsa dan negara Indonesia membangun dan meningkatkan kehidupan masyarakat, yang dimaksud dengan hakikat pembangunan adalah....",
+      "options": [
+        { "key": "A", "text": "Mewujudkan masyarakat sejahtera" },
+        { "key": "B", "text": "Melindungi segenap bangsa dan seluruh rakyat" },
+        { "key": "C", "text": "Menciptakan suatu tatanan masyarakat yang adil" },
+        { "key": "D", "text": "Suatu tatanan baru dalam kehidupan berbangsa dan bernegara" },
+        { "key": "E", "text": "Membangun manusia dan seluruh masyarakat Indonesia seutuhnya" }
+      ],
+      "answer": "E",
+      "explanation": "Sesuai garis besar pembangunan nasional pada masa Orde Baru (GBHN), hakikat pembangunan nasional adalah pembangunan manusia Indonesia seutuhnya dan pembangunan masyarakat Indonesia seluruhnya.",
+      "topic": "Pembangunan Nasional Orde Baru"
+    },
+    {
+      "id": "sejarah-pg-37",
+      "number": 37,
+      "prompt": "Pemerintah Orde Baru memberikan perhatian serius terhadap mobilitas penduduk, karena....",
+      "options": [
+        { "key": "A", "text": "Pemerintah Orde Baru menganut kebijakan Autarki lokal" },
+        { "key": "B", "text": "Kebijakan pemerintah adalah sentralisasi bukan desentralisasi" },
+        { "key": "C", "text": "Dapat memberikan pengaruh positif terhadap stabilitas dan pembangunan nasional" },
+        { "key": "D", "text": "Mobilitas penduduk akan mengakibatkan penyebaran penduduk tidak merata" },
+        { "key": "E", "text": "Pengaruh positif yang dibawa akan mengganggu stabilitas dan pembangunan Nasional" }
+      ],
+      "answer": "C",
+      "explanation": "Pemerintah Orde Baru mengelola mobilitas penduduk secara serius (seperti melalui program transmigrasi) agar persebaran penduduk lebih merata sehingga memberi dampak positif bagi stabilitas dan pembangunan nasional.",
+      "topic": "Kebijakan Kependudukan Orde Baru"
+    },
+    {
+      "id": "sejarah-pg-38",
+      "number": 38,
+      "prompt": "Bukti bahwa pemerintahan Orde Baru tidak dapat menerima kritik di antaranya adalah....",
+      "options": [
+        { "key": "A", "text": "Adanya pemanggilan terhadap seseorang yang melakukan kritik terhadap pemerintah untuk dimintai keterangan dan dipenjara" },
+        { "key": "B", "text": "Adanya tuduhan terhadap seseorang yang melakukan kritik terhadap pemerintah dianggap sebagai anti pemerintah" },
+        { "key": "C", "text": "Diberinya pengampunan bagi orang yang telah berani mengkritik pemerintah" },
+        { "key": "D", "text": "Dibukanya dialog untuk mencari jalan keluar terhadap suatu masalah" },
+        { "key": "E", "text": "Pemerintah tidak mau mendengar kritikan dari masyarakat" }
+      ],
+      "answer": "B",
+      "explanation": "Pada masa Orde Baru, kebebasan berpendapat dibatasi ketat; pihak atau media yang mengkritik kebijakan pemerintah kerap dicap sebagai anti-pemerintah, subversif, atau mengganggu stabilitas nasional.",
+      "topic": "Kehidupan Politik Orde Baru"
+    },
+    {
+      "id": "sejarah-pg-39",
+      "number": 39,
+      "prompt": "Berikut ini merupakan penyebab krisis ekonomi di Indonesia yang terjadi sejak 1997 yaitu....",
+      "options": [
+        { "key": "A", "text": "Utang Indonesia dapat dibayar dengan mudah" },
+        { "key": "B", "text": "Pengusaha asing mendapat perlakuan istimewa" },
+        { "key": "C", "text": "Ketidakadilan dalam sektor pendidikan dan kesehatan" },
+        { "key": "D", "text": "Adanya dominasi kaum intelektual dalam birokrasi pemerintah" },
+        { "key": "E", "text": "Maraknya praktek kolusi, korupsi dan nepotisme dalam pemerintahan" }
+      ],
+      "answer": "E",
+      "explanation": "Selain gejolak nilai tukar regional, krisis ekonomi 1997 di Indonesia diperparah oleh rapuhnya fondasi ekonomi akibat maraknya praktik korupsi, kolusi, dan nepotisme (KKN) serta monopoli di lingkungan pemerintahan.",
+      "topic": "Krisis Moneter 1997"
+    },
+    {
+      "id": "sejarah-pg-40",
+      "number": 40,
+      "prompt": "Revolusi Hijau adalah sebuah upaya untuk memodernisasi sistem dan budaya pertanian di negara-negara berkembang, terutama di Amerika Latin, Asia, dan Afrika. Tujuan dari Revolusi Hijau adalah meningkatkan produktivitas pangan dengan mengubah metode pertanian tradisional menjadi modern. Itu dilakukan dengan penerapan teknologi canggih untuk mencapai hasil produksi optimal. Revolusi Hijau dimaknai sebagai perubahan....",
+      "options": [
+        { "key": "A", "text": "Bidang perhubungan dari cara tradisional ke cara modern" },
+        { "key": "B", "text": "Bidang pertanian dari cara tradisional ke cara modern" },
+        { "key": "C", "text": "Lembaga penanaman kembali hutan yang gundul" },
+        { "key": "D", "text": "Pertanian dalam cara pengolahan areal pertanian" },
+        { "key": "E", "text": "Dalam upaya pemupukan" }
+      ],
+      "answer": "B",
+      "explanation": "Revolusi Hijau bermakna transformasi di bidang pertanian dari metode bercocok tanam tradisional menuju metode modern (melalui bibit unggul, irigasi, pemupukan, dan mekanisasi) untuk meningkatkan produksi pangan.",
+      "topic": "Revolusi Hijau"
+    }
+  ],
+  "essays": [
+    {
+      "id": "sejarah-es-1",
+      "number": 1,
+      "prompt": "Pada awal kemerdekaan, Pemerintah Indonesia menghadapi berbagai pergolakan dan pemberontakan yang mengancam keutuhan negara (munculnya gerakan disintegrasi). Jelaskan faktor-faktor yang melatarbelakangi (menjadi penyebab) terjadinya gerakan disintegrasi tersebut.",
+      "rubric": "Menjelaskan tiga faktor utama penyebab pergolakan/disintegrasi (1945–1965): faktor ideologi, faktor kepentingan (vested interest), dan faktor sistem pemerintahan, masing-masing disertai contoh peristiwanya.",
+      "modelAnswer": "Gerakan disintegrasi pada awal kemerdekaan (1945–1965) dilatarbelakangi oleh tiga faktor utama:\n1. Faktor Ideologi: Adanya perbedaan pandangan mengenai dasar dan ideologi negara selain Pancasila, misalnya pemberontakan PKI Madiun 1948, G30S/PKI 1965 (berideologi komunis), serta pemberontakan DI/TII (bertujuan mendirikan Negara Islam Indonesia).\n2. Faktor Kepentingan (Vested Interest): Keinginan kelompok tertentu untuk mempertahankan posisi atau hak istimewa masa kolonial/federal, terutama eks-tentara KNIL dan elite negara bagian RIS, seperti peristiwa APRA, Andi Azis, dan RMS.\n3. Faktor Sistem Pemerintahan: Ketidakpuasan daerah terhadap hubungan pusat-daerah, ketidakadilan alokasi anggaran pembangunan, dan tuntutan otonomi daerah, seperti pemberontakan PRRI di Sumatera dan Permesta di Sulawesi."
+    },
+    {
+      "id": "sejarah-es-2",
+      "number": 2,
+      "prompt": "Keberhasilan Kabinet Ali Sastroamidjojo I dalam menyelenggarakan KAA (Konferensi Asia Afrika) di Bandung tahun 1955 merupakan bentuk kesuksesan pelaksanaan Politik Luar Negeri Indonesia. Berikan penjelasan terhadap pernyataan tersebut.",
+      "rubric": "Menjelaskan prinsip politik luar negeri bebas aktif Indonesia di tengah Perang Dingin, peran Indonesia memprakarsai KAA 1955, serta hasil/dampaknya (Dasasila Bandung, dukungan kemerdekaan bangsa terjajah, dan cikal bakal Gerakan Non-Blok).",
+      "modelAnswer": "Penyelenggaraan Konferensi Asia Afrika (KAA) pada April 1955 di Bandung oleh Kabinet Ali Sastroamidjojo I merupakan wujud nyata keberhasilan politik luar negeri Indonesia yang bebas aktif. Di tengah persaingan Perang Dingin antara Blok Barat dan Blok Timur, Indonesia tidak memihak salah satu blok (bebas), namun secara aktif menggalang solidaritas bangsa-bangsa Asia dan Afrika untuk menentang kolonialisme serta menjaga perdamaian dunia. Keberhasilan KAA yang melahirkan Dasasila Bandung juga mengangkat martabat dan peran strategis Indonesia di percaturan internasional serta menjadi cikal bakal berdirinya Gerakan Non-Blok (GNB)."
+    },
+    {
+      "id": "sejarah-es-3",
+      "number": 3,
+      "prompt": "Sebutkan 4 tindakan Presiden Soekarno yang menggambarkan penyimpangan terhadap UUD 1945 pada saat penerapan Demokrasi Terpimpin di Indonesia.",
+      "rubric": "Menyebutkan minimal 4 penyimpangan konkret terhadap UUD 1945 pada masa Demokrasi Terpimpin (1959–1965).",
+      "modelAnswer": "Empat penyimpangan terhadap UUD 1945 pada masa Demokrasi Terpimpin antara lain:\n1. Pengangkatan Ir. Soekarno sebagai Presiden Seumur Hidup melalui Ketetapan MPRS No. III/MPRS/1963.\n2. Pembubaran DPR hasil Pemilu 1955 oleh Presiden karena menolak RAPBN tahun 1960, kemudian diganti dengan DPR-GR yang anggotanya ditunjuk langsung oleh Presiden.\n3. Pembentukan MPRS dan DPAS secara sepihak melalui Penetapan Presiden (Penpres) tanpa melalui pemilu atau undang-undang.\n4. Penunjukan pimpinan lembaga tinggi/tertinggi negara (seperti Ketua MPRS, DPR-GR, dan MA) menjadi menteri negara sehingga lembaga yudikatif dan legislatif berada di bawah kekuasaan eksekutif (Presiden)."
+    },
+    {
+      "id": "sejarah-es-4",
+      "number": 4,
+      "prompt": "Memasuki tahun 1966 (setelah keluarnya Surat Perintah Sebelas Maret/Supersemar), terlihat gejala krisis kepemimpinan nasional yang mengarah pada dualisme kepemimpinan. Jelaskan mengenai \"Dualisme Kepemimpinan\" tersebut.",
+      "rubric": "Menjelaskan adanya dua pusat kekuasaan antara Presiden Soekarno (de jure) dan Letjen Soeharto sebagai pengemban Supersemar (de facto), serta penyelesaiannya melalui Sidang Istimewa MPRS 1967.",
+      "modelAnswer": "Dualisme kepemimpinan nasional adalah kondisi terpecahnya pusat kekuasaan pemerintahan di Indonesia pada tahun 1966–1967 antara Presiden Soekarno dan Letjen Soeharto. Secara formal (de jure), Ir. Soekarno masih menjabat sebagai Presiden sekaligus Kepala Negara, namun kewibawaan dan pengaruh politiknya terus melemah pasca peristiwa G30S/PKI. Sementara itu, Letjen Soeharto sebagai pengemban Supersemar secara nyata (de facto) memegang kendali keamanan dan pemerintahan, termasuk membubarkan PKI dan mengamankan kabinet. Dualisme ini berakhir setelah MPRS mengeluarkan Tap MPRS No. XXXIII/MPRS/1967 yang mencabut kekuasaan pemerintahan dari Soekarno dan mengangkat Soeharto sebagai Pejabat Presiden."
+    },
+    {
+      "id": "sejarah-es-5",
+      "number": 5,
+      "prompt": "Dwifungsi ABRI adalah konsep yang memberikan peran ganda kepada Angkatan Bersenjata Republik Indonesia (ABRI) dalam bidang pertahanan dan politik, yang berpengaruh besar terhadap stabilitas negara selama era Orde Baru. Berikan penjelasan terhadap pernyataan tersebut.",
+      "rubric": "Menjelaskan pengertian Dwifungsi ABRI (peran hankam dan peran sosial-politik), bentuk penerapannya (kursi DPR/MPR, jabatan sipil/birokrasi), serta pengaruhnya dalam menjaga stabilitas politik dan keamanan sekaligus mengurangi ruang demokrasi sipil.",
+      "modelAnswer": "Dwifungsi ABRI merupakan doktrin yang menempatkan ABRI dalam dua peran sekaligus: pertama sebagai kekuatan pertahanan dan keamanan negara, dan kedua sebagai kekuatan sosial-politik. Pada era Orde Baru, peran sosial-politik tersebut diwujudkan melalui pengangkatan anggota ABRI di DPR/MPR tanpa pemilu serta penempatan perwira ABRI di berbagai jabatan sipil seperti menteri, gubernur, bupati, hingga kepala desa. Kehadiran ABRI di jalur birokrasi dan legislatif membuat pemerintah mampu mengendalikan dinamika politik dan meredam konflik horizontal sehingga tercipta stabilitas keamanan serta keberlanjutan pembangunan ekonomi, meskipun di sisi lain membatasi partisipasi sipil dan kehidupan demokrasi."
+    }
+  ]
+}

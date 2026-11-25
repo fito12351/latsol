@@ -1,0 +1,679 @@
+{
+  "id": "pjok",
+  "name": "PJOK",
+  "shortName": "PJOK",
+  "group": "umum",
+  "schedule": "Senin, 8 Desember 2025",
+  "durationMinutes": 90,
+  "accentColor": "#5CE5A5",
+  "questions": [
+    {
+      "id": "pjok-pg-1",
+      "number": 1,
+      "prompt": "Bola basket dimainkan oleh dua tim yang masing-masing terdiri atas lima pemain di lapangan. Setiap pemain memiliki peran berbeda. Pemain yang bertugas pengatur serangan dan distribusi bola dalam tim tersebut...",
+      "options": [
+        { "key": "A", "text": "center" },
+        { "key": "B", "text": "point guard" },
+        { "key": "C", "text": "power forward" },
+        { "key": "D", "text": "small forward" },
+        { "key": "E", "text": "shooting guard" }
+      ],
+      "answer": "B",
+      "explanation": "Point guard (posisi 1) berperan sebagai pengatur serangan (playmaker) yang membawa bola dan mendistribusikannya kepada rekan setim.",
+      "topic": "Posisi Bola Basket"
+    },
+    {
+      "id": "pjok-pg-2",
+      "number": 2,
+      "prompt": "Berikut strategi dalam permainan bola basket adalah...",
+      "options": [
+        { "key": "A", "text": "perang urat syaraf dengan lawan yang akan dihadapi harus diperhitungkan" },
+        { "key": "B", "text": "observasi kekuatan dan kelemahan lawan melalui rekaman video atau pertandingan langsung" },
+        { "key": "C", "text": "pemain lebih berperan daripada pelatih dalam pembentukan dan penerapan strategi bermain" },
+        { "key": "D", "text": "latihan mengoptimalkan sistem pola, bertahan dan menyerang baik individu, grup maupun tim" },
+        { "key": "E", "text": "strategi dipersiapkan sewaktu pertandingan" }
+      ],
+      "answer": "B",
+      "explanation": "Strategi dipersiapkan sebelum pertandingan berlangsung dengan peran utama pelatih, salah satunya melalui observasi kekuatan dan kelemahan lawan lewat rekaman video atau pertandingan langsung.",
+      "topic": "Strategi Bola Basket"
+    },
+    {
+      "id": "pjok-pg-3",
+      "number": 3,
+      "prompt": "Poin yang diberikan apabila bola dimasukkan ke dalam keranjang melalui sebuah lay up diawali melangkah dari garis tembakan tiga angka, maka poin tersebut adalah...",
+      "options": [
+        { "key": "A", "text": "nilai satu poin" },
+        { "key": "B", "text": "nilai dua poin" },
+        { "key": "C", "text": "nilai tiga poin" },
+        { "key": "D", "text": "nilai dua poin, satu tembakan free throw" },
+        { "key": "E", "text": "nilai tiga poin, satu tembakan free throw" }
+      ],
+      "answer": "B",
+      "explanation": "Karena gerakan lay up berakhir dengan pelepasan bola di dalam area garis tiga angka (dekat ring), tembakan tersebut bernilai dua poin.",
+      "topic": "Peraturan Bola Basket"
+    },
+    {
+      "id": "pjok-pg-4",
+      "number": 4,
+      "prompt": "Fungsi utama posisi center dalam permainan bola basket adalah...",
+      "options": [
+        { "key": "A", "text": "membendung tembakan lawan, menyusup pertahanan lawan, dan menjaga daerah pertahanan, melakukan rebound" },
+        { "key": "B", "text": "mengatur serangan, menyusup pertahanan lawan, dan menjaga daerah pertahanan, melakukan rebound" },
+        { "key": "C", "text": "pencetak tembakan handal, menyusup pertahanan lawan, dan menjaga daerah pertahanan, melakukan rebound" },
+        { "key": "D", "text": "pemain yang siap satu lawan satu menyusup pertahanan lawan, dan menjaga daerah pertahanan, melakukan rebound" },
+        { "key": "E", "text": "kemampuan menggiring bola baik, menyusup pertahanan lawan, dan menjaga daerah pertahanan, melakukan rebound" }
+      ],
+      "answer": "A",
+      "explanation": "Center bertubuh tinggi dan kuat sehingga bertugas menjaga daerah bawah ring, membendung tembakan lawan (block), dan melakukan rebound.",
+      "topic": "Posisi Bola Basket"
+    },
+    {
+      "id": "pjok-pg-5",
+      "number": 5,
+      "prompt": "Yang bukan merupakan unsur-unsur pelaksanaan pola pertahanan dalam bola basket adalah...",
+      "options": [
+        { "key": "A", "text": "Gerakan langkah kaki ketika melakukan pertahanan" },
+        { "key": "B", "text": "Penjaga harus berdiri di antara lawan dan ring basket" },
+        { "key": "C", "text": "Posisi jaga dan pembagian daerah" },
+        { "key": "D", "text": "Dasar-dasar umum dalam penjagaan dan penyerangan" },
+        { "key": "E", "text": "Posisi jaga dengan mempertimbangkan daerah, kemampuan, dan penguasaan penyerang" }
+      ],
+      "answer": "D",
+      "explanation": "Unsur pelaksanaan pola pertahanan meliputi sikap jaga, olah kaki, dasar-dasar umum penjagaan, posisi jaga dan pembagian daerah, serta berdiri di antara lawan dan ring—bukan dasar penyerangan.",
+      "topic": "Pertahanan Bola Basket"
+    },
+    {
+      "id": "pjok-pg-6",
+      "number": 6,
+      "prompt": "Pola pertahanan dalam permainan bola basket bermacam-macam. Dari pola tersebut ada kelebihan dan keuntungannya masing-masing. Manakah yang bukan merupakan kelebihan pola pertahanan daerah...",
+      "options": [
+        { "key": "A", "text": "Mematikan penyerang penembak dengan memoros" },
+        { "key": "B", "text": "Perhatian pemain terpecah terhadap dua lawan atau lebih" },
+        { "key": "C", "text": "Sangat baik untuk melawan tim yang lemah dalam mengelola bola" },
+        { "key": "D", "text": "Menghindari kesalahan perorangan" },
+        { "key": "E", "text": "Sangat baik untuk melawan pemain pemotong yang terampil" }
+      ],
+      "answer": "B",
+      "explanation": "Perhatian pemain yang terpecah terhadap dua lawan atau lebih yang masuk ke satu zona merupakan kelemahan pertahanan daerah (zone defense), bukan kelebihannya.",
+      "topic": "Pertahanan Bola Basket"
+    },
+    {
+      "id": "pjok-pg-7",
+      "number": 7,
+      "prompt": "Yang tidak sebagai pedoman umum membuat pola penyerangan dalam menghadapi pertahanan daerah lawan...",
+      "options": [
+        { "key": "A", "text": "dapat memecahkan perhatian pemain bertahan 2 atau 3 pemain penyerang" },
+        { "key": "B", "text": "ada pengatur yang hilir mudik di bawah basket lawan" },
+        { "key": "C", "text": "ada penekanan di daerah tertentu kemudian penekanan itu berpindah ke bagian lain" },
+        { "key": "D", "text": "memilih pemain yang mampu melakukan tembakan jarak sedang atau jarak jauh" },
+        { "key": "E", "text": "memilih pemain yang mahir oper-mengoper bola dengan lambat" }
+      ],
+      "answer": "E",
+      "explanation": "Untuk membongkar pertahanan daerah, tim justru membutuhkan pemain yang mahir mengoper bola dengan cepat dan akurat, bukan dengan lambat.",
+      "topic": "Penyerangan Bola Basket"
+    },
+    {
+      "id": "pjok-pg-8",
+      "number": 8,
+      "prompt": "Gambar di bawah ini adalah adegan pola...",
+      "image": "/assets/figures/pjok-pg-8.png",
+      "imageCaption": "Diagram pola penyerangan bola basket dengan susunan 2 pemain di garis depan dan 3 pemain di dekat area ring.",
+      "options": [
+        { "key": "A", "text": "Pola reverse" },
+        { "key": "B", "text": "Adegan 1-2-1" },
+        { "key": "C", "text": "Pola ault mann" },
+        { "key": "D", "text": "Adegan 1-3-1" },
+        { "key": "E", "text": "Pola diamond" }
+      ],
+      "answer": "A",
+      "explanation": "Susunan pemain 2 di depan (posisi 1 dan 2) dan 3 di belakang/dekat ring (posisi 4, 5, dan 3) merupakan formasi adegan 2-3 atau Pola Reverse.",
+      "topic": "Pola Penyerangan Basket"
+    },
+    {
+      "id": "pjok-pg-9",
+      "number": 9,
+      "prompt": "Posisi 5 dalam gambar di bawah ini adalah posisi...",
+      "image": "/assets/figures/pjok-pg-9.png",
+      "imageCaption": "Diagram posisi lima pemain bola basket di separuh lapangan menyerang.",
+      "options": [
+        { "key": "A", "text": "point guard" },
+        { "key": "B", "text": "small forward" },
+        { "key": "C", "text": "point guard" },
+        { "key": "D", "text": "shooting guard" },
+        { "key": "E", "text": "power forward" }
+      ],
+      "answer": "E",
+      "explanation": "Pada diagram, posisi 5 berada di area low post dekat ring. Secara standar posisi 5 adalah center (pasangan power forward di area dalam), dan karena opsi center tidak tercantum pada naskah soal asli, pilihan yang paling mendekati peran area bawah ring adalah power forward.",
+      "topic": "Posisi Bola Basket"
+    },
+    {
+      "id": "pjok-pg-10",
+      "number": 10,
+      "prompt": "Gambar sinyal perwasitan bola basket di bawah ini adalah...",
+      "image": "/assets/figures/pjok-pg-10.png",
+      "imageCaption": "Isyarat tangan wasit bola basket dengan kedua lengan di depan dada.",
+      "options": [
+        { "key": "A", "text": "jump ball" },
+        { "key": "B", "text": "violation" },
+        { "key": "C", "text": "fouling" },
+        { "key": "D", "text": "free throw" },
+        { "key": "E", "text": "traveling" }
+      ],
+      "answer": "E",
+      "explanation": "Kedua kepalan tangan atau lengan bawah yang diputar/digerakkan melingkar di depan dada merupakan sinyal resmi wasit untuk pelanggaran traveling (berjalan membawa bola tanpa mendribel).",
+      "topic": "Perwasitan Bola Basket"
+    },
+    {
+      "id": "pjok-pg-11",
+      "number": 11,
+      "prompt": "Gambar sinyal perwasitan bola basket di bawah ini adalah...",
+      "image": "/assets/figures/pjok-pg-11.png",
+      "imageCaption": "Isyarat tangan wasit bola basket menyilangkan kedua lengan di depan dada.",
+      "options": [
+        { "key": "A", "text": "substitution" },
+        { "key": "B", "text": "violation" },
+        { "key": "C", "text": "fouling" },
+        { "key": "D", "text": "free throw" },
+        { "key": "E", "text": "traveling" }
+      ],
+      "answer": "A",
+      "explanation": "Menyilangkan kedua lengan membentuk huruf X di depan dada merupakan sinyal resmi wasit bola basket untuk pergantian pemain (substitution).",
+      "topic": "Perwasitan Bola Basket"
+    },
+    {
+      "id": "pjok-pg-12",
+      "number": 12,
+      "prompt": "Gambar di bawah ini adalah pola...",
+      "image": "/assets/figures/pjok-pg-12.png",
+      "imageCaption": "Diagram pergerakan bola cepat dari area pertahanan sendiri langsung menuju ring lawan.",
+      "options": [
+        { "key": "A", "text": "pola ault man" },
+        { "key": "B", "text": "pola defence" },
+        { "key": "C", "text": "pola serangan kilat" },
+        { "key": "D", "text": "pola 2-1-2" },
+        { "key": "E", "text": "pola man to man defence" }
+      ],
+      "answer": "C",
+      "explanation": "Diagram menunjukkan transisi cepat dengan dribel dan operan panjang langsung dari ring sendiri ke ring lawan sebelum pertahanan lawan tertata, yaitu pola serangan kilat (fast break).",
+      "topic": "Pola Penyerangan Basket"
+    },
+    {
+      "id": "pjok-pg-13",
+      "number": 13,
+      "prompt": "Held ball terjadi ketika satu atau lebih dari tim yang berlawanan memegang bola dengan satu atau kedua tangan secara pasti sehingga tidak satupun pemain yang bisa mendapatkan penguasaan bola dalam waktu 5 detik tanpa melakukan usaha yang keras. Kemudian wasit meniup peluit sambil mengacungkan 2 ibu jari ke atas, otomatis permainan dihentikan. Dengan cara apa wasit memulai permainan lagi...",
+      "options": [
+        { "key": "A", "text": "jump ball" },
+        { "key": "B", "text": "undian" },
+        { "key": "C", "text": "throw in" },
+        { "key": "D", "text": "lemparan ke dalam" },
+        { "key": "E", "text": "free throw" }
+      ],
+      "answer": "A",
+      "explanation": "Isyarat dua ibu jari ke atas oleh wasit saat terjadi held ball menandakan situasi jump ball (atau kepemilikan bergantian) untuk memulai kembali permainan.",
+      "topic": "Peraturan Bola Basket"
+    },
+    {
+      "id": "pjok-pg-14",
+      "number": 14,
+      "prompt": "Pelaksanaan jump ball di bawah ini tidak sah...",
+      "options": [
+        { "key": "A", "text": "Masing-masing pelompat akan berdiri dengan kedua kaki berada di dalam setengah lingkaran tengah terdekat dengan keranjangnya dengan satu kaki dekat dengan garis tengah." },
+        { "key": "B", "text": "Teman setim tidak boleh menempati posisi secara berdampingan di sekitar lingkaran jika seorang lawan menginginkan untuk menempati salah satu dari posisi-posisi tersebut." },
+        { "key": "C", "text": "2 pemain yang berlawanan, lebih tinggi dari jangkauan siapapun di antara mereka dengan cara melompat." },
+        { "key": "D", "text": "Bola harus ditepis dengan tangan (kedua tangan) salah satu atau kedua pelompat setelah bola mencapai titik tertinggi." },
+        { "key": "E", "text": "Bola ditangkap oleh salah satu pelompat" }
+      ],
+      "answer": "E",
+      "explanation": "Dalam pelaksanaan jump ball, pelompat hanya diperbolehkan menepis (tap) bola setelah mencapai titik tertinggi dan tidak boleh langsung menangkap bola.",
+      "topic": "Peraturan Bola Basket"
+    },
+    {
+      "id": "pjok-pg-15",
+      "number": 15,
+      "prompt": "Seorang pemain bola voli di posisi pemain yang bertugas spike yang selalu mengambil awalan dari luar garis samping adalah posisi...",
+      "options": [
+        { "key": "A", "text": "setter" },
+        { "key": "B", "text": "outside hitter" },
+        { "key": "C", "text": "libero" },
+        { "key": "D", "text": "middle hitter" },
+        { "key": "E", "text": "middle blocker" }
+      ],
+      "answer": "B",
+      "explanation": "Outside hitter (open spiker) menyerang dari sisi kiri depan (posisi 4) dan biasa mengambil awalan melebar hingga ke luar garis samping lapangan.",
+      "topic": "Posisi Bola Voli"
+    },
+    {
+      "id": "pjok-pg-16",
+      "number": 16,
+      "prompt": "Yang bukan tahap gerakan yang harus dilakukan saat melakukan spike adalah...",
+      "options": [
+        { "key": "A", "text": "take-off" },
+        { "key": "B", "text": "run-up" },
+        { "key": "C", "text": "hit" },
+        { "key": "D", "text": "run-of" },
+        { "key": "E", "text": "landing" }
+      ],
+      "answer": "D",
+      "explanation": "Empat tahapan gerak melakukan spike dalam bola voli adalah awalan (run-up/approach), tolakan (take-off), memukul bola (hit), dan mendarat (landing). Run-of bukan bagian dari tahapan spike.",
+      "topic": "Teknik Bola Voli"
+    },
+    {
+      "id": "pjok-pg-17",
+      "number": 17,
+      "prompt": "Pada formasi 5-1, hanya ada satu orang pemain yang akan bertindak sebagai...",
+      "options": [
+        { "key": "A", "text": "setter" },
+        { "key": "B", "text": "spiker" },
+        { "key": "C", "text": "smash" },
+        { "key": "D", "text": "outside hitter" },
+        { "key": "E", "text": "middle hitter" }
+      ],
+      "answer": "A",
+      "explanation": "Formasi 5-1 dalam bola voli berarti terdiri atas 5 pemain penyerang (spiker) dan hanya 1 pemain pengumpan (setter/tosser).",
+      "topic": "Formasi Bola Voli"
+    },
+    {
+      "id": "pjok-pg-18",
+      "number": 18,
+      "prompt": "Urutan proses perwasitan bola voli bila pertandingan reli berhenti adalah...",
+      "options": [
+        { "key": "A", "text": "peluit wasit - tunjuk tim servis - tunjuk kesalahan" },
+        { "key": "B", "text": "tunjuk kesalahan - peluit wasit - tunjuk tim servis" },
+        { "key": "C", "text": "peluit wasit - tunjuk kesalahan - tunjuk tim servis" },
+        { "key": "D", "text": "tunjuk kesalahan - peluit wasit - tunjuk tim servis" },
+        { "key": "E", "text": "tunjuk tim servis - tunjuk kesalahan - peluit wasit" }
+      ],
+      "answer": "A",
+      "explanation": "Sesuai urutan resmi isyarat wasit bola voli (FIVB), setelah reli berakhir wasit meniup peluit, lalu menunjuk arah tim yang berhak servis, dan kemudian memperagakan isyarat jenis kesalahan.",
+      "topic": "Perwasitan Bola Voli"
+    },
+    {
+      "id": "pjok-pg-19",
+      "number": 19,
+      "prompt": "Berikut yang bukan tahapan dalam melakukan smash dalam voli adalah...",
+      "options": [
+        { "key": "A", "text": "twist" },
+        { "key": "B", "text": "Hit" },
+        { "key": "C", "text": "Run-up" },
+        { "key": "D", "text": "Landing" },
+        { "key": "E", "text": "Take-off" }
+      ],
+      "answer": "A",
+      "explanation": "Tahapan smash bola voli terdiri atas run-up (awalan), take-off (tolakan), hit (pukulan), dan landing (pendaratan); twist bukan tahapannya.",
+      "topic": "Teknik Bola Voli"
+    },
+    {
+      "id": "pjok-pg-20",
+      "number": 20,
+      "prompt": "Perhatikan gambar di bawah ini! Guna mengantisipasi hadangan (block) pemain bertahan berhasil dilakukan dan bola kembali ke lapangan tim yang menyerang, maka pemain dari tim yang menyerang harus dapat melakukan...",
+      "image": "/assets/figures/pjok-pg-20.png",
+      "imageCaption": "Ilustrasi pemain bola voli melakukan block terhadap smash lawan di atas net.",
+      "options": [
+        { "key": "A", "text": "smash" },
+        { "key": "B", "text": "block" },
+        { "key": "C", "text": "servis" },
+        { "key": "D", "text": "time out" },
+        { "key": "E", "text": "cover" }
+      ],
+      "answer": "E",
+      "explanation": "Cover (covering) adalah gerakan pemain tim penyerang melindungi area di sekitar spiker untuk menyelamatkan bola pantul apabila smash terkena block lawan.",
+      "topic": "Pertahanan Bola Voli"
+    },
+    {
+      "id": "pjok-pg-21",
+      "number": 21,
+      "prompt": "Perhatikan gambar di bawah ini! Dalam sebuah pertandingan bola voli, tim A menghadapi tim B yang memiliki pemain dengan tinggi badan di atas pemain tim A. Ketika pemain pengumpan tim A berada pada posisi 3, maka strategi penyerangan yang paling efektif dilakukan oleh tim A adalah...",
+      "image": "/assets/figures/pjok-pg-21.png",
+      "imageCaption": "Situasi pertandingan bola voli antara Tim A (posisi 1–6) melawan Tim B.",
+      "options": [
+        { "key": "A", "text": "Melakukan quick spike yang dilakukan oleh pemain dengan posisi 4" },
+        { "key": "B", "text": "Melakukan quick spike yang dilakukan oleh pemain dengan posisi 2" },
+        { "key": "C", "text": "Melakukan quick back spike yang dilakukan oleh pemain dengan posisi 2" },
+        { "key": "D", "text": "Melakukan open spike yang dilakukan oleh pemain posisi 4" },
+        { "key": "E", "text": "Melakukan back attack yang dilakukan oleh pemain posisi 1" }
+      ],
+      "answer": "C",
+      "explanation": "Menghadapi lawan yang lebih tinggi menuntut serangan bertempo cepat agar blocker tidak sempat menutup net. Dengan pengumpan di posisi 3 yang menghadap posisi 4, umpan cepat ke belakang (posisi 2) disebut quick back spike.",
+      "topic": "Strategi Bola Voli"
+    },
+    {
+      "id": "pjok-pg-22",
+      "number": 22,
+      "prompt": "Perhatikan pola pertahanan di bawah ini! Formasi cover of smash ketika tim melakukan variasi serangan, kecuali...",
+      "image": "/assets/figures/pjok-pg-22.png",
+      "imageCaption": "Diagram variasi serangan dan formasi cover of smash bola voli (X1–X6).",
+      "options": [
+        { "key": "A", "text": "X3 : melakukan variasi smash" },
+        { "key": "B", "text": "X3 : melakukan variasi smash dengan X4 (smash silang dari posisi 3)" },
+        { "key": "C", "text": "X4, X2 : melakukan variasi serangan secara bersamaan dengan X3" },
+        { "key": "D", "text": "X2 melakukan gerakan smash untuk semi smash pada posisi 2" },
+        { "key": "E", "text": "3 pemain yang bertugas sebagai cover" }
+      ],
+      "answer": "E",
+      "explanation": "Pada diagram formasi variasi serangan tersebut, empat pemain (X4, X3, X1, dan X2) bergerak aktif ke depan net untuk menyerang/mengumpan, sehingga hanya dua pemain belakang (X5 dan X6) yang bertugas sebagai cover, bukan tiga pemain.",
+      "topic": "Formasi Bola Voli"
+    },
+    {
+      "id": "pjok-pg-23",
+      "number": 23,
+      "prompt": "Perhatikan pola pertahanan di bawah ini!",
+      "image": "/assets/figures/pjok-pg-23.png",
+      "imageCaption": "Diagram pola pertahanan menerima servis bola voli dengan posisi X3 di dekat net serta X6, X4, X2, X5, dan X1 di area penerima.",
+      "options": [
+        { "key": "A", "text": "Sistem pertahanan menerima servis 2 : 4" },
+        { "key": "B", "text": "Sistem pertahanan menerima servis 1 : 5" },
+        { "key": "C", "text": "Sistem 0 : 3 : 2" },
+        { "key": "D", "text": "Sistem 1 : 3 : 2" },
+        { "key": "E", "text": "Sistem 2 : 2 : 2" }
+      ],
+      "answer": "B",
+      "explanation": "Diagram memperlihatkan 1 pemain pengumpan (X3) bebas di dekat net dan 5 pemain lainnya (X6, X4, X2, X5, X1) bersiap menerima servis, sehingga disebut sistem 1 : 5.",
+      "topic": "Pertahanan Bola Voli"
+    },
+    {
+      "id": "pjok-pg-24",
+      "number": 24,
+      "prompt": "Berikut gambar teknik dasar yang harus dikuasai oleh seseorang permainan softball...",
+      "image": "/assets/figures/pjok-pg-24.png",
+      "imageCaption": "Rangkaian gerak melempar bola oleh pitcher softball dengan ayunan lengan memutar (windmill).",
+      "options": [
+        { "key": "A", "text": "pitching throw" },
+        { "key": "B", "text": "sidehand throw" },
+        { "key": "C", "text": "underhand throw" },
+        { "key": "D", "text": "straight ball" },
+        { "key": "E", "text": "ground ball" }
+      ],
+      "answer": "A",
+      "explanation": "Gambar memperlihatkan rangkaian gerakan melambungkan/melempar bola ke arah pemukul oleh pitcher menggunakan teknik ayunan lengan bawah memutar (pitching throw).",
+      "topic": "Teknik Dasar Softball"
+    },
+    {
+      "id": "pjok-pg-25",
+      "number": 25,
+      "prompt": "Berikut gambar teknik dasar menangkap bola permainan softball...",
+      "image": "/assets/figures/pjok-pg-25.png",
+      "imageCaption": "Dua posisi pemain softball menunduk dan berlutut menangkap bola yang menyusur tanah.",
+      "options": [
+        { "key": "A", "text": "Overhand catching Throw" },
+        { "key": "B", "text": "Sidehand catching" },
+        { "key": "C", "text": "Underhand catching" },
+        { "key": "D", "text": "Straight catching" },
+        { "key": "E", "text": "Ground catching" }
+      ],
+      "answer": "E",
+      "explanation": "Kedua gambar menunjukkan pemain merendahkan badan dan meletakkan sarung tangan (glove) menyentuh tanah untuk menangkap bola bergulir (ground catching).",
+      "topic": "Teknik Dasar Softball"
+    },
+    {
+      "id": "pjok-pg-26",
+      "number": 26,
+      "prompt": "Berikut gambar di bawah ini teknik adalah teknik dasar permainan softball yang benar...",
+      "image": "/assets/figures/pjok-pg-26.png",
+      "imageCaption": "Rangkaian empat tahap pemukul softball menahan arah datangnya bola tanpa mengayunkan pemukul.",
+      "options": [
+        { "key": "A", "text": "Teknik Dasar Memegang Kayu Pemukul (Bat)" },
+        { "key": "B", "text": "Sikap awal dalam pukulan swing adalah berdiri dengan kedua kaki dijarangkan. Kemudian kaki kiri diputar mengarah lurus dengan pitcher. Berat badan bertumpu pada kedua kaki dan badan sedikit condong ke depan. Pemukul dipegang erat-erat oleh kedua tangan dan posisi memukul sedemikian rupa sehingga tepat di atas bahu. Pandangan lurus ke arah datangnya bola serta lengan kanan lebih rendah dibandingkan lengan kiri." },
+        { "key": "C", "text": "Sikap memukul: Jika bola sudah dilempar oleh pitcher, setelah bola dilempar oleh pitcher, selanjutnya bola segera dipukul secara tepat dengan mengayunkan pemukul ke arah datangnya bola yang dilemparkan. Posisi badan adalah kaki kanan sedikit ditekuk dan kedua tangan diluruskan." },
+        { "key": "D", "text": "Sikap akhir: Setelah bola berhasil dipukul, selanjutnya gerakan ayunan bat sebagai gerakan lanjutan." },
+        { "key": "E", "text": "Teknik memukul bola tanpa ayunan. Pengertian pukulan tumbuk adalah memukul bola tanpa harus mengayunkan pemukul tetapi cukup menahan arah datangnya bola sehingga bola akan jatuh dekat dengan si pemukul. Pada waktu pukulan tumbuk atau bunt, sikap kedua kaki cukup dengan posisi kaki disejajarkan dengan arah datangnya bola." }
+      ],
+      "answer": "E",
+      "explanation": "Dua gambar terakhir menunjukkan pemukul menyejajarkan posisi kaki dan menahan kayu pemukul secara mendatar di depan tubuh tanpa ayunan penuh, yaitu teknik pukulan tumbuk (bunt).",
+      "topic": "Teknik Dasar Softball"
+    },
+    {
+      "id": "pjok-pg-27",
+      "number": 27,
+      "prompt": "Pemain yang bertugas/bertanggung jawab menjaga daerah lapangan luar (outfielder) adalah...",
+      "options": [
+        { "key": "A", "text": "right fielder, first baseman dan left fielder" },
+        { "key": "B", "text": "left fielder, second baseman dan center fielder" },
+        { "key": "C", "text": "right fielder, third baseman dan second fielder" },
+        { "key": "D", "text": "center fielder, short stop dan third fielder" },
+        { "key": "E", "text": "right fielder, left fielder, dan center fielder" }
+      ],
+      "answer": "E",
+      "explanation": "Area lapangan luar (outfield) dalam softball dijaga oleh tiga pemain, yaitu left fielder (kiri luar), center fielder (tengah luar), dan right fielder (kanan luar).",
+      "topic": "Posisi Pemain Softball"
+    },
+    {
+      "id": "pjok-pg-28",
+      "number": 28,
+      "prompt": "Tiap pemukul bola mempunyai kesempatan 3 kali strike dan 4 kali ball. 3 kali strike akan membuat pemukul bola mati \"Strike Out\". Dan apabila 4 kali ball maka pemukul bola diperbolehkan lari bebas ke arah base satu disebut...",
+      "options": [
+        { "key": "A", "text": "free walk" },
+        { "key": "B", "text": "Change" },
+        { "key": "C", "text": "Fair Ball" },
+        { "key": "D", "text": "Double Play" },
+        { "key": "E", "text": "Strike Out" }
+      ],
+      "answer": "A",
+      "explanation": "Jika pitcher melempar 4 kali ball, batter memperoleh hak berjalan bebas menuju base pertama yang disebut free walk (base on balls).",
+      "topic": "Peraturan Softball"
+    },
+    {
+      "id": "pjok-pg-29",
+      "number": 29,
+      "prompt": "Pelempar bola akan berusaha melempar bola sekuat tenaga ke batter. Posisi bola lempar mempunyai wilayah khusus yang disebut zona strike (strike zone), di mana hasil akhir lemparan terdapat di atas home plate dan tingginya tidak lebih dari dada dan tidak kurang dari lutut pemukul bola. Jika bola dalam zona strike tidak terpukul oleh pemukul bola, maka wasit akan berteriak...",
+      "options": [
+        { "key": "A", "text": "Ball" },
+        { "key": "B", "text": "Batter" },
+        { "key": "C", "text": "Strike" },
+        { "key": "D", "text": "Runner" },
+        { "key": "E", "text": "Ball" }
+      ],
+      "answer": "C",
+      "explanation": "Lemparan sah yang melewati zona strike di atas home plate namun tidak dipukul oleh batter dinyatakan wasit sebagai \"Strike\".",
+      "topic": "Peraturan Softball"
+    },
+    {
+      "id": "pjok-pg-30",
+      "number": 30,
+      "prompt": "Berikut gambar di bawah ini teknik adalah teknik dasar permainan softball yang benar...",
+      "image": "/assets/figures/pjok-pg-30.png",
+      "imageCaption": "Pemukul softball bersiap di batter's box dengan posisi bat di atas bahu di depan catcher dan wasit.",
+      "options": [
+        { "key": "A", "text": "Teknik Dasar Memegang Kayu Pemukul (Bat)" },
+        { "key": "B", "text": "Sikap awal dalam pukulan swing adalah berdiri dengan kedua kaki dijarangkan. Kemudian kaki kiri diputar mengarah lurus dengan pitcher. Berat badan bertumpu pada kedua kaki dan badan sedikit condong ke depan. Pemukul dipegang erat-erat oleh kedua tangan dan posisi memukul sedemikian rupa sehingga tepat di atas bahu. Pandangan lurus ke arah datangnya bola serta lengan kanan lebih rendah dibandingkan lengan kiri." },
+        { "key": "C", "text": "Sikap memukul: Jika bola sudah dilempar oleh pitcher, setelah bola dilempar oleh pitcher, selanjutnya bola segera dipukul secara tepat dengan mengayunkan pemukul ke arah datangnya bola yang dilemparkan. Posisi badan adalah kaki kanan sedikit ditekuk dan kedua tangan diluruskan." },
+        { "key": "D", "text": "Sikap akhir: Setelah bola berhasil dipukul, selanjutnya gerakan ayunan bat sebagai gerakan lanjutan." },
+        { "key": "E", "text": "Teknik memukul bola tanpa ayunan. Pengertian pukulan tumbuk adalah memukul bola tanpa harus mengayunkan pemukul tetapi cukup menahan arah datangnya bola sehingga bola akan jatuh dekat dengan si pemukul. Pada waktu pukulan tumbuk atau bunt, sikap kedua kaki cukup dengan posisi kaki disejajarkan dengan arah datangnya bola." }
+      ],
+      "answer": "B",
+      "explanation": "Gambar memperlihatkan posisi siap batter di batter's box: kedua kaki dibuka lebar, berat badan seimbang, bat dipegang di atas bahu kanan, dan pandangan ke arah pitcher—sesuai dengan sikap awal pukulan swing.",
+      "topic": "Teknik Dasar Softball"
+    },
+    {
+      "id": "pjok-pg-31",
+      "number": 31,
+      "prompt": "Pemain ini mempunyai tugas antara lain:\n1) memotong maupun meneruskan bola dari outfield\n2) menjaga bola hasil pukulan yang berada di daerahnya\n3) membantu menjaga belakang base II, second base menjaga base II\n4) melempar bola ke arah base I dan base II\nTugas ini menjadi tanggung jawab pemain dengan posisi:",
+      "options": [
+        { "key": "A", "text": "First baseman" },
+        { "key": "B", "text": "Third baseman" },
+        { "key": "C", "text": "Second baseman" },
+        { "key": "D", "text": "Catcher" },
+        { "key": "E", "text": "Shortstop" }
+      ],
+      "answer": "E",
+      "explanation": "Shortstop bertugas di area antara base II dan base III untuk menjaga bola pukulan di daerahnya, memotong bola dari outfield, melapis base II/III, serta melempar ke base I atau II.",
+      "topic": "Posisi Pemain Softball"
+    },
+    {
+      "id": "pjok-pg-32",
+      "number": 32,
+      "prompt": "Berikut yang bukan unsur teknik dalam lompat tinggi adalah...",
+      "options": [
+        { "key": "A", "text": "teknik awalan" },
+        { "key": "B", "text": "teknik tolakan" },
+        { "key": "C", "text": "teknik melayang" },
+        { "key": "D", "text": "teknik mendarat" },
+        { "key": "E", "text": "gaya lompat tinggi" }
+      ],
+      "answer": "E",
+      "explanation": "Empat unsur teknik dasar lompat tinggi adalah awalan, tolakan, melayang (melewati mistar), dan mendarat; gaya lompat tinggi bukan merupakan unsur tahapan tekniknya.",
+      "topic": "Teknik Lompat Tinggi"
+    },
+    {
+      "id": "pjok-pg-33",
+      "number": 33,
+      "prompt": "Lompat tinggi adalah cabang olahraga atletik yang menguji kemampuan seorang atlet untuk melompat melewati mistar horizontal setinggi mungkin. Teknik lompat tinggi yang paling sering digunakan oleh seorang atlet adalah teknik tertentu yang memanfaatkan kecepatan dan kekuatan otot kaki. Teknik lompat tinggi yang melibatkan atlet melompat melewati mistar dengan posisi tubuh melengkung dan kepala berada lebih rendah dari tubuh adalah teknik...",
+      "options": [
+        { "key": "A", "text": "fosbury flop" },
+        { "key": "B", "text": "straddle" },
+        { "key": "C", "text": "western roll" },
+        { "key": "D", "text": "scissors" },
+        { "key": "E", "text": "stride" }
+      ],
+      "answer": "A",
+      "explanation": "Gaya Fosbury Flop dilakukan dengan melewati mistar dalam posisi telentang, punggung melengkung seperti busur, serta kepala dan bahu turun lebih dahulu.",
+      "topic": "Gaya Lompat Tinggi"
+    },
+    {
+      "id": "pjok-pg-34",
+      "number": 34,
+      "prompt": "Lompat tinggi gaya straddle adalah salah satu teknik dalam lompat tinggi, di mana atlet melewati mistar dengan tubuh terlentang dan kaki terpisah. Teknik ini banyak digunakan pada perlombaan lompat tinggi. Pada lompat tinggi gaya straddle, posisi tubuh atlet saat melewati mistar adalah...",
+      "options": [
+        { "key": "A", "text": "tubuh tetap tegak kaki rapat" },
+        { "key": "B", "text": "kaki terbuka dan tubuh sedikit membungkuk" },
+        { "key": "C", "text": "tubuh membungkuk dengan satu kaki melewati mistar terlebih dahulu" },
+        { "key": "D", "text": "tubuh terlentang dengan kaki terpisah melewati mistar kaki diluruskan saat melewati mistar" }
+      ],
+      "answer": "D",
+      "explanation": "Sesuai uraian pada naskah soal, pilihan yang tepat menggambarkan posisi tubuh yang tercantum pada batang soal adalah tubuh terlentang dengan kaki terpisah dan diluruskan saat melewati mistar.",
+      "topic": "Gaya Lompat Tinggi"
+    },
+    {
+      "id": "pjok-pg-35",
+      "number": 35,
+      "prompt": "Gambar gerakan teknik di bawah ini adalah...",
+      "image": "/assets/figures/pjok-pg-35.png",
+      "imageCaption": "Tiga fase gerakan atlet atletik menumpu dan mengayunkan kaki ke atas mendekati mistar lompat tinggi.",
+      "options": [
+        { "key": "A", "text": "gerakan awalan dalam lompat tinggi" },
+        { "key": "B", "text": "gerakan tumpuan dalam lompat tinggi" },
+        { "key": "C", "text": "gerakan teknik saat melewati mistar lompat tinggi" },
+        { "key": "D", "text": "gerakan teknik mendarat dalam lompat tinggi" },
+        { "key": "E", "text": "gerakan teknik lompat tinggi gaya flop" }
+      ],
+      "answer": "B",
+      "explanation": "Gambar memperlihatkan kaki tumpu menjejak lantai kuat-kuat sementara kaki ayun dan kedua lengan diayunkan ke atas untuk menolak tubuh naik ke mistar (gerakan tumpuan/tolakan).",
+      "topic": "Teknik Lompat Tinggi"
+    },
+    {
+      "id": "pjok-pg-36",
+      "number": 36,
+      "prompt": "Gambar di bawah gerakan teknik melewati mistar dalam lompat tinggi menggunakan gaya...",
+      "image": "/assets/figures/pjok-pg-36.png",
+      "imageCaption": "Rangkaian gerak pelompat melewati mistar dengan posisi perut menghadap ke bawah dan berguling.",
+      "options": [
+        { "key": "A", "text": "guling perut" },
+        { "key": "B", "text": "flop" },
+        { "key": "C", "text": "duduk" },
+        { "key": "D", "text": "guling sisi" },
+        { "key": "E", "text": "scot" }
+      ],
+      "answer": "A",
+      "explanation": "Pelompat melewati mistar dalam posisi telungkup (perut menghadap mistar) lalu menggulingkan tubuh di atas mistar, yang merupakan ciri khas gaya guling perut (straddle).",
+      "topic": "Gaya Lompat Tinggi"
+    },
+    {
+      "id": "pjok-pg-37",
+      "number": 37,
+      "prompt": "Dalam pencak silat, sikap awal sebelum melakukan teknik serangan disebut sikap pasang. Sikap ini berguna untuk melindungi diri dan menyiapkan serangan. Nama lain dari sikap pasang dalam pencak silat adalah...",
+      "options": [
+        { "key": "A", "text": "kuda-kuda" },
+        { "key": "B", "text": "sikap dasar" },
+        { "key": "C", "text": "kuda-kuda tengah" },
+        { "key": "D", "text": "kuda-kuda depan" },
+        { "key": "E", "text": "sikap tangkisan" }
+      ],
+      "answer": "B",
+      "explanation": "Sikap pasang termasuk dalam sikap dasar pencak silat sebagai posisi siap siaga awal untuk bertahan maupun menyerang, sedangkan kuda-kuda hanya merupakan unsur tumpuan kakinya.",
+      "topic": "Pencak Silat"
+    },
+    {
+      "id": "pjok-pg-38",
+      "number": 38,
+      "prompt": "Pukulan yang dilakukan dengan lintasan dari arah samping luar tubuh menuju ke arah dalam tubuh adalah pukulan...",
+      "options": [
+        { "key": "A", "text": "depan" },
+        { "key": "B", "text": "lingkar" },
+        { "key": "C", "text": "samping" },
+        { "key": "D", "text": "bandul" },
+        { "key": "E", "text": "sabit" }
+      ],
+      "answer": "B",
+      "explanation": "Pukulan lingkar (melingkar) dilakukan dengan mengayunkan tangan membentuk lintasan melingkar dari samping luar tubuh menuju ke arah dalam tubuh.",
+      "topic": "Teknik Pukulan Silat"
+    },
+    {
+      "id": "pjok-pg-39",
+      "number": 39,
+      "prompt": "Pembelaan yang dilakukan dengan mengadakan kontak langsung dengan serangan disebut...",
+      "options": [
+        { "key": "A", "text": "menyerang" },
+        { "key": "B", "text": "menangkis" },
+        { "key": "C", "text": "menghindari" },
+        { "key": "D", "text": "mengelak" },
+        { "key": "E", "text": "meloncat" }
+      ],
+      "answer": "B",
+      "explanation": "Dalam pencak silat, pembelaan dengan kontak langsung terhadap serangan lawan disebut tangkisan (menangkis), sedangkan elakan/hindaran dilakukan tanpa kontak.",
+      "topic": "Teknik Pembelaan Silat"
+    },
+    {
+      "id": "pjok-pg-40",
+      "number": 40,
+      "prompt": "Perhatikan gambar di bawah ini! Dalam olahraga bela diri pencak silat sikap kuda-kuda merupakan posisi kaki tertentu sebagai dasar tumpuan untuk melakukan sikap dan gerakan bela serang. Dari gambar di atas yang merupakan sikap kuda-kuda belakang ditunjukkan pada gambar nomor...",
+      "image": "/assets/figures/pjok-pg-40.png",
+      "imageCaption": "Lima variasi gambar sikap kuda-kuda pencak silat bernomor 1 hingga 5.",
+      "options": [
+        { "key": "A", "text": "1" },
+        { "key": "B", "text": "2" },
+        { "key": "C", "text": "3" },
+        { "key": "D", "text": "4" },
+        { "key": "E", "text": "5" }
+      ],
+      "answer": "B",
+      "explanation": "Gambar nomor 2 menunjukkan kuda-kuda belakang, yaitu berat badan bertumpu pada kaki belakang yang ditekuk sedangkan kaki depan diluruskan ke depan.",
+      "topic": "Kuda-Kuda Pencak Silat"
+    }
+  ],
+  "essays": [
+    {
+      "id": "pjok-es-1",
+      "number": 1,
+      "prompt": "Sebutkan 5 posisi pemain bola basket beserta kriteria pemain yang sesuai dengan posisi tersebut!",
+      "rubric": "Menyebutkan kelima posisi (Point Guard, Shooting Guard, Small Forward, Power Forward, Center) beserta tugas dan kriteria fisik/keterampilan masing-masing secara tepat.",
+      "modelAnswer": "1. Point Guard (Posisi 1): bertindak sebagai pengatur serangan (playmaker); kriteria lincah, menguasai teknik dribbling dan passing dengan baik, serta memiliki visi permainan luas.\n2. Shooting Guard (Posisi 2): pencetak angka utama dari luar garis; kriteria memiliki akurasi tembakan jarak jauh (three-point) yang tinggi dan pergerakan tanpa bola yang cepat.\n3. Small Forward (Posisi 3): penyerang serbabisa (all-around); kriteria postur atletis, cepat, mampu menembak dari berbagai jarak, serta berani menerobos ke dalam pertahanan lawan.\n4. Power Forward (Posisi 4): penjaga area dekat ring bersama center; kriteria bertubuh kekar dan tinggi, kuat dalam duel fisik, pandai rebound, dan melakukan tembakan jarak menengah.\n5. Center (Posisi 5): pemain poros di bawah ring; kriteria berpostur paling tinggi dan besar, tangguh dalam melakukan rebound, block tembakan lawan, dan mencetak poin jarak dekat."
+    },
+    {
+      "id": "pjok-es-2",
+      "number": 2,
+      "prompt": "Sebutkan dan jelaskan posisi serta tugas-tugas dari pemain softball!",
+      "rubric": "Menyebutkan posisi utama softball (Pitcher, Catcher, First Baseman, Second Baseman, Third Baseman, Shortstop, dan Outfielder: Left, Center, Right Fielder) beserta tugas masing-masing.",
+      "modelAnswer": "1. Pitcher: melempar bola (pitching) kepada batter melewati zona strike dan membantu menjaga area tengah serta menutup base bila diperlukan.\n2. Catcher: berdiri/berjongkok di belakang home plate menangkap bola dari pitcher, memberi tanda strategi lemparan, dan menjaga home plate.\n3. First Baseman: menjaga area base I, menangkap lemparan dari infielder lain untuk mematikan pelari menuju base I.\n4. Second Baseman: menjaga daerah antara base I dan II, menutup base II, serta membantu kerja sama double play.\n5. Third Baseman: menjaga area base III serta mengantisipasi pukulan keras dan bunt ke sisi kiri.\n6. Shortstop: menjaga area antara base II dan III, memotong lemparan dari outfield, serta melapis base II.\n7. Outfielder (Left, Center, Right Fielder): menjaga lapangan bagian luar, menangkap bola lambung (fly ball) dan bola jauh, lalu melempar cepat ke infield."
+    },
+    {
+      "id": "pjok-es-3",
+      "number": 3,
+      "prompt": "Gambarkan 6 macam pola pertahanan terhadap servis permainan bola voli formasi 5-1!",
+      "rubric": "Menjelaskan/menggambarkan secara skematis 6 variasi rotasi/formasi penerimaan servis (misalnya sistem 1:5 pada enam rotasi posisi setter dari posisi 1 sampai posisi 6) di mana 1 setter dilindungi dari menerima servis dan 5 pemain membentuk lengkungan/huruf W penerima servis.",
+      "modelAnswer": "Dalam formasi 5-1 (5 penyerang, 1 setter), terdapat 6 variasi pola penerimaan servis mengikuti 6 posisi rotasi setter (S):\n1. Setter di Posisi 1 (belakang kanan): setter masuk menyusup (penetration) dari belakang kanan ke area depan tengah (posisi 2–3), sementara 5 pemain lain (posisi 2, 3, 4, 5, 6) membentuk pola lengkung penerima servis.\n2. Setter di Posisi 6 (belakang tengah): setter bergerak maju dari tengah belakang menuju posisi 2–3, sedangkan 5 pemain lain bergeser menutup ruang servis.\n3. Setter di Posisi 5 (belakang kiri): setter berada di belakang pemain posisi 4 lalu berlari masuk ke posisi 2–3 setelah bola diservis; 5 pemain lainnya membentuk pola huruf W atau busur.\n4. Setter di Posisi 4 (depan kiri): setter merapat ke net di kiri depan lalu bergeser ke posisi 2–3; 5 pemain lain mundur/melebar menerima servis.\n5. Setter di Posisi 3 (depan tengah): setter sudah siap di dekat net bagian tengah, sementara 5 pemain lainnya (posisi 4, 2, 5, 6, 1) membentuk formasi setengah lingkaran (sistem 1:5).\n6. Setter di Posisi 2 (depan kanan): setter berada di kanan depan dekat net, sedangkan 5 pemain lainnya membentuk busur pertahanan di belakang dan tengah lapangan untuk menerima servis lawan."
+    },
+    {
+      "id": "pjok-es-4",
+      "number": 4,
+      "prompt": "Sebut dan jelaskan 4 aspek utama dalam pencak silat!",
+      "rubric": "Menyebutkan 4 aspek utama pencak silat: aspek mental spiritual, aspek seni budaya, aspek bela diri, dan aspek olahraga, lengkap dengan penjelasannya.",
+      "modelAnswer": "1. Aspek Mental Spiritual: membina akhlak, budi pekerti luhur, pengendalian diri, ketakwaan, serta jiwa kesatria.\n2. Aspek Seni Budaya: menampilkan keindahan gerak jurus yang selaras dengan irama musik tradisional sebagai warisan budaya bangsa.\n3. Aspek Bela Diri: melatih keterampilan membela diri, menangkis, mengelak, dan melindungi diri dari ancaman secara efektif.\n4. Aspek Olahraga: mengembangkan kebugaran jasmani, kekuatan, kecepatan, kelincahan, serta prestasi melalui pertandingan yang menjunjung sportivitas."
+    },
+    {
+      "id": "pjok-es-5",
+      "number": 5,
+      "prompt": "Sebut dan jelaskan 4 teknik dasar lompat tinggi!",
+      "rubric": "Menyebutkan dan menjelaskan 4 tahapan teknik dasar lompat tinggi: awalan (approach), tolakan/tumpuan (take-off), melayang/melewati mistar (flight/clearance), dan mendarat (landing).",
+      "modelAnswer": "1. Teknik Awalan (Approach): berlari dengan kecepatan terukur dan arah lintasan sesuai gaya (lurus/serong untuk straddle atau melengkung/huruf J untuk Fosbury Flop) untuk menghasilkan momentum.\n2. Teknik Tolakan/Tumpuan (Take-off): menjejakkan kaki terkuat secara vertikal dengan kuat di titik tumpu sambil mengayunkan kaki bebas dan kedua lengan ke atas.\n3. Teknik Melayang / Melewati Mistar: mengatur posisi tubuh di udara agar melewati mistar tanpa menyentuhnya (telungkup pada gaya straddle atau telentang melengkung pada gaya Fosbury Flop).\n4. Teknik Mendarat (Landing): menjatuhkan badan ke matras secara aman untuk menghindari cedera (menggunakan punggung/bahu pada gaya flop atau kaki ayun dan sisi badan pada gaya straddle)."
+    }
+  ]
+}
