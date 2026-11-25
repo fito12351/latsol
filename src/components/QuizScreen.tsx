@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import {
   ChevronLeft,
   Clock,
@@ -11,7 +11,7 @@ import {
   ZoomIn,
   X,
 } from 'lucide-react';
-import { MascotLegs, PeekingMascot } from './Mascot';
+import { DesktopMascotFigure, MascotLegs, PeekingMascot } from './Mascot';
 import { hapticError, hapticSuccess, hapticTap } from '../utils/haptics';
 import type { MCQuestion, OptionKey, SubjectData } from '../types/cbt';
 
@@ -114,29 +114,30 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({
     return 'happy';
   }, [mode, selectedKey, currentQ.answer, isFlagged]);
 
-  const handleSelectOption = (key: OptionKey) => {
-    if (mode === 'practice' && selectedKey) {
-      // Already answered in practice mode
-      return;
-    }
-    const nextAnswers = { ...answers, [currentQ.id]: key };
-    setAnswers(nextAnswers);
-    if (mode === 'practice') {
-      const ok = key === currentQ.answer;
-      if (ok) hapticSuccess();
-      else hapticError();
-      onPracticeAnswer?.(currentQ.id, ok);
-    } else {
-      hapticTap();
-    }
-  };
+  const handleSelectOption = useCallback(
+    (key: OptionKey) => {
+      if (mode === 'practice' && answers[currentQ.id]) {
+        return;
+      }
+      setAnswers((prev) => ({ ...prev, [currentQ.id]: key }));
+      if (mode === 'practice') {
+        const ok = key === currentQ.answer;
+        if (ok) hapticSuccess();
+        else hapticError();
+        onPracticeAnswer?.(currentQ.id, ok);
+      } else {
+        hapticTap();
+      }
+    },
+    [mode, answers, currentQ.id, currentQ.answer, onPracticeAnswer]
+  );
 
-  const toggleFlag = () => {
+  const toggleFlag = useCallback(() => {
     hapticTap();
     setFlagged((prev) => ({ ...prev, [currentQ.id]: !prev[currentQ.id] }));
-  };
+  }, [currentQ.id]);
 
-  const submitNow = () => {
+  const submitNow = useCallback(() => {
     onFinish({
       subject,
       mode,
@@ -145,9 +146,9 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({
       flagged,
       durationSeconds: elapsedSeconds,
     });
-  };
+  }, [onFinish, subject, mode, questions, answers, flagged, elapsedSeconds]);
 
-  const handleNextOrFinish = () => {
+  const handleNextOrFinish = useCallback(() => {
     hapticTap();
     if (currentIndex < questions.length - 1) {
       setCurrentIndex((i) => i + 1);
@@ -158,14 +159,66 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({
         submitNow();
       }
     }
-  };
+  }, [currentIndex, questions.length, mode, answeredCount, submitNow]);
 
-  const handlePrev = () => {
+  const handlePrev = useCallback(() => {
     if (currentIndex > 0) {
       hapticTap();
       setCurrentIndex((i) => i - 1);
     }
-  };
+  }, [currentIndex]);
+
+  // Laptop / Desktop Keyboard Shortcuts (A-E / 1-5, ArrowLeft/Right, R for Ragu, Esc)
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      if (zoomedImg) {
+        if (e.key === 'Escape') setZoomedImg(null);
+        return;
+      }
+      if (showConfirmFinish || showMap) {
+        if (e.key === 'Escape') {
+          setShowConfirmFinish(false);
+          setShowMap(false);
+        }
+        return;
+      }
+      const k = e.key.toUpperCase();
+      const keyMap: Record<string, OptionKey> = {
+        A: 'A',
+        B: 'B',
+        C: 'C',
+        D: 'D',
+        E: 'E',
+        '1': 'A',
+        '2': 'B',
+        '3': 'C',
+        '4': 'D',
+        '5': 'E',
+      };
+      if (keyMap[k]) {
+        const opt = currentQ.options.find((o) => o.key === keyMap[k]);
+        if (opt) handleSelectOption(opt.key);
+      } else if (e.key === 'ArrowRight') {
+        handleNextOrFinish();
+      } else if (e.key === 'ArrowLeft') {
+        handlePrev();
+      } else if (k === 'R') {
+        toggleFlag();
+      }
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [
+    currentQ.options,
+    handleSelectOption,
+    handleNextOrFinish,
+    handlePrev,
+    toggleFlag,
+    zoomedImg,
+    showConfirmFinish,
+    showMap,
+  ]);
 
   return (
     <div className="quiz-screen">
@@ -179,7 +232,13 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({
             <span>Keluar</span>
           </button>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <span
+              className="status-pill"
+              style={{ background: subject.accentColor, color: 'var(--ink)' }}
+            >
+              {subject.name}
+            </span>
             {mode === 'cbt' ? (
               <span className={`timer-pill ${secondsLeft < 300 ? 'urgent' : ''}`}>
                 <Clock size={14} strokeWidth={2.3} />
@@ -208,189 +267,286 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({
         </div>
       </header>
 
-      {/* Stacked Cream Question Card */}
-      <main className="quiz-card-area">
-        <div className="stacked-card-outer">
-          <article className="question-card">
-            <div className="q-meta-row">
-              <span className="q-badge">
-                {subject.shortName} · NO. {currentQ.number}
-              </span>
+      {/* Responsive Workspace: 1-col on Phone/Tablet Portrait, 2-col with Sticky CBT Navigator on Laptop/Desktop */}
+      <div className="quiz-workspace">
+        <div className="quiz-main-col">
+          <main className="quiz-card-area">
+            <div className="stacked-card-outer">
+              <article className="question-card">
+                <div className="q-meta-row">
+                  <span className="q-badge">
+                    {subject.shortName} · NO. {currentQ.number}
+                  </span>
 
-              <button
-                type="button"
-                className={`flag-btn ${isFlagged ? 'flagged' : ''}`}
-                onClick={toggleFlag}
-              >
-                <Flag size={13} strokeWidth={2.4} />
-                <span>{isFlagged ? 'Ragu' : 'Tandai'}</span>
-              </button>
-            </div>
-
-            {/* Optional Reading Passage */}
-            {currentQ.passage && (
-              <div className="passage-box">
-                <div className="passage-header">
-                  <span>{currentQ.passageTitle || 'Kutipan Teks'}</span>
                   <button
                     type="button"
-                    onClick={() => setExpandedPassage((v) => !v)}
-                    style={{
-                      display: 'inline-flex',
-                      alignItems: 'center',
-                      gap: 3,
-                      color: 'var(--purple-dark)',
-                      fontWeight: 700,
-                      fontSize: 11.5,
-                    }}
+                    className={`flag-btn ${isFlagged ? 'flagged' : ''}`}
+                    onClick={toggleFlag}
                   >
-                    {expandedPassage ? (
-                      <>
-                        Ringkas <ChevronUp size={13} />
-                      </>
-                    ) : (
-                      <>
-                        Perluas <ChevronDown size={13} />
-                      </>
-                    )}
+                    <Flag size={13} strokeWidth={2.4} />
+                    <span>{isFlagged ? 'Ragu' : 'Tandai'}</span>
                   </button>
                 </div>
-                <div className={`passage-text ${expandedPassage ? 'expanded' : ''}`}>
-                  {currentQ.passage}
-                </div>
-              </div>
-            )}
 
-            {/* Optional Figure Image */}
-            {currentQ.image && (
-              <div className="q-figure-wrap">
-                <img
-                  src={`.${currentQ.image}`}
-                  alt={currentQ.imageCaption || `Gambar soal nomor ${currentQ.number}`}
-                  className="q-figure-img"
-                  onClick={() => setZoomedImg(`.${currentQ.image}`)}
-                />
-                <span className="q-figure-hint">
-                  <ZoomIn size={11} style={{ verticalAlign: 'middle', marginRight: 3 }} />
-                  Ketuk gambar untuk perbesar
-                </span>
-              </div>
-            )}
+                {/* Optional Reading Passage */}
+                {currentQ.passage && (
+                  <div className="passage-box">
+                    <div className="passage-header">
+                      <span>{currentQ.passageTitle || 'Kutipan Teks'}</span>
+                      <button
+                        type="button"
+                        onClick={() => setExpandedPassage((v) => !v)}
+                        style={{
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          gap: 3,
+                          color: 'var(--purple-dark)',
+                          fontWeight: 700,
+                          fontSize: 11.5,
+                        }}
+                      >
+                        {expandedPassage ? (
+                          <>
+                            Ringkas <ChevronUp size={13} />
+                          </>
+                        ) : (
+                          <>
+                            Perluas <ChevronDown size={13} />
+                          </>
+                        )}
+                      </button>
+                    </div>
+                    <div className={`passage-text ${expandedPassage ? 'expanded' : ''}`}>
+                      {currentQ.passage}
+                    </div>
+                  </div>
+                )}
 
-            {/* Optional Data Table */}
-            {currentQ.table && (
-              <div className="q-table-wrap">
-                <table className="q-table">
-                  <thead>
-                    <tr>
-                      {currentQ.table.headers.map((h, idx) => (
-                        <th key={idx}>{h}</th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {currentQ.table.rows.map((row, rIdx) => (
-                      <tr key={rIdx}>
-                        {row.map((cell, cIdx) => (
-                          <td key={cIdx}>{cell}</td>
+                {/* Optional Figure Image */}
+                {currentQ.image && (
+                  <div className="q-figure-wrap">
+                    <img
+                      src={`.${currentQ.image}`}
+                      alt={currentQ.imageCaption || `Gambar soal nomor ${currentQ.number}`}
+                      className="q-figure-img"
+                      onClick={() => setZoomedImg(`.${currentQ.image}`)}
+                    />
+                    <span className="q-figure-hint">
+                      <ZoomIn size={11} style={{ verticalAlign: 'middle', marginRight: 3 }} />
+                      Ketuk gambar untuk perbesar
+                    </span>
+                  </div>
+                )}
+
+                {/* Optional Data Table */}
+                {currentQ.table && (
+                  <div className="q-table-wrap">
+                    <table className="q-table">
+                      <thead>
+                        <tr>
+                          {currentQ.table.headers.map((h, idx) => (
+                            <th key={idx}>{h}</th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {currentQ.table.rows.map((row, rIdx) => (
+                          <tr key={rIdx}>
+                            {row.map((cell, cIdx) => (
+                              <td key={cIdx}>{cell}</td>
+                            ))}
+                          </tr>
                         ))}
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+
+                {/* Question Prompt */}
+                <div className="q-prompt">{currentQ.prompt}</div>
+
+                {/* Options A-E */}
+                <div className="options-list">
+                  {currentQ.options.map((opt) => {
+                    let stateClass = '';
+                    if (mode === 'cbt') {
+                      if (selectedKey === opt.key) stateClass = 'selected';
+                    } else if (selectedKey) {
+                      if (opt.key === currentQ.answer) stateClass = 'correct';
+                      else if (opt.key === selectedKey) stateClass = 'wrong';
+                    }
+
+                    return (
+                      <button
+                        key={opt.key}
+                        type="button"
+                        className={`option-btn ${stateClass}`}
+                        onClick={() => handleSelectOption(opt.key)}
+                      >
+                        <span className="option-key">{opt.key}</span>
+                        <span className="option-text">
+                          {opt.image ? (
+                            <img
+                              src={`.${opt.image}`}
+                              alt={`Pilihan ${opt.key}`}
+                              style={{ maxHeight: 42, display: 'block', marginBottom: opt.text ? 4 : 0 }}
+                            />
+                          ) : null}
+                          {opt.text}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* Instant Explanation in Practice Mode */}
+                {mode === 'practice' && selectedKey && (
+                  <div
+                    className={`explanation-card ${
+                      selectedKey === currentQ.answer ? '' : 'wrong-exp'
+                    }`}
+                  >
+                    <div className="explanation-title">
+                      {selectedKey === currentQ.answer ? (
+                        <>
+                          <CheckCircle2 size={15} /> Jawaban Tepat! ({currentQ.answer})
+                        </>
+                      ) : (
+                        <>
+                          <XCircle size={15} /> Kunci Jawaban: {currentQ.answer}
+                        </>
+                      )}
+                    </div>
+                    <div>{currentQ.explanation}</div>
+                  </div>
+                )}
+              </article>
+            </div>
+
+            {/* Mascot Legs under the stacked card (Mobile/Tablet Portrait) */}
+            <div
+              className="quiz-legs-mobile"
+              style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: 18, marginTop: 2 }}
+            >
+              <MascotLegs compact />
+            </div>
+          </main>
+
+          {/* Dual Chunky Pastel Action Bar */}
+          <footer className="quiz-bottom-bar">
+            <button
+              type="button"
+              className="action-btn action-btn-sky"
+              disabled={currentIndex === 0}
+              onClick={handlePrev}
+            >
+              <span>◁ Sebelumnya</span>
+            </button>
+
+            <button
+              type="button"
+              className="action-btn action-btn-lime"
+              onClick={handleNextOrFinish}
+            >
+              <span>
+                {currentIndex === questions.length - 1 ? 'Selesai ▷' : 'Lanjut ▷'}
+              </span>
+            </button>
+          </footer>
+
+          <div className="kbd-hint-bar">
+            <span>
+              <kbd>A</kbd>–<kbd>E</kbd> Pilih jawaban
+            </span>
+            <span>
+              <kbd>←</kbd> <kbd>→</kbd> Pindah soal
+            </span>
+            <span>
+              <kbd>R</kbd> Tandai ragu
+            </span>
+          </div>
+        </div>
+
+        {/* Sticky Right CBT Navigator Sidebar (Visible on Laptop/Desktop >= 900px) */}
+        <aside className="quiz-desktop-sidebar">
+          <div
+            style={{
+              background: 'var(--purple)',
+              borderRadius: 22,
+              padding: '14px 16px 10px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              color: '#ffffff',
+            }}
+          >
+            <div>
+              <div style={{ fontSize: 11.5, fontWeight: 700, opacity: 0.85, textTransform: 'uppercase' }}>
+                Progres Sesi
               </div>
-            )}
+              <div style={{ fontSize: 22, fontWeight: 800, marginTop: 2 }}>
+                {answeredCount} / {questions.length}
+              </div>
+              <div style={{ fontSize: 12, opacity: 0.85 }}>soal terjawab</div>
+            </div>
+            <DesktopMascotFigure mood={mascotMood} size={102} />
+          </div>
 
-            {/* Question Prompt */}
-            <div className="q-prompt">{currentQ.prompt}</div>
+          <div className="sidebar-nav-card">
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+              <span style={{ fontSize: 15, fontWeight: 800 }}>Navigasi Nomor</span>
+              <span style={{ fontSize: 12, fontWeight: 700, color: 'var(--ink-muted)' }}>
+                No. {currentIndex + 1}
+              </span>
+            </div>
 
-            {/* Options A-E */}
-            <div className="options-list">
-              {currentQ.options.map((opt) => {
-                let stateClass = '';
-                if (mode === 'cbt') {
-                  if (selectedKey === opt.key) stateClass = 'selected';
-                } else if (selectedKey) {
-                  if (opt.key === currentQ.answer) stateClass = 'correct';
-                  else if (opt.key === selectedKey) stateClass = 'wrong';
-                }
-
+            <div className="num-grid" style={{ maxHeight: 420, overflowY: 'auto', padding: 3 }}>
+              {questions.map((q, idx) => {
+                const isAnswered = Boolean(answers[q.id]);
+                const isF = Boolean(flagged[q.id]);
+                const isCurr = idx === currentIndex;
                 return (
                   <button
-                    key={opt.key}
+                    key={q.id}
                     type="button"
-                    className={`option-btn ${stateClass}`}
-                    onClick={() => handleSelectOption(opt.key)}
+                    className={`num-cell ${isF ? 'flagged' : isAnswered ? 'answered' : ''} ${
+                      isCurr ? 'current' : ''
+                    }`}
+                    onClick={() => setCurrentIndex(idx)}
                   >
-                    <span className="option-key">{opt.key}</span>
-                    <span className="option-text">
-                      {opt.image ? (
-                        <img
-                          src={`.${opt.image}`}
-                          alt={`Pilihan ${opt.key}`}
-                          style={{ maxHeight: 42, display: 'block', marginBottom: opt.text ? 4 : 0 }}
-                        />
-                      ) : null}
-                      {opt.text}
-                    </span>
+                    {idx + 1}
                   </button>
                 );
               })}
             </div>
 
-            {/* Instant Explanation in Practice Mode */}
-            {mode === 'practice' && selectedKey && (
-              <div
-                className={`explanation-card ${
-                  selectedKey === currentQ.answer ? '' : 'wrong-exp'
-                }`}
-              >
-                <div className="explanation-title">
-                  {selectedKey === currentQ.answer ? (
-                    <>
-                      <CheckCircle2 size={15} /> Jawaban Tepat! ({currentQ.answer})
-                    </>
-                  ) : (
-                    <>
-                      <XCircle size={15} /> Kunci Jawaban: {currentQ.answer}
-                    </>
-                  )}
-                </div>
-                <div>{currentQ.explanation}</div>
-              </div>
-            )}
-          </article>
-        </div>
+            <div
+              style={{
+                display: 'flex',
+                gap: 10,
+                fontSize: 11.5,
+                color: 'var(--ink-muted)',
+                justifyContent: 'space-between',
+              }}
+            >
+              <span>🟩 Terjawab</span>
+              <span>🟨 Ragu</span>
+              <span>⬜ Belum</span>
+            </div>
 
-        {/* Mascot Legs under the stacked card */}
-        <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: 18, marginTop: 2 }}>
-          <MascotLegs compact />
-        </div>
-      </main>
+            <button
+              type="button"
+              className="primary-purple-btn"
+              style={{ justifyContent: 'center', marginTop: 0, padding: '14px 16px', fontSize: 15 }}
+              onClick={() => setShowConfirmFinish(true)}
+            >
+              Kumpulkan & Lihat Skor
+            </button>
+          </div>
+        </aside>
+      </div>
 
-      {/* Dual Chunky Pastel Action Bar (Worly Learn / Know) */}
-      <footer className="quiz-bottom-bar">
-        <button
-          type="button"
-          className="action-btn action-btn-sky"
-          disabled={currentIndex === 0}
-          onClick={handlePrev}
-        >
-          <span>◁ Sebelumnya</span>
-        </button>
-
-        <button
-          type="button"
-          className="action-btn action-btn-lime"
-          onClick={handleNextOrFinish}
-        >
-          <span>
-            {currentIndex === questions.length - 1 ? 'Selesai ▷' : 'Lanjut ▷'}
-          </span>
-        </button>
-      </footer>
-
-      {/* Question Number Map Bottom Sheet */}
+      {/* Question Number Map Bottom Sheet (Mobile / Tablet Portrait) */}
       {showMap && (
         <div className="sheet-backdrop" onClick={() => setShowMap(false)}>
           <div className="sheet-panel" onClick={(e) => e.stopPropagation()}>
@@ -509,7 +665,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({
             }}
             onClick={() => setZoomedImg(null)}
           >
-            Tutup
+            Tutup (Esc)
           </button>
         </div>
       )}

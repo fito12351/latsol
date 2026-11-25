@@ -42,7 +42,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, onHome, onRe
   });
 
   return (
-    <div style={{ position: 'relative', flex: 1, display: 'flex', flexDirection: 'column' }}>
+    <div className="sub-screen-wrap">
       <PeekingMascot mood={mood} variant="result" />
 
       <header className="sub-header">
@@ -73,71 +73,78 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, onHome, onRe
             : 'Yuk ulang lagi!'}
         </h1>
 
-        {/* Score Summary Bento */}
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: '1.15fr 1fr',
-            gap: 10,
-            marginBottom: 12,
-          }}
-        >
+        {/* Responsive Score Hero + Actions */}
+        <div className="result-summary-layout">
           <div
-            className="bento-card"
             style={{
-              background: score >= 70 ? 'var(--lime)' : 'var(--sky)',
-              minHeight: 126,
+              display: 'grid',
+              gridTemplateColumns: '1.15fr 1fr',
+              gap: 10,
             }}
           >
-            <span className="bento-label">Nilai Akhir</span>
-            <div className="bento-kpi" style={{ fontSize: 48, margin: '2px 0' }}>
-              {score}
-            </div>
-            <span className="bento-pill" style={{ alignSelf: 'flex-start' }}>
-              {formatDuration(result.durationSeconds)}
-            </span>
-          </div>
-
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
             <div
+              className="bento-card"
               style={{
-                flex: 1,
-                background: 'var(--mint)',
-                borderRadius: 15,
-                padding: '10px 13px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-between',
+                background: score >= 70 ? 'var(--lime)' : 'var(--sky)',
+                minHeight: 126,
               }}
             >
-              <span style={{ fontSize: 13, fontWeight: 700 }}>Benar</span>
-              <span style={{ fontSize: 22, fontWeight: 800 }}>{correct}</span>
+              <span className="bento-label">Nilai Akhir</span>
+              <div className="bento-kpi" style={{ fontSize: 48, margin: '2px 0' }}>
+                {score}
+              </div>
+              <span className="bento-pill" style={{ alignSelf: 'flex-start' }}>
+                {formatDuration(result.durationSeconds)}
+              </span>
             </div>
-            <div
-              style={{
-                flex: 1,
-                background: 'var(--pink)',
-                borderRadius: 15,
-                padding: '10px 13px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-between',
-              }}
-            >
-              <span style={{ fontSize: 13, fontWeight: 700 }}>Salah / Kosong</span>
-              <span style={{ fontSize: 22, fontWeight: 800 }}>{wrong + skipped}</span>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+              <div
+                style={{
+                  flex: 1,
+                  background: 'var(--mint)',
+                  borderRadius: 15,
+                  padding: '10px 13px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                }}
+              >
+                <span style={{ fontSize: 13, fontWeight: 700 }}>Benar</span>
+                <span style={{ fontSize: 22, fontWeight: 800 }}>{correct}</span>
+              </div>
+              <div
+                style={{
+                  flex: 1,
+                  background: 'var(--pink)',
+                  borderRadius: 15,
+                  padding: '10px 13px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                }}
+              >
+                <span style={{ fontSize: 13, fontWeight: 700 }}>Salah / Kosong</span>
+                <span style={{ fontSize: 22, fontWeight: 800 }}>{wrong + skipped}</span>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Action Buttons */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, marginBottom: 18 }}>
-          <button type="button" className="action-btn action-btn-sky" onClick={onRetry}>
-            <RotateCcw size={16} strokeWidth={2.5} /> Ulangi
-          </button>
-          <button type="button" className="action-btn action-btn-purple" onClick={onHome}>
-            <Home size={16} strokeWidth={2.5} /> Beranda
-          </button>
+          <div
+            style={{
+              display: 'grid',
+              gridTemplateColumns: '1fr 1fr',
+              gap: 10,
+              alignContent: 'center',
+            }}
+          >
+            <button type="button" className="action-btn action-btn-sky" onClick={onRetry}>
+              <RotateCcw size={16} strokeWidth={2.5} /> Ulangi
+            </button>
+            <button type="button" className="action-btn action-btn-purple" onClick={onHome}>
+              <Home size={16} strokeWidth={2.5} /> Beranda
+            </button>
+          </div>
         </div>
 
         {/* Pembahasan Header & Filter */}
@@ -170,7 +177,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, onHome, onRe
         </div>
 
         {/* Review Cards */}
-        <div className="card-stack">
+        <div className="review-grid">
           {visibleQuestions.map((q) => {
             const userAns = result.answers[q.id];
             const isCorrect = userAns === q.answer;

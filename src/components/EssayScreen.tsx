@@ -42,7 +42,9 @@ export const EssayScreen: React.FC<EssayScreenProps> = ({
         </div>
       </header>
 
-      <main className="quiz-card-area">
+      <div className="quiz-workspace">
+        <div className="quiz-main-col">
+          <main className="quiz-card-area">
         <div className="stacked-card-outer">
           <article className="question-card">
             <div className="q-meta-row">
@@ -138,7 +140,7 @@ export const EssayScreen: React.FC<EssayScreenProps> = ({
           </article>
         </div>
 
-        <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: 18, marginTop: 2 }}>
+        <div className="quiz-legs-mobile" style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: 18, marginTop: 2 }}>
           <MascotLegs compact />
         </div>
       </main>
@@ -163,6 +165,35 @@ export const EssayScreen: React.FC<EssayScreenProps> = ({
           {index < subject.essays.length - 1 ? 'Lanjut ▷' : 'Selesai ▷'}
         </button>
       </footer>
+        </div>
+
+        {/* Desktop Essay Number Sidebar */}
+        <aside className="quiz-desktop-sidebar">
+          <div className="sidebar-nav-card">
+            <div style={{ fontSize: 15, fontWeight: 800 }}>Daftar Soal Uraian</div>
+            <div className="num-grid">
+              {subject.essays.map((item, idx) => {
+                const st = progress.essayStats[item.id]?.status;
+                return (
+                  <button
+                    key={item.id}
+                    type="button"
+                    className={`num-cell ${
+                      st === 'mastered' ? 'answered' : st === 'review' ? 'flagged' : ''
+                    } ${idx === index ? 'current' : ''}`}
+                    onClick={() => setIndex(idx)}
+                  >
+                    {idx + 1}
+                  </button>
+                );
+              })}
+            </div>
+            <div style={{ fontSize: 12, color: 'var(--ink-muted)', lineHeight: 1.5 }}>
+              Tulis jawabanmu dulu, lalu buka kunci & rubrik untuk menilai pemahamanmu secara mandiri.
+            </div>
+          </div>
+        </aside>
+      </div>
     </div>
   );
 };

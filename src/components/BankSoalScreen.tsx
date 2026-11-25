@@ -80,7 +80,7 @@ export const BankSoalScreen: React.FC<BankSoalScreenProps> = ({
   };
 
   return (
-    <div style={{ position: 'relative', flex: 1, display: 'flex', flexDirection: 'column' }}>
+    <div className="sub-screen-wrap">
       <PeekingMascot mood="happy" variant="list" />
 
       <header className="sub-header">
@@ -193,7 +193,7 @@ export const BankSoalScreen: React.FC<BankSoalScreenProps> = ({
             Belum ada soal di filter ini.
           </div>
         ) : (
-          <div className="card-stack">
+          <div className="bank-grid">
             {filtered.slice(0, visibleLimit).map(({ subject, question, status }) => {
               const isOpen = expandedId === question.id;
               const ansOpt = question.options.find((o) => o.key === question.answer);

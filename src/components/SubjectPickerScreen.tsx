@@ -81,7 +81,7 @@ export const SubjectPickerScreen: React.FC<SubjectPickerScreenProps> = ({
   };
 
   return (
-    <div style={{ position: 'relative', flex: 1, display: 'flex', flexDirection: 'column' }}>
+    <div className="sub-screen-wrap">
       <PeekingMascot mood="happy" variant="list" />
 
       <header className="sub-header">
@@ -94,40 +94,42 @@ export const SubjectPickerScreen: React.FC<SubjectPickerScreenProps> = ({
       <div className="screen-body">
         <h1 className="page-title">Mata Pelajaran</h1>
 
-        {/* Mode Segmented Switch */}
-        <div className="mode-tabs" role="tablist">
-          <button
-            type="button"
-            className={`mode-tab ${mode === 'cbt' ? 'active' : ''}`}
-            onClick={() => setMode('cbt')}
-          >
-            Simulasi CBT
-          </button>
-          <button
-            type="button"
-            className={`mode-tab ${mode === 'practice' ? 'active' : ''}`}
-            onClick={() => setMode('practice')}
-          >
-            Latihan Santai
-          </button>
-          <button
-            type="button"
-            className={`mode-tab ${mode === 'essay' ? 'active' : ''}`}
-            onClick={() => setMode('essay')}
-          >
-            Uraian / Esai
-          </button>
-        </div>
+        <div className="toolbar-grid">
+          {/* Mode Segmented Switch */}
+          <div className="mode-tabs" role="tablist">
+            <button
+              type="button"
+              className={`mode-tab ${mode === 'cbt' ? 'active' : ''}`}
+              onClick={() => setMode('cbt')}
+            >
+              Simulasi CBT
+            </button>
+            <button
+              type="button"
+              className={`mode-tab ${mode === 'practice' ? 'active' : ''}`}
+              onClick={() => setMode('practice')}
+            >
+              Latihan Santai
+            </button>
+            <button
+              type="button"
+              className={`mode-tab ${mode === 'essay' ? 'active' : ''}`}
+              onClick={() => setMode('essay')}
+            >
+              Uraian / Esai
+            </button>
+          </div>
 
-        {/* Search Input */}
-        <div className="search-box">
-          <Search size={17} color="var(--ink-muted)" />
-          <input
-            type="text"
-            placeholder="Cari mata pelajaran..."
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-          />
+          {/* Search Input */}
+          <div className="search-box">
+            <Search size={17} color="var(--ink-muted)" />
+            <input
+              type="text"
+              placeholder="Cari mata pelajaran..."
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+            />
+          </div>
         </div>
 
         {/* Category Filter Pills (Worly style) */}
@@ -162,8 +164,8 @@ export const SubjectPickerScreen: React.FC<SubjectPickerScreenProps> = ({
           </button>
         </div>
 
-        {/* Subject List */}
-        <div className="card-stack">
+        {/* Responsive Subject Grid (1 col phone, 2 col tablet, 3 col laptop) */}
+        <div className="subjects-grid">
           {filtered.map((subject) => {
             const mastered = getMasteredForSubject(subject);
             const best = getBestScore(subject.id);
